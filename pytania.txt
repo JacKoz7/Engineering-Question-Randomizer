@@ -1,0 +1,88 @@
+Co to są funkcje skrótu?	Typy opcjonalne w swift	Podaj techniki ochrony danych
+Co to są nawroty w prologu?	Co to UML? (+przykłady)	Opisz adresowanie w excelu (2)
+Co to model przypadków użycia?	Podaj generacje języków programowania	Zapytania elementarne i nieelementarne w prolog
+Podaj cechy haskella	Jak się filtruje w SQL	Co to diagram klas?
+Co to podpis cyfrowy?	Wymień sieci w virtual box	Co to ADB?
+Co to system kolorów	Co to jest BPMN	Co to json web token?
+Podaj zalety wirtualizacji	Co to polimorfizm? (+przykłady)	Co to dziedziczenie?
+Jak się uchronić przed utratą danych	Rezolucja – Co to jest? jak działa i gdzie się ją stosuje?	Jak się adresuje komórki w arkuszu kalkulacyjnym 
+Co to unifikacja w prologu?	Co to kompozycja?	Co to drzewo BST
+Infrastruktura klucza publicznego 	Przekształcenia bezkontekstowe grafiki rastrowej	Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości
+Jak się układa elementy w aplikacji mobilnej swift?	Czym jest kursor w bazie danych?	Funkcja abstrakcyjna vs interfejs
+Co to DDL?	Co to urząd certyfikacyjny pki?	Co to jest instancja klasy?
+Co to vpn?	Krotka w swift, jak się definiuje?	http vs https
+Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce	Podaj sposoby zabezpieczenia infrastruktury informatycznej 	Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?
+Wymień rodzaje kluczy w bazie danych 	Podaj różnice między fields a properties w C#	Podaj różnice między grafiką rastrową a wektorową
+Co to DML? Podaj przykłady	Enum w swift, jak się definiuje?	Co to SPA
+Wymień systemy kolorów, opisz jeden 	Różnice między klasą a obiektem 	Podaj wady wirtualizacji (ze 3 wady)
+Wymień połączenia sieciowe w virtual box	Wymień modele usług  chmurowych	Co to jest zmienna statyczna klasy?
+Czym są ciasteczka w https?	Co to sesja?	Czym są podzapytania w sql?
+Co to DDOS?	Co to responsywność?	Co to histogram obrazu?
+Co to funkcja rekurencyjna?	Co to XML?	Czym są inferencje w C#
+Podaj klasy typów w haskell	Podaj strukturę switch case	Co to core data
+Co to jest klasa?	Co to klasa szablonowa	
+Czym są: konstruktor i destruktor?	Co to architektura monolityczna i usługowa?	Co to lombok, podaj przykłady metod które lombok generuje
+Co to Kodowanie ASCII?	Co to unicode?	Co to UTF-8?
+Co to internacjonalizacja?	Jakie znasz operacje bitowe?	Najważniejsze cechy haskella
+Co to algorytm Euklidesa, podaj jego implementacje	Czym są wskaźniki i jakie jest ich zastosowanie	Jak zadeklarować funkcje polimorficzne w haskell
+
+
+Czym jest klasa abstrakcyjna?	Opisz algorytm „Flaga Polska”	Opisz algorytm „Flaga Francji”
+W jakich miejscach w programie umieszcza się funkcje?	Opisz te operatory z prologa: łączność, priorytet, przeciążenie 	Jakie są zależności między wskaźnikiem a tablicą?
+Co to unifikacja?	Podaj typy kluczy w relacjach	Czym jest diagram ERD?
+Czym jest wskaźnik do wskaźnika?	Podaj co najmniej dwa sortowania w algorytmach i je opisz	Czym są: zbiór uczony, zbiór testujący i walidacja krzyżowa?
+Omów architekturę MVC	Czym są strumienie w c++?	Co to docker?
+Czym są kontenery systemowe i aplikacyjne?	Omów systemy wirtualizacji w linux	Co to algorytmy siłowe? Podaj przykłady
+Co to regresja liniowa i nieliniowa?	Jak w języku C wypisać coś w konsoli?	Co to jest acid? Podaj jego cechy
+Czym jest rozdzielczość w obrazie rastrowym?	Czym są klasy anonimowe w java?	Czym są komponenty stanowe i bezstanowe w React?
+Co to TCP i UDP?	Podaj wady i zalety SPA	Co to są procesy?
+Opisz użycie hashowania w aplikacjach internetowych	Co to hermetyzacja w programowaniu obiektowym?	Podaj wady i zalety pól statycznych w klasie 
+Omów funkcje prefiksowe, infiksowe, postfiksowe w haskellu 	Czym są adaptery w obsłudze zdarzeń w Java?	Omów proces testowania oprogramowania
+Czym jest parametryzacja typów w java?	Obsługa tabel w SQL – tworzenie i modyfikacja	Podaj cykl życia oprogramowania
+Istota wzorców projektowych, podział i przykład	Czym są elementy interfejsu? (interakcja czł – komp)	Co to są wyrażenia algebraiczne i do czego służą?
+Co to jest drzewo procesów?	Podaj typu pól w formularzu	Co to box model w css?
+Podaj strukutrę adresu MAC	IPv4 vs IPv6	Podaj reguły solid
+Czym są prototypy funkcji?	Co to wyrażenie lambda?	Czym jest zapytanie o media?
+Czym jest całkowanie numeryczne?	Co to stos i jakie są jego funkcje?	Czym jest kolejka i jakie są jej funckje?
+Co to DOM?	Co to TDD?	Czym są deskryptory w css?
+Czym są testy jednostokowe?	Czym są testy integracyjne?	Czym są wątki w javie?
+Czym się charakteryzuje relacyjna baza danych?	Czym się charakteryzuje nierelacyjna baza danych?	Wymień rodzaje technologii chmurowych
+Opisz architekturę w androidze	Co to SQL injection	Co to zasada DRY?
+Co robi reduce() w swift?	Co to NoSQL?	Co to cyfra kontrolna?
+Rendering i Bufor Z jak jest wykorzystywany?	Podaj metody wstrzymywania wątków w java	Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów
+Czym jest lista? Podaj przykłady i różnice w stosunku do tablic	Co to jest sortowanie przez kopcowanie?	Jakie metody można wykonać na stosie?
+Opisz funkcje filter() w swift	Jakie znasz operacje binarne?	Co to tablica LUT?
+Czym jest unia? (programowanie strukturalne)	SZDB – co to, do czego służy, przykłady	Opisz while i do while
+
+Opisz strukturę React	Architektury baz danych 	Opisz paradygmat funkcyjny
+Na czym polega teksturowanie 3D, podaj typy tekstur 	Co to programowanie generyczne? Podaj przykłady w C++	Wymień algorytmy wyszukiwania elementu w zbiorze
+Wymień zarządców układu w android	Podaj sposoby odzyskiwania haseł	Co to kontekst db w entity framework 
+Czym są metody wirtualne w C++	Podaj cechy express.js	Strukturalizacja i destrukturalizacja danych w js
+Co to jsx?	Czym się charakteryzuje html5?	Czym jest eliminacja gaussa? +Przykład
+Czym są kopie zapasowe?	Co to ORM?	Co to i do czego służy NAT?
+Opisz instrukcje warunkowe w SWIFT?	Jak się przekazuje parametry w funkcji w swift?	Opisz algorytmy wyszukiwania wzorca w tekście
+Czym są przeciążenia?	Omów struktury i klasy w swift	Co to schemat hornera?
+Co to SwiftUI?	Co to firewall?	Czym jest ciąg Fibonacciego?
+Jak działa zamiana z systemu binarnego na heksadecymalny i dziesiętny 	Co to algorytm numeryczny stabilny i niepoprawny?	Wymień metody rozwiązywania układów liniowych, po co się je stosuje 
+Opisz przepływ danych i operacje na gałęziach w git	Czym są węzły integralności w bazach danych? Jak się je tworzy i usuwa?	Opisz przekształcenia bezkontekstowe grafiki rastrowej
+Podaj przykład implementacji stosu w programowaniu	Wymień kilka operacji na bazie danych	Co robi metoda inicjalizacyjna w swift?
+Czym jest zakleszczenie procesów?	Czym są drzewa decyzyjne?	Czym jest twierdzenie CAP?
+Na czym polega problem ucztujących filozofów?	Podaj różnice między taglina a frazą kluczową (HTML)	Na czym polega sortowanie przez kopcowanie?
+Jakie metody można wykonywać na stosie?	Jakie są typy związków między encjami?	Co to RGB?
+Na czym polega asynchroniczność w js?	Co to diagram DFD?	Czym są tablice asocjacyjne na przykładzie PHP?
+Co to cross site scripting?	Czym jest ergonomia?	Czym są historyjki użytkownika?
+Czym są scenariusze przypadków użycia?	Diagram sekwencji, co to i po co się stosuje?	Opisz SOAP i REST – podobieństwa i różnice
+Na czym polega szyfrowanie?	Jakie korzyści płyną ze stosowania obliczeń równoległych	Czym są funkcje wyższego rzędu?
+Na czym polega architektura 3 warstwowa?	Na czym polega archutektura klient-serwer	Jak działa mediaplayer w android?
+Co to DHCP?	Co to AFL?	Co to układy Czebyszewa?
+Co to algorytm Rabina i drzewo Rabina?	Co to licznik odwołań ARC w Swift?	Na czym polega metoda najmniejszych kwadratów?
+Co to rozproszone systemy kontroli wersji?	Budowa try catch. Co to wyjątki?	Opisz szyfrowanie symetryczne i asymetryczne 
+Jak otrzymać obraz dockerowy?	Co to docker-compose?	Co to css?
+
+
+Co to Multilayer perception?	Co to knn?	Co to drzewa decyzyjne?
+Co to szyfr cezara?	Czym są protokoły w swift?	Co to CRUD?
+Co to MVVM?	Co to singleton?	Co to wzorce projektowe?
+Wymień sposoby przekazywania danych w aplikacji mobilnych (android)	Co to uwierzytelnianie i autoryzacja? Czym się różnią?	Wymień metody przechowywania danych w aplikacjach mobilnych
+Co to drzewo AVL?	Wymień algorytmy sortowania elementów w tablicy	Wymień metody protokołu http i je opisz
+
