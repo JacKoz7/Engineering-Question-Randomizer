@@ -1,5 +1,5 @@
 Co to są funkcje skrótu?	Typy opcjonalne w swift	Podaj techniki ochrony danych
-Co to są nawroty w prologu?	Co to UML? (+przykłady)	Opisz adresowanie w excelu (2)
+Co to są nawroty w prologu?	Co to UML? (istota + przykłady)	Opisz adresowanie w excelu (2)
 Co to model przypadków użycia?	Podaj generacje języków programowania	Zapytania elementarne i nieelementarne w prolog
 Podaj cechy haskella	Jak się filtruje w SQL	Co to diagram klas?
 Co to podpis cyfrowy?	Wymień sieci w virtual box	Co to ADB?
@@ -9,7 +9,7 @@ Jak się uchronić przed utratą danych	Rezolucja – Co to jest? jak działa i 
 Co to unifikacja w prologu?	Co to kompozycja?	Co to drzewo BST
 Infrastruktura klucza publicznego 	Przekształcenia bezkontekstowe grafiki rastrowej	Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości
 Jak się układa elementy w aplikacji mobilnej swift?	Czym jest kursor w bazie danych?	Funkcja abstrakcyjna vs interfejs
-Co to DDL?	Co to urząd certyfikacyjny pki?	Co to jest instancja klasy?
+Co to DDL?  Podaj przykład	Co to urząd certyfikacyjny pki?	Co to jest instancja klasy?
 Co to vpn?	Krotka w swift, jak się definiuje?	http vs https
 Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce	Podaj sposoby zabezpieczenia infrastruktury informatycznej 	Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?
 Wymień rodzaje kluczy w bazie danych 	Podaj różnice między fields a properties w C#	Podaj różnice między grafiką rastrową a wektorową
@@ -84,5 +84,16 @@ Co to Multilayer perception?	Co to knn?	Co to drzewa decyzyjne?
 Co to szyfr cezara?	Czym są protokoły w swift?	Co to CRUD?
 Co to MVVM?	Co to singleton?	Co to wzorce projektowe?
 Wymień sposoby przekazywania danych w aplikacji mobilnych (android)	Co to uwierzytelnianie i autoryzacja? Czym się różnią?	Wymień metody przechowywania danych w aplikacjach mobilnych
-Co to drzewo AVL?	Wymień algorytmy sortowania elementów w tablicy	Wymień metody protokołu http i je opisz
+Podaj sposoby ochrony przed atakami typu session hijacking	Wymień algorytmy sortowania elementów w tablicy i ich złożoność	Wymień metody protokołu http i je opisz
+Android zarządcy układu - wymień	Wady i zalety biblioteki lombok	Czym się różni NAT od mostkowania w virtualbox?
+Czym się różni wskaźnik od referencji w c++?	Czym są metody wirtualne w C#?	Porównaj przeciążenia i przesilenia metody
+Co to Raii?	Jak się łączy zbiory danych?	Co to encje? Wymień rodzaje
+Podaj różnice między razor pages a mvc w .net	Czym są metody asynchroniczne w C#	Co to intepolacja wielomianowa?
+Opisz podstawowe elementy grafiki 3D	Opisz dokument html5. Podaj przykładowe znaczniki	Czym jest programowanie imperatywne
+Scharakteryzuj i porównaj SOAP z REST	Wymień rodzaje cieniowania w 3D i opisz jeden	Czym są inteligentne wskaźniki?
+Podaj sposoby zabezpieczenia systemu operacyjnego	Co to model siatkowy w grafice 3D i z czego się składa?	Co to polimorfizm statyczny i dynamiczny w c++?
+Co to Iaas?	Co to klasy szablonowe w c++?	Wymień typy tekstur
+Jakie są uprawnienia systemów plików?	Podaj metody walidacji formularza html	Co to local storage i session storage 
+Co to Mpa rozwiń skrót i omów	Co to maszyna turinga?	Co to drzewo AVL?
+Wymień związki w uml i je opisz	Co to jest i do czego służy struktura?	Jak działa ochrona antywirusowa?
 

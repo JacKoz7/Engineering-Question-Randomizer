@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Losowanie Pytań Egzaminacyjnych</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losowanie Pytań Egzaminacyjnych Na Obronę</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <div class="container">
-      <div class="header">
-        <div class="counter">
-          Liczba pytań: <span id="questionCount">0</span>
+        <div class="header">
+            <div class="counter">
+                Liczba pytań: <span id="questionCount">0</span>
+            </div>
+            <div class="version">v1.1</div>
         </div>
-        <button id="drawButton" class="draw-btn" disabled>Losuj pytania</button>
-      </div>
-
-      <div id="questionsContainer" class="questions-container"></div>
+        
+        <div id="questionsContainer" class="questions-container"></div>
+        
+        <div class="button-container">
+            <button id="drawButton" class="draw-btn" disabled>Losuj pytania</button>
+        </div>
     </div>
 
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
