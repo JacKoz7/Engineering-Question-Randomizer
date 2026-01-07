@@ -168,3 +168,23 @@ body {
   cursor: not-allowed;
   transform: none;
 }
+
+.no-repeat-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+}
+
+.no-repeat-toggle input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.no-repeat-toggle span {
+    user-select: none;
+}
