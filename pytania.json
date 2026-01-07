@@ -1,0 +1,1392 @@
+[
+  {
+    "question": "Co to są funkcje skrótu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Typy opcjonalne w swift",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj techniki ochrony danych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to są nawroty w prologu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to UML? (istota + przykłady)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz adresowanie w excelu (2)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to model przypadków użycia?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj generacje języków programowania",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Zapytania elementarne i nieelementarne w prolog",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj cechy haskella",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się filtruje w SQL",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to diagram klas?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to podpis cyfrowy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień sieci w virtual box",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to ADB?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to system kolorów",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest BPMN",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to json web token?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj zalety wirtualizacji",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to polimorfizm? (+przykłady)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to dziedziczenie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się uchronić przed utratą danych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Rezolucja – Co to jest? jak działa i gdzie się ją stosuje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się adresuje komórki w arkuszu kalkulacyjnym",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to unifikacja w prologu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to kompozycja?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to drzewo BST",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Infrastruktura klucza publicznego",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Przekształcenia bezkontekstowe grafiki rastrowej",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się układa elementy w aplikacji mobilnej swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest kursor w bazie danych?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Funkcja abstrakcyjna vs interfejs",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DDL?  Podaj przykład",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to urząd certyfikacyjny pki?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest instancja klasy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to vpn?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Krotka w swift, jak się definiuje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "http vs https",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj sposoby zabezpieczenia infrastruktury informatycznej",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień rodzaje kluczy w bazie danych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj różnice między fields a properties w C#",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj różnice między grafiką rastrową a wektorową",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DML? Podaj przykłady",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Enum w swift, jak się definiuje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to SPA",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień systemy kolorów, opisz jeden",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Różnice między klasą a obiektem",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj wady wirtualizacji (ze 3 wady)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień połączenia sieciowe w virtual box",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień modele usług  chmurowych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest zmienna statyczna klasy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są ciasteczka w https?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to sesja?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są podzapytania w sql?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DDOS?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to responsywność?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to histogram obrazu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to funkcja rekurencyjna?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to XML?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są inferencje w C#",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj klasy typów w haskell",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj strukturę switch case",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to core data",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest klasa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to klasa szablonowa",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są: konstruktor i destruktor?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to architektura monolityczna i usługowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to lombok, podaj przykłady metod które lombok generuje",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to Kodowanie ASCII?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to unicode?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to UTF-8?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to internacjonalizacja?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie znasz operacje bitowe?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Najważniejsze cechy haskella",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to algorytm Euklidesa, podaj jego implementacje",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są wskaźniki i jakie jest ich zastosowanie",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak zadeklarować funkcje polimorficzne w haskell",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest klasa abstrakcyjna?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz algorytm „Flaga Polska”",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz algorytm „Flaga Francji”",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "W jakich miejscach w programie umieszcza się funkcje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz te operatory z prologa: łączność, priorytet, przeciążenie",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie są zależności między wskaźnikiem a tablicą?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to unifikacja?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj typy kluczy w relacjach",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest diagram ERD?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest wskaźnik do wskaźnika?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są: zbiór uczony, zbiór testujący i walidacja krzyżowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów architekturę MVC",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są strumienie w c++?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to docker?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są kontenery systemowe i aplikacyjne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów systemy wirtualizacji w linux",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to algorytmy siłowe? Podaj przykłady",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to regresja liniowa i nieliniowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak w języku C wypisać coś w konsoli?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest acid? Podaj jego cechy",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest rozdzielczość w obrazie rastrowym?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są klasy anonimowe w java?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są komponenty stanowe i bezstanowe w React?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to TCP i UDP?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj wady i zalety SPA",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to są procesy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz użycie hashowania w aplikacjach internetowych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to hermetyzacja w programowaniu obiektowym?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj wady i zalety pól statycznych w klasie",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów funkcje prefiksowe, infiksowe, postfiksowe w haskellu",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są adaptery w obsłudze zdarzeń w Java?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów proces testowania oprogramowania",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest parametryzacja typów w java?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Obsługa tabel w SQL – tworzenie i modyfikacja",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj cykl życia oprogramowania",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Istota wzorców projektowych, podział i przykład",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są elementy interfejsu? (interakcja czł – komp)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to są wyrażenia algebraiczne i do czego służą?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest drzewo procesów?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj typu pól w formularzu",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to box model w css?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj strukutrę adresu MAC",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "IPv4 vs IPv6",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj reguły solid",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są prototypy funkcji?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to wyrażenie lambda?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest zapytanie o media?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest całkowanie numeryczne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to stos i jakie są jego funkcje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest kolejka i jakie są jej funckje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DOM?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to TDD?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są deskryptory w css?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są testy jednostokowe?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są testy integracyjne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są wątki w javie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się charakteryzuje relacyjna baza danych?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się charakteryzuje nierelacyjna baza danych?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień rodzaje technologii chmurowych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz architekturę w androidze",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to SQL injection",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to zasada DRY?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co robi reduce() w swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to NoSQL?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to cyfra kontrolna?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Rendering i Bufor Z jak jest wykorzystywany?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj metody wstrzymywania wątków w java",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest lista? Podaj przykłady i różnice w stosunku do tablic",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest sortowanie przez kopcowanie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie metody można wykonać na stosie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz funkcje filter() w swift",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie znasz operacje binarne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to tablica LUT?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest unia? (programowanie strukturalne)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "SZDB – co to, do czego służy, przykłady",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz while i do while",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz strukturę React",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Architektury baz danych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz paradygmat funkcyjny",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega teksturowanie 3D, podaj typy tekstur",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to programowanie generyczne? Podaj przykłady w C++",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień algorytmy wyszukiwania elementu w zbiorze",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień zarządców układu w android",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj sposoby odzyskiwania haseł",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to kontekst db w entity framework",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są metody wirtualne w C++",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj cechy express.js",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Strukturalizacja i destrukturalizacja danych w js",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jsx?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się charakteryzuje html5?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest eliminacja gaussa? +Przykład",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są kopie zapasowe?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to ORM?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to i do czego służy NAT?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz instrukcje warunkowe w SWIFT?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się przekazuje parametry w funkcji w swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz algorytmy wyszukiwania wzorca w tekście",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są przeciążenia?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów struktury i klasy w swift",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to schemat hornera?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to SwiftUI?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to firewall?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest ciąg Fibonacciego?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak działa zamiana z systemu binarnego na heksadecymalny i dziesiętny",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to algorytm numeryczny stabilny i niepoprawny?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień metody rozwiązywania układów liniowych, po co się je stosuje",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz przepływ danych i operacje na gałęziach w git",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są węzły integralności w bazach danych? Jak się je tworzy i usuwa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz przekształcenia bezkontekstowe grafiki rastrowej",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj przykład implementacji stosu w programowaniu",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień kilka operacji na bazie danych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co robi metoda inicjalizacyjna w swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest zakleszczenie procesów?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są drzewa decyzyjne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest twierdzenie CAP?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega problem ucztujących filozofów?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj różnice między taglina a frazą kluczową (HTML)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega sortowanie przez kopcowanie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie metody można wykonywać na stosie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie są typy związków między encjami?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to RGB?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega asynchroniczność w js?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to diagram DFD?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są tablice asocjacyjne na przykładzie PHP?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to cross site scripting?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest ergonomia?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są historyjki użytkownika?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są scenariusze przypadków użycia?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Diagram sekwencji, co to i po co się stosuje?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz SOAP i REST – podobieństwa i różnice",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega szyfrowanie?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są funkcje wyższego rzędu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega architektura 3 warstwowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega archutektura klient-serwer",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak działa mediaplayer w android?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DHCP?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to AFL?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to układy Czebyszewa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to algorytm Rabina i drzewo Rabina?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to licznik odwołań ARC w Swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega metoda najmniejszych kwadratów?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to rozproszone systemy kontroli wersji?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Budowa try catch. Co to wyjątki?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz szyfrowanie symetryczne i asymetryczne",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak otrzymać obraz dockerowy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to docker-compose?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to css?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to Multilayer perception?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to knn?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to drzewa decyzyjne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to szyfr cezara?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są protokoły w swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to CRUD?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to MVVM?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to singleton?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to wzorce projektowe?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień sposoby przekazywania danych w aplikacji mobilnych (android)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to uwierzytelnianie i autoryzacja? Czym się różnią?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień metody przechowywania danych w aplikacjach mobilnych",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj sposoby ochrony przed atakami typu session hijacking",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień algorytmy sortowania elementów w tablicy i ich złożoność",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień metody protokołu http i je opisz",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Android zarządcy układu - wymień",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wady i zalety biblioteki lombok",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się różni NAT od mostkowania w virtualbox?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się różni wskaźnik od referencji w c++?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są metody wirtualne w C#?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Porównaj przeciążenia i przesilenia metody",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to Raii?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak się łączy zbiory danych?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to encje? Wymień rodzaje",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj różnice między razor pages a mvc w .net",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są metody asynchroniczne w C#",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to intepolacja wielomianowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz podstawowe elementy grafiki 3D",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz dokument html5. Podaj przykładowe znaczniki",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest programowanie imperatywne",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Scharakteryzuj i porównaj SOAP z REST",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień rodzaje cieniowania w 3D i opisz jeden",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są inteligentne wskaźniki?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj sposoby zabezpieczenia systemu operacyjnego",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to model siatkowy w grafice 3D i z czego się składa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to polimorfizm statyczny i dynamiczny w c++?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to Iaas?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to klasy szablonowe w c++?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień typy tekstur",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie są uprawnienia systemów plików?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj metody walidacji formularza html",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to local storage i session storage",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to Mpa rozwiń skrót i omów",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to maszyna turinga?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to drzewo AVL?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień związki w uml i je opisz",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to jest i do czego służy struktura?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jak działa ochrona antywirusowa?",
+    "answer": "",
+    "details": ""
+  }
+]

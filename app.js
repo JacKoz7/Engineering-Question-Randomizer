@@ -10,39 +10,20 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 async function loadQuestionsFromFile() {
   try {
-    const response = await fetch("pytania.txt");
-    const text = await response.text();
-
-    parseQuestions(text);
+    const response = await fetch("pytania.json");
+    allQuestions = await response.json();
 
     questionCount.textContent = allQuestions.length;
     drawButton.disabled = false;
   } catch (error) {
-    console.error("Błąd:", error);
-    alert("Nie można wczytać pliku z pytaniami.");
-  }
-}
-
-function parseQuestions(text) {
-  const lines = text.split("\n").filter((line) => line.trim() !== "");
-
-  allQuestions = [];
-
-  for (let line of lines) {
-    const columns = line.split("\t");
-
-    columns.forEach((question) => {
-      const trimmed = question.trim();
-      if (trimmed.length > 5) {
-        allQuestions.push(trimmed);
-      }
-    });
+    console.error("Error:", error);
+    alert("Cannot load questions file.");
   }
 }
 
 drawButton.addEventListener("click", () => {
   if (allQuestions.length < 3) {
-    alert("Za mało pytań.");
+    alert("Not enough questions.");
     return;
   }
 
@@ -58,15 +39,30 @@ function getRandomQuestions(count) {
 function displayQuestions(questions) {
   questionsContainer.innerHTML = "";
 
-  questions.forEach((question, index) => {
+  questions.forEach((q, index) => {
     const card = document.createElement("div");
     card.className = "question-card";
     card.style.animationDelay = `${index * 0.1}s`;
 
     card.innerHTML = `
-            <h3>Pytanie ${index + 1}</h3>
-            <p>${question}</p>
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Pytanie ${index + 1}</h3>
+                    <p>${q.question}</p>
+                    <span class="flip-hint">Kliknij aby zobaczyć odpowiedź</span>
+                </div>
+                <div class="card-back">
+                    <h3>Odpowiedź</h3>
+                    <p class="answer">${q.answer}</p>
+                    ${q.details ? `<p class="details">${q.details}</p>` : ""}
+                    <span class="flip-hint">Kliknij aby wrócić</span>
+                </div>
+            </div>
         `;
+
+    card.addEventListener("click", () => {
+      card.classList.toggle("flipped");
+    });
 
     questionsContainer.appendChild(card);
   });
