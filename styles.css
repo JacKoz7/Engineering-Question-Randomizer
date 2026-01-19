@@ -57,7 +57,7 @@ body {
   flex: 1;
   min-width: 300px;
   max-width: 450px;
-  height: 300px;
+  height: 400px;
   cursor: pointer;
   animation: slideIn 0.5s ease;
 }
@@ -92,11 +92,11 @@ body {
   height: 100%;
   backface-visibility: hidden;
   background: white;
-  padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .card-back {
@@ -109,6 +109,32 @@ body {
   color: #667eea;
   margin-bottom: 15px;
   font-size: 20px;
+  padding: 25px 25px 0 25px;
+  flex-shrink: 0;
+}
+
+.card-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 0 25px;
+  position: relative;
+}
+
+.card-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.card-content::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 3px;
+}
+
+.card-content::-webkit-scrollbar-thumb:hover {
+  background: #5568d3;
 }
 
 .card-front p,
@@ -116,7 +142,6 @@ body {
   color: #333;
   line-height: 1.6;
   font-size: 16px;
-  flex-grow: 1;
 }
 
 .answer {
@@ -129,19 +154,26 @@ body {
   color: #555;
   border-top: 1px solid #ddd;
   padding-top: 15px;
-  margin-top: auto;
+  margin-top: 15px;
 }
 
 .flip-hint {
   font-size: 12px;
   color: #999;
   text-align: center;
-  margin-top: 10px;
+  padding: 10px 25px 15px 25px;
+  flex-shrink: 0;
+  background: linear-gradient(to top, white 60%, transparent);
+}
+
+.card-back .flip-hint {
+  background: linear-gradient(to top, #f8f9fa 60%, transparent);
 }
 
 .button-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -170,21 +202,21 @@ body {
 }
 
 .no-repeat-toggle {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    color: white;
-    margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  margin-left: 20px;
 }
 
 .no-repeat-toggle input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
 
 .no-repeat-toggle span {
-    user-select: none;
+  user-select: none;
 }

@@ -36,7 +36,7 @@
   },
   {
     "question": "Podaj generacje języków programowania",
-    "answer": "- I generacja: programowanie bezpośrednio w **kodzie maszynowym** (binarnym). - II generacja: asemblery wykorzystujące **znaki mnemotechniczne**. - III generacja: **języki wysokiego poziomu**, uniwersalne i **niezależne od maszyny**. - IV generacja: **środowiska graficzne i języki obiektowe**. - V generacja: języki oparte na **logice i funkcjach, wykorzystujące sztuczną inteligencję**",
+    "answer": "- I generacja: programowanie bezpośrednio w kodzie maszynowym (binarnym). - II generacja: asemblery wykorzystujące znaki mnemotechniczne. - III generacja: języki wysokiego poziomu, uniwersalne i niezależne od maszyny. - IV generacja: środowiska graficzne i języki obiektowe. - V generacja: języki oparte na logice i funkcjach, wykorzystujące sztuczną inteligencję",
     "details": ""
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "question": "Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości",
-    "answer": "",
+    "answer": "public: Każdy ma dostęp. private: Tylko metody tej samej klasy mają dostęp. protected: Dostęp ma ta klasa i klasy, które po niej dziedziczą.",
     "details": ""
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "question": "Co to jest instancja klasy?",
-    "answer": "",
+    "answer": "To po prostu inna nazwa na obiekt. Powstaje w momencie, gdy na podstawie klasy tworzy się konkretny byt w pamięci komputera.",
     "details": ""
   },
   {
@@ -246,8 +246,8 @@
   },
   {
     "question": "Różnice między klasą a obiektem",
-    "answer": "",
-    "details": ""
+    "answer": "Klasa to szablon definiujący strukturę i zachowanie obiektów.Obiekt to konkretna instancja klasy, posiadająca własne dane i istniejąca w pamięci programu.",
+    "details": "Klasa to teoretyczny projekt (np. plan budowy domu). Obiekt to konkretna rzecz zbudowana według tego planu (np. gotowy dom, w którym mieszkasz)."
   },
   {
     "question": "Podaj wady wirtualizacji (ze 3 wady)",
@@ -266,7 +266,7 @@
   },
   {
     "question": "Co to jest zmienna statyczna klasy?",
-    "answer": "",
+    "answer": "o zmienna wspólna dla wszystkich obiektów danej klasy. Nie jest kopiowana dla każdego obiektu z osobna – istnieje tylko jeden egzemplarz w pamięci. Jeśli jeden obiekt ją zmieni, inne widzą tę zmianę.",
     "details": ""
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "question": "Co to funkcja rekurencyjna?",
-    "answer": "",
+    "answer": "To funkcja, która wywołuje samą siebie. Musi posiadać \"warunek stopu\", aby nie działała w nieskończoność.",
     "details": ""
   },
   {
@@ -331,7 +331,7 @@
   },
   {
     "question": "Co to jest klasa?",
-    "answer": "",
+    "answer": "To definicja (szablon) łącząca dane (pola) oraz czynności, które można na nich wykonywać (metody). To fundament programowania obiektowego.",
     "details": ""
   },
   {
@@ -346,7 +346,7 @@
   },
   {
     "question": "Czym są: konstruktor i destruktor?",
-    "answer": "",
+    "answer": "Konstruktor: Funkcja wywoływana automatycznie przy tworzeniu obiektu. Ustawia początkowe dane. Destruktor: Funkcja wywoływana automatycznie przy usuwaniu obiektu. Zwalnia pamięć i \"sprząta\" po obiekcie.",
     "details": ""
   },
   {
@@ -361,17 +361,17 @@
   },
   {
     "question": "Co to Kodowanie ASCII?",
-    "answer": "",
+    "answer": "Stary standard kodowania znaków używający 7 bitów (128 znaków). Zawiera tylko alfabet angielski, cyfry i znaki sterujące. Nie posiada polskich znaków (ą, ć itd.).",
     "details": ""
   },
   {
     "question": "Co to unicode?",
-    "answer": "",
+    "answer": "Standard obejmujący zestaw znaków (liter, symboli, piktogramów) z niemal wszystkich pism świata. W odróżnieniu od starych standardów, Unicode przypisuje każdemu znakowi unikalny numer (Code Point), niezależnie od platformy czy języka.",
     "details": ""
   },
   {
     "question": "Co to UTF-8?",
-    "answer": "",
+    "answer": "To najpopularniejszy sposób kodowania znaków Unicode. Jest zmiennej długości: jeden znak może zajmować od 1 do 4 bajtów. Dzięki temu jest oszczędny (podstawowe znaki alfabetu łacińskiego zajmują tylko 1 bajt, tak jak w ASCII) i uniwersalny (obsługuje wszystkie języki świata i emoji).",
     "details": ""
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "question": "Jakie znasz operacje bitowe?",
-    "answer": "",
+    "answer": "Działają bezpośrednio na bitach (0 i 1). Najważniejsze to: AND (&): 1 tylko, gdy oba bity są 1. OR (|): 1, gdy przynajmniej jeden bit jest 1. XOR (^): 1, gdy bity są różne. NOT (~): Negacja (zamiana 0 na 1 i odwrotnie). Przesunięcie w lewo (<<): Mnożenie przez potęgę 2. Przesunięcie w prawo (>>): Dzielenie przez potęgę 2.",
     "details": ""
   },
   {
@@ -396,7 +396,7 @@
   },
   {
     "question": "Czym są wskaźniki i jakie jest ich zastosowanie",
-    "answer": "",
+    "answer": "Wskaźniki to zmienne przechowujące adresy pamięci innych zmiennych (adresowanie pośrednie). Zastosowania: Modyfikacja argumentów funkcji (przekazywanie przez adres), obsługa tablic, dynamiczna alokacja pamięci oraz tworzenie złożonych struktur danych,.",
     "details": ""
   },
   {
@@ -421,7 +421,7 @@
   },
   {
     "question": "W jakich miejscach w programie umieszcza się funkcje?",
-    "answer": "",
+    "answer": "W większości języków (np. C++, Java, Python) funkcje umieszcza się: Poza funkcją główną (main) – zazwyczaj przed nią lub po niej (wtedy na górze daje się prototyp/deklarację). W osobnych plikach (modułach/bibliotekach) – aby zachować porządek w dużych projektach. Wewnątrz klas – wtedy nazywamy je metodami (programowanie obiektowe).",
     "details": ""
   },
   {
@@ -431,12 +431,7 @@
   },
   {
     "question": "Jakie są zależności między wskaźnikiem a tablicą?",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Co to unifikacja?",
-    "answer": "",
+    "answer": "Nazwa tablicy jest w istocie wskaźnikiem na jej pierwszy element (stałym wskaźnikiem),. Tablice można indeksować za pomocą wskaźników (arytmetyka wskaźnikowa), a wskaźniki można indeksować jak tablice",
     "details": ""
   },
   {
@@ -451,7 +446,7 @@
   },
   {
     "question": "Czym jest wskaźnik do wskaźnika?",
-    "answer": "",
+    "answer": "To zmienna, która przechowuje adres innego wskaźnika (podwójne pośrednictwo). W składni oznacza się go dwiema gwiazdkami (np. int **ptr), co pozwala np. na modyfikację samego wskaźnika w funkcji.",
     "details": ""
   },
   {
@@ -501,7 +496,7 @@
   },
   {
     "question": "Jak w języku C wypisać coś w konsoli?",
-    "answer": "",
+    "answer": "Używa się funkcji bibliotecznych z stdio.h: printf(\"format\", zmienne) – do wypisywania sformatowanego (tekst i liczby). lub puts(\"tekst\") – do wypisywania łańcuchów znaków (dodaje nową linię). lub putchar(znak) – do wypisania pojedynczego znaku.",
     "details": ""
   },
   {
@@ -551,7 +546,7 @@
   },
   {
     "question": "Podaj wady i zalety pól statycznych w klasie",
-    "answer": "",
+    "answer": "Zalety: Oszczędność pamięci (tylko jedna zmienna dla wszystkich) i łatwy dostęp do wspólnych danych. Wady: Ryzyko błędów przy wielu wątkach i trudniejsze testowanie kodu, bo zmienna statyczna trzyma stan \"globalnie\".",
     "details": ""
   },
   {
@@ -596,7 +591,7 @@
   },
   {
     "question": "Co to są wyrażenia algebraiczne i do czego służą?",
-    "answer": "",
+    "answer": "W informatyce to zapisy składające się ze zmiennych, stałych i operatorów (np. x + 5 * y). Służą do: Obliczania wartości danych, Opisywania warunków logicznych (np. w instrukcji if (a > b + 1)), Modelowania algorytmów (np. wzory na złożoność).",
     "details": ""
   },
   {
@@ -651,7 +646,7 @@
   },
   {
     "question": "Co to stos i jakie są jego funkcje?",
-    "answer": "",
+    "answer": "Stos to struktura typu LIFO (Last In First Out). Funkcje (operacje): push – połóż element na wierzchołek. pop – zdejmij element z wierzchołka. top – sprawdź wartość na wierzchołku. empty – sprawdź, czy stos jest pusty.",
     "details": ""
   },
   {
@@ -781,7 +776,7 @@
   },
   {
     "question": "Czym jest unia? (programowanie strukturalne)",
-    "answer": "",
+    "answer": "Unia (union) to specjalny typ danych, który pozwala przechowywać różne typy danych w tym samym obszarze pamięci, ale tylko jeden z nich naraz. Unia definiuje kilka pól, które współdzielą tę samą pamięć. Rozmiar unii = rozmiar największego z jej pól.",
     "details": ""
   },
   {
@@ -791,7 +786,7 @@
   },
   {
     "question": "Opisz while i do while",
-    "answer": "",
+    "answer": "1. While: Sprawdza warunek na początku. Jeśli warunek nie jest spełniony, pętla nie wykona się ani razu.2. Do...while: Sprawdza warunek na końcu pętli. Gwarantuje wykonanie instrukcji wewnątrz pętli przynajmniej jeden raz.",
     "details": ""
   },
   {
@@ -841,7 +836,7 @@
   },
   {
     "question": "Czym są metody wirtualne w C++",
-    "answer": "",
+    "answer": "To metody, które pozwalają na polimorfizm. Słowo virtual sprawia, że program w czasie działania sprawdza, jakiego typu jest obiekt i wywołuje właściwą wersję funkcji (nawet jeśli używamy wskaźnika na klasę bazową).",
     "details": ""
   },
   {
@@ -901,7 +896,7 @@
   },
   {
     "question": "Czym są przeciążenia?",
-    "answer": "",
+    "answer": "To użycie tej samej nazwy dla kilku funkcji w jednej klasie, ale z różnymi parametrami (inna liczba lub typ argumentów). Dzięki temu możesz mieć np. kilka wersji funkcji dodaj() – jedną dla liczb, drugą dla tekstów.",
     "details": ""
   },
   {
@@ -926,12 +921,12 @@
   },
   {
     "question": "Czym jest ciąg Fibonacciego?",
-    "answer": "",
-    "details": ""
+    "answer": "To ciąg liczb naturalnych, w którym każda kolejna liczba jest sumą dwóch poprzednich. Początek: 0,1,1,2,3,5,8,13,21…",
+    "details": "Wzór: Fn=Fn−1+Fn−2 dla n>1."
   },
   {
     "question": "Jak działa zamiana z systemu binarnego na heksadecymalny i dziesiętny",
-    "answer": "",
+    "answer": "Na dziesiętny: Sumujemy potęgi liczby 2 tam, gdzie w zapisie binarnym jest \"1\". Na heksadecymalny (szesnastkowy): Dzielimy liczbę binarną na grupy po 4 bity (od prawej) i każdą grupę zamieniamy na cyfrę 0-9 lub literę A-F.",
     "details": ""
   },
   {
@@ -1131,7 +1126,7 @@
   },
   {
     "question": "Budowa try catch. Co to wyjątki?",
-    "answer": "",
+    "answer": "To system obsługi błędów. try: W tym bloku zamykasz kod, który może wygenerować błąd. catch: Tu wpisujesz, co program ma zrobić, gdy błąd wystąpi (np. wyświetlić komunikat), żeby się nie zawiesił.",
     "details": ""
   },
   {
@@ -1246,7 +1241,7 @@
   },
   {
     "question": "Czym się różni wskaźnik od referencji w c++?",
-    "answer": "",
+    "answer": "Wskaźnik: Przechowuje adres pamięci. Może być \"pusty\" (nullptr) i można go zmienić w trakcie działania programu. Referencja: To stały \"pseudonim\" istniejącej zmiennej. Nie może być pusta i nie da się jej \"przepiąć\" na inną zmienną.",
     "details": ""
   },
   {
@@ -1255,8 +1250,8 @@
     "details": ""
   },
   {
-    "question": "Porównaj przeciążenia i przesilenia metody",
-    "answer": "",
+    "question": "Porównaj przeciążenia i Przesłanianie metody",
+    "answer": "Przeciążanie: Ta sama klasa, różne parametry. Wybierane przez kompilator. Przesłanianie: Dziedziczenie, identyczne parametry. Klasa \"dziecko\" zmienia sposób działania metody, którą dostała od \"rodzica\".",
     "details": ""
   },
   {
@@ -1371,7 +1366,7 @@
   },
   {
     "question": "Co to maszyna turinga?",
-    "answer": "",
+    "answer": "To teoretyczny model komputera wymyślony przez Alana Turinga. Składa się z: Nieskończonej taśmy z komórkami (pamięć). Głowicy, która czyta i zapisuje symbole oraz porusza się w lewo/prawo. Tablicy przejść (programu), która mówi, co zrobić w zależności od stanu i symbolu na taśmie. Służy do udowadniania, co jest możliwe do obliczenia przez komputery.",
     "details": ""
   },
   {
@@ -1386,8 +1381,8 @@
   },
   {
     "question": "Co to jest i do czego służy struktura?",
-    "answer": "",
-    "details": ""
+    "answer": "Struktura (struct) to zdefiniowany przez programistę typ danych, który pozwala zgrupować pod jedną nazwą wiele zmiennych różnych typów (np. liczbę, napis i tablicę). Służy do opisu pojedynczych obiektów o wielu cechach (np. osoba: imię, wiek),.",
+    "details": "Różnica między unią: Struktura Zajmuje w przybliżeniu sumę rozmiarów wszystkich pól a Unia Zajmuje rozmiar największego pola."
   },
   {
     "question": "Jak działa ochrona antywirusowa?",
@@ -1401,12 +1396,12 @@
   },
   {
     "question": "jak działają stałe i zmienne lokalne oraz globalne w C?",
-    "answer": "",
+    "answer": "Stałe: Definiowane przez const (niezmienna zmienna) lub #define (makro preprocesora), ich wartość nie może być modyfikowana w programie. Zmienne lokalne: Deklarowane wewnątrz funkcji/bloku, widoczne tylko tam (znikają po wyjściu z bloku). Zmienne globalne: Deklarowane poza funkcjami, widoczne w całym pliku i dostępne dla wszystkich funkcji,.",
     "details": ""
   },
   {
     "question": "jak uruchomić program c?",
-    "answer": "",
+    "answer": "Proces tworzenia to: pisanie kodu -> kompilacja (tłumaczenie na kod maszynowy) -> konsolidacja (łączenie bibliotek). Aby uruchomić program, należy wywołać plik wynikowy (np. .exe). Każdy program musi posiadać funkcję main()",
     "details": ""
   },
   {
@@ -1571,6 +1566,26 @@
   },
   {
     "question": "Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych.",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to preprocesor",
+    "answer": "To program (edytor), który przetwarza kod źródłowy przed właściwą kompilacją. Obsługuje dyrektywy zaczynające się od # (np. dołączanie plików, makrodefinicje, kompilację warunkową),.",
+    "details": ""
+  },
+  {
+    "question": "co to typedef",
+    "answer": "Słowo kluczowe służące do definiowania nowych nazw (aliasów) dla istniejących już typów danych. Nie tworzy nowego typu, lecz upraszcza nazewnictwo (np. typedef unsigned int size_t)",
+    "details": ""
+  },
+  {
+    "question": "opisz instrukcje warunkowe/strukturyzujące w C: if, if…else, switch",
+    "answer": "If: Wykonuje instrukcję, jeśli warunek jest prawdziwy. If...else: Pozwala wykonać jeden blok kodu, gdy warunek jest prawdziwy, a inny, gdy fałszywy. Switch: Wielowariantowa instrukcja wyboru. Porównuje zmienną (całkowitą lub znak) z wartościami case. Wymaga break, aby nie wykonywać kolejnych przypadków,.",
+    "details": ""
+  },
+  {
+    "question": "opisz instrukcje warunkowe/strukturyzujące w C: if, if…else, switch",
     "answer": "",
     "details": ""
   }
