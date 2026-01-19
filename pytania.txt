@@ -20,7 +20,7 @@ Czym są ciasteczka w https?	Co to sesja?	Czym są podzapytania w sql?
 Co to DDOS?	Co to responsywność?	Co to histogram obrazu?
 Co to funkcja rekurencyjna?	Co to XML?	Czym są inferencje w C#
 Podaj klasy typów w haskell	Podaj strukturę switch case	Co to core data
-Co to jest klasa?	Co to klasa szablonowa	
+Co to jest klasa?	Co to klasa szablonowa	Podaj 3 wady i zalety MPA
 Czym są: konstruktor i destruktor?	Co to architektura monolityczna i usługowa?	Co to lombok, podaj przykłady metod które lombok generuje
 Co to Kodowanie ASCII?	Co to unicode?	Co to UTF-8?
 Co to internacjonalizacja?	Jakie znasz operacje bitowe?	Najważniejsze cechy haskella
@@ -38,7 +38,7 @@ Czym jest rozdzielczość w obrazie rastrowym?	Czym są klasy anonimowe w java?	
 Co to TCP i UDP?	Podaj wady i zalety SPA	Co to są procesy?
 Opisz użycie hashowania w aplikacjach internetowych	Co to hermetyzacja w programowaniu obiektowym?	Podaj wady i zalety pól statycznych w klasie 
 Omów funkcje prefiksowe, infiksowe, postfiksowe w haskellu 	Czym są adaptery w obsłudze zdarzeń w Java?	Omów proces testowania oprogramowania
-Czym jest parametryzacja typów w java?	Obsługa tabel w SQL – tworzenie i modyfikacja	Podaj cykl życia oprogramowania
+Czym jest parametryzacja typów w java?	Obsługa tabel w SQL – tworzenie i modyfikacja	Jaki jest cykl życia oprogramowania
 Istota wzorców projektowych, podział i przykład	Czym są elementy interfejsu? (interakcja czł – komp)	Co to są wyrażenia algebraiczne i do czego służą?
 Co to jest drzewo procesów?	Podaj typu pól w formularzu	Co to box model w css?
 Podaj strukutrę adresu MAC	IPv4 vs IPv6	Podaj reguły solid
@@ -96,4 +96,16 @@ Co to Iaas?	Co to klasy szablonowe w c++?	Wymień typy tekstur
 Jakie są uprawnienia systemów plików?	Podaj metody walidacji formularza html	Co to local storage i session storage 
 Co to Mpa rozwiń skrót i omów	Co to maszyna turinga?	Co to drzewo AVL?
 Wymień związki w uml i je opisz	Co to jest i do czego służy struktura?	Jak działa ochrona antywirusowa?
+Czym się różni proces od wątku?	jak działają stałe i zmienne lokalne oraz globalne w C?	jak uruchomić program c?
+Czym są grafy, jakie jest ich zastosowanie i rodzaje przechowywania	Model OSI, wymień i opisz warstwy	Podstawowe pojęcia: (szyfrowanie, szyfrogram, klucz kryptograficzny)
+Wymień i opisz rodzaje sieci	Co to ARP?	Co to DNS?
+Co to normalizacja?	Co to DCL? Podaj przyklady	Czym są transakcje w SQL?
+Wymień wszystkie paradygmaty programowania jakie znasz	Czym jest programowanie obiektowe?	Tablica pomyłek - ocena jakości klasyfikatorów
+Co to lista w Prologu?	Opisz operatory w Prologu	Podaj cechy języka Prolog
+Czym są Sieci samouczące, samoorganizujące się i rekurencyjne?	Jakie są sposoby uczenia maszynowego	Opisz instrukcje iteracyjne w Swift
+Co to napisy i literały w Swift?	Pierwszy model neuronu	SwiftUI vs UIKit
+Wielozadaniowość w Android	Podstawy komunikacji sieciowej na platformie Android.	Na czym polega wstrzykiwanie zależności
+Powiedz wszystko co wiesz o testach funkcjonalności	Powiedz wszystko co wiesz o git i o gałęziach	Omów uogólniony schemat hornera
+ndeksy w relacyjnych bazach danych - podać na czym są automatyczne	Co to wzorzec budowniczy?	Co to CI/CD
+Architektura systemu IOS	Przekazywanie danych między widokami w SwiftUI	Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych.
 

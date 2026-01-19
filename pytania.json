@@ -1,22 +1,22 @@
 [
   {
-    "question": "Co to są funkcje skrótu?",
-    "answer": "",
-    "details": ""
+    "question": "Co to jest funkcja skrótu?",
+    "answer": "Funkcja skrótu (ang. hash function) to funkcja matematyczna, która: przyjmuje dane wejściowe o dowolnej długości (np. tekst, plik, hasło) i zwraca wynik o stałej długości, zwany skrótem lub hashem.",
+    "details": "- Właściwości: 1. jednokierunkowość - trudno odtworzyć dane z hasha, 2. odporność na kolizje - trudno znaleźć dwa teksty o tym samym hashu, 3. stała wartość dla tych samych danych."
   },
   {
     "question": "Typy opcjonalne w swift",
-    "answer": "",
-    "details": ""
+    "answer": "Typ opcjonalny może przechowywać poprawną wartość lub wartość nil (brak wartości). Definiuje się je znakiem zapytania „?",
+    "details": "Przykład: var stanowisko: String? "
   },
   {
     "question": "Podaj techniki ochrony danych",
-    "answer": "",
+    "answer": "1. Kryptografia 2. Kontrola dostępu i uwierzytelnianie 3. Oprogramowanie antywirusowe i firewalle 4. Bezpieczeństwo fizyczne",
     "details": ""
   },
   {
     "question": "Co to są nawroty w prologu?",
-    "answer": "",
+    "answer": "Mechanizm, pozwalający na powrót do ostatniego punktu wyboru w celu znalezienia alternatywnego rozwiązania.",
     "details": ""
   },
   {
@@ -26,8 +26,8 @@
   },
   {
     "question": "Opisz adresowanie w excelu (2)",
-    "answer": "",
-    "details": ""
+    "answer": "1. Adresowanie względne – np. A1 – adres komórki zmienia się automatycznie podczas kopiowania formuły w inne miejsce 2. Adresowanie bezwzględne – np. $A$1 – kolumna i wiersz są zablokowane, więc adres nie zmienia się przy kopiowaniu formuły.",
+    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu."
   },
   {
     "question": "Co to model przypadków użycia?",
@@ -36,23 +36,23 @@
   },
   {
     "question": "Podaj generacje języków programowania",
-    "answer": "",
+    "answer": "- I generacja: programowanie bezpośrednio w **kodzie maszynowym** (binarnym). - II generacja: asemblery wykorzystujące **znaki mnemotechniczne**. - III generacja: **języki wysokiego poziomu**, uniwersalne i **niezależne od maszyny**. - IV generacja: **środowiska graficzne i języki obiektowe**. - V generacja: języki oparte na **logice i funkcjach, wykorzystujące sztuczną inteligencję**",
     "details": ""
   },
   {
     "question": "Zapytania elementarne i nieelementarne w prolog",
-    "answer": "",
+    "answer": "Elementarne - to zapytania, które nie zawierają żadnej zmiennej.  Np: ?-a(2,3).- Nieelementarne - to zapytania zawierające zmienne. - Odpowiedzią jest znalezienie właściwego podstawienia dla zmiennych. - Np: ?-mul(4,3,X).",
     "details": ""
   },
   {
     "question": "Podaj cechy haskella",
-    "answer": "",
+    "answer": "- funkcyjność, - silne typowanie, - typy wnioskowane z kontekstu, - leniwe wartościowanie, - czystość, bez efektów ubocznych, - modularny, hermetyzacja w obrębie modułów, - kontraktowy, - ochrona stanów - monady, - polimorfizm i enkapsulacja.",
     "details": ""
   },
   {
     "question": "Jak się filtruje w SQL",
-    "answer": "",
-    "details": ""
+    "answer": "Filtrowanie danych odbywa się na poziomie wierszy tabeli źródłowej i jest realizowane przy użyciu klauzuli WHERE. Pozwala ona ograniczyć zbiór wynikowy do rekordów spełniających określone kryteria. Warunki złożone: Można je budować, łącząc warunki proste operatorami logicznymi AND, OR oraz NOT.",
+    "details": "Przykład: SELECT * FROM Customers WHERE Country = 'Mexico';"
   },
   {
     "question": "Co to diagram klas?",
@@ -61,17 +61,17 @@
   },
   {
     "question": "Co to podpis cyfrowy?",
-    "answer": "",
+    "answer": "Mechanizm potwierdzający tożsamość nadawcy oraz integralność danych. Nadawca tworzy hash wiadomości funkcją skrótu i szyfruje go kluczem prywatnym.",
     "details": ""
   },
   {
     "question": "Wymień sieci w virtual box",
-    "answer": "",
+    "answer": "NAT - VM korzysta z IP hosta, ukryta przed siecią zewnętrzną. Bridge - VM działa jak fizyczny komputer w sieci lokalnej. Host-Only - Komunikacja tylko między VM a hostem, bez dostępu do Internetu. Internal Network  - Komunikacja tylko między VM. NAT Network - NAT z możliwością komunikacji między wieloma VM.",
     "details": ""
   },
   {
     "question": "Co to ADB?",
-    "answer": "",
+    "answer": "To uniwersalne narzędzie wiersza poleceń służące do komunikacji z fizycznym lub wirtualnym urządzeniem (emulatorem). ",
     "details": ""
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "question": "Podaj zalety wirtualizacji",
-    "answer": "",
+    "answer": "1. Oszczędność zasobów i prądu. 2. Łatwość klonowania. 3. Łatwiejsze zarządzanie. 4. Łatwość przywracania poprzedniego stanu systemu – migawki.",
     "details": ""
   },
   {
@@ -106,23 +106,23 @@
   },
   {
     "question": "Jak się uchronić przed utratą danych",
-    "answer": "",
-    "details": ""
+    "answer": "1. Kopie zapasowe 2. Obrazy dysków i synchronizacja 3. Macierze RAID 4. Klastry",
+    "details": "Macierze RAID: Zespół dysków fizycznych działających jako jeden wolumin logiczny. Klastry: Grupa połączonych komputerów działających jako jeden system."
   },
   {
     "question": "Rezolucja – Co to jest? jak działa i gdzie się ją stosuje?",
-    "answer": "",
+    "answer": "Proces zastępowania wyrażenia przez inne wyrażenie , aby udowodnić cel. Działa poprzez dopasowanie zapytania do głowy reguły i zastąpienie go treścią (ciałem) tej reguły.",
     "details": ""
   },
   {
     "question": "Jak się adresuje komórki w arkuszu kalkulacyjnym",
-    "answer": "",
-    "details": ""
+    "answer": "1. Adresowanie względne – np. A1 – adres komórki zmienia się automatycznie podczas kopiowania formuły w inne miejsce 2. Adresowanie bezwzględne – np. $A$1 – kolumna i wiersz są zablokowane, więc adres nie zmienia się przy kopiowaniu formuły.",
+    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu."
   },
   {
     "question": "Co to unifikacja w prologu?",
-    "answer": "",
-    "details": ""
+    "answer": "Unifikacja - to proces dopasowywania termów, które stają się identyczne po dokonaniu odpowiednich podstawień za zmienne. ",
+    "details": "Podstawienie za konkretną zmienną musi być takie samo w całym wyrażeniu."
   },
   {
     "question": "Co to kompozycja?",
@@ -131,12 +131,12 @@
   },
   {
     "question": "Co to drzewo BST",
-    "answer": "",
+    "answer": "BST (Binary Search Tree) to binarne drzewo poszukiwań. Jego kluczowa cecha to uporządkowanie: dla każdego węzła, wszystkie elementy w jego lewym poddrzewie są mniejsze od niego, a w prawym poddrzewie – większe. Pozwala to na szybkie wyszukiwanie (złożoność oczekiwana O(logn))",
     "details": ""
   },
   {
     "question": "Infrastruktura klucza publicznego",
-    "answer": "",
+    "answer": "System zarządzający usługami uwierzytelniania i szyfrowania używając kluczy publicznych.",
     "details": ""
   },
   {
@@ -336,6 +336,11 @@
   },
   {
     "question": "Co to klasa szablonowa",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj 3 wady i zalety MPA",
     "answer": "",
     "details": ""
   },
@@ -575,7 +580,7 @@
     "details": ""
   },
   {
-    "question": "Podaj cykl życia oprogramowania",
+    "question": "Jaki jest cykl życia oprogramowania",
     "answer": "",
     "details": ""
   },
@@ -1386,6 +1391,186 @@
   },
   {
     "question": "Jak działa ochrona antywirusowa?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym się różni proces od wątku?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "jak działają stałe i zmienne lokalne oraz globalne w C?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "jak uruchomić program c?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są grafy, jakie jest ich zastosowanie i rodzaje przechowywania",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Model OSI, wymień i opisz warstwy",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podstawowe pojęcia: (szyfrowanie, szyfrogram, klucz kryptograficzny)",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień i opisz rodzaje sieci",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to ARP?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DNS?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to normalizacja?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to DCL? Podaj przyklady",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są transakcje w SQL?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wymień wszystkie paradygmaty programowania jakie znasz",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest programowanie obiektowe?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Tablica pomyłek - ocena jakości klasyfikatorów",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to lista w Prologu?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz operatory w Prologu",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podaj cechy języka Prolog",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym są Sieci samouczące, samoorganizujące się i rekurencyjne?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Jakie są sposoby uczenia maszynowego",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Opisz instrukcje iteracyjne w Swift",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to napisy i literały w Swift?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Pierwszy model neuronu",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "SwiftUI vs UIKit",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Wielozadaniowość w Android",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Podstawy komunikacji sieciowej na platformie Android.",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Na czym polega wstrzykiwanie zależności",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Powiedz wszystko co wiesz o testach funkcjonalności",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Powiedz wszystko co wiesz o git i o gałęziach",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Omów uogólniony schemat hornera",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "ndeksy w relacyjnych bazach danych - podać na czym są automatyczne",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to wzorzec budowniczy?",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to CI/CD",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Architektura systemu IOS",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Przekazywanie danych między widokami w SwiftUI",
+    "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych.",
     "answer": "",
     "details": ""
   }
