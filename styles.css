@@ -27,14 +27,30 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.counter {
-  font-size: 24px;
+.stats {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.counter,
+.unanswered,
+.remaining {
+  font-size: 18px;
   font-weight: bold;
   color: #333;
 }
 
 .counter span {
   color: #667eea;
+}
+
+.unanswered span {
+  color: #e74c3c;
+}
+
+.remaining span {
+  color: #27ae60;
 }
 
 .version {

@@ -3,6 +3,9 @@ let usedQuestions = [];
 let noRepeatMode = false;
 
 const questionCount = document.getElementById("questionCount");
+const unansweredCount = document.getElementById("unansweredCount");
+const remainingCounter = document.getElementById("remainingCounter");
+const remainingCount = document.getElementById("remainingCount");
 const drawButton = document.getElementById("drawButton");
 const questionsContainer = document.getElementById("questionsContainer");
 const noRepeatCheckbox = document.getElementById("noRepeatCheckbox");
@@ -16,6 +19,7 @@ noRepeatCheckbox.addEventListener("change", (e) => {
   if (!noRepeatMode) {
     usedQuestions = [];
   }
+  updateStats();
 });
 
 async function loadQuestionsFromFile() {
@@ -23,11 +27,28 @@ async function loadQuestionsFromFile() {
     const response = await fetch("pytania.json");
     allQuestions = await response.json();
 
-    questionCount.textContent = allQuestions.length;
+    updateStats();
     drawButton.disabled = false;
   } catch (error) {
     console.error("Error:", error);
     alert("Cannot load questions file.");
+  }
+}
+
+function updateStats() {
+  questionCount.textContent = allQuestions.length;
+
+  const unanswered = allQuestions.filter(
+    (q) => !q.answer || q.answer.trim() === ""
+  ).length;
+  unansweredCount.textContent = unanswered;
+
+  if (noRepeatMode) {
+    const remaining = allQuestions.length - usedQuestions.length;
+    remainingCount.textContent = remaining;
+    remainingCounter.style.display = "block";
+  } else {
+    remainingCounter.style.display = "none";
   }
 }
 
@@ -40,6 +61,7 @@ drawButton.addEventListener("click", () => {
     if (noRepeatMode && usedQuestions.length > 0) {
       alert("All questions used. Resetting pool.");
       usedQuestions = [];
+      updateStats();
       return;
     }
     alert("Not enough questions.");
@@ -50,6 +72,7 @@ drawButton.addEventListener("click", () => {
 
   if (noRepeatMode) {
     usedQuestions.push(...selectedQuestions);
+    updateStats();
   }
 
   displayQuestions(selectedQuestions);
@@ -80,7 +103,7 @@ function displayQuestions(questions) {
                 <div class="card-back">
                     <h3>Odpowiedź</h3>
                     <div class="card-content">
-                        <p class="answer">${q.answer}</p>
+                        <p class="answer">${q.answer || "Brak odpowiedzi"}</p>
                         ${
                           q.details ? `<p class="details">${q.details}</p>` : ""
                         }
