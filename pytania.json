@@ -101,8 +101,8 @@
   },
   {
     "question": "Co to dziedziczenie?",
-    "answer": "",
-    "details": ""
+    "answer": "jeden z filarów programowania obiektowego (OOP). Mechanizm, w którym nowa klasa (potomna/subklasa) przejmuje pola i metody klasy istniejącej (bazowej/superklasy). Cel: Reużywalność kodu i tworzenie hierarchii typów.",
+    "details": "Słowo kluczowe w java: extends."
   },
   {
     "question": "Jak się uchronić przed utratą danych",
@@ -126,7 +126,7 @@
   },
   {
     "question": "Co to kompozycja?",
-    "answer": "",
+    "answer": "Zasada projektowa, w której jedna klasa zawiera obiekty innej klasy jako swoje pola.Relacja: \"Posiada coś\" (HAS-A), np. Samochód posiada Silnik. Przewaga nad dziedziczeniem: Luźniejsze powiązania (loose coupling), możliwość dynamicznej zmiany komponentów, brak problemów z wielodziedziczeniem.",
     "details": ""
   },
   {
@@ -160,13 +160,13 @@
     "details": ""
   },
   {
-    "question": "Funkcja abstrakcyjna vs interfejs",
-    "answer": "",
+    "question": "Klasa abstrakcyjna vs interfejs",
+    "answer": "Różnice zacierają się od Javy 8, ale kluczowe to: Stan: Klasa abstrakcyjna może mieć pola (zmienne instancji/stan), interfejs ma tylko stałe (public static final). Dziedziczenie: Klasa może dziedziczyć tylko po jednej klasie (abstrakcyjnej), ale implementować wiele interfejsów.Konstruktory: Klasa abstrakcyjna ma konstruktory, interfejs nie. Przeznaczenie: Klasa abstrakcyjna definiuje tożsamość (\"czym to jest\"), interfejs definiuje kontrakt/zachowanie (\"co to potrafi robić\").",
     "details": ""
   },
   {
     "question": "Co to DDL?  Podaj przykład",
-    "answer": "",
+    "answer": "Data Definition Language - Zbiór instrukcji, służących do definiowania struktur danych w relacyjnej bazie danych. np CREATE - tworzenie tabel, baz, indeksów, ALTER - modyfikacja struktury (dodawanie kolumn, zmiana typów), DROP - usuwanie obiektów (tabela znika całkowicie)",
     "details": ""
   },
   {
@@ -181,7 +181,7 @@
   },
   {
     "question": "Co to vpn?",
-    "answer": "",
+    "answer": "Virtual Private Network - Wirtualna sieć prywatna. Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. VPN tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
     "details": ""
   },
   {
@@ -226,7 +226,7 @@
   },
   {
     "question": "Co to DML? Podaj przykłady",
-    "answer": "",
+    "answer": "-Data Manipulation Language- Zbiór instrukcji, służących do przetwarzania danych w relacyjnej bazie danych. np INSERT - wstawianie wierszy, UPDATE - modyfikacja istniejących danych lub DELETE - usuwanie wierszy",
     "details": ""
   },
   {
@@ -266,7 +266,7 @@
   },
   {
     "question": "Co to jest zmienna statyczna klasy?",
-    "answer": "o zmienna wspólna dla wszystkich obiektów danej klasy. Nie jest kopiowana dla każdego obiektu z osobna – istnieje tylko jeden egzemplarz w pamięci. Jeśli jeden obiekt ją zmieni, inne widzą tę zmianę.",
+    "answer": "To zmienna wspólna dla wszystkich obiektów danej klasy. Nie jest kopiowana dla każdego obiektu z osobna – istnieje tylko jeden egzemplarz w pamięci. Jeśli jeden obiekt ją zmieni, inne widzą tę zmianę.",
     "details": ""
   },
   {
@@ -286,7 +286,7 @@
   },
   {
     "question": "Co to DDOS?",
-    "answer": "",
+    "answer": "Distributed Denial of Service - Atak rozproszony, prowadzony z wielu komputerów jednocześnie. Są wykorzystywane do wymuszeń. Atakujący przeprowadza atak na małą skalę, po czym wymusza okup grożąc atakiem na dużą skalę.",
     "details": ""
   },
   {
@@ -406,7 +406,7 @@
   },
   {
     "question": "Czym jest klasa abstrakcyjna?",
-    "answer": "",
+    "answer": "Klasa zadeklarowana ze słowem kluczowym abstract, której nie można bezpośrednio instancjonować (nie można zrobić new). Cechy: Może zawierać metody abstrakcyjne (bez ciała, do zaimplementowania przez dzieci) oraz metody konkretne (z implementacją). Cel: Stanowi bazę/szablon dla innych klas. Może posiadać stan (pola).",
     "details": ""
   },
   {
@@ -435,13 +435,13 @@
     "details": ""
   },
   {
-    "question": "Podaj typy kluczy w relacjach",
-    "answer": "",
-    "details": ""
+    "question": "Podaj rodzaje kluczy w relacjach",
+    "answer": "Klucz główny (Primary Key): Musi być unikalny i niepusty (NOT NULL). Klucz obcy (Foreign Key): Atrybut lub zbiór atrybutów, który wskazuje na klucz główny innej relacji. Klucz kandydujący (Candidate Key) – alternatywny klucz, który też mógłby pełnić rolę klucza głównego. Klucz unikalny (Unique Key) – zapewnia unikalność wartości w kolumnie lub grupie kolumn, ale może dopuszczać wartości NULL",
+    "details": "jeszcze jest Klucz złożony (Composite Key) – składa się z więcej niż jednej kolumny i razem jednoznacznie identyfikuje rekord. Przykład: w tabeli Zamówienia_Produkty klucz złożony z id_zamówienia + id_produktu."
   },
   {
-    "question": "Czym jest diagram ERD?",
-    "answer": "",
+    "question": "Czym jest ERD?",
+    "answer": "ERD (Entity Relationship Diagram) - graficzne narzędzie do prezentacji modelu konceptualnego bazy danych. przedstawia: Encje - obiekty rzeczywistości, Atrybuty - cechy encji, Związki - relacje między encjami",
     "details": ""
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "question": "Omów systemy wirtualizacji w linux",
-    "answer": "",
+    "answer": "Maszyny wirtualne dają pełną izolację systemów, kontenery są lżejsze i szybsze, ale współdzielą jądro. KVM (Kernel-based Virtual Machine) - Mechanizm w jądrze Linuksa umożliwiający pełną wirtualizację sprzętową. Każda maszyna wirtualna działa jak osobny proces. Wysoka wydajność, standard serwerowy. QEMU - Emulator sprzętu. Może działać bez wsparcia sprzętowego, ale jest wolny. Często używany razem z KVM. Xen - Hypervisor typu 1 działający bezpośrednio na sprzęcie. Dobra izolacja, rzadziej używany niż KVM. VirtualBox / VMware - ypervisory typu 2 (aplikacje). Proste w użyciu, głównie do nauki i testów. Kontenery (Docker, LXC) - Nie wirtualizują sprzętu, tylko izolują procesy w jednym jądrze. Bardzo lekkie i szybkie, ale z mniejszą izolacją niż VM.",
     "details": ""
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "question": "Co to regresja liniowa i nieliniowa?",
-    "answer": "",
+    "answer": "Metoda statystyczna służąca do modelowania zależności między danymi. Regresja liniowa: Szukamy linii prostej y=ax+b, która najlepiej pasuje do chmury punktów danych. Regresja nieliniowa: Szukamy krzywej (np. wykładniczej, logarytmicznej, wielomianowej), która najlepiej opisuje dane, gdy zależność nie jest liniowa.",
     "details": ""
   },
   {
@@ -501,7 +501,7 @@
   },
   {
     "question": "Co to jest acid? Podaj jego cechy",
-    "answer": "",
+    "answer": "Transakcja - zbiór operacji bazodanowych traktowanych jako jedna całość. Cechy: A - Atomicity (Atomowość) Wszystko albo nic - transakcja wykonuje się w całości lub wcale. C - Consistency (Spójność) Transakcja przeprowadza bazę z jednego poprawnego stanu do drugiego. I - Isolation (Izolacja) Równoczesne transakcje nie wpływają na siebie nawzajem. Durability (Trwałość) Po zatwierdzeniu (COMMIT) zmiany są trwałe, nawet po awarii systemu.",
     "details": ""
   },
   {
@@ -511,8 +511,8 @@
   },
   {
     "question": "Czym są klasy anonimowe w java?",
-    "answer": "",
-    "details": ""
+    "answer": "To klasy wewnętrzne nieposiadające nazwy, deklarowane i instancjonowane w tym samym miejscu kodu. Zastosowanie: Szybka implementacja interfejsu lub klasy abstrakcyjnej \"w locie\" (ad-hoc), używana jednorazowo, np. przy obsłudze zdarzeń (Listenery) lub w wątkach.",
+    "details": "np Runnable r = new Runnable() { // Początek klasy anonimowej"
   },
   {
     "question": "Czym są komponenty stanowe i bezstanowe w React?",
@@ -521,7 +521,7 @@
   },
   {
     "question": "Co to TCP i UDP?",
-    "answer": "",
+    "answer": "TCP i UDP to protokoły warstwy transportowej, służące do przesyłania danych między aplikacjami w sieci. TCP jest protokołem połączeniowym i niezawodnym. Przed wysłaniem danych zestawia połączenie, kontroluje poprawność transmisji, kolejność pakietów oraz ponawia wysyłanie w razie błędów. Jest wolniejszy, ale pewny. Wykorzystywany jest tam, gdzie liczy się poprawność danych, np. HTTP/HTTPS, FTP, SMTP, IMAP. UDP jest protokołem bezpołączeniowym i zawodnym. Nie sprawdza, czy dane dotarły ani w jakiej kolejności, dzięki czemu działa szybciej i z mniejszym narzutem. Stosowany jest tam, gdzie ważniejsza jest szybkość niż niezawodność, np. streaming wideo i audio, VoIP, gry online, DNS.",
     "details": ""
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "question": "Co to są procesy?",
-    "answer": "",
+    "answer": " Proces to program w trakcie wykonywania przez system operacyjny. Posiada on swój numer identyfikacyjny (PID). Jądro systemu przechowuje informacje o jego stanie (kontekście), liście otwartych plików, uprawnieniach, bieżącym katalogu oraz przydzielonym obszarze pamięci",
     "details": ""
   },
   {
@@ -566,7 +566,7 @@
   },
   {
     "question": "Czym jest parametryzacja typów w java?",
-    "answer": "",
+    "answer": "Mechanizm wprowadzony w Java 5 pozwalający na definiowanie klas, interfejsów i metod z użyciem typów jako parametrów (np. List<String>). Cel: Zapewnienie bezpieczeństwa typów w czasie kompilacji (wykrywanie błędów przed uruchomieniem) oraz eliminacja konieczności ręcznego rzutowania obiektów. Przykład: Zamiast ogólnej listy List, używamy List<Integer>, co gwarantuje, że w liście znajdą się tylko liczby całkowite.",
     "details": ""
   },
   {
@@ -596,7 +596,7 @@
   },
   {
     "question": "Co to jest drzewo procesów?",
-    "answer": "",
+    "answer": "To struktura tworzona przez wszystkie procesy w systemie, w której każdy proces jest potomkiem (ang. child) innego procesu – macierzystego (ang. parent), z wyjątkiem procesu inicjującego. Nowe procesy w drzewie powstają m.in. przez wywołanie funkcji fork.",
     "details": ""
   },
   {
@@ -611,12 +611,12 @@
   },
   {
     "question": "Podaj strukutrę adresu MAC",
-    "answer": "",
+    "answer": "Media Access Control — adres jest 48-bitową liczbą zapisywaną w systemie szesnastkowym (heksadecymalnym). Składa się z dwóch części: pierwsze (OUI) 24 bity to kod producenta karty. pozostałe (NIC) 24 bity to unikatowy numer seryjny tej karty.",
     "details": ""
   },
   {
     "question": "IPv4 vs IPv6",
-    "answer": "",
+    "answer": "IPv4 używa adresów 32-bitowych, co daje ograniczoną liczbę adresów, natomiast IPv6 ma adresy 128-bitowe i praktycznie nieograniczoną pulę. IPv4 zapisuje adresy w formacie dziesiętnym z kropkami, a IPv6 w szesnastkowym z dwukropkami. W IPv4 często stosuje się NAT, w IPv6 nie jest on potrzebny. IPv6 oferuje prostszą budowę nagłówka, brak broadcastu (zastąpiony multicastem) oraz lepszą obsługę automatycznej konfiguracji.",
     "details": ""
   },
   {
@@ -641,7 +641,7 @@
   },
   {
     "question": "Czym jest całkowanie numeryczne?",
-    "answer": "",
+    "answer": "Jest to przybliżone obliczanie wartości całki oznaczonej za pomocą kwadratur. Zamiast szukać funkcji pierwotnej (co może być niemożliwe), oblicza się sumę ważoną wartości funkcji w wybranych punktach (węzłach). Przykład: pole pod wykresem przybliża się sumą pól prostokątów lub trapezów.",
     "details": ""
   },
   {
@@ -681,12 +681,12 @@
   },
   {
     "question": "Czym są wątki w javie?",
-    "answer": "",
+    "answer": "Najmniejsze jednostki przetwarzania kodu, które mogą być zarządzane przez system operacyjny, działające w obrębie jednego procesu. Współdzielenie: Wątki w ramach jednego procesu współdzielą pamięć (stertę), co ułatwia komunikację, ale wymaga synchronizacji. Tworzenie: Poprzez rozszerzenie klasy Thread lub implementację interfejsu Runnable (i przekazanie do new Thread()).",
     "details": ""
   },
   {
     "question": "Czym się charakteryzuje relacyjna baza danych?",
-    "answer": "",
+    "answer": "Relacyjna baza danych (RBD) to praktyczna implementacja modelu relacyjnego. Cechy: Struktura tabelaryczna, Więzy integralności, Relacje między tabelami, Transakcyjność (ACID), Normalizacja",
     "details": ""
   },
   {
@@ -706,7 +706,7 @@
   },
   {
     "question": "Co to SQL injection",
-    "answer": "",
+    "answer": "Wysyłamy dużą liczbę złożonych zapytań SQL, spowalniając pracę serwera. W celu kradzieży danych bazy lub wyczerpania zasobów serwera.",
     "details": ""
   },
   {
@@ -736,7 +736,7 @@
   },
   {
     "question": "Podaj metody wstrzymywania wątków w java",
-    "answer": "",
+    "answer": "Thread.sleep(ms): Usypia aktualny wątek na określony czas. Nie zwalnia blokad (monitorów). Metoda statyczna. Object.wait(): Wątek czeka, aż inny wątek wywoła notify() na tym samym obiekcie. Zwalnia blokadę (monitor). Wymaga bloku synchronizowanego. Thread.join(): Wątek wywołujący czeka, aż wątek, na którym wywołano metodę, zakończy swoje działanie. LockSupport.park(): Niskopoziomowe zawieszenie wątku (używane w bibliotece java.util.concurrent).",
     "details": ""
   },
   {
@@ -751,11 +751,6 @@
   },
   {
     "question": "Co to jest sortowanie przez kopcowanie?",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Jakie metody można wykonać na stosie?",
     "answer": "",
     "details": ""
   },
@@ -781,7 +776,7 @@
   },
   {
     "question": "SZDB – co to, do czego służy, przykłady",
-    "answer": "",
+    "answer": "System Zarządzania Bazą Danych (SZBD) to oprogramowanie pośredniczące między fizycznym miejscem składowania danych a klientem, odpowiadające za bezpieczeństwo, spójność i współbieżność. Relacyjne SZBD: Oracle DB, Microsoft SQL Server, MySQL, PostgreSQL. Nierelacyjne SZBD: MongoDB, Redis, Apache Cassandra, Neo4j. - Główne funkcje:- Definiowanie i organizacja struktur - Przetwarzanie danych - Zapewnienie bezpieczeństwa - Kontrola spójności i współbieżności",
     "details": ""
   },
   {
@@ -860,8 +855,8 @@
     "details": ""
   },
   {
-    "question": "Czym jest eliminacja gaussa? +Przykład",
-    "answer": "",
+    "question": "Czym jest eliminacja gaussa? ",
+    "answer": "Metoda dokładna rozwiązywania układu równań liniowych. Polega na sprowadzeniu macierzy układu do macierzy trójkątnej górnej za pomocą operacji elementarnych na wierszach (dodawanie wierszy, mnożenie przez skalar), a następnie wyliczeniu niewiadomych przez podstawianie wsteczne.",
     "details": ""
   },
   {
@@ -871,13 +866,13 @@
   },
   {
     "question": "Co to ORM?",
-    "answer": "",
+    "answer": "Technika mapowania obiektowo-relacyjnego. Służy do odwzorowania struktury bazy danych (tabel, relacji) na obiekty w języku programowania (klasy). Zaleta: Programista operuje na obiektach Java, a framework ORM (np. Hibernate, JPA) automatycznie generuje odpowiednie zapytania SQL. Cel: Uniezależnienie aplikacji od konkretnego silnika bazy danych i przyspieszenie developmentu.",
     "details": ""
   },
   {
     "question": "Co to i do czego służy NAT?",
-    "answer": "",
-    "details": ""
+    "answer": "NAT (Network Address Translation) to mechanizm sieciowy, który tłumaczy adresy IP między siecią prywatną a publiczną. Służy do tego, aby wiele urządzeń w sieci lokalnej mogło korzystać z jednego publicznego adresu IP. Router zamienia adresy prywatne na publiczny podczas wychodzenia do internetu i odwrotnie przy odpowiedzi.",
+    "details": "W skrócie: NAT oszczędza adresy IPv4 i ukrywa sieć wewnętrzną przed internetem."
   },
   {
     "question": "Opisz instrukcje warunkowe w SWIFT?",
@@ -906,8 +901,8 @@
   },
   {
     "question": "Co to schemat hornera?",
-    "answer": "",
-    "details": ""
+    "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n). Zamiast liczyć W(x)=2x^3+4x^2−x+5, przekształca się go do postaci: W(x)=((2x+4)x−1)x+5",
+    "details": "Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c)."
   },
   {
     "question": "Co to SwiftUI?",
@@ -931,11 +926,11 @@
   },
   {
     "question": "Co to algorytm numeryczny stabilny i niepoprawny?",
-    "answer": "",
+    "answer": "Algorytm stabilny: Taki, w którym błędy zaokrągleń (wynikające z arytmetyki komputera) nie kumulują się lawinowo w kolejnych krokach obliczeń. Mały błąd na wejściu nie generuje ogromnego błędu na wyjściu. Algorytm poprawny: Taki, który jest stabilny numerycznie i stosowany do zadania dobrze uwarunkowanego. Daje wynik bardzo bliski dokładnemu rozwiązaniu problemu dla lekko zaburzonych danych.",
     "details": ""
   },
   {
-    "question": "Wymień metody rozwiązywania układów liniowych, po co się je stosuje",
+    "question": "Wymień metody rozwiązywania układów liniowych",
     "answer": "",
     "details": ""
   },
@@ -961,8 +956,8 @@
   },
   {
     "question": "Wymień kilka operacji na bazie danych",
-    "answer": "",
-    "details": ""
+    "answer": "Tworzenie (Insert) – dodawanie nowych rekordów do tabeli. np: INSERT INTO Student (imie, nazwisko) VALUES ('Jan', 'Kowalski'); Odczyt (select) – pobieranie danych z tabeli. Przykład: SELECT * FROM Student WHERE nazwisko = 'Kowalski'; Aktualizacja (Update) – zmiana istniejących danych. Przykład: UPDATE Student SET imie = 'Janusz' WHERE id_student = 1; Usuwanie (Delete) – usunięcie rekordów z tabeli. Przykład: DELETE FROM Student WHERE id_student = 1;",
+    "details": "inne operacje przydatne w SQL: Tworzenie struktury bazy i tabel: CREATE DATABASE, CREATE TABLE Usuwanie tabel: DROP TABLE Łączenie danych z wielu tabel: JOIN Sortowanie i filtrowanie: ORDER BY, WHERE Grupowanie i agregacja: GROUP BY, COUNT(), SUM(), AVG()"
   },
   {
     "question": "Co robi metoda inicjalizacyjna w swift?",
@@ -971,12 +966,17 @@
   },
   {
     "question": "Czym jest zakleszczenie procesów?",
-    "answer": "",
+    "answer": "Zakleszczenie (ang. deadlock) to stan, w którym zbiór procesów czeka na zdarzenie, które może zostać wywołane tylko przez inny proces z tego samego zbioru (np. wzajemne oczekiwanie na zwolnienie zasobów). Aby wystąpiło, muszą zachodzić cztery warunki: wzajemne wykluczanie, przetrzymywanie i oczekiwanie, brak wywłaszczeń oraz czekanie cykliczne,.",
     "details": ""
   },
   {
     "question": "Czym są drzewa decyzyjne?",
     "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Co to system operacyjny?",
+    "answer": "To oprogramowanie pośredniczące między użytkownikiem a sprzętem komputera. Jego celem jest tworzenie środowiska do wydajnej pracy poprzez zarządzanie zasobami (procesor, pamięć, pliki), sterowanie procesami oraz realizację operacji wejścia-wyjścia,,.",
     "details": ""
   },
   {
@@ -986,7 +986,7 @@
   },
   {
     "question": "Na czym polega problem ucztujących filozofów?",
-    "answer": "",
+    "answer": " Jest to klasyczny problem synchronizacji ilustrujący zagrożenie zakleszczeniem i głodzeniem przy przydziale zasobów. Pięciu filozofów siedzi przy stole z miską ryżu i pięcioma pałeczkami. Aby jeść, filozof musi podnieść dwie pałeczki leżące obok niego (lewą i prawą). Problem polega na takiej synchronizacji, aby uniknąć sytuacji, w której każdy weźmie jedną pałeczkę i będzie czekał w nieskończoność na drugą (zakleszczenie),.",
     "details": ""
   },
   {
@@ -1006,7 +1006,7 @@
   },
   {
     "question": "Jakie są typy związków między encjami?",
-    "answer": "",
+    "answer": "Jeden-do-jednego (1:1). Jeden-do-wielu (1:M). Wiele-do-wielu (M:N). Związek unarny - encja połączona sama ze sobą.",
     "details": ""
   },
   {
@@ -1061,12 +1061,12 @@
   },
   {
     "question": "Na czym polega szyfrowanie?",
-    "answer": "",
-    "details": ""
+    "answer": "Szyfrowanie - operacja przekształcenia danych z postaci jawnej do postaci niezrozumiałej dla osób nieupoważnionych.",
+    "details": "Szyfrogram — wynik tej operacji."
   },
   {
     "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych",
-    "answer": "",
+    "answer": "Stosowanie systemów równoległych i rozproszonych pozwala na rozłożenie zadania obliczeniowego na zbiór obliczeń cząstkowych. Dzięki współbieżności zadanie to może zostać wykonane znacznie szybciej,. Systemy wieloprocesorowe pozwalają na pełne wykorzystanie zalet aplikacji wielowątkowych (paralelizm wykonywania wątków).",
     "details": ""
   },
   {
@@ -1091,12 +1091,12 @@
   },
   {
     "question": "Co to DHCP?",
-    "answer": "",
+    "answer": "DHCP (Dynamic Host Configuration Protocol) to protokół sieciowy, który automatycznie przydziela urządzeniom konfigurację sieciową. Dzięki DHCP komputer otrzymuje m.in. adres IP, maskę sieci, bramę domyślną i adres serwera DNS bez ręcznej konfiguracji. Jest powszechnie używany w sieciach lokalnych i domowych.",
     "details": ""
   },
   {
     "question": "Co to AFL?",
-    "answer": "",
+    "answer": "Application Level Flood - Wysyłanie zbyt dużej liczby zapytań do aplikacji. Wykorzystanie błędu aplikacji, w wyniku którego zużywa całe zasoby systemu (zasoby procesora lub wypełnia cały dysk (dane, logi).",
     "details": ""
   },
   {
@@ -1116,7 +1116,7 @@
   },
   {
     "question": "Na czym polega metoda najmniejszych kwadratów?",
-    "answer": "",
+    "answer": "Metoda aproksymacji (przybliżania) stosowana głównie w układach nadokreślonych (więcej równań niż niewiadomych). Polega na znalezieniu takiej funkcji, która minimalizuje sumę kwadratów różnic (błędów) między wartościami zmierzonymi a wartościami tej funkcji",
     "details": ""
   },
   {
@@ -1131,7 +1131,7 @@
   },
   {
     "question": "Opisz szyfrowanie symetryczne i asymetryczne",
-    "answer": "",
+    "answer": "Symetryczne — ten sam klucz do utajniania i odczytu danych. Asymetryczne — wykorzystuje parę komplementarnych kluczy: publiczny - dostępny dla wszystkich i prywatny - utrzymywany w tajemnicy.",
     "details": ""
   },
   {
@@ -1166,7 +1166,7 @@
   },
   {
     "question": "Co to szyfr cezara?",
-    "answer": "",
+    "answer": "To klasyczny szyfr podstawieniowy. Zastąpienie każdej litery w tekście literą położoną o trzy miejsca dalej w alfabecie.",
     "details": ""
   },
   {
@@ -1191,7 +1191,7 @@
   },
   {
     "question": "Co to wzorce projektowe?",
-    "answer": "",
+    "answer": "Sprawdzone, uniwersalne szablony rozwiązań powtarzających się problemów projektowych w inżynierii oprogramowania.",
     "details": ""
   },
   {
@@ -1266,7 +1266,7 @@
   },
   {
     "question": "Co to encje? Wymień rodzaje",
-    "answer": "",
+    "answer": "Encja - zbiór jednorodnych obiektów wybranej rzeczywistości. Rodzaje: Encja silna - posiada własny identyfikator (klucz główny), Encja słaba - nie posiada swojego identyfikatora Encja asocjacyjna (łącząca) - tworzona w celu rozwiązania problemu wiele do wielu.",
     "details": ""
   },
   {
@@ -1280,8 +1280,8 @@
     "details": ""
   },
   {
-    "question": "Co to intepolacja wielomianowa?",
-    "answer": "",
+    "question": "Co to interpolacja wielomianowa?",
+    "answer": "Metoda znajdowania wielomianu W(x), który dla zadanych punktów węzłowych (xi,yi) przyjmuje dokładnie te same wartości co funkcja badana, czyli W(xi)=yi. Wykres wielomianu interpolacyjnego musi \"przechodzić\" przez wszystkie zadane punkty.",
     "details": ""
   },
   {
@@ -1346,8 +1346,8 @@
   },
   {
     "question": "Jakie są uprawnienia systemów plików?",
-    "answer": "",
-    "details": ""
+    "answer": "System UNIX definiuje uprawnienia na trzech poziomach: użytkownik (właściciel), grupa oraz pozostali. Dla każdego poziomu określa się prawa: Czytanie (r): odczyt treści pliku lub sprawdzanie zawartości katalogu. Pisanie (w): zmiana zawartości pliku lub katalogu. Wykonywanie (x): uruchomienie pliku jako programu lub wejście do katalogu (uczynienie go bieżącym). ",
+    "details": "Istnieją też uprawnienia rozszerzone: SUID (ustawienie ID użytkownika przy uruchomieniu), SGID (ustawienie ID grupy) oraz Sticky bit (bit lepkości),."
   },
   {
     "question": "Podaj metody walidacji formularza html",
@@ -1391,7 +1391,7 @@
   },
   {
     "question": "Czym się różni proces od wątku?",
-    "answer": "",
+    "answer": "• Proces to wykonywany program posiadający własną przestrzeń adresową, kontekst i zasoby. Wątek istnieje wewnątrz procesu. Jest ciągiem instrukcji, który ma własny stos, rejestry i priorytet, ale współdzieli pamięć i zasoby (np. otwarte pliki) z innymi wątkami tego samego procesu. Przełączanie między wątkami jest znacznie szybsze niż między procesami.",
     "details": ""
   },
   {
@@ -1411,7 +1411,7 @@
   },
   {
     "question": "Model OSI, wymień i opisz warstwy",
-    "answer": "",
+    "answer": "Open Systems Interconnection (OSI) to model sieciowy składający się z 7 warstw: 1. Warstwa fizyczna: Transmisja bitów przez medium fizyczne. 2. Warstwa łącza danych: Ramkowanie, adresowanie MAC, wykrywanie błędów. 3. Warstwa sieciowa: Routing, adresowanie IP. 4. Warstwa transportowa: Kontrola przepływu, niezawodność (TCP/UDP). 5. Warstwa sesji: Zarządzanie sesjami komunikacyjnymi. 6. Warstwa prezentacji: Formatowanie danych, szyfrowanie. 7. Warstwa aplikacji: Interfejs użytkownika i aplikacje sieciowe.",
     "details": ""
   },
   {
@@ -1421,32 +1421,37 @@
   },
   {
     "question": "Wymień i opisz rodzaje sieci",
-    "answer": "",
+    "answer": "- LAN (Local Area Network): Sieć lokalna, ograniczona obszarem np. budynku - MAN (Metropolitan Area Network): Sieć miejska, obejmująca miasto. - WAN (Wide Area Network): Sieć rozległa, łącząca punkty na dużych odległościach.",
     "details": ""
   },
   {
     "question": "Co to ARP?",
-    "answer": "",
+    "answer": "Address Resolution Protocol — zapewnia komunikację w sieciach rozgłoszeniowych, poprzez odwzorowanie adresów IPv4 na adresy MAC, oraz utrzymanie tablicy odwzorowania (mapowania).",
     "details": ""
   },
   {
     "question": "Co to DNS?",
-    "answer": "",
+    "answer": "DNS (Domain Name System) to system nazw w sieci, który tłumaczy nazwy domenowe na adresy IP. Służy do tego, aby użytkownik mógł używać czytelnych nazw, takich jak google.com, zamiast zapamiętywać adresy IP, np. 142.250.74.14. Gdy wpisujesz adres strony, DNS wyszukuje odpowiadający mu adres IP i umożliwia nawiązanie połączenia z serwerem.",
     "details": ""
   },
   {
     "question": "Co to normalizacja?",
-    "answer": "",
+    "answer": "Proces upraszczania schematu do takiej postaci, która eliminuje redundancję (nadmiarowość) danych.",
     "details": ""
   },
   {
     "question": "Co to DCL? Podaj przyklady",
-    "answer": "",
+    "answer": "Data Control Language - Zbiór instrukcji, służących do zarządzania uprawnieniami i kontrolą dostępu do danych. np. GRANT - nadawanie uprawnień lub REVOKE - odbieranie uprawnień",
+    "details": ""
+  },
+  {
+    "question": "Co to model danych?",
+    "answer": "Model danych – abstrakcyjny opis rzeczywistości, która ma być odwzorowana w bazie danych.",
     "details": ""
   },
   {
     "question": "Czym są transakcje w SQL?",
-    "answer": "",
+    "answer": "W SQL transakcja to logiczna jednostka pracy, która grupuje jeden lub więcej poleceń SQL w taki sposób, żeby były wykonane wszystkie razem albo żadne. Dzięki temu baza danych zachowuje spójność.",
     "details": ""
   },
   {
@@ -1540,7 +1545,7 @@
     "details": ""
   },
   {
-    "question": "ndeksy w relacyjnych bazach danych - podać na czym są automatyczne",
+    "question": "Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
     "answer": "",
     "details": ""
   },
@@ -1550,7 +1555,7 @@
     "details": ""
   },
   {
-    "question": "Co to CI/CD",
+    "question": "Co to CI/CD?",
     "answer": "",
     "details": ""
   },
@@ -1582,11 +1587,6 @@
   {
     "question": "opisz instrukcje warunkowe/strukturyzujące w C: if, if…else, switch",
     "answer": "If: Wykonuje instrukcję, jeśli warunek jest prawdziwy. If...else: Pozwala wykonać jeden blok kodu, gdy warunek jest prawdziwy, a inny, gdy fałszywy. Switch: Wielowariantowa instrukcja wyboru. Porównuje zmienną (całkowitą lub znak) z wartościami case. Wymaga break, aby nie wykonywać kolejnych przypadków,.",
-    "details": ""
-  },
-  {
-    "question": "opisz instrukcje warunkowe/strukturyzujące w C: if, if…else, switch",
-    "answer": "",
     "details": ""
   }
 ]
