@@ -21,7 +21,7 @@
   },
   {
     "question": "Co to UML? (istota + przykłady)",
-    "answer": "",
+    "answer": "To zunifikowany język modelowania, będący standardem w inżynierii oprogramowania do wizualizacji, specyfikowania i dokumentowania systemów. Jego istotą jest dostarczenie uniwersalnego zestawu symboli graficznych, zrozumiałych zarówno dla programistów, jak i analityków. Przykładem diagramu UML jest diagram klas, diagram sekwencji czy diagram przypadków użycia.",
     "details": ""
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "question": "Co to diagram klas?",
-    "answer": "",
+    "answer": "To najważniejszy diagram strukturalny w UML, służący do modelowania statycznej struktury systemu. Przedstawia klasy, ich atrybuty (pola), metody oraz relacje między nimi (dziedziczenie, asocjacja, kompozycja). Jest podstawą do generowania kodu szkieletowego aplikacji obiektowej.",
     "details": ""
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "question": "Co to json web token?",
-    "answer": "",
+    "answer": "JWT (JSON Web Token) to otwarty standard przesyłania informacji w formie obiektu JSON, który jest podpisany cyfrowo w celu zapewnienia integralności i weryfikowalności. Jest powszechnie stosowany w nowoczesnych aplikacjach do autoryzacji bezstanowej, gdzie token przechowywany przez klienta zawiera wszystkie niezbędne informacje o jego uprawnieniach.",
     "details": ""
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "question": "Co to polimorfizm? (+przykłady)",
-    "answer": "",
+    "answer": "Polimorfizm to wielopostaciowość, czyli właściwość pozwalająca traktować obiekty różnych typów w jednolity sposób, zazwyczaj przez wspólny interfejs klasy bazowej. Przykładem jest klasa bazowa Figura z wirtualną metodą pole, która w klasach pochodnych Koło i Prostokąt jest zaimplementowana w różny sposób, ale może być wywołana na liście wskaźników typu Figura, dając właściwy wynik dla każdego obiektu.",
     "details": ""
   },
   {
@@ -171,8 +171,8 @@
   },
   {
     "question": "Co to urząd certyfikacyjny pki?",
-    "answer": "",
-    "details": ""
+    "answer": "Urząd certyfikacyjny (CA – Certificate Authority) to zaufana instytucja, która wydaje i podpisuje certyfikaty cyfrowe. Jest kluczowym elementem PKI (Public Key Infrastructure). Potwierdza, że dany klucz publiczny należy do konkretnej osoby, serwera lub organizacji.",
+    "details": "CA w PKI to instytucja, która potwierdza tożsamość i wydaje certyfikaty cyfrowe."
   },
   {
     "question": "Co to jest instancja klasy?",
@@ -186,13 +186,13 @@
   },
   {
     "question": "Krotka w swift, jak się definiuje?",
-    "answer": "",
+    "answer": "Pozwala na grupowanie wielu wartości w jedną złożoną. Jej wartości nie muszą być tego samego typu. Krotka nienazwana: var osoba1 = (\"Adam\",\"Nowak\", 1960). Krotka nazwana: var osoba = (imie: \"Adam\", nazwisko: \"Nowak\", rok: 1960)",
     "details": ""
   },
   {
     "question": "http vs https",
-    "answer": "",
-    "details": ""
+    "answer": "HTTP – protokół do przesyłania danych w internecie bez szyfrowania. Dane mogą być podsłuchane lub zmienione. HTTPS – to HTTP z szyfrowaniem SSL/TLS. Dane przesyłane są bezpiecznie i nikt ich nie podsłucha.",
+    "details": "W skrócie: HTTPS = bezpieczna wersja HTTP."
   },
   {
     "question": "Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce",
@@ -203,6 +203,11 @@
     "question": "Podaj sposoby zabezpieczenia infrastruktury informatycznej",
     "answer": "",
     "details": ""
+  },
+  {
+    "question": "Czym jest programowanie deklaratywne",
+    "answer": "Programowanie deklaratywne to paradygmat, w którym programista opisuje, co chce osiągnąć, zamiast mówić komputerowi jak to zrobić krok po kroku. Przykłady języków/deklaratywnych narzędzi: SQL (zapytania do bazy), HTML (struktura strony)",
+    "details": "Jednozdaniowo: Deklaratywne = mówię komputerowi „co chcę”, on sam wymyśla jak to zrobić"
   },
   {
     "question": "Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?",
@@ -231,13 +236,13 @@
   },
   {
     "question": "Enum w swift, jak się definiuje?",
-    "answer": "",
+    "answer": "Enum (typ wyliczeniowy) służy do grupowania powiązanych ze sobą wartości. enum NazwaTypu { case nazwaOpcji1 case nazwaOpcji2 }",
     "details": ""
   },
   {
     "question": "Co to SPA",
-    "answer": "",
-    "details": ""
+    "answer": "Single Page Application. Aplikacja internetowa, która ładuje tylko jeden plik HTML na początku. Cała dalsza nawigacja i zmiana treści odbywa się dynamicznie za pomocą JavaScript (manipulacja DOM) bez przeładowywania strony. Dane są dociągane z serwera w tle (AJAX/Fetch).",
+    "details": "Przykłady technologii: React, Angular, Vue."
   },
   {
     "question": "Wymień systemy kolorów, opisz jeden",
@@ -251,8 +256,8 @@
   },
   {
     "question": "Podaj wady wirtualizacji (ze 3 wady)",
-    "answer": "",
-    "details": ""
+    "answer": "1. Niższa wydajność. 2.Więcej konfiguracji. 3.Więcej maszyn do utrzymania.",
+    "details": "4. Awaria fizycznego hosta —> unieruchomienie wszystkich maszyn wirtualnych."
   },
   {
     "question": "Wymień połączenia sieciowe w virtual box",
@@ -271,18 +276,18 @@
   },
   {
     "question": "Czym są ciasteczka w https?",
-    "answer": "",
+    "answer": "Ciasteczka (Cookies) to małe pliki tekstowe zapisywane przez przeglądarkę na urządzeniu użytkownika na polecenie serwera internetowego. Służą do zapamiętywania informacji o użytkowniku, takich jak stan zalogowania czy preferencje witryny, i są automatycznie odsyłane do serwera przy każdym kolejnym żądaniu w ramach danej domeny.",
     "details": ""
   },
   {
     "question": "Co to sesja?",
-    "answer": "",
+    "answer": "Sesja to mechanizm pozwalający na przechowywanie stanu aplikacji i identyfikację użytkownika pomiędzy kolejnymi żądaniami HTTP, które same w sobie są bezstanowe. Serwer generuje unikalny identyfikator sesji przekazywany klientowi, dzięki czemu przy każdym odświeżeniu strony system wie, czyj to profil i jakie dane powinien wyświetlić.",
     "details": ""
   },
   {
     "question": "Czym są podzapytania w sql?",
-    "answer": "",
-    "details": ""
+    "answer": "Podzapytania (subqueries) w SQL to zapytania wewnątrz innych zapytań, które zwracają wynik używany przez zapytanie główne. Mogą być w klauzulach SELECT, WHERE lub FROM. Umożliwiają np. filtrowanie danych w oparciu o wynik innego zapytania.",
+    "details": "Jednozdaniowo: Podzapytania to zapytania w zapytaniach, które pozwalają używać wyników jednego zapytania w innym."
   },
   {
     "question": "Co to DDOS?",
@@ -291,13 +296,13 @@
   },
   {
     "question": "Co to responsywność?",
-    "answer": "",
-    "details": ""
+    "answer": "Responsive Web Design. Technika projektowania stron tak, aby ich układ i wygląd automatycznie dostosowywały się do rozmiaru ekranu urządzenia (smartfon, tablet, desktop).",
+    "details": "Mechanizmy: Media Queries, elastyczne siatki (grid/flexbox), obrazy skalowalne."
   },
   {
     "question": "Co to histogram obrazu?",
-    "answer": "",
-    "details": ""
+    "answer": "Histogram obrazu to wykres pokazujący, ile pikseli w obrazie ma każdą możliwą wartość jasności lub koloru. np dla obrazu czarno-białego pokazuje rozkład od 0 (czarny) do 255 (biały). Dla obrazu kolorowego można mieć trzy histogramy – dla czerwonego, zielonego i niebieskiego kanału.",
+    "details": "Jednozdaniowo: Histogram obrazu pokazuje, ile pikseli ma każdą wartość jasności lub koloru w obrazie."
   },
   {
     "question": "Co to funkcja rekurencyjna?",
@@ -306,7 +311,7 @@
   },
   {
     "question": "Co to XML?",
-    "answer": "",
+    "answer": "XML (eXtensible Markup Language) to język znaczników do przechowywania i wymiany danych w formacie tekstowym. Pozwala tworzyć własne znaczniki opisujące strukturę danych. Dane w XML są czytelne dla ludzi i maszyn.",
     "details": ""
   },
   {
@@ -316,7 +321,7 @@
   },
   {
     "question": "Podaj klasy typów w haskell",
-    "answer": "",
+    "answer": "Określają wspólne właściwości typów należących do danej klasy. Num – typy liczbowe - (np. Int, Float), obsługujące działania matematyczne. Eq – typy porównywalne - obsługujące operatory == (równy) oraz /= (różny), Ord – typy posiadające określoną kolejność - pozwala na użycie operatorów <, >, Show - klasa typów, których wartości można wypisywać na ekranie, Enum - klasa typów wyliczeniowych.",
     "details": ""
   },
   {
@@ -336,12 +341,12 @@
   },
   {
     "question": "Co to klasa szablonowa",
-    "answer": "",
-    "details": ""
+    "answer": "Klasa szablonowa (template class) w C++ to klasa, która może działać dla różnych typów danych, bez pisania osobnej wersji klasy dla każdego typu.",
+    "details": "template <typename T> nad klasą"
   },
   {
     "question": "Podaj 3 wady i zalety MPA",
-    "answer": "",
+    "answer": "Zalety: Mniej obciążenia początkowego – każda strona ładuje się osobno. Łatwiejsze do zbudowania prostych stron i serwisów, Łatwiej Google widzi stronę – każda podstrona ma własny adres, więc łatwiej ją znaleźć w wyszukiwarce (SEO) Wady: Wolniejsze działanie przy częstym przechodzeniu między stronami (pełne przeładowania), Większe zużycie zasobów serwera przy każdym żądaniu, Trudniejsza implementacja interaktywnych funkcji w porównaniu z SPA",
     "details": ""
   },
   {
@@ -351,12 +356,12 @@
   },
   {
     "question": "Co to architektura monolityczna i usługowa?",
-    "answer": "",
-    "details": ""
+    "answer": "Architektura monolityczna i architektura usługowa (microservices) to dwa podejścia do budowy aplikacji - Monolit: Cała aplikacja jest jednym dużym programem, Wszystkie funkcje, bazy danych i interfejsy są razem, Łatwiejsza na start, ale trudniejsza do rozbudowy i skalowania. Usługowa (microservices): Aplikacja podzielona na małe, niezależne usługi, które komunikują się ze sobą przez API, Każda usługa może mieć własną bazę danych i technologię, Łatwiejsze skalowanie i rozwój, ale bardziej skomplikowana infrastruktura.",
+    "details": "Jednozdaniowo: Monolit = wszystko w jednym programie, microservices = wiele małych, niezależnych usług współpracujących ze sobą."
   },
   {
     "question": "Co to lombok, podaj przykłady metod które lombok generuje",
-    "answer": "",
+    "answer": "Lombok to biblioteka w Javie, która automatycznie generuje kod, żeby nie pisać go ręcznie (gettery, settery, konstruktory itp.). Dzięki temu kod jest krótszy i czytelniejszy Przykłady metod i funkcji, które Lombok generuje: @Getter – generuje metodę getX() dla pola @Setter – generuje metodę setX() dla pola @ToString – generuje metodę toString() @EqualsAndHashCode – generuje metody equals() i hashCode() @NoArgsConstructor – generuje konstruktor bez argumentów @AllArgsConstructor – generuje konstruktor z wszystkimi polami @Builder – umożliwia tworzenie obiektów metodą buildera",
     "details": ""
   },
   {
@@ -376,7 +381,7 @@
   },
   {
     "question": "Co to internacjonalizacja?",
-    "answer": "",
+    "answer": "Internacjonalizacja (i18n) to proces przygotowania aplikacji lub strony tak, aby mogła obsługiwać wiele języków i kultur bez zmiany kodu źródłowego.",
     "details": ""
   },
   {
@@ -385,14 +390,9 @@
     "details": ""
   },
   {
-    "question": "Najważniejsze cechy haskella",
-    "answer": "",
-    "details": ""
-  },
-  {
     "question": "Co to algorytm Euklidesa, podaj jego implementacje",
-    "answer": "",
-    "details": ""
+    "answer": "Algorytm Euklidesa służy do znalezienia największego wspólnego dzielnika (NWD) dwóch liczb. Idea: NWD(a, b) = NWD(b, a mod b) Powtarzamy, aż reszta z dzielenia = 0.",
+    "details": "Jednozdaniowo: Algorytm Euklidesa znajduje NWD dwóch liczb, powtarzając dzielenie i zastępując większą liczbę mniejszą, a mniejszą resztą, aż reszta wyniesie 0."
   },
   {
     "question": "Czym są wskaźniki i jakie jest ich zastosowanie",
@@ -401,7 +401,7 @@
   },
   {
     "question": "Jak zadeklarować funkcje polimorficzne w haskell",
-    "answer": "",
+    "answer": "Funkcja, której parametry zawierają **zmienne typu polimorficznego. Definicja składa się z dwóch części: Opisu typu funkcji: zwieksz :: Integer -> Integer, Sposobu wyliczenia wartości funkcji: zwieksz x = x + 1",
     "details": ""
   },
   {
@@ -411,12 +411,12 @@
   },
   {
     "question": "Opisz algorytm „Flaga Polska”",
-    "answer": "",
+    "answer": "Służy do sortowania zbioru składającego się tylko z dwóch rodzajów elementów (np. 0 i 1). Dzieli tablicę na dwa podzbiory. Przeglądamy tablicę z dwóch stron jednocześnie: od lewej szukamy elementu, który nie pasuje (np. 1), a od prawej takiego, który powinien być na początku (np. 0), i zamieniamy je miejscami. Złożoność liniowa O(n)",
     "details": ""
   },
   {
     "question": "Opisz algorytm „Flaga Francji”",
-    "answer": "",
+    "answer": "Rozszerzenie flagi polskiej dla trzech wartości (np. 0, 1, 2). Dzieli zbiór na trzy części. Używa trzech wskaźników (początek, koniec i element bieżący), aby w jednym przejściu przez tablicę (O(n)) umieścić elementy w odpowiednich sekcjach",
     "details": ""
   },
   {
@@ -426,7 +426,7 @@
   },
   {
     "question": "Opisz te operatory z prologa: łączność, priorytet, przeciążenie",
-    "answer": "",
+    "answer": "Priorytet - każdy operator posiada liczbę całkowitą nieujemną określającą jego priorytet.Im mniejsza liczba tym wyższy priorytet operatora, Lączność - określana za pomocą atomów (wzorców) postaci afb. (Lewostronna, prawostronna, brak.), Przeciążanie - zmiana priorytetu i/lub łączności operatora Np: ?- op(100,yfx,+)",
     "details": ""
   },
   {
@@ -461,23 +461,23 @@
   },
   {
     "question": "Omów architekturę MVC",
-    "answer": "",
+    "answer": "Architektura MVC, czyli Model-View-Controller, to wzorzec projektowy dzielący aplikację na trzy logiczne warstwy w celu oddzielenia danych od ich prezentacji. Model zarządza danymi i logiką biznesową, Widok odpowiada za wyświetlanie interfejsu użytkownika, a Kontroler pośredniczy między nimi, reagując na akcje użytkownika i aktualizując Model.",
     "details": ""
   },
   {
     "question": "Czym są strumienie w c++?",
-    "answer": "",
+    "answer": "Strumienie w C++ to abstrakcja programistyczna służąca do sekwencyjnego przesyłania danych między programem a urządzeniami wejścia/wyjścia, takimi jak pliki czy konsola. Pozwalają one na ujednoliconą obsługę operacji we/wy za pomocą operatorów przesunięcia bitowego, ukrywając przed programistą szczegóły fizycznej reprezentacji urządzeń.",
     "details": ""
   },
   {
     "question": "Co to docker?",
-    "answer": "",
+    "answer": "Docker to platforma do tworzenia, uruchamiania i zarządzania kontenerami, które izolują aplikacje i ich środowisko od systemu operacyjnego.",
     "details": ""
   },
   {
     "question": "Czym są kontenery systemowe i aplikacyjne?",
-    "answer": "",
-    "details": ""
+    "answer": "Kontenery systemowe – zawierają cały system operacyjny lub jego część, mogą uruchamiać wiele usług, np. LXC. Kontenery aplikacyjne – zawierają tylko aplikację i jej zależności, działają w izolacji od systemu, np. Docker.",
+    "details": "Jednozdaniowo: Kontenery systemowe to mini-OS, kontenery aplikacyjne to izolowana aplikacja z jej środowiskiem."
   },
   {
     "question": "Omów systemy wirtualizacji w linux",
@@ -486,7 +486,7 @@
   },
   {
     "question": "Co to algorytmy siłowe? Podaj przykłady",
-    "answer": "",
+    "answer": "Algorytmy siłowe (brute-force) próbują wszystkich możliwych rozwiązań problemu, aż znajdą poprawne. Przykłady: Szukanie elementu w tablicy przez sprawdzanie wszystkich pozycji lub Łamanie hasła przez sprawdzanie wszystkich kombinacji",
     "details": ""
   },
   {
@@ -516,7 +516,7 @@
   },
   {
     "question": "Czym są komponenty stanowe i bezstanowe w React?",
-    "answer": "",
+    "answer": "Komponenty stanowe posiadają własny wewnętrzny stan (obiekt state lub hook useState), który przechowuje dane mogące ulec zmianie w czasie działania aplikacji. Zmiana stanu powoduje ponowne wyrenderowanie komponentu. Komponenty bezstanowe (funkcyjne bez hooków stanu) to tzw. komponenty prezentacyjne. Nie zarządzają danymi, a jedynie wyświetlają to, co otrzymają z góry poprzez props. Są prostsze w testowaniu i bardziej przewidywalne.",
     "details": ""
   },
   {
@@ -526,7 +526,7 @@
   },
   {
     "question": "Podaj wady i zalety SPA",
-    "answer": "",
+    "answer": "Zalety: Szybkie działanie – treść zmienia się dynamicznie bez przeładowywania całej strony, Łatwiejsze tworzenie interaktywnych funkcji – idealne dla aplikacji webowych (czaty, dashboardy), Płynniejsze doświadczenie użytkownika – przypomina działanie aplikacji mobilnej Wady: Gorsze SEO – wyszukiwarki trudniej indeksują treść, bo wiele danych ładuje się dynamicznie, Większe wymagania początkowe – trzeba pobrać dużo kodu JavaScript na start, Może być trudniejsze w utrzymaniu – większa złożoność kodu po stronie frontendu",
     "details": ""
   },
   {
@@ -536,12 +536,12 @@
   },
   {
     "question": "Opisz użycie hashowania w aplikacjach internetowych",
-    "answer": "",
+    "answer": "Hashowanie w aplikacjach internetowych to proces jednostronnego przekształcania danych wejściowych, najczęściej haseł, w ciąg znaków o stałej długości za pomocą funkcji skrótu. Służy to bezpiecznemu przechowywaniu danych uwierzytelniających, uniemożliwiając odzyskanie oryginalnego hasła nawet w przypadku kradzieży bazy danych.",
     "details": ""
   },
   {
     "question": "Co to hermetyzacja w programowaniu obiektowym?",
-    "answer": "",
+    "answer": "Hermetyzacja, znana również jako enkapsulacja, polega na ukrywaniu wewnętrznych szczegółów implementacji klasy i udostępnianiu jedynie wyselekcjonowanego interfejsu publicznego. Mechanizm ten chroni stan obiektu przed niepoprawną modyfikacją z zewnątrz oraz pozwala na swobodną zmianę kodu wewnętrznego bez wpływu na inne części systemu korzystające z tej klasy.",
     "details": ""
   },
   {
@@ -551,17 +551,17 @@
   },
   {
     "question": "Omów funkcje prefiksowe, infiksowe, postfiksowe w haskellu",
-    "answer": "",
+    "answer": "Omów funkcje prefiksowe, infiksowe i postfiksowe w Haskellu Np: mod 5 3 lub sin 1.2 Infiksowe — występują pomiędzy swoimi operandami. Np: 2 + 3 (operator + jest infiksowy domyślnie), Postfiksowe — występują bezpośrednio za operandem. w  tej notacji operator występuje bezpośrednio po argumencie Np: 16 & sqrt",
     "details": ""
   },
   {
     "question": "Czym są adaptery w obsłudze zdarzeń w Java?",
-    "answer": "",
+    "answer": "W starszych bibliotekach GUI (jak AWT/Swing) interfejsy nasłuchujące (Listener) miały często wiele metod. Jeśli programista chciał obsłużyć tylko jedną, musiał implementować wszystkie (zostawiając resztę pustą). Klasy adapterówto abstrakcyjne klasy, które implementują dany interfejs z pustymi metodami. Programista dziedziczy po adapterze i nadpisuje tylko tę jedną metodę, której potrzebuje, co upraszcza kod.",
     "details": ""
   },
   {
     "question": "Omów proces testowania oprogramowania",
-    "answer": "",
+    "answer": "Polega na sprawdzaniu, czy program działa zgodnie z wymaganiami. Typy testów: jednostkowe, integracyjne, systemowe, akceptacyjne.",
     "details": ""
   },
   {
@@ -581,12 +581,12 @@
   },
   {
     "question": "Istota wzorców projektowych, podział i przykład",
-    "answer": "",
-    "details": ""
+    "answer": "Wzorce projektowe to sprawdzone sposoby rozwiązywania typowych problemów w programowaniu obiektowym. Podział: Kreacyjne (np. Singleton, Builder) – tworzenie obiektów, Strukturalne (np. Adapter, Decorator) – organizacja klas i obiektów, Behawioralne (np. Observer, Strategy) – interakcje między obiektami",
+    "details": "Jednozdaniowo: Wzorce projektowe to gotowe rozwiązania typowych problemów projektowych w kodzie."
   },
   {
-    "question": "Czym są elementy interfejsu? (interakcja czł – komp)",
-    "answer": "",
+    "question": "Czym są elementy interfejsu?",
+    "answer": "Elementy interfejsu (Widgety/Kontrolki) To podstawowe, wizualne składniki graficznego interfejsu użytkownika (GUI), które umożliwiają interakcję z aplikacją. Dzielą się na elementy sterujące (przyciski, suwaki), wprowadzania danych (pola tekstowe, checkboxy), nawigacyjne (menu, breadcrumbs) oraz informacyjne (paski postępu, tooltips).",
     "details": ""
   },
   {
@@ -600,13 +600,13 @@
     "details": ""
   },
   {
-    "question": "Podaj typu pól w formularzu",
-    "answer": "",
+    "question": "Podaj typy pól w formularzu",
+    "answer": "Atrybut type w znaczniku <input>: text, password, email, number, tel, url, search, date, time, color, file, checkbox, radio, hidden, submit, reset.",
     "details": ""
   },
   {
     "question": "Co to box model w css?",
-    "answer": "",
+    "answer": "Model pudełkowy. Każdy element HTML jest traktowany jako prostokątne pudełko składające się z 4 warstw (od środka): Content: Właściwa treść (tekst, obrazek). Padding: Margines wewnętrzny (odstęp treści od ramki). Border: Ramka/obramowanie. Margin: Margines zewnętrzny (odstęp od innych elementów).",
     "details": ""
   },
   {
@@ -621,22 +621,22 @@
   },
   {
     "question": "Podaj reguły solid",
-    "answer": "",
-    "details": ""
+    "answer": "S – Single Responsibility Principle: jedna klasa = jedna odpowiedzialność, O – Open/Closed Principle: klasy otwarte na rozszerzenia, zamknięte na modyfikacje, L – Liskov Substitution Principle: obiekty klas dziedziczących mogą zastępować obiekty klas bazowych, I – Interface Segregation Principle: lepiej wiele wąskich interfejsów niż jeden duży, D – Dependency Inversion Principle: zależności od abstrakcji, nie od konkretów",
+    "details": "SOLID to zasady projektowania obiektowego poprawiające czytelność, elastyczność i skalowalność kodu."
   },
   {
     "question": "Czym są prototypy funkcji?",
-    "answer": "",
-    "details": ""
+    "answer": "Są to deklaracje funkcji (nagłówki zakończenie średnikiem) umieszczane zazwyczaj na początku programu, przed ich użyciem. Pozwalają kompilatorowi sprawdzić poprawność typów argumentów i typu zwracanego przed właściwą definicją funkcji",
+    "details": "np int add(int a, int b);"
   },
   {
     "question": "Co to wyrażenie lambda?",
-    "answer": "",
-    "details": ""
+    "answer": "Definicja funkcji anonimowej, czyli takiej, która nie posiada nadanej nazwy. ",
+    "details": "W haskell Zapisuje się ją przy użyciu znaku \\ po którym następują argumenty, strzałka -> oraz treść wyrażenia. Przykład: \\x -> x * x to funkcja kwadratowa."
   },
   {
     "question": "Czym jest zapytanie o media?",
-    "answer": "",
+    "answer": "Technika CSS (@media), która pozwala stosować różne style CSS w zależności od parametrów urządzenia lub przeglądarki. Jest fundamentem responsywności (RWD). Przykład: @media (max-width: 600px) { body { background: blue; } } (zmień tło na niebieskie, jeśli ekran jest węższy niż 600px).",
     "details": ""
   },
   {
@@ -650,33 +650,33 @@
     "details": ""
   },
   {
-    "question": "Czym jest kolejka i jakie są jej funckje?",
-    "answer": "",
+    "question": "Czym jest kolejka i jakie są jej funkcje?",
+    "answer": "Kolejka (FIFO – First In First Out) to struktura, gdzie element dodany jako pierwszy, wychodzi jako pierwszy. Funkcje: attach (lub enqueue) – dołącz na koniec, detach (lub dequeue) – odłącz z początku, first – pokaż pierwszy element, empty – czy pusta",
     "details": ""
   },
   {
     "question": "Co to DOM?",
-    "answer": "",
+    "answer": "Document Object Model (Obiektowy Model Dokumentu). Reprezentacja struktury dokumentu HTML w pamięci przeglądarki w postaci drzewa obiektów. Dzięki DOM język JavaScript może widzieć stronę, zmieniać jej treść, style i reagować na akcje użytkownika w czasie rzeczywistym.",
     "details": ""
   },
   {
     "question": "Co to TDD?",
-    "answer": "",
+    "answer": "TDD (Test-Driven Development) Metoda tworzenia oprogramowania, w której najpierw pisze się testy, a potem kod, który je spełnia. Pomaga tworzyć bardziej niezawodny i dobrze przetestowany kod.",
     "details": ""
   },
   {
     "question": "Czym są deskryptory w css?",
-    "answer": "",
+    "answer": "Deskryptor (technicznie): Występuje w regułach @ (np. @font-face), służy do definiowania właściwości zasobu, a nie stylu elementu (np. src, font-family wewnątrz @font-face).",
     "details": ""
   },
   {
     "question": "Czym są testy jednostokowe?",
-    "answer": "",
+    "answer": "Testy sprawdzające pojedyncze funkcje, metody lub klasy w izolacji od reszty systemu. Pomagają szybko wykryć błędy w konkretnych fragmentach kodu.",
     "details": ""
   },
   {
     "question": "Czym są testy integracyjne?",
-    "answer": "",
+    "answer": "Testy sprawdzające współdziałanie kilku komponentów systemu. Upewniają, że moduły działają poprawnie razem.",
     "details": ""
   },
   {
@@ -691,7 +691,12 @@
   },
   {
     "question": "Czym się charakteryzuje nierelacyjna baza danych?",
-    "answer": "",
+    "answer": "Dane nie są przechowywane w tabelach jak w relacyjnych bazach. Typowe cechy: skalowalność pozioma, elastyczny schemat danych, szybkie operacje odczytu i zapisu. Przykłady: MongoDB (dokumentowa), Redis (klucz-wartość), Neo4j (grafowa).",
+    "details": "Nierelacyjna baza danych przechowuje dane w elastycznych strukturach, nie w tabelach, i łatwo się skalowalna."
+  },
+  {
+    "question": "Co oznacza lewowiążącość i prawowiążącość w Haskellu?",
+    "answer": "Lewowiążącość — działania wykonywane są od lewej do prawej. Np: Wyrażenie 2*3*4 jest traktowane jako (2*3)*4. rawowiążącość — działania wykonywane są od prawej do lewej. Np: Wyrażenie 2^3^4 jest traktowane jako 2^(3^4)",
     "details": ""
   },
   {
@@ -711,22 +716,22 @@
   },
   {
     "question": "Co to zasada DRY?",
-    "answer": "",
+    "answer": "DRY = Don't Repeat Yourself – zasada mówiąca, żeby nie powtarzać kodu ani logiki w programie. Pomaga utrzymać kod czysty, łatwy w utrzymaniu i mniej podatny na błędy.",
     "details": ""
   },
   {
     "question": "Co robi reduce() w swift?",
-    "answer": "",
-    "details": ""
+    "answer": "reduce() przetwarza kolekcję i łączy jej elementy w jedną wartość, np. sumę, iloczyn czy string.",
+    "details": "np let numbers = [1, 2, 3, 4] let sum = numbers.reduce(0) { $0 + $1 } // wynik: 10"
   },
   {
     "question": "Co to NoSQL?",
-    "answer": "",
+    "answer": "Nierelacyjna baza danych, która przechowuje dane w elastycznych strukturach, nie w tabelach. Dobrze nadaje się do skalowania poziomego i dużych, zmiennych danych. Przykłady: MongoDB, Redis, Cassandra.",
     "details": ""
   },
   {
     "question": "Co to cyfra kontrolna?",
-    "answer": "",
+    "answer": "Cyfra dodawana do numeru identyfikacyjnego (np. PESEL, ISBN), aby sprawdzić poprawność całego numeru. Obliczana według określonego algorytmu na podstawie pozostałych cyfr.",
     "details": ""
   },
   {
@@ -756,18 +761,18 @@
   },
   {
     "question": "Opisz funkcje filter() w swift",
-    "answer": "",
-    "details": ""
+    "answer": "filter() wybiera z kolekcji tylko te elementy, które spełniają podany warunek. ",
+    "details": "let numbers = [1, 2, 3, 4, 5] let evenNumbers = numbers.filter { $0 % 2 == 0 } // wynik: [2, 4]"
   },
   {
     "question": "Jakie znasz operacje binarne?",
-    "answer": "",
+    "answer": "AND (&) – wynik 1 tylko gdy oba bity = 1. OR (|) – wynik 1 jeśli przynajmniej jeden bit = 1. XOR (^) – wynik 1 jeśli bity są różne. NOT (~) – negacja bitu. Przesunięcia bitowe (<<, >>) – przesuwanie bitów w lewo lub prawo",
     "details": ""
   },
   {
     "question": "Co to tablica LUT?",
-    "answer": "",
-    "details": ""
+    "answer": "Look-Up Table, która przechowuje wcześniej obliczone wyniki, aby przyspieszyć obliczenia. Zamiast liczyć wynik „na żywo”, program sprawdza gotową wartość w tabeli. Przykład: stosowana w grafice komputerowej, szyfrowaniu czy przetwarzaniu sygnałów.",
+    "details": "Jednozdaniowo: LUT to tablica gotowych wyników używana do szybkiego odczytu zamiast liczenia."
   },
   {
     "question": "Czym jest unia? (programowanie strukturalne)",
@@ -786,7 +791,7 @@
   },
   {
     "question": "Opisz strukturę React",
-    "answer": "",
+    "answer": "React opiera się na drzewie komponentów. Aplikacja składa się z małych, izolowanych fragmentów kodu (komponentów), które są zagnieżdżane jeden w drugim (np. App zawiera Header, Content, Footer). Przepływ danych jest jednokierunkowy (z góry na dół, od rodzica do dziecka przez props). React wykorzystuje Virtual DOM – lekką kopię rzeczywistego drzewa DOM, co pozwala na efektywne aktualizowanie tylko zmienionych elementów interfejsu.",
     "details": ""
   },
   {
@@ -796,8 +801,8 @@
   },
   {
     "question": "Opisz paradygmat funkcyjny",
-    "answer": "",
-    "details": ""
+    "answer": "Programowanie funkcyjne (functional programming) to paradygmat, w którym program składa się głównie z funkcji, a nie zmiennych czy instrukcji sterujących. Przykładowe języki: Haskell, Python",
+    "details": "Jednozdaniowo: Funkcyjne = program składa się z funkcji, które nie zmieniają stanu i zawsze dają przewidywalny wynik."
   },
   {
     "question": "Na czym polega teksturowanie 3D, podaj typy tekstur",
@@ -806,7 +811,7 @@
   },
   {
     "question": "Co to programowanie generyczne? Podaj przykłady w C++",
-    "answer": "",
+    "answer": "Programowanie generyczne to paradygmat tworzenia algorytmów i struktur danych w sposób niezależny od konkretnych typów, na których operują. W C++ realizuje się to za pomocą szablonów, na przykład tworząc jedną funkcję sortującą, która zadziała poprawnie zarówno dla tablicy liczb całkowitych, jak i ciągów znaków bez konieczności duplikowania kodu.",
     "details": ""
   },
   {
@@ -821,7 +826,7 @@
   },
   {
     "question": "Podaj sposoby odzyskiwania haseł",
-    "answer": "",
+    "answer": "Link resetujący (E-mail), Weryfikacja SMS (2FA), Kody zapasowe (Recovery codes), Interwencja administratora:",
     "details": ""
   },
   {
@@ -836,22 +841,22 @@
   },
   {
     "question": "Podaj cechy express.js",
-    "answer": "",
+    "answer": "To minimalistyczny framework webowy dla Node.js. Jego główne cechy to: szybkość i lekkość (nie narzuca dużej struktury), potężny mechanizm routingu (mapowanie URL na funkcje), obsługa middleware (funkcji pośrednich przetwarzających żądania, np. logowanie, parsowanie JSON) oraz łatwość integracji z silnikami szablonów i bazami danych.",
     "details": ""
   },
   {
     "question": "Strukturalizacja i destrukturalizacja danych w js",
-    "answer": "",
+    "answer": "Strukturalizacja i destrukturalizacja danych w JS Strukturalizacja to po prostu tworzenie obiektów lub tablic. Destrukturalizacja (wprowadzona w ES6) to składnia pozwalająca na \"rozpakowanie\" wartości z tablic lub właściwości z obiektów bezpośrednio do osobnych zmiennych. Zamiast pisać const name = user.name, piszemy const { name } = user. Zwiększa to czytelność kodu.",
     "details": ""
   },
   {
     "question": "Co to jsx?",
-    "answer": "",
+    "answer": "To rozszerzenie składni języka JavaScript używane w React, które pozwala pisać kod wyglądający jak HTML wewnątrz plików JS. Nie jest to jednak czysty HTML, a \"lukier składniowy\" – kompilator (Babel) zamienia kod JSX na wywołania funkcji JavaScript React.createElement().",
     "details": ""
   },
   {
     "question": "Czym się charakteryzuje html5?",
-    "answer": "",
+    "answer": "html5 Służy do strukturyzowania treści w sieci, wprowadzając nowe elementy semantyczne (<header>, <footer>, <article>), obsługę multimediów (<audio>, <video>), grafikę wektorową (<canvas>), lokalne przechowywanie danych (localStorage) i lepszą integrację z aplikacjami webowymi.",
     "details": ""
   },
   {
@@ -861,8 +866,8 @@
   },
   {
     "question": "Czym są kopie zapasowe?",
-    "answer": "",
-    "details": ""
+    "answer": "Duplikowanie danych w celu ich odtworzenia w przypadku utraty (awaria, atak ransomware, błąd ludzki).",
+    "details": "Rodzaje: Pełna (całość), Przyrostowa (zmiany od ostatniej jakiejkolwiek kopii), Różnicowa (zmiany od ostatniej pełnej kopii)."
   },
   {
     "question": "Co to ORM?",
@@ -911,7 +916,7 @@
   },
   {
     "question": "Co to firewall?",
-    "answer": "",
+    "answer": "Zapora filtrująca pakiety i blokująca niepożądany ruch sieciowy na podstawie zdefiniowanych reguł.",
     "details": ""
   },
   {
@@ -981,7 +986,7 @@
   },
   {
     "question": "Czym jest twierdzenie CAP?",
-    "answer": "",
+    "answer": "Twierdzenie CAP Teoria dotycząca systemów rozproszonych, która mówi, że niemożliwe jest jednoczesne spełnienie trzech warunków: 1. Consistency (Spójność): Każdy odczyt daje najbardziej aktualne dane. 2. Availability (Dostępność): Każde zapytanie otrzymuje odpowiedź (bez błędów). 3. Partition tolerance (Tolerancja na podział): System działa mimo awarii sieci między węzłami. W praktyce projektant musi wybrać tylko dwie z tych trzech cech (np. CP lub AP).",
     "details": ""
   },
   {
@@ -990,8 +995,8 @@
     "details": ""
   },
   {
-    "question": "Podaj różnice między taglina a frazą kluczową (HTML)",
-    "answer": "",
+    "question": "Podaj różnice między tagami a frazą kluczową (HTML)",
+    "answer": "Tag (np. <h1>, <p>) – element HTML, który określa strukturę i znaczenie treści na stronie (np. nagłówek, akapit). Dzięki tagom przeglądarka i wyszukiwarki wiedzą, co jest nagłówkiem, a co tekstem zwykłym. Fraza kluczowa (keyword) – konkretne słowo lub wyrażenie, które opisuje zawartość strony i jest ważne dla SEO. Pomaga wyszukiwarkom zrozumieć, o czym jest strona i dla jakich zapytań ma się pojawiać w wynikach.",
     "details": ""
   },
   {
@@ -1016,7 +1021,7 @@
   },
   {
     "question": "Na czym polega asynchroniczność w js?",
-    "answer": "",
+    "answer": "Asynchroniczność w JavaScript to model wykonywania operacji, w którym zadania czasochłonne, takie jak zapytania sieciowe, są realizowane w tle bez blokowania głównego wątku przeglądarki. Opiera się on na pętli zdarzeń (Event Loop) i wykorzystuje mechanizmy takie jak callbacki, obietnice (Promises) czy składnię async/await do obsługi wyników po zakończeniu operacji.",
     "details": ""
   },
   {
@@ -1026,37 +1031,32 @@
   },
   {
     "question": "Czym są tablice asocjacyjne na przykładzie PHP?",
-    "answer": "",
+    "answer": "Tablice asocjacyjne to struktury danych przechowujące pary klucz-wartość, gdzie kluczem jest zazwyczaj ciąg znaków, a nie indeks liczbowy. W PHP pozwala to na intuicyjny dostęp do danych poprzez nazwy, na przykład $pracownik['nazwisko'] = 'Kowalski', co ułatwia mapowanie realnych danych na struktury programistyczne.",
     "details": ""
   },
   {
     "question": "Co to cross site scripting?",
-    "answer": "",
+    "answer": "Cross-Site Scripting (XSS) to podatność bezpieczeństwa polegająca na wstrzyknięciu złośliwego skryptu, zazwyczaj w języku JavaScript, do zaufanej strony internetowej wyświetlanej innym użytkownikom. Wykonanie takiego skryptu w przeglądarce ofiary pozwala atakującemu na kradzież ciasteczek sesyjnych, tokenów lub przekierowanie na fałszywe witryny.",
     "details": ""
   },
   {
     "question": "Czym jest ergonomia?",
-    "answer": "",
+    "answer": "W informatyce to dziedzina zajmująca się projektowaniem systemów (sprzętu i oprogramowania) tak, aby były one najlepiej dostosowane do psychofizycznych możliwości człowieka. Celem jest zapewnienie komfortu, bezpieczeństwa, wydajności pracy i minimalizacji zmęczenia użytkownika.",
     "details": ""
   },
   {
     "question": "Czym są historyjki użytkownika?",
-    "answer": "",
+    "answer": "To sposób zapisywania wymagań w metodykach zwinnych (Agile). Są to krótkie, proste opisy funkcjonalności z perspektywy użytkownika końcowego. Budowa opiera się na schemacie: \"Jako [rola użytkownika], chcę [funkcjonalność], aby [korzyść]\". Służą do skupienia zespołu na wartości biznesowej, a nie na technicznych szczegółach implementacji.",
     "details": ""
   },
   {
     "question": "Czym są scenariusze przypadków użycia?",
-    "answer": "",
+    "answer": "To szczegółowy opis kroków, jakie zachodzą podczas realizacji konkretnego Przypadku Użycia (Use Case). Scenariusz opisuje interakcję między aktorem (użytkownikiem) a systemem. Składa się ze scenariusza głównego (ścieżka optymistyczna, gdzie wszystko idzie dobrze) oraz scenariuszy alternatywnych i błędów (np. co się stanie, gdy użytkownik poda złe hasło).",
     "details": ""
   },
   {
     "question": "Diagram sekwencji, co to i po co się stosuje?",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Opisz SOAP i REST – podobieństwa i różnice",
-    "answer": "",
+    "answer": "To rodzaj diagramu interakcji w UML, który przedstawia współpracę obiektów w systemie uporządkowaną w czasie. Oś pionowa reprezentuje czas, a pozioma obiekty. Stosuje się go, aby zwizualizować konkretny scenariusz działania (np. proces logowania), pokazując dokładnie, jakie komunikaty i w jakiej kolejności obiekty wymieniają między sobą.",
     "details": ""
   },
   {
@@ -1071,7 +1071,7 @@
   },
   {
     "question": "Czym są funkcje wyższego rzędu?",
-    "answer": "",
+    "answer": "Funkcje, które mogą przyjmować inne funkcje jako argumenty lub je zwracać.",
     "details": ""
   },
   {
@@ -1146,7 +1146,7 @@
   },
   {
     "question": "Co to css?",
-    "answer": "",
+    "answer": "Cascading Style Sheets (Kaskadowe Arkusze Stylów). Język służący do opisu warstwy prezentacji dokumentu HTML. Odpowiada za wygląd: kolory, czcionki, układy, animacje i dostosowanie do urządzeń mobilnych. Oddziela treść (HTML) od wyglądu.",
     "details": ""
   },
   {
@@ -1176,7 +1176,7 @@
   },
   {
     "question": "Co to CRUD?",
-    "answer": "",
+    "answer": "CRUD to akronim od angielskich słów Create, Read, Update, Delete, oznaczający cztery podstawowe operacje na trwałych danych w systemach informatycznych. Termin ten definiuje standardowy zestaw funkcjonalności niezbędnych do zarządzania encjami w bazie danych lub poprzez API.",
     "details": ""
   },
   {
@@ -1201,7 +1201,7 @@
   },
   {
     "question": "Co to uwierzytelnianie i autoryzacja? Czym się różnią?",
-    "answer": "",
+    "answer": "Uwierzytelnianie (Authentication) to proces weryfikacji tożsamości użytkownika – odpowiedź na pytanie \"Kim jesteś?\". Przykładem jest podanie loginu i hasła. Autoryzacja (Authorization) następuje po uwierzytelnieniu i jest procesem sprawdzania uprawnień – odpowiedź na pytanie \"Co możesz zrobić?\". Przykładem jest sprawdzenie, czy zalogowany użytkownik ma prawo usunąć dany plik.",
     "details": ""
   },
   {
@@ -1211,7 +1211,7 @@
   },
   {
     "question": "Podaj sposoby ochrony przed atakami typu session hijacking",
-    "answer": "",
+    "answer": "Przejęcie sesji polega na kradzieży identyfikatora sesji (Session ID). Ochrona: HTTPS (SSL/TLS): Szyfrowanie całej komunikacji (uniemożliwia podsłuchanie ID sesji w sieci). Flaga HttpOnly: Ustawienie w ciasteczku, które blokuje dostęp do niego z poziomu JavaScript (chroni przed XSS). Flaga Secure: Wymusza przesyłanie ciasteczka tylko po szyfrowanym połączeniu HTTPS. Regeneracja ID sesji: Zmiana identyfikatora sesji na nowy natychmiast po poprawnym zalogowaniu użytkownika. Krótki czas życia sesji (Timeout): Automatyczne wylogowanie po okresie bezczynności.",
     "details": ""
   },
   {
@@ -1221,8 +1221,8 @@
   },
   {
     "question": "Wymień metody protokołu http i je opisz",
-    "answer": "",
-    "details": ""
+    "answer": "GET: Pobieranie zasobów (np. wyświetlenie strony). Nie zmienia stanu serwera. POST: Wysyłanie danych w celu utworzenia nowego zasobu (np. rejestracja). PUT: Aktualizacja/nadpisanie całego zasobu (przesyłamy komplet danych). PATCH: Aktualizacja częściowa zasobu (zmieniamy tylko jedno pole). DELETE: Usunięcie zasobu.",
+    "details": "HEAD: Pobranie tylko nagłówków (bez treści)."
   },
   {
     "question": "Android zarządcy układu - wymień",
@@ -1231,7 +1231,7 @@
   },
   {
     "question": "Wady i zalety biblioteki lombok",
-    "answer": "",
+    "answer": "Zalety: Znaczna redukcja kodu (klasy są krótsze i czytelniejsze), przyspieszenie pisania aplikacji, łatwiejsza refaktoryzacja (zmiana nazwy pola automatycznie aktualizuje gettery/settery). Wady: Wymaga instalacji wtyczki w IDE (inaczej kod świeci na czerwono), utrudnia debugowanie (kod nie istnieje fizycznie w pliku źródłowym), wprowadza silne uzależnienie projektu od zewnętrznej biblioteki.",
     "details": ""
   },
   {
@@ -1256,7 +1256,7 @@
   },
   {
     "question": "Co to Raii?",
-    "answer": "",
+    "answer": "RAII to idiom programistyczny w C++, który wiąże cykl życia zasobu z cyklem życia obiektu. Zasób, taki jak pamięć, plik czy gniazdo sieciowe, jest pozyskiwany w konstruktorze obiektu i zwalniany automatycznie w jego destruktorze, co gwarantuje zwolnienie zasobów nawet w przypadku wystąpienia wyjątków.",
     "details": ""
   },
   {
@@ -1291,17 +1291,17 @@
   },
   {
     "question": "Opisz dokument html5. Podaj przykładowe znaczniki",
-    "answer": "",
+    "answer": "HTML5 Służy do strukturyzowania treści w sieci, wprowadzając nowe elementy semantyczne (<header>, <footer>, <article>), obsługę multimediów (<audio>, <video>), grafikę wektorową (<canvas>), lokalne przechowywanie danych (localStorage) i lepszą integrację z aplikacjami webowymi.",
     "details": ""
   },
   {
     "question": "Czym jest programowanie imperatywne",
-    "answer": "",
-    "details": ""
+    "answer": "Opisujemy kolejne czynności, które komputer ma wykonać, by osiągnąć cel. Przykład języka imperatywnego: C, C++, Java, Python (część stylu imperatywnego).",
+    "details": "Opiera się na architekturze von Neumanna (pamięć + procesor wykonujący rozkazy)."
   },
   {
     "question": "Scharakteryzuj i porównaj SOAP z REST",
-    "answer": "",
+    "answer": "To dwa podejścia do tworzenia usług sieciowych (API), różniące się filozofią i budową. SOAP (Simple Object Access Protocol) to protokół komunikacyjny. Jest ścisły, sformalizowany i wykorzystuje wyłącznie format XML. Posiada wbudowane standardy bezpieczeństwa (WS-Security) i obsługi transakcji, dlatego jest stosowany w bankowości i systemach enterprise. Jest jednak \"ciężki\" i trudniejszy w implementacji. REST (Representational State Transfer) to styl architektoniczny. Jest lżejszy, elastyczny i wykorzystuje standardowe metody HTTP (GET, POST, PUT, DELETE). Dane przesyła zazwyczaj jako JSON (choć może też XML). Jest łatwiejszy w skalowaniu i dominuje w nowoczesnych aplikacjach webowych i mobilnych.",
     "details": ""
   },
   {
@@ -1311,12 +1311,12 @@
   },
   {
     "question": "Czym są inteligentne wskaźniki?",
-    "answer": "",
+    "answer": "Inteligentne wskaźniki to obiekty klas opakowujących surowe wskaźniki, które automatycznie zarządzają cyklem życia wskazywanego obiektu zgodnie z zasadą RAII. Gwarantują one automatyczne zwolnienie pamięci w momencie, gdy wskaźnik przestaje być używany, eliminując wycieki pamięci (przykłady to unique_ptr i shared_ptr).",
     "details": ""
   },
   {
     "question": "Podaj sposoby zabezpieczenia systemu operacyjnego",
-    "answer": "",
+    "answer": "Aktualizacje: Regularne wgrywanie poprawek bezpieczeństwa (patch management). Zasada najmniejszych przywilejów: Praca na koncie użytkownika, a nie administratora (root). Firewall: Konfiguracja zapory sieciowej (blokowanie nieużywanych portów). Antywirus/EDR: Oprogramowanie monitorujące zachowanie systemu i wykrywające malware Szyfrowanie dysków: Np. BitLocker, LUKS.",
     "details": ""
   },
   {
@@ -1326,7 +1326,7 @@
   },
   {
     "question": "Co to polimorfizm statyczny i dynamiczny w c++?",
-    "answer": "",
+    "answer": "Polimorfizm statyczny zachodzi na etapie kompilacji i jest realizowany poprzez mechanizmy przeciążania funkcji oraz szablonów, gdzie kompilator generuje odpowiedni kod dla konkretnych typów. Polimorfizm dynamiczny występuje w czasie działania programu i opiera się na dziedziczeniu oraz funkcjach wirtualnych, umożliwiając wywoływanie metod specyficznych dla klasy pochodnej poprzez wskaźnik lub referencję typu bazowego.",
     "details": ""
   },
   {
@@ -1336,7 +1336,7 @@
   },
   {
     "question": "Co to klasy szablonowe w c++?",
-    "answer": "",
+    "answer": "Klasy szablonowe to mechanizm metaprogramowania w C++ pozwalający na zdefiniowanie ogólnego wzorca klasy, który jest niezależny od konkretnego typu danych. Kompilator na podstawie tego wzorca generuje właściwy kod klasy dla typu podanego w momencie jej konkretyzacji, co jest fundamentem biblioteki standardowej STL.",
     "details": ""
   },
   {
@@ -1351,17 +1351,17 @@
   },
   {
     "question": "Podaj metody walidacji formularza html",
-    "answer": "",
+    "answer": "Po stronie klienta (HTML5): Atrybuty required, type=\"email\", min, max, pattern (wyrażenia regularne), maxlength.",
     "details": ""
   },
   {
     "question": "Co to local storage i session storage",
-    "answer": "",
-    "details": ""
+    "answer": "Session Storage: Dane tymczasowe, dostępne tylko w ramach jednej karty/okna przeglądarki. Znikają po zamknięciu karty. Local Storage: Dane trwałe, nie mają daty wygaśnięcia. Pozostają w przeglądarce do momentu ręcznego usunięcia przez użytkownika lub aplikację. Współdzielone między kartami tej samej domeny.",
+    "details": "Oba Mechanizmy Web Storage (przechowywanie danych w przeglądarce w formacie klucz-wartość)."
   },
   {
     "question": "Co to Mpa rozwiń skrót i omów",
-    "answer": "",
+    "answer": "Multi-Page Application (Wielostronicowa Aplikacja Internetowa). Tradycyjny model tworzenia stron. Każde kliknięcie w link lub wysłanie formularza powoduje wysłanie żądania do serwera, który generuje nowy dokument HTML i odsyła go do przeglądarki. Powoduje to przeładowanie całej strony.",
     "details": ""
   },
   {
@@ -1371,7 +1371,7 @@
   },
   {
     "question": "Co to drzewo AVL?",
-    "answer": "",
+    "answer": "To zrównoważone drzewo BST. Dla każdego węzła różnica wysokości jego lewego i prawego poddrzewa wynosi co najwyżej 1 (wartości -1, 0, 1). Jeśli po dodaniu/usunięciu elementu równowaga jest zachwiana (różnica wynosi 2 lub -2), drzewo naprawia się poprzez rotacje (pojedyncze lub podwójne)",
     "details": ""
   },
   {
@@ -1386,12 +1386,12 @@
   },
   {
     "question": "Jak działa ochrona antywirusowa?",
-    "answer": "",
+    "answer": "Monitoruje system w czasie rzeczywistym, dokonując skanowania otwieranych/uruchumianych plików i poczty. W celu wykrycia nieznanych zagrożeń stosowana jest analiza heurystyczna oraz środowiska izolowane. Wykorzystuje aktualizowane bazy sygnatur wirusów.",
     "details": ""
   },
   {
     "question": "Czym się różni proces od wątku?",
-    "answer": "• Proces to wykonywany program posiadający własną przestrzeń adresową, kontekst i zasoby. Wątek istnieje wewnątrz procesu. Jest ciągiem instrukcji, który ma własny stos, rejestry i priorytet, ale współdzieli pamięć i zasoby (np. otwarte pliki) z innymi wątkami tego samego procesu. Przełączanie między wątkami jest znacznie szybsze niż między procesami.",
+    "answer": "Proces to wykonywany program posiadający własną przestrzeń adresową, kontekst i zasoby. Wątek istnieje wewnątrz procesu. Jest ciągiem instrukcji, który ma własny stos, rejestry i priorytet, ale współdzieli pamięć i zasoby (np. otwarte pliki) z innymi wątkami tego samego procesu. Przełączanie między wątkami jest znacznie szybsze niż między procesami.",
     "details": ""
   },
   {
@@ -1406,7 +1406,7 @@
   },
   {
     "question": "Czym są grafy, jakie jest ich zastosowanie i rodzaje przechowywania",
-    "answer": "",
+    "answer": "Graf: Zbiór wierzchołków i krawędzi łączących je. G=(V,E). Rodzaje przechowywania: Macierz sąsiedztwa: Tablica 2D, waga w komórce a[u][v]. Listy sąsiedztwa: Tablica list, gdzie dla każdego wierzchołka pamiętamy listę jego sąsiadów. Zastosowanie: Modelowanie sieci (drogi, internet), mapy, relacje, algorytmy najkrótszej ścieżki (Dijkstra, BFS),.",
     "details": ""
   },
   {
@@ -1455,14 +1455,14 @@
     "details": ""
   },
   {
-    "question": "Wymień wszystkie paradygmaty programowania jakie znasz",
+    "question": "Wymień wszystkie paradygmaty programowania jakie de",
     "answer": "",
     "details": ""
   },
   {
     "question": "Czym jest programowanie obiektowe?",
-    "answer": "",
-    "details": ""
+    "answer": "Programowanie obiektowe (OOP) to paradygmat, w którym program dzielimy na obiekty, które łączą dane (pola) i funkcje (metody) działające na tych danych. Przykładowe języki OOP: Java, C++, C#, Python.",
+    "details": "Jednozdaniowo: OOP = programowanie za pomocą obiektów łączących dane i funkcje, które na nich operują."
   },
   {
     "question": "Tablica pomyłek - ocena jakości klasyfikatorów",
@@ -1471,18 +1471,18 @@
   },
   {
     "question": "Co to lista w Prologu?",
-    "answer": "",
+    "answer": "To uporządkowany ciąg elementów o dowolnej długości. Lista składa się z dwóch części: głowa -  stanowi pierwszy element listy. ogon - jest wszystkim co pozostało z listy po „odjęciu” od niej głowy.",
     "details": ""
   },
   {
     "question": "Opisz operatory w Prologu",
-    "answer": "",
+    "answer": "Priorytet - każdy operator posiada liczbę całkowitą nieujemną określającą jego priorytet.Im mniejsza liczba tym wyższy priorytet operatora, Lączność - określana za pomocą atomów (wzorców) postaci afb. (Lewostronna, prawostronna, brak.), Przeciążanie - zmiana priorytetu i/lub łączności operatora Np: ?- op(100,yfx,+)",
     "details": ""
   },
   {
     "question": "Podaj cechy języka Prolog",
-    "answer": "",
-    "details": ""
+    "answer": "Deklaratywny – opisuje co jest prawdą, a nie jak coś zrobić krok po kroku, Opiera się na faktach i regułach – wiedza w bazie danych, a program pyta o wnioski, Brak tradycyjnych pętli – iteracje realizowane przez rekursję i mechanizm backtrackingu",
+    "details": "Prosto do zapamiętania: Prolog = język logiki, który odpowiada na pytania na podstawie faktów i reguł."
   },
   {
     "question": "Czym są Sieci samouczące, samoorganizujące się i rekurencyjne?",
@@ -1496,7 +1496,7 @@
   },
   {
     "question": "Opisz instrukcje iteracyjne w Swift",
-    "answer": "",
+    "answer": "Pętla for-in: Jednokrotne wykonanie bloku kodu dla każdego elementu zakresie lub kolekcji. Pętla while: .Wykonuje zestaw instrukcji dopóki  warunek jest prawdziwy, Pętla repeat-while —> „do-while” w innych językach: Najpierw wykonuje blok kodu, a dopiero potem sprawdza warunek - Gwarantuje, że kod wewnątrz pętli wykona się co najmniej jeden raz.",
     "details": ""
   },
   {
@@ -1525,24 +1525,24 @@
     "details": ""
   },
   {
-    "question": "Na czym polega wstrzykiwanie zależności",
-    "answer": "",
-    "details": ""
+    "question": "Na czym polega wstrzykiwanie zależności (Dependency Injection)",
+    "answer": "Polega na dostarczaniu obiektom zależności z zewnątrz, zamiast tworzenia ich wewnątrz klasy. Ułatwia testowanie, wymienność komponentów i utrzymanie kodu. Przykład w Swift/Java: klasa Car dostaje silnik (Engine) jako parametr konstruktora, zamiast tworzyć go sama.",
+    "details": "Dependency Injection = dostarczanie obiektom ich zależności z zewnątrz zamiast tworzenia ich w środku."
   },
   {
     "question": "Powiedz wszystko co wiesz o testach funkcjonalności",
-    "answer": "",
-    "details": ""
+    "answer": "Sprawdzają, czy system działa zgodnie z wymaganiami użytkownika. Mogą obejmować np. logowanie, zakupy w sklepie, przesyłanie formularzy.",
+    "details": "Testy funkcjonalności sprawdzają, czy aplikacja działa zgodnie z oczekiwaniami użytkownika."
   },
   {
     "question": "Powiedz wszystko co wiesz o git i o gałęziach",
-    "answer": "",
-    "details": ""
+    "answer": "Git – system kontroli wersji, pozwala śledzić zmiany w kodzie, wracać do wcześniejszych wersji i współpracować w zespole. Gałęzie – niezależne linie rozwoju kodu, pozwalają np. tworzyć funkcje, poprawki lub eksperymenty bez psucia głównej wersji (main/master). Operacje na gałęziach: git branch, git checkout, git merge, git rebase. Dzięki gałęziom: łatwe równoległe prace, testowanie i integracja zmian.",
+    "details": "Jednozdaniowo: Git to system kontroli wersji, a gałęzie pozwalają rozwijać kod niezależnie od głównej linii."
   },
   {
     "question": "Omów uogólniony schemat hornera",
-    "answer": "",
-    "details": ""
+    "answer": "Metoda szybkiego obliczania wartości wielomianu, Pozwala zredukować liczbę mnożeń i dodawań w obliczeniach.",
+    "details": "Schemat Hornera = szybkie obliczanie wartości wielomianu poprzez rekurencyjne mnożenie i dodawanie."
   },
   {
     "question": "Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
@@ -1550,9 +1550,9 @@
     "details": ""
   },
   {
-    "question": "Co to wzorzec budowniczy?",
-    "answer": "",
-    "details": ""
+    "question": "Co to wzorzec budowniczy???????",
+    "answer": "Wzorzec projektowy pozwala tworzyć złożone obiekty krok po kroku, oddzielając konstrukcję od reprezentacji. Umożliwia tworzenie różnych wariantów obiektu przy tym samym procesie budowy. Przykład: budowanie obiektu Car z różnymi opcjami wyposażenia.",
+    "details": "Jednozdaniowo: Builder = wzorzec do stopniowego tworzenia złożonych obiektów w kontrolowany sposób."
   },
   {
     "question": "Co to CI/CD?",
