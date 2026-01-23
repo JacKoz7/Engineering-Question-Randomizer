@@ -9,6 +9,11 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 20px;
+  transition: background 0.5s ease;
+}
+
+body.learn-mode {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
 }
 
 .container {
@@ -35,6 +40,7 @@ body {
 
 .counter,
 .unanswered,
+.to-learn,
 .remaining {
   font-size: 18px;
   font-weight: bold;
@@ -45,12 +51,51 @@ body {
   color: #667eea;
 }
 
+body.learn-mode .counter span {
+  color: #ff6b6b;
+}
+
 .unanswered span {
   color: #e74c3c;
 }
 
+.to-learn span {
+  color: #3498db;
+}
+
 .remaining span {
   color: #27ae60;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.learn-mode-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.learn-mode-btn:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.learn-mode-btn.active {
+  background: #ff6b6b;
+}
+
+.learn-mode-btn.active:hover {
+  background: #ee5a6f;
 }
 
 .version {
@@ -120,13 +165,54 @@ body {
   background: #f8f9fa;
 }
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 25px 0 25px;
+  flex-shrink: 0;
+}
+
 .card-front h3,
 .card-back h3 {
   color: #667eea;
   margin-bottom: 15px;
   font-size: 20px;
-  padding: 25px 25px 0 25px;
-  flex-shrink: 0;
+}
+
+body.learn-mode .card-front h3,
+body.learn-mode .card-back h3 {
+  color: #ff6b6b;
+}
+
+.bookmark-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ccc;
+  transition: all 0.3s ease;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.bookmark-btn:hover {
+  transform: scale(1.1);
+}
+
+.bookmark-btn.marked {
+  color: #3498db;
+}
+
+.bookmark-btn.marked svg path {
+  fill: currentColor;
 }
 
 .card-content {
@@ -149,8 +235,16 @@ body {
   border-radius: 3px;
 }
 
+body.learn-mode .card-content::-webkit-scrollbar-thumb {
+  background: #ff6b6b;
+}
+
 .card-content::-webkit-scrollbar-thumb:hover {
   background: #5568d3;
+}
+
+body.learn-mode .card-content::-webkit-scrollbar-thumb:hover {
+  background: #ee5a6f;
 }
 
 .card-front p,
@@ -191,6 +285,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .draw-btn {
@@ -205,10 +301,18 @@ body {
   font-weight: bold;
 }
 
+body.learn-mode .draw-btn {
+  background: #ff6b6b;
+}
+
 .draw-btn:hover {
   background: #5568d3;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.learn-mode .draw-btn:hover {
+  background: #ee5a6f;
 }
 
 .draw-btn:disabled {
@@ -224,7 +328,6 @@ body {
   cursor: pointer;
   font-size: 16px;
   color: white;
-  margin-left: 20px;
 }
 
 .no-repeat-toggle input[type="checkbox"] {

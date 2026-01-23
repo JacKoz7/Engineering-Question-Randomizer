@@ -955,9 +955,19 @@
     "details": ""
   },
   {
-    "question": "Podaj przykład implementacji stosu w programowaniu",
-    "answer": "",
+    "question": "Co to LIFO i FIFO?",
+    "answer": "LIFO (Last In, First Out) – zasada działania stosu, gdzie ostatni dodany element jest pierwszym usuniętym. FIFO (First In, First Out) – zasada działania kolejki, gdzie pierwszy dodany element jest pierwszym usuniętym.",
     "details": ""
+  },
+  {
+    "question": "Podaj przykład implementacji stosu w programowaniu",
+    "answer": "Stos można zaimplementować używając tablicy lub listy. Główne operacje: push (dodaj element na szczyt), pop (usuń element ze szczytu), top (podejrzyj szczyt bez usuwania). Działa na zasadzie LIFO (Last In First Out).",
+    "details": "Przykład w Pythonie: lista z metodami append() i pop(). W C++: std::stack. W praktyce: wywołania funkcji, cofanie operacji (undo), sprawdzanie nawiasów."
+  },
+  {
+    "question": "Czym są agregacje w SQL?",
+    "answer": "Funkcje wykonujące obliczenia na zbiorze wierszy i zwracające pojedynczą wartość. Podstawowe: COUNT (liczba wierszy), SUM (suma), AVG (średnia), MIN (minimum), MAX (maksimum).",
+    "details": "Używane z GROUP BY do grupowania wyników. Przykład: SELECT COUNT(*) FROM users GROUP BY city - liczy użytkowników w każdym mieście."
   },
   {
     "question": "Wymień kilka operacji na bazie danych",
@@ -1080,14 +1090,14 @@
     "details": ""
   },
   {
-    "question": "Na czym polega archutektura klient-serwer",
-    "answer": "",
-    "details": ""
+    "question": "Na czym polega architektura klient-serwer",
+    "answer": "Model komunikacji, w którym jedna strona (klient) wysyła żądania, a druga (serwer) je obsługuje i odsyła odpowiedzi. Klient inicjuje połączenie i czeka na dane, serwer nasłuchuje i odpowiada na żądania. Przykład: przeglądarka (klient) wysyła żądanie HTTP do serwera WWW, który zwraca stronę internetową.",
+    "details": "Zalety: centralizacja danych, łatwiejsze zarządzanie. Wady: serwer to pojedynczy punkt awarii (single point of failure)."
   },
   {
-    "question": "Jak działa mediaplayer w android?",
-    "answer": "",
-    "details": ""
+    "question": "Jak działa mediaplayer w Android?",
+    "answer": "MediaPlayer to klasa w Androidzie służąca do odtwarzania plików audio i wideo. Działa jako maszyna stanów - przechodzi przez stany: Idle → Initialized → Prepared → Started → Paused → Stopped. Należy przygotować źródło danych (setDataSource), przygotować odtwarzacz (prepare/prepareAsync), następnie uruchomić (start). Po zakończeniu należy zwolnić zasoby (release).",
+    "details": "Obsługuje różne źródła: pliki lokalne, zasoby aplikacji, strumienie sieciowe (URL). Ważne: używać prepareAsync dla źródeł sieciowych, by nie blokować UI."
   },
   {
     "question": "Co to DHCP?",
@@ -1101,18 +1111,18 @@
   },
   {
     "question": "Co to układy Czebyszewa?",
-    "answer": "",
-    "details": ""
+    "answer": "Układy punktów w przedziale [-1, 1], które są pierwiastkami wielomianów Czebyszewa. W analizach numerycznych wykorzystuje się je jako optymalne punkty do interpolacji - minimalizują błąd interpolacji wielomianowej. Punkty są gęściej rozmieszczone przy końcach przedziału, co zapobiega zjawisku Rungego (dużym oscylacjom wielomianu interpolacyjnego).",
+    "details": "Wzór na węzły Czebyszewa: x_k = cos((2k-1)π/(2n)), k=1,2,...,n. Używane w kwadraturach numerycznych i aproksymacji funkcji."
   },
   {
-    "question": "Co to algorytm Rabina i drzewo Rabina?",
-    "answer": "",
-    "details": ""
+    "question": "Co to algorytm Karpa-Rabina i drzewo Rabina?",
+    "answer": "Algorytm Rabina-Karpa to algorytm wyszukiwania wzorca w tekście używający funkcji haszującej. Oblicza hash wzorca i porównuje z hashami podciągów tekstu. Drzewo Rabina (ang. Rabin fingerprint tree) to struktura danych wykorzystująca haszowanie do efektywnego porównywania bloków danych.",
+    "details": "Algorytm Rabina-Karpa ma złożoność średnio O(n+m), w najgorszym przypadku O(nm)."
   },
   {
     "question": "Co to licznik odwołań ARC w Swift?",
-    "answer": "",
-    "details": ""
+    "answer": "Automatic Reference Counting to mechanizm automatycznego zarządzania pamięcią w języku Swift. Każdy obiekt ma licznik, który śledzi ile zmiennych/właściwości wskazuje na ten obiekt. Gdy tworzysz nową referencję, licznik rośnie. Gdy referencja przestaje istnieć, licznik maleje. Kiedy licznik spadnie do zera, obiekt jest automatycznie usuwany z pamięci.",
+    "details": "Problem: cykle referencji (A wskazuje na B, B na A) - rozwiązanie przez weak/unowned references."
   },
   {
     "question": "Na czym polega metoda najmniejszych kwadratów?",
@@ -1121,8 +1131,8 @@
   },
   {
     "question": "Co to rozproszone systemy kontroli wersji?",
-    "answer": "",
-    "details": ""
+    "answer": "Systemy, w których każdy użytkownik ma pełną kopię repozytorium (wraz z historią zmian) na swoim komputerze. Umożliwiają pracę offline i łatwiejsze rozgałęzianie (branching). Przykłady: Git, Mercurial.",
+    "details": "W przeciwieństwie do scentralizowanych systemów (SVN), gdzie historia jest tylko na serwerze."
   },
   {
     "question": "Budowa try catch. Co to wyjątki?",
@@ -1136,12 +1146,12 @@
   },
   {
     "question": "Jak otrzymać obraz dockerowy?",
-    "answer": "",
+    "answer": "Dwa sposoby: pobrać gotowy z Docker Hub poleceniem 'docker pull nazwa_obrazu' lub zbudować własny z Dockerfile poleceniem 'docker build -t nazwa_obrazu .'",
     "details": ""
   },
   {
     "question": "Co to docker-compose?",
-    "answer": "",
+    "answer": "Narzędzie do uruchamiania wielu kontenerów Docker jednocześnie. Konfiguracja w pliku YAML, uruchomienie jednym poleceniem 'docker-compose up'.",
     "details": ""
   },
   {
@@ -1170,8 +1180,8 @@
     "details": ""
   },
   {
-    "question": "Czym są protokoły w swift?",
-    "answer": "",
+    "question": "Czym są protokoły w Swift?",
+    "answer": "Definicja zestawu wymagań (metod, właściwości), które musi spełnić typ je przyjmujący. Działają jak interfejs/kontrakt.",
     "details": ""
   },
   {
@@ -1180,14 +1190,14 @@
     "details": ""
   },
   {
-    "question": "Co to MVVM?",
-    "answer": "",
-    "details": ""
+    "question": "Co to MVVM? (głównie w swift)",
+    "answer": "Model-View-ViewModel - wzorzec architektoniczny rozdzielający logikę od interfejsu. Model to dane, View to UI, ViewModel pośredniczy między nimi i przetwarza dane dla widoku. View obserwuje zmiany w ViewModel.",
+    "details": "W Swift używa się binding (np. Combine, SwiftUI) do automatycznej aktualizacji widoku po zmianie danych w ViewModel."
   },
   {
     "question": "Co to singleton?",
-    "answer": "",
-    "details": ""
+    "answer": "Wzorzec projektowy zapewniający, że klasa ma tylko jedną instancję w całej aplikacji i globalny punkt dostępu do niej.",
+    "details": "Przykład w Swift: class Manager { static let shared = Manager(); private init() {} }. Używane np. do zarządzania konfiguracją, połączeniami z bazą."
   },
   {
     "question": "Co to wzorce projektowe?",
@@ -1246,8 +1256,8 @@
   },
   {
     "question": "Czym są metody wirtualne w C#?",
-    "answer": "",
-    "details": ""
+    "answer": "Metody oznaczone słowem kluczowym 'virtual', które można nadpisać (override) w klasach pochodnych. Umożliwiają polimorfizm - wywołanie metody na typie bazowym uruchomi wersję z klasy pochodnej.",
+    "details": "Bez 'virtual' metoda w klasie pochodnej tylko ukrywa (hide) metodę bazową, nie nadpisuje jej."
   },
   {
     "question": "Porównaj przeciążenia i Przesłanianie metody",
@@ -1271,12 +1281,12 @@
   },
   {
     "question": "Podaj różnice między razor pages a mvc w .net",
-    "answer": "",
-    "details": ""
+    "answer": "Razor Pages to prostsza architektura oparta na plikach - każda strona to osobny plik z logiką w PageModel. MVC rozdziela aplikację na Model-View-Controller z osobnymi kontrolerami obsługującymi wiele widoków.",
+    "details": "Razor Pages lepsze do prostych, stronnicowych aplikacji (CRUD). MVC lepsze do złożonych aplikacji z wieloma endpointami i REST API."
   },
   {
     "question": "Czym są metody asynchroniczne w C#",
-    "answer": "",
+    "answer": "Metody oznaczone 'async', które wykonują operacje bez blokowania wątku. Używają 'await' do oczekiwania na zakończenie operacji. Zwracają Task lub Task<T>.",
     "details": ""
   },
   {
@@ -1370,9 +1380,9 @@
     "details": ""
   },
   {
-    "question": "Co to drzewo AVL?",
-    "answer": "To zrównoważone drzewo BST. Dla każdego węzła różnica wysokości jego lewego i prawego poddrzewa wynosi co najwyżej 1 (wartości -1, 0, 1). Jeśli po dodaniu/usunięciu elementu równowaga jest zachwiana (różnica wynosi 2 lub -2), drzewo naprawia się poprzez rotacje (pojedyncze lub podwójne)",
-    "details": ""
+    "question": "Co to drzewo AVL? jak są operacje na nim?",
+    "answer": "To zrównoważone drzewo BST. Dla każdego węzła różnica wysokości jego lewego i prawego poddrzewa wynosi co najwyżej 1 (wartości -1, 0, 1). Jeśli po dodaniu/usunięciu elementu równowaga jest zachwiana (różnica wynosi 2 lub -2), drzewo naprawia się poprzez rotacje (pojedyncze lub podwójne).",
+    "details": "Operacje: wyszukiwanie O(log n), wstawianie O(log n) z możliwą rotacją, usuwanie O(log n) z możliwą rotacją."
   },
   {
     "question": "Wymień związki w uml i je opisz",
@@ -1455,7 +1465,7 @@
     "details": ""
   },
   {
-    "question": "Wymień wszystkie paradygmaty programowania jakie de",
+    "question": "Wymień wszystkie paradygmaty programowania jakie znasz",
     "answer": "",
     "details": ""
   },
@@ -1501,7 +1511,7 @@
   },
   {
     "question": "Co to napisy i literały w Swift?",
-    "answer": "",
+    "answer": "Napisy (String) to typ danych przechowujący tekst. Literały to konkretne wartości tekstowe zapisane w kodzie w cudzysłowach, np. \"Hello\" lub \"\"\"tekst wieloliniowy\"\"\".",
     "details": ""
   },
   {
@@ -1510,9 +1520,14 @@
     "details": ""
   },
   {
-    "question": "SwiftUI vs UIKit",
+    "question": "Podaj róznice miedzy git merge a git rebase",
     "answer": "",
     "details": ""
+  },
+  {
+    "question": "SwiftUI vs UIKit",
+    "answer": "SwiftUI to nowoczesny, deklaratywny framework do budowy UI (opisujesz jak ma wyglądać). UIKit to starszy, imperatywny framework (opisujesz kroki jak to zbudować).",
+    "details": "SwiftUI: prostsza składnia, automatyczny podgląd na żywo, wymaga iOS 13+. UIKit: więcej kontroli, większa kompatybilność, trudniejszy w utrzymaniu."
   },
   {
     "question": "Wielozadaniowość w Android",
@@ -1556,8 +1571,8 @@
   },
   {
     "question": "Co to CI/CD?",
-    "answer": "",
-    "details": ""
+    "answer": "Continuous Integration/Continuous Deployment - praktyki automatyzacji procesu wytwarzania oprogramowania. CI automatycznie buduje i testuje kod po każdej zmianie. CD automatycznie wdraża przetestowany kod na środowisko produkcyjne.",
+    "details": "Narzędzia: np GitHub Actions. Skraca czas wdrożeń i redukuje błędy ludzkie."
   },
   {
     "question": "Architektura systemu IOS",

@@ -1,16 +1,21 @@
 let allQuestions = [];
 let usedQuestions = [];
 let noRepeatMode = false;
+let learnMode = false;
+let toLearnQuestions = new Set();
 
 const questionCount = document.getElementById("questionCount");
 const unansweredCount = document.getElementById("unansweredCount");
+const toLearnCount = document.getElementById("toLearnCount");
 const remainingCounter = document.getElementById("remainingCounter");
 const remainingCount = document.getElementById("remainingCount");
 const drawButton = document.getElementById("drawButton");
 const questionsContainer = document.getElementById("questionsContainer");
 const noRepeatCheckbox = document.getElementById("noRepeatCheckbox");
+const learnModeBtn = document.getElementById("learnModeBtn");
 
 window.addEventListener("DOMContentLoaded", async () => {
+  loadToLearnFromStorage();
   await loadQuestionsFromFile();
 });
 
@@ -21,6 +26,45 @@ noRepeatCheckbox.addEventListener("change", (e) => {
   }
   updateStats();
 });
+
+learnModeBtn.addEventListener("click", () => {
+  learnMode = !learnMode;
+  document.body.classList.toggle("learn-mode", learnMode);
+  learnModeBtn.classList.toggle("active", learnMode);
+
+  if (learnMode) {
+    learnModeBtn.textContent = "📚 Tryb nauki ✓";
+  } else {
+    learnModeBtn.textContent = "📚 Tryb nauki";
+    usedQuestions = [];
+  }
+
+  updateStats();
+});
+
+function loadToLearnFromStorage() {
+  const stored = localStorage.getItem("toLearnQuestions");
+  if (stored) {
+    toLearnQuestions = new Set(JSON.parse(stored));
+  }
+}
+
+function saveToLearnToStorage() {
+  localStorage.setItem(
+    "toLearnQuestions",
+    JSON.stringify([...toLearnQuestions])
+  );
+}
+
+function toggleToLearn(questionText) {
+  if (toLearnQuestions.has(questionText)) {
+    toLearnQuestions.delete(questionText);
+  } else {
+    toLearnQuestions.add(questionText);
+  }
+  saveToLearnToStorage();
+  updateStats();
+}
 
 async function loadQuestionsFromFile() {
   try {
@@ -43,8 +87,11 @@ function updateStats() {
   ).length;
   unansweredCount.textContent = unanswered;
 
-  if (noRepeatMode) {
-    const remaining = allQuestions.length - usedQuestions.length;
+  toLearnCount.textContent = toLearnQuestions.size;
+
+  if (noRepeatMode || learnMode) {
+    const pool = getQuestionPool();
+    const remaining = pool.length - usedQuestions.length;
     remainingCount.textContent = remaining;
     remainingCounter.style.display = "block";
   } else {
@@ -52,13 +99,23 @@ function updateStats() {
   }
 }
 
+function getQuestionPool() {
+  if (learnMode) {
+    return allQuestions.filter((q) => toLearnQuestions.has(q.question));
+  }
+  return allQuestions;
+}
+
 drawButton.addEventListener("click", () => {
-  const availableQuestions = noRepeatMode
-    ? allQuestions.filter((q) => !usedQuestions.includes(q))
-    : allQuestions;
+  const pool = getQuestionPool();
+
+  const availableQuestions =
+    noRepeatMode || learnMode
+      ? pool.filter((q) => !usedQuestions.includes(q))
+      : pool;
 
   if (availableQuestions.length < 3) {
-    if (noRepeatMode && usedQuestions.length > 0) {
+    if ((noRepeatMode || learnMode) && usedQuestions.length > 0) {
       alert("All questions used. Resetting pool.");
       usedQuestions = [];
       updateStats();
@@ -70,7 +127,7 @@ drawButton.addEventListener("click", () => {
 
   const selectedQuestions = getRandomQuestions(availableQuestions, 3);
 
-  if (noRepeatMode) {
+  if (noRepeatMode || learnMode) {
     usedQuestions.push(...selectedQuestions);
     updateStats();
   }
@@ -91,17 +148,37 @@ function displayQuestions(questions) {
     card.className = "question-card";
     card.style.animationDelay = `${index * 0.1}s`;
 
+    const isMarked = toLearnQuestions.has(q.question);
+
     card.innerHTML = `
             <div class="card-inner">
                 <div class="card-front">
-                    <h3>Pytanie ${index + 1}</h3>
+                    <div class="card-header">
+                        <h3>Pytanie ${index + 1}</h3>
+                        <button class="bookmark-btn ${
+                          isMarked ? "marked" : ""
+                        }" data-question="${q.question}">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
                     <div class="card-content">
                         <p>${q.question}</p>
                     </div>
                     <span class="flip-hint">Kliknij aby zobaczyć odpowiedź</span>
                 </div>
                 <div class="card-back">
-                    <h3>Odpowiedź</h3>
+                    <div class="card-header">
+                        <h3>Odpowiedź</h3>
+                        <button class="bookmark-btn ${
+                          isMarked ? "marked" : ""
+                        }" data-question="${q.question}">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
                     <div class="card-content">
                         <p class="answer">${q.answer || "Brak odpowiedzi"}</p>
                         ${
@@ -113,8 +190,28 @@ function displayQuestions(questions) {
             </div>
         `;
 
-    card.addEventListener("click", () => {
-      card.classList.toggle("flipped");
+    const cardInner = card.querySelector(".card-inner");
+    cardInner.addEventListener("click", (e) => {
+      if (!e.target.closest(".bookmark-btn")) {
+        card.classList.toggle("flipped");
+      }
+    });
+
+    const bookmarkBtns = card.querySelectorAll(".bookmark-btn");
+    bookmarkBtns.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const questionText = btn.getAttribute("data-question");
+        toggleToLearn(questionText);
+
+        bookmarkBtns.forEach((b) => {
+          if (toLearnQuestions.has(questionText)) {
+            b.classList.add("marked");
+          } else {
+            b.classList.remove("marked");
+          }
+        });
+      });
     });
 
     questionsContainer.appendChild(card);
