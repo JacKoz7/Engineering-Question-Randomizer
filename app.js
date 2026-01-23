@@ -17,6 +17,7 @@ const learnModeBtn = document.getElementById("learnModeBtn");
 window.addEventListener("DOMContentLoaded", async () => {
   loadToLearnFromStorage();
   await loadQuestionsFromFile();
+  toggleEmptyState(); 
 });
 
 noRepeatCheckbox.addEventListener("change", (e) => {
@@ -28,18 +29,28 @@ noRepeatCheckbox.addEventListener("change", (e) => {
 });
 
 learnModeBtn.addEventListener("click", () => {
+  if (!learnMode && toLearnQuestions.size === 0) {
+    alert("Brak pytań dodanych do nauki! Dodaj najpierw pytania gwiazdką.");
+    return;
+  }
+
   learnMode = !learnMode;
   document.body.classList.toggle("learn-mode", learnMode);
   learnModeBtn.classList.toggle("active", learnMode);
 
   if (learnMode) {
-    learnModeBtn.textContent = "📚 Tryb nauki ✓";
-  } else {
-    learnModeBtn.textContent = "📚 Tryb nauki";
-    usedQuestions = [];
-  }
+    learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki ✓</span>';
+    
+    updateStats();
+    drawButton.click(); 
 
-  updateStats();
+  } else {
+    learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki</span>';
+    usedQuestions = [];
+    updateStats();
+    
+    drawButton.click();
+  }
 });
 
 function loadToLearnFromStorage() {
@@ -66,6 +77,14 @@ function toggleToLearn(questionText) {
   updateStats();
 }
 
+function toggleEmptyState() {
+    if (questionsContainer.children.length === 0) {
+        document.body.classList.add('no-questions');
+    } else {
+        document.body.classList.remove('no-questions');
+    }
+}
+
 async function loadQuestionsFromFile() {
   try {
     const response = await fetch("pytania.json");
@@ -89,11 +108,11 @@ function updateStats() {
 
   toLearnCount.textContent = toLearnQuestions.size;
 
-  if (noRepeatMode || learnMode) {
+  if (noRepeatMode) {
     const pool = getQuestionPool();
-    const remaining = pool.length - usedQuestions.length;
+    const remaining = Math.max(0, pool.length - usedQuestions.length);
     remainingCount.textContent = remaining;
-    remainingCounter.style.display = "block";
+    remainingCounter.style.display = "flex";
   } else {
     remainingCounter.style.display = "none";
   }
@@ -109,25 +128,25 @@ function getQuestionPool() {
 drawButton.addEventListener("click", () => {
   const pool = getQuestionPool();
 
-  const availableQuestions =
-    noRepeatMode || learnMode
+  const availableQuestions = noRepeatMode
       ? pool.filter((q) => !usedQuestions.includes(q))
       : pool;
 
-  if (availableQuestions.length < 3) {
-    if ((noRepeatMode || learnMode) && usedQuestions.length > 0) {
-      alert("All questions used. Resetting pool.");
+  if (availableQuestions.length === 0) {
+    if (noRepeatMode && usedQuestions.length > 0) {
+      alert("Wszystkie pytania zostały wyświetlone. Resetuję pulę.");
       usedQuestions = [];
       updateStats();
       return;
     }
-    alert("Not enough questions.");
+    alert("Brak dostępnych pytań.");
     return;
   }
 
-  const selectedQuestions = getRandomQuestions(availableQuestions, 3);
+  const countToDraw = Math.min(3, availableQuestions.length);
+  const selectedQuestions = getRandomQuestions(availableQuestions, countToDraw);
 
-  if (noRepeatMode || learnMode) {
+  if (noRepeatMode) {
     usedQuestions.push(...selectedQuestions);
     updateStats();
   }
@@ -154,7 +173,7 @@ function displayQuestions(questions) {
             <div class="card-inner">
                 <div class="card-front">
                     <div class="card-header">
-                        <h3>Pytanie ${index + 1}</h3>
+                        <h3>Pytanie</h3>
                         <button class="bookmark-btn ${
                           isMarked ? "marked" : ""
                         }" data-question="${q.question}">
@@ -204,16 +223,18 @@ function displayQuestions(questions) {
         const questionText = btn.getAttribute("data-question");
         toggleToLearn(questionText);
 
-        bookmarkBtns.forEach((b) => {
-          if (toLearnQuestions.has(questionText)) {
-            b.classList.add("marked");
-          } else {
-            b.classList.remove("marked");
-          }
+        document.querySelectorAll(`.bookmark-btn[data-question="${questionText}"]`).forEach(b => {
+             if (toLearnQuestions.has(questionText)) {
+                b.classList.add("marked");
+             } else {
+                b.classList.remove("marked");
+             }
         });
       });
     });
 
     questionsContainer.appendChild(card);
   });
+
+  toggleEmptyState();
 }

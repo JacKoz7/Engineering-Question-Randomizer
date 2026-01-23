@@ -3,39 +3,94 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Losowanie Pytań Egzaminacyjnych</title>
+    <title>Obrona simulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-overlay"></div>
+
     <div class="container">
-      <div class="header">
-        <div class="stats">
-          <div class="counter">
-            Liczba pytań: <span id="questionCount">0</span>
+      <header class="glass-panel header">
+        <div class="header-top">
+          <div class="brand">
+            <span class="brand-icon">🤓</span>
+            <h1>Obrona<span class="highlight">2026</span></h1>
           </div>
-          <div class="unanswered">
-            Bez odpowiedzi: <span id="unansweredCount">0</span>
-          </div>
-          <div class="to-learn">Do nauki: <span id="toLearnCount">0</span></div>
-          <div class="remaining" id="remainingCounter" style="display: none">
-            Pozostało: <span id="remainingCount">0</span>
+          <div class="header-controls">
+            <button id="learnModeBtn" class="mode-toggle">
+              <span class="icon">📚</span>
+              <span class="text">Tryb nauki</span>
+            </button>
+            <div class="version-tag">v1.5</div>
           </div>
         </div>
-        <div class="header-right">
-          <button id="learnModeBtn" class="learn-mode-btn">
-            📚 Tryb nauki
-          </button>
-          <div class="version">v1.4</div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-label">Baza pytań</span>
+            <span id="questionCount" class="stat-value">0</span>
+          </div>
+          <div class="stat-item danger">
+            <span class="stat-label">Bez odpowiedzi</span>
+            <span id="unansweredCount" class="stat-value">0</span>
+          </div>
+          <div class="stat-item info">
+            <span class="stat-label">Do nauki</span>
+            <span id="toLearnCount" class="stat-value">0</span>
+          </div>
+          <div
+            class="stat-item success"
+            id="remainingCounter"
+            style="display: none"
+          >
+            <span class="stat-label">Pozostało</span>
+            <span id="remainingCount" class="stat-value">0</span>
+          </div>
         </div>
-      </div>
+      </header>
 
-      <div id="questionsContainer" class="questions-container"></div>
+      <main id="questionsContainer" class="cards-grid"></main>
 
-      <div class="button-container">
-        <button id="drawButton" class="draw-btn" disabled>Losuj pytania</button>
-        <label class="no-repeat-toggle">
+      <div class="controls-area">
+        <button id="drawButton" class="cta-button" disabled>
+          <span>Losuj pytania</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <label class="custom-checkbox">
           <input type="checkbox" id="noRepeatCheckbox" />
-          <span>Bez powtórek</span>
+          <span class="checkmark">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+            >
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </span>
+          <span class="label-text">Bez powtórek</span>
         </label>
       </div>
     </div>
