@@ -31,8 +31,8 @@
   },
   {
     "question": "Co to model przypadków użycia?",
-    "answer": "",
-    "details": ""
+    "answer": "Model opisujący funkcjonalność systemu z punktu widzenia użytkownika.",
+    "details": "Składa się z aktorów i przypadków użycia, pokazuje kto i w jaki sposób korzysta z systemu, bez opisywania implementacji."
   },
   {
     "question": "Podaj generacje języków programowania",
@@ -76,13 +76,13 @@
   },
   {
     "question": "Co to system kolorów",
-    "answer": "",
-    "details": ""
+    "answer": "System kolorów to sposób zapisu i reprezentacji kolorów w informatyce i grafice.",
+    "details": "Najczęściej spotykane systemy to RGB (ekrany), CMYK (druk) oraz HSL/HSV (łatwiejsza manipulacja barwą)."
   },
   {
     "question": "Co to jest BPMN",
-    "answer": "",
-    "details": ""
+    "answer": " (Business Process Model and Notation) to język graficzny składający się z zestawu symboli i zasad ich łączenia w diagramy. Służy do modelowania procesów biznesowych. Kluczowe cechy to koncepcja \"żetonu\" przepływającego przez diagram oraz węzły (zdarzenia, czynności, bramki) połączone przepływami. ",
+    "details": "Przykład: W wykładzie przedstawiono proces aukcji, który obejmuje zgłoszenie przedmiotu, wybór typu aukcji (kup teraz lub licytuj), zakończenie sprzedaży i pobranie prowizji. Innym przykładem jest proces obsługi zapytania ofertowego w firmie, podzielony na tory (baseny) dla biura, pracownika merytorycznego, kierownika i dyrektora."
   },
   {
     "question": "Co to json web token?",
@@ -141,8 +141,8 @@
   },
   {
     "question": "Przekształcenia bezkontekstowe grafiki rastrowej",
-    "answer": "",
-    "details": ""
+    "answer": "Przekształcenia bezkontekstowe (punktowe): Zmieniają wartość piksela niezależnie od jego sąsiadów.",
+    "details": "Przekształcenia kontekstowe (filtry): Zmieniają wartość piksela, uwzględniając sąsiadów. Używają masek filtrów (najczęściej 3×3)"
   },
   {
     "question": "Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości",
@@ -151,12 +151,12 @@
   },
   {
     "question": "Jak się układa elementy w aplikacji mobilnej swift?",
-    "answer": "",
-    "details": ""
+    "answer": "W SwiftUI używa się stosów: VStack (pionowo) HStack (poziomo) ZStack (warstwowo na sobie)",
+    "details": "Precyzyjne rozmieszczenie: alignment (wyrównanie), Spacer (odstępy), Divider (dzielniki)"
   },
   {
     "question": "Czym jest kursor w bazie danych?",
-    "answer": "",
+    "answer": "Struktura do przetwarzania wyników zapytania wiersz po wierszu (działa jak wskaźnik). Gdy trzeba przetwarzać każdy wiersz osobno w pętli (zamiast jednorazowej operacji na całym zbiorze).",
     "details": ""
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "question": "Podaj sposoby zabezpieczenia infrastruktury informatycznej",
-    "answer": "",
+    "answer": "1. Oprogramowanie antywirusowe AV (Antivirus). 2. Weryfikacja odwiedzanych stron WWW. 3. Aktualizacje systemu i oprogramowania. 4. Aktualizacje silnika programu AV i bazy wirusów.",
     "details": ""
   },
   {
@@ -221,7 +221,7 @@
   },
   {
     "question": "Podaj różnice między fields a properties w C#",
-    "answer": "",
+    "answer": " Pola (Fields): Przechowują dane bezpośrednio. Właściwości (Properties): Są to składowe, które działają jak pola, ale de facto są metodami (posiadają akcesory get i set). Pozwalają na \"opakowanie\" dostępu do pól, umożliwiając np. walidację danych lub logowanie operacji przy ich ustawianiu/pobieraniu bez zmiany zewnętrznego interfejsu klasy",
     "details": ""
   },
   {
@@ -246,8 +246,8 @@
   },
   {
     "question": "Wymień systemy kolorów, opisz jeden",
-    "answer": "",
-    "details": ""
+    "answer": "Przykładowe systemy kolorów to RGB, CMYK, HSL, HSV.",
+    "details": "RGB składa się z trzech składowych: czerwonej, zielonej i niebieskiej. Jest używany głównie w ekranach, gdzie kolory powstają przez mieszanie światła."
   },
   {
     "question": "Różnice między klasą a obiektem",
@@ -311,12 +311,17 @@
   },
   {
     "question": "Co to XML?",
-    "answer": "XML (eXtensible Markup Language) to język znaczników do przechowywania i wymiany danych w formacie tekstowym. Pozwala tworzyć własne znaczniki opisujące strukturę danych. Dane w XML są czytelne dla ludzi i maszyn.",
+    "answer": "XML (eXtensible Markup Language) to język znaczników do przechowywania i wymiany danych w formacie tekstowym. to notacja służąca do specyfikacji zawartości dokumentów. Służy do opisu struktury danych dokumentu (drzewo XML). Dokument XML musi być poprawnie zagnieżdżony, posiadać prolog z deklaracją wersji i ewentualnie deklarację DFD. Każdy element (poza głównym) ma jednego rodzica i może mieć wiele dzieci,.",
     "details": ""
   },
   {
     "question": "Czym są inferencje w C#",
-    "answer": "",
+    "answer": "Realizuje się ją za pomocą słowa kluczowego var. Kompilator domyśla się typu zmiennej na podstawie wyrażenia znajdującego się po prawej stronie przypisania. Mechanizm ten działa tylko dla zmiennych lokalnych, jest silnie typowany (zmienna nie może zmienić typu) i przypomina słowo kluczowe auto z C++",
+    "details": ""
+  },
+  {
+    "question": "Co to OSGI?",
+    "answer": "OSGi (Open Services Gateway initiative). Dynamiczna platforma modułowa dla Java - dzieli aplikację na bundle (moduły).",
     "details": ""
   },
   {
@@ -326,13 +331,13 @@
   },
   {
     "question": "Podaj strukturę switch case",
-    "answer": "",
-    "details": ""
+    "answer": "Instrukcja warunkowa, która sprawdza wartość i wykonuje odpowiadający jej blok kodu.",
+    "details": "Przykład w Swift:\n\nswitch wartość {\n  case 1:\n    // kod dla 1\n  case 2:\n    // kod dla 2\n  default:\n    // kod dla innych przypadków\n}"
   },
   {
     "question": "Co to core data",
-    "answer": "",
-    "details": ""
+    "answer": "Framework Apple do lokalnego przechowywania danych w aplikacjach iOS/macOS.",
+    "details": "Umożliwia modelowanie obiektów, zarządzanie relacjami między nimi i zapisywanie do bazy danych (SQLite w tle)."
   },
   {
     "question": "Co to jest klasa?",
@@ -441,7 +446,7 @@
   },
   {
     "question": "Czym jest ERD?",
-    "answer": "ERD (Entity Relationship Diagram) - graficzne narzędzie do prezentacji modelu konceptualnego bazy danych. przedstawia: Encje - obiekty rzeczywistości, Atrybuty - cechy encji, Związki - relacje między encjami",
+    "answer": "(Entity Relationship Diagram) to diagram związków encji. Prezentuje on model danych w systemie, ukazując encje (kolekcje danych), ich atrybuty oraz logiczne związki pomiędzy nimi. Jest to model konceptualny/logiczny niezależny od konkretnego systemu zarządzania bazą danych",
     "details": ""
   },
   {
@@ -451,12 +456,17 @@
   },
   {
     "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
-    "answer": "",
+    "answer": "1. Sortowanie przez wybieranie (SelectSort): Przeszukujemy nieposortowaną część tablicy, aby znaleźć element najmniejszy (lub największy) i zamieniamy go z pierwszym elementem tej części. Powtarzamy dla reszty tablicy. Złożoność O(n2). 2. Sortowanie szybkie (QuickSort): Algorytm „dziel i zwyciężaj”. Wybieramy element (pivot/mediana), dzielimy tablicę na dwie części (elementy mniejsze od pivota i większe), a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn),.",
     "details": ""
   },
   {
-    "question": "Czym są: zbiór uczony, zbiór testujący i walidacja krzyżowa?",
-    "answer": "",
+    "question": "Czym są: zbiór uczący, zbiór testujący i zbiór walidacyjny",
+    "answer": "1. Zbiór uczący: - Służy do bezpośredniego trenowania modelu i nauki wzorców. 2. Słuzy Porównywania wydajności różnych modeli między sobą. 3. Zbiór testowy używany wyłącznie do ostatecznego sprawdzenia dokładności i zdolności generalizacji gotowego modelu.",
+    "details": ""
+  },
+  {
+    "question": "Co to walidacja krzyzowa",
+    "answer": "To metoda oceny modelu. Polega na podziale zestawu danych na k podzestawów (foldów). Model jest wielokrotnie trenowany, gdzie każdorazowo inny podzbiór służy jako dane testowe, a pozostałe jako treningowe,Końcowym wynikiem jest średnia z tych testów.",
     "details": ""
   },
   {
@@ -506,7 +516,7 @@
   },
   {
     "question": "Czym jest rozdzielczość w obrazie rastrowym?",
-    "answer": "",
+    "answer": "Określa szczegółowość obrazu rastrowego. Składa się z dwóch pojęć: PPI (Pixels Per Inch - pikseli na cal): Gęstość punktów obrazu —> zdolność zapisywania szczegółów. Rozmiar obrazu: Ilość pikseli w poziomie × pionie (1920×1080) lub całkowita liczba (5Mpix).",
     "details": ""
   },
   {
@@ -571,11 +581,11 @@
   },
   {
     "question": "Obsługa tabel w SQL – tworzenie i modyfikacja",
-    "answer": "",
-    "details": ""
+    "answer": "Obejmuje tworzenie nowych tabel oraz zmianę ich struktury za pomocą poleceń SQL.",
+    "details": "Do tworzenia służy CREATE TABLE, a do modyfikacji ALTER TABLE (np. dodawanie/usuwanie kolumn, zmiana typu danych). Usuwanie tabeli realizuje DROP TABLE."
   },
   {
-    "question": "Jaki jest cykl życia oprogramowania",
+    "question": "Jaki jest cykl życia oprogramowania ???",
     "answer": "",
     "details": ""
   },
@@ -701,7 +711,7 @@
   },
   {
     "question": "Wymień rodzaje technologii chmurowych",
-    "answer": "",
+    "answer": "Kontenery (wirtualizacja poziomu OS). Mikrousługi (dzielenie aplikacji na małe procesy). Service Mesh (zarządzanie komunikacją usług). Niezmienna infrastruktura i deklaratywne API.",
     "details": ""
   },
   {
@@ -736,7 +746,7 @@
   },
   {
     "question": "Rendering i Bufor Z jak jest wykorzystywany?",
-    "answer": "",
+    "answer": "Rendering: Proces tworzenia obrazu 2D na podstawie 3D sceny. Buforu Z - kluczowy element tego procesu. Dla każdego piksela zapisuje jego współrzędną Z (odległość od obserwatora) Podczas rysowania obrazu algorytm sprawdza wartość Z. Wyświetla piksel, który znajduje się najbliżej ekranu, odrzucając obiekty zasłonięte.",
     "details": ""
   },
   {
@@ -746,18 +756,13 @@
   },
   {
     "question": "Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów",
-    "answer": "",
+    "answer": "Podział problemu na mniejsze podproblemy, rozwiązanie ich niezależnie (często rekurencyjnie) i scalenie wyników (np. MergeSort, QuickSort).",
     "details": ""
   },
   {
     "question": "Czym jest lista? Podaj przykłady i różnice w stosunku do tablic",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Co to jest sortowanie przez kopcowanie?",
-    "answer": "",
-    "details": ""
+    "answer": "Lista: Liniowo uporządkowany zbiór elementów połączonych wskaźnikami. Przykłady: Jednokierunkowa (wskaźnik tylko na następnika), dwukierunkowa (na następnika i poprzednika), cykliczna (koniec łączy się z początkiem)",
+    "details": "Różnice względem tablicy: Elementy nie muszą leżeć obok siebie w pamięci; łatwe dodawanie/usuwanie w środku (przepięcie wskaźników); brak swobodnego dostępu przez indeks (trzeba przejść po kolei)."
   },
   {
     "question": "Opisz funkcje filter() w swift",
@@ -805,8 +810,8 @@
     "details": "Jednozdaniowo: Funkcyjne = program składa się z funkcji, które nie zmieniają stanu i zawsze dają przewidywalny wynik."
   },
   {
-    "question": "Na czym polega teksturowanie 3D, podaj typy tekstur",
-    "answer": "",
+    "question": "Na czym polega teksturowanie 3D",
+    "answer": "Mapujemy obrazy 2D (tekstury) na powierzchnie obiektów 3D.",
     "details": ""
   },
   {
@@ -816,12 +821,12 @@
   },
   {
     "question": "Wymień algorytmy wyszukiwania elementu w zbiorze",
-    "answer": "",
+    "answer": "1. Wyszukiwanie liniowe: Sprawdza każdy element po kolei (O(n)). 2. Wyszukiwanie binarne: Działa na posortowanym zbiorze, dzieli zakres na pół (O(logn)). 3. Wyszukiwanie interpolacyjne: Szacuje miejsce elementu (jak w słowniku).",
     "details": ""
   },
   {
     "question": "Wymień zarządców układu w android",
-    "answer": "",
+    "answer": "LinearLayout - elementy liniowo (pionowo/poziomo). ConstraintLayout - responsywne układy z relacjami. TableLayout - siatka (jak tabele HTML). RecyclerView - wydajne przewijalne listy",
     "details": ""
   },
   {
@@ -831,7 +836,7 @@
   },
   {
     "question": "Co to kontekst db w entity framework",
-    "answer": "",
+    "answer": " Kontekst bazy danych (reprezentowany przez klasę dziedziczącą po DbContext) to klasa implementująca wzorzec repozytorium, która zapewnia dostęp do danych w encjach bazodanowych. Musi zawierać właściwości typu DbSet<T>, które odpowiadają konkretnym tabelom/encjom",
     "details": ""
   },
   {
@@ -881,17 +886,17 @@
   },
   {
     "question": "Opisz instrukcje warunkowe w SWIFT?",
-    "answer": "",
+    "answer": "Instrukcja if/else: if warunek { kod } else { kod }. Instrukcja guard: guard warunek else { //kod odpowiedzialny za obsługę błędów return }. Switch: switch wartość { case wartość1: kod; case wartość2: kod; default: kod } Musi ona zawierać blok default.",
     "details": ""
   },
   {
     "question": "Jak się przekazuje parametry w funkcji w swift?",
-    "answer": "",
-    "details": ""
+    "answer": "Parametry przekazuje się przez wywołanie funkcji, podając wartości zgodne z jej definicją.",
+    "details": "Swift używa nazw parametrów zewnętrznych i wewnętrznych, np. func greet(name: String) { }. Domyślnie parametry są przekazywane przez wartość."
   },
   {
     "question": "Opisz algorytmy wyszukiwania wzorca w tekście",
-    "answer": "",
+    "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)) 2. KMP (Knuth-Morris-Pratt): Wykorzystuje tablicę prefiksów, aby wiedzieć, o ile przesunąć wzorzec w razie niezgodności, unikając cofania się w tekście. 3. Boyer-Moore (BM): (Wymieniony w agendzie, brak szczegółowego opisu w dostarczonych fragmentach). 4. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
     "details": ""
   },
   {
@@ -901,8 +906,8 @@
   },
   {
     "question": "Omów struktury i klasy w swift",
-    "answer": "",
-    "details": ""
+    "answer": "Struktury i klasy to typy złożone służące do modelowania danych i logiki w Swift.",
+    "details": "Struktury (struct) są typami wartości – kopiowane przy przekazaniu. Klasy (class) są typami referencyjnymi – przekazywane przez referencję, obsługują dziedziczenie i ARC."
   },
   {
     "question": "Co to schemat hornera?",
@@ -911,9 +916,9 @@
   },
   {
     "question": "Co to SwiftUI?",
-    "answer": "",
-    "details": ""
-  },
+    "answer": "SwiftUI to deklaratywny framework Apple do tworzenia interfejsów użytkownika.",
+    "details": "Umożliwia budowanie UI w Swift poprzez opis wyglądu i zachowania widoków, automatycznie reagując na zmiany stanu. Jest używany w aplikacjach iOS, macOS, watchOS i tvOS."
+  },  
   {
     "question": "Co to firewall?",
     "answer": "Zapora filtrująca pakiety i blokująca niepożądany ruch sieciowy na podstawie zdefiniowanych reguł.",
@@ -941,18 +946,13 @@
   },
   {
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
-    "answer": "",
-    "details": ""
+    "answer": "Git zarządza historią zmian poprzez commity i gałęzie, umożliwiając równoległą pracę.",
+    "details": "Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase."
   },
   {
     "question": "Czym są węzły integralności w bazach danych? Jak się je tworzy i usuwa?",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Opisz przekształcenia bezkontekstowe grafiki rastrowej",
-    "answer": "",
-    "details": ""
+    "details": "To reguły zapewniające poprawność i spójność danych w bazie.",
+    "answer": "Tworzy się je poprzez ograniczenia (constraints) takie jak PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK przy CREATE TABLE lub ALTER TABLE. Usuwa się je poleceniem ALTER TABLE DROP CONSTRAINT."
   },
   {
     "question": "Co to LIFO i FIFO?",
@@ -1011,23 +1011,23 @@
   },
   {
     "question": "Na czym polega sortowanie przez kopcowanie?",
-    "answer": "",
-    "details": ""
+    "answer": "To metoda sortowania wykorzystująca strukturę danych zwaną kopcem (heap), najczęściej kopiec maksymalny lub minimalny.",
+    "details": "Algorytm buduje kopiec z danych, a następnie wielokrotnie usuwa największy (lub najmniejszy) element z kopca i umieszcza go na końcu tablicy. Powtarza się to, aż wszystkie elementy zostaną posortowane. Złożoność czasowa: O(n log n)."
   },
   {
     "question": "Jakie metody można wykonywać na stosie?",
-    "answer": "",
-    "details": ""
+    "answer": "Na stosie wykonuje się głównie operacje dodawania (push) i usuwania (pop) elementów oraz sprawdzania elementu na szczycie (peek/top).",
+    "details": "Stos działa na zasadzie LIFO (Last In, First Out). Push – dodaje element na wierzch, Pop – usuwa element z wierzchu, Peek/Top – podgląda element na wierzchu bez usuwania."
   },
   {
     "question": "Jakie są typy związków między encjami?",
     "answer": "Jeden-do-jednego (1:1). Jeden-do-wielu (1:M). Wiele-do-wielu (M:N). Związek unarny - encja połączona sama ze sobą.",
-    "details": ""
+    "details": "Wyróżnia się związki ze względu na liczbę uczestników: unarne (rekurencyjne), binarne i n-arne. Ze względu na liczność (moc) wyróżnia się związki powyższe."
   },
   {
     "question": "Co to RGB?",
-    "answer": "",
-    "details": ""
+    "answer": "RGB składa się z trzech składowych: czerwonej, zielonej i niebieskiej. Jest używany głównie w ekranach, gdzie kolory powstają przez mieszanie światła",
+    "details": "Trzy składowe: R, G, B (każda 0-255). 0,0,0 = czarny; 255,255,255 = biały"
   },
   {
     "question": "Na czym polega asynchroniczność w js?",
@@ -1036,8 +1036,8 @@
   },
   {
     "question": "Co to diagram DFD?",
-    "answer": "",
-    "details": ""
+    "answer": "(Data Flow Diagram) to diagram przepływu danych. Jest to strukturalna specyfikacja funkcji systemu, nazywana \"mapą procesów\". Służy do identyfikacji zależności między procesami przetwarzania a danymi.",
+    "details": "Elementy składowe DFD to: Obiekt zewnętrzny (źródło/odbiorca danych), Proces (przetwarza dane),  Magazyn danych (gromadzi dane), Przepływ danych (strumienie przesyłania informacji)"
   },
   {
     "question": "Czym są tablice asocjacyjne na przykładzie PHP?",
@@ -1075,7 +1075,7 @@
     "details": "Szyfrogram — wynik tej operacji."
   },
   {
-    "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych",
+    "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych ?????",
     "answer": "Stosowanie systemów równoległych i rozproszonych pozwala na rozłożenie zadania obliczeniowego na zbiór obliczeń cząstkowych. Dzięki współbieżności zadanie to może zostać wykonane znacznie szybciej,. Systemy wieloprocesorowe pozwalają na pełne wykorzystanie zalet aplikacji wielowątkowych (paralelizm wykonywania wątków).",
     "details": ""
   },
@@ -1085,8 +1085,13 @@
     "details": ""
   },
   {
-    "question": "Na czym polega architektura 3 warstwowa?",
+    "question": "Na czym polega architektura 3 warstwowa???",
     "answer": "",
+    "details": ""
+  },
+  {
+    "question": "Czym jest porgramowanie równoległe? (paradygmat programowania równoległego)",
+    "answer": "To jednoczesne uruchamianie wielu zadań (np. testów w GitHub Actions) lub instancji aplikacji, aby przyspieszyć wykonanie lub obsłużyć większy ruch.",
     "details": ""
   },
   {
@@ -1166,12 +1171,12 @@
   },
   {
     "question": "Co to knn?",
-    "answer": "",
+    "answer": "K-Nearest Neighbors. Klasyfikator najbliższego sąsiada to model uczenia maszynowego. Dokonuje przewidywań na podstawie najczęściej występującej klasy „k” najbliższych punktów danych w przestrzeni cech.",
     "details": ""
   },
   {
     "question": "Co to drzewa decyzyjne?",
-    "answer": "",
+    "answer": "To graficzna struktura, w której: Węzły reprezentują testy na cechach danych. Gałęzie to wyniki tych testów. Liście to ostateczne decyzje lub etykiety klas.",
     "details": ""
   },
   {
@@ -1206,17 +1211,12 @@
   },
   {
     "question": "Wymień sposoby przekazywania danych w aplikacji mobilnych (android)",
-    "answer": "",
+    "answer": "1. Intencje (Intent) - Proste dane (klucz-wartość) przez Bundle (metoda putExtra). 2. LiveData - Dane w czasie rzeczywistym, uwzględnia cykl życia. 3. Interfejs Parcelable - Przesyłanie całych obiektów klas, przez opakowanie ich stanu do intencji.",
     "details": ""
   },
   {
     "question": "Co to uwierzytelnianie i autoryzacja? Czym się różnią?",
     "answer": "Uwierzytelnianie (Authentication) to proces weryfikacji tożsamości użytkownika – odpowiedź na pytanie \"Kim jesteś?\". Przykładem jest podanie loginu i hasła. Autoryzacja (Authorization) następuje po uwierzytelnieniu i jest procesem sprawdzania uprawnień – odpowiedź na pytanie \"Co możesz zrobić?\". Przykładem jest sprawdzenie, czy zalogowany użytkownik ma prawo usunąć dany plik.",
-    "details": ""
-  },
-  {
-    "question": "Wymień metody przechowywania danych w aplikacjach mobilnych",
-    "answer": "",
     "details": ""
   },
   {
@@ -1233,11 +1233,6 @@
     "question": "Wymień metody protokołu http i je opisz",
     "answer": "GET: Pobieranie zasobów (np. wyświetlenie strony). Nie zmienia stanu serwera. POST: Wysyłanie danych w celu utworzenia nowego zasobu (np. rejestracja). PUT: Aktualizacja/nadpisanie całego zasobu (przesyłamy komplet danych). PATCH: Aktualizacja częściowa zasobu (zmieniamy tylko jedno pole). DELETE: Usunięcie zasobu.",
     "details": "HEAD: Pobranie tylko nagłówków (bez treści)."
-  },
-  {
-    "question": "Android zarządcy układu - wymień",
-    "answer": "",
-    "details": ""
   },
   {
     "question": "Wady i zalety biblioteki lombok",
@@ -1270,9 +1265,9 @@
     "details": ""
   },
   {
-    "question": "Jak się łączy zbiory danych?",
-    "answer": "",
-    "details": ""
+    "question": "Jak się łączy zbiory danych? (SQL)",
+    "answer": "„Łączenie” oznacza zwykle JOIN – powiązanie tabel według jakiegoś klucza: INNER JOIN – Łączymy tylko te rekordy, które mają pasujący klucz w obu tabelach. LEFT JOIN – wszystkie rekordy z lewej tabeli + dopasowane z prawej (lub NULL jeśli brak). RIGHT JOIN – analogicznie dla prawej tabeli",
+    "details": "FULL OUTER JOIN – wszystkie rekordy z obu tabel, brakujące wartości jako NULL"
   },
   {
     "question": "Co to encje? Wymień rodzaje",
@@ -1281,7 +1276,7 @@
   },
   {
     "question": "Podaj różnice między razor pages a mvc w .net",
-    "answer": "Razor Pages to prostsza architektura oparta na plikach - każda strona to osobny plik z logiką w PageModel. MVC rozdziela aplikację na Model-View-Controller z osobnymi kontrolerami obsługującymi wiele widoków.",
+    "answer": "Razor Pages to prostsza architektura oparta na plikach - każda strona to osobny plik z logiką w PageModel. MVC rozdziela aplikację na Model-View-Controller z osobnymi kontrolerami obsługującymi wiele widoków. Każda strona w razor pages składa się z pliku widoku (.cshtml) oraz pliku z logiką (code-behind, .cshtml.cs)",
     "details": "Razor Pages lepsze do prostych, stronnicowych aplikacji (CRUD). MVC lepsze do złożonych aplikacji z wieloma endpointami i REST API."
   },
   {
@@ -1296,7 +1291,7 @@
   },
   {
     "question": "Opisz podstawowe elementy grafiki 3D",
-    "answer": "",
+    "answer": "1. Voxel (Volumetric Pixel): Element 3D matrycy o określonych rozmiarach. 2. Vertex (wierzchołek): Punkt w przestrzeni 3D: (x, y, z) lub 4 współrzędne jednorodne. 3. Krawędź (edge): Połączenie między dwoma wierzchołkami. 4. Ściana (face/polygon): Płaska powierzchnia utworzona przez połączenie krawędzi (np. trójkąt, czworokąt). 5. Siatka (mesh): Zbiór wierzchołków, krawędzi i ścian tworzących model 3D.",
     "details": ""
   },
   {
@@ -1316,8 +1311,8 @@
   },
   {
     "question": "Wymień rodzaje cieniowania w 3D i opisz jeden",
-    "answer": "",
-    "details": ""
+    "answer": "Rodzaje cieniowania: Płaskie, Gouraud, Phong",
+    "details": "Cieniowanie Płaskie: Wykorzystuje wektor normalny wielokąta (np. trójkąta) Na jego podstawie oblicza stałą wartość oświetlenia. Mnoży tę wartość przez kolor powierzchni (lub tekstury). Wypełnia każdy punkt wielokąta tym samym kolorem."
   },
   {
     "question": "Czym są inteligentne wskaźniki?",
@@ -1331,8 +1326,8 @@
   },
   {
     "question": "Co to model siatkowy w grafice 3D i z czego się składa?",
-    "answer": "",
-    "details": ""
+    "answer": "Reprezentacja powierzchni obiektu 3D za pomocą połączonych wielokątów. ",
+    "details": "Służy do Przybliżania kształtu obiektu, Łatwości przetwarzania i renderowania"
   },
   {
     "question": "Co to polimorfizm statyczny i dynamiczny w c++?",
@@ -1341,8 +1336,23 @@
   },
   {
     "question": "Co to Iaas?",
-    "answer": "",
+    "answer": "Dostajesz surowe zasoby: serwer, dysk, sieć.  Ty zarządzasz systemem operacyjnym i aplikacjami, dostawca dba tylko o sprzęt",
     "details": ""
+  },
+  {
+    "question": "Co to Paas?",
+    "answer": "Dostajesz gotowe środowisko do uruchomienia kodu. Nie martwisz się o system operacyjny czy aktualizacje, wrzucasz tylko swoją aplikację",
+    "details": ""
+  },
+  {
+    "question": "Co to Saas?",
+    "answer": " Dostajesz gotową aplikację dostępną przez sieć (np. Gmail). Tylko używasz, nic nie konfigurujesz \"pod spodem\".",
+    "details": ""
+  },
+  {
+    "question": "Co to chmura?",
+    "answer": "Model dostępu na żądanie do puli konfigurowalnych zasobów obliczeniowych przez Internet.",
+    "details": "Np: sieci, serwery, pamięć masowa."
   },
   {
     "question": "Co to klasy szablonowe w c++?",
@@ -1351,7 +1361,7 @@
   },
   {
     "question": "Wymień typy tekstur",
-    "answer": "",
+    "answer": "Diffuse map  - podstawowy kolor powierzchni. Metallic map - właściwości materiału. Alpha map - przezroczystość. Emissive map - samoświecenie. Normal map - symulacja nierówności.",
     "details": ""
   },
   {
@@ -1386,7 +1396,7 @@
   },
   {
     "question": "Wymień związki w uml i je opisz",
-    "answer": "",
+    "answer": " Powiązanie (Association): podstawowe połączenie między elementami (np. aktor używa przypadku użycia, klient ma fakturę). Zależność (Dependency): relacja użycia, często oznaczana przerywaną strzałką.  Agregacja: relacja \"całość-część\" (np. Miasto składa się z Ulic). Kompozycja: silniejsza forma agregacji, gdzie część nie może istnieć bez całości (np. Dom i Pokój). Generalizacja (Generalization): dziedziczenie, relacja \"jest rodzajem\" (np. Osoba Fizyczna dziedziczy po Osobie Prawnej)",
     "details": ""
   },
   {
@@ -1395,9 +1405,9 @@
     "details": "Różnica między unią: Struktura Zajmuje w przybliżeniu sumę rozmiarów wszystkich pól a Unia Zajmuje rozmiar największego pola."
   },
   {
-    "question": "Jak działa ochrona antywirusowa?",
+    "question": "Jak działa ochrona antywirusowa? Podaj przykłady antywirusów",
     "answer": "Monitoruje system w czasie rzeczywistym, dokonując skanowania otwieranych/uruchumianych plików i poczty. W celu wykrycia nieznanych zagrożeń stosowana jest analiza heurystyczna oraz środowiska izolowane. Wykorzystuje aktualizowane bazy sygnatur wirusów.",
-    "details": ""
+    "details": "Przykładowe programy antywirusowe: Windows Defender, Avast, Bitdefender, Norton."
   },
   {
     "question": "Czym się różni proces od wątku?",
@@ -1426,7 +1436,7 @@
   },
   {
     "question": "Podstawowe pojęcia: (szyfrowanie, szyfrogram, klucz kryptograficzny)",
-    "answer": "",
+    "answer": "Szyfrowanie — operacja przekształcenia danych z postaci jawnej do postaci niezrozumiałej dla osób nieupoważnionych. Szyfrogram —> wynik tej operacji. Klucz kryptograficzny — dodatkowe dane używane do szyfrowania i deszyfrowania. Bez znajomości klucza odczytanie wiadomości powinno być obliczeniowo nieefektywne lub niemożliwe. ",
     "details": ""
   },
   {
@@ -1496,12 +1506,12 @@
   },
   {
     "question": "Czym są Sieci samouczące, samoorganizujące się i rekurencyjne?",
-    "answer": "",
-    "details": ""
+    "answer": "To rodzaje sztucznych sieci neuronowych różniące się sposobem uczenia i przetwarzania danych.",
+    "details": "Samouczące uczą się na podstawie danych treningowych, samoorganizujące się grupują dane bez nauczyciela (np. SOM), a rekurencyjne posiadają sprzężenia zwrotne i pamięć stanu."
   },
   {
     "question": "Jakie są sposoby uczenia maszynowego",
-    "answer": "",
+    "answer": "1. Uczenie nadzorowane: Program otrzymuje dane wejściowe wraz z pożądanymi wynikami („etykietami”) i uczy się ogólnej zasady odwzorowania jednych na drugie. 2. Uczenie nienadzorowane: Algorytm próbuje samodzielnie odkryć strukturę lub ukryte wzorce w danych, nie otrzymując żadnych etykiet. Uczenie ze wzmocnieniem: Program wchodzi w interakcję z dynamicznym środowiskiem i uczy się poprzez system nagród, które stara się zmaksymalizować.",
     "details": ""
   },
   {
@@ -1520,9 +1530,9 @@
     "details": ""
   },
   {
-    "question": "Podaj róznice miedzy git merge a git rebase",
-    "answer": "",
-    "details": ""
+    "question": "Podaj różnice między git merge a git rebase",
+    "answer": "Merge łączy gałęzie zachowując historię wszystkich commitów, rebase przenosi commity na nową bazę, tworząc liniową historię.",
+    "details": "Merge tworzy nowy commit scalający, rebase przepina commity, co upraszcza historię, ale zmienia identyfikatory commitów."
   },
   {
     "question": "SwiftUI vs UIKit",
@@ -1535,8 +1545,13 @@
     "details": ""
   },
   {
+    "question": "Opisz cykl życia aktywności w Android",
+    "answer": "1. onCreate (tworzenie), 2. onStart (widoczna), 3. onResume (aktywny), 4. onPause (częściowo zasłonięta), 5. onStop (niewidoczna), 6. onDestroy (niszczenie).",
+    "details": ""
+  },
+  {
     "question": "Podstawy komunikacji sieciowej na platformie Android.",
-    "answer": "",
+    "answer": "Wymagane uprawnienie: INTERNET w manifeście. Protokoły: HTTP/HTTPS. Standard: usługi REST. Biblioteka: Retrofit 2 (mapowanie JSON → obiekty Java)",
     "details": ""
   },
   {
@@ -1560,9 +1575,9 @@
     "details": "Schemat Hornera = szybkie obliczanie wartości wielomianu poprzez rekurencyjne mnożenie i dodawanie."
   },
   {
-    "question": "Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
-    "answer": "",
-    "details": ""
+    "question": "co to Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
+    "answer": "Indeksy to struktury przyspieszające wyszukiwanie danych w tabeli. Automatyczne tworzą się najczęściej na kluczach głównych (PRIMARY KEY) i unikalnych (UNIQUE).",
+    "details": "Dzięki nim baza szybciej wyszukuje rekordy według tych kolumn bez ręcznego definiowania indeksu."
   },
   {
     "question": "Co to wzorzec budowniczy???????",
@@ -1576,18 +1591,18 @@
   },
   {
     "question": "Architektura systemu IOS",
-    "answer": "",
+    "answer": "Cztery podstawowe warstwy: 1. Core OS - Jądro systemu, sterowniki, bezpieczeństwo. 2. Core Services - Podstawowe usługi: Core Foundation, lokalizacja (Core Location), ruch (Core Motion). 3. Media - Grafika (Core Graphics), dźwięk (AVFoundation), wideo. 4. Cocoa Touch - Frameworki UI: UIKit, obsługa dotyku, powiadomienia.",
     "details": ""
   },
   {
     "question": "Przekazywanie danych między widokami w SwiftUI",
-    "answer": "",
+    "answer": "1. Właściwości (Properties) - Dane przekazywane przy inicjalizacji widoku w NavigationLink. 2. @State - Dane lokalne widoku, zmiany powodują odświeżenie UI. 3. @Binding - Dwukierunkowe powiązanie danych między widokami. 4. @EnvironmentObject - Udostępnianie danych w całej hierarchii widoków. 5. @ObservedObject - Obserwowanie zewnętrznego obiektu danych.",
     "details": ""
   },
   {
-    "question": "Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych.",
-    "answer": "",
-    "details": ""
+    "question": "Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych. (android)",
+    "answer": "1. Baza danych SQLite - Relacyjna baza, często z biblioteką Room (ORM). 2. SharedPreferences (plik XML) - Pary klucz-wartość dla ustawień aplikacji (tekst, liczby, booleany). 3. Pliki - Pamięć wewnętrzna/zewnętrzna (np. obrazy w MediaStore).",
+    "details": "Na iOS odpowiednikami są: Core Data (lub SQLite) do danych strukturalnych, UserDefaults do prostych ustawień klucz-wartość oraz FileManager do zapisu plików w katalogach aplikacji."
   },
   {
     "question": "Co to preprocesor",
