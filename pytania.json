@@ -3,7 +3,7 @@
     "question": "Co to jest funkcja skrótu?",
     "answer": "Funkcja skrótu (ang. hash function) to funkcja matematyczna, która: przyjmuje dane wejściowe o dowolnej długości (np. tekst, plik, hasło) i zwraca wynik o stałej długości, zwany skrótem lub hashem.",
     "details": "- Właściwości: 1. jednokierunkowość - trudno odtworzyć dane z hasha, 2. odporność na kolizje - trudno znaleźć dwa teksty o tym samym hashu, 3. stała wartość dla tych samych danych.",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Typy opcjonalne w swift",
@@ -75,7 +75,7 @@
     "question": "Co to podpis cyfrowy?",
     "answer": "Mechanizm potwierdzający tożsamość nadawcy oraz integralność danych. Nadawca tworzy hash wiadomości funkcją skrótu i szyfruje go kluczem prywatnym.",
     "details": "",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Wymień sieci w virtual box",
@@ -99,7 +99,7 @@
     "question": "Co to jest BPMN",
     "answer": " (Business Process Model and Notation) to język graficzny składający się z zestawu symboli i zasad ich łączenia w diagramy. Służy do modelowania procesów biznesowych. Kluczowe cechy to koncepcja \"żetonu\" przepływającego przez diagram oraz węzły (zdarzenia, czynności, bramki) połączone przepływami. ",
     "details": "Przykład: W wykładzie przedstawiono proces aukcji, który obejmuje zgłoszenie przedmiotu, wybór typu aukcji (kup teraz lub licytuj), zakończenie sprzedaży i pobranie prowizji. Innym przykładem jest proces obsługi zapytania ofertowego w firmie, podzielony na tory (baseny) dla biura, pracownika merytorycznego, kierownika i dyrektora.",
-    "category": "Inzynieria oprogramowania"
+    "category": "Inzynieria oprogramowania, komisja 4"
   },
   {
     "question": "Co to json web token?",
@@ -117,7 +117,7 @@
     "question": "Co to polimorfizm? (+przykłady)",
     "answer": "Polimorfizm to wielopostaciowość, czyli właściwość pozwalająca traktować obiekty różnych typów w jednolity sposób, zazwyczaj przez wspólny interfejs klasy bazowej. Przykładem jest klasa bazowa Figura z wirtualną metodą pole, która w klasach pochodnych Koło i Prostokąt jest zaimplementowana w różny sposób, ale może być wywołana na liście wskaźników typu Figura, dając właściwy wynik dla każdego obiektu.",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość, komisja 4"
   },
   {
     "question": "Co to dziedziczenie?",
@@ -159,7 +159,7 @@
     "question": "Co to drzewo BST",
     "answer": "BST (Binary Search Tree) to binarne drzewo poszukiwań. Jego kluczowa cecha to uporządkowanie: dla każdego węzła, wszystkie elementy w jego lewym poddrzewie są mniejsze od niego, a w prawym poddrzewie – większe. Pozwala to na szybkie wyszukiwanie (złożoność oczekiwana O(logn))",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Infrastruktura klucza publicznego",
@@ -177,7 +177,7 @@
     "question": "Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości",
     "answer": "public: Każdy ma dostęp. private: Tylko metody tej samej klasy mają dostęp. protected: Dostęp ma ta klasa i klasy, które po niej dziedziczą.",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość, komisja 4"
   },
   {
     "question": "Jak się układa elementy w aplikacji mobilnej swift?",
@@ -219,7 +219,7 @@
     "question": "Co to vpn?",
     "answer": "Virtual Private Network - Wirtualna sieć prywatna. Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. VPN tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
     "details": "",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Krotka w swift, jak się definiuje?",
@@ -231,7 +231,7 @@
     "question": "http vs https",
     "answer": "HTTP – protokół do przesyłania danych w internecie bez szyfrowania. Dane mogą być podsłuchane lub zmienione. HTTPS – to HTTP z szyfrowaniem SSL/TLS. Dane przesyłane są bezpiecznie i nikt ich nie podsłucha.",
     "details": "W skrócie: HTTPS = bezpieczna wersja HTTP.",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce",
@@ -249,7 +249,7 @@
     "question": "Czym jest programowanie deklaratywne",
     "answer": "Programowanie deklaratywne to paradygmat, w którym programista opisuje, co chce osiągnąć, zamiast mówić komputerowi jak to zrobić krok po kroku. Przykłady języków/deklaratywnych narzędzi: SQL (zapytania do bazy), HTML (struktura strony)",
     "details": "Jednozdaniowo: Deklaratywne = mówię komputerowi „co chcę”, on sam wymyśla jak to zrobić",
-    "category": "Paradygmaty programowania"
+    "category": "Paradygmaty programowania, Ogólne"
   },
   {
     "question": "Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?",
@@ -261,7 +261,7 @@
     "question": "Wymień rodzaje kluczy w bazie danych",
     "answer": "Klucz główny, obcy, unikalny, kandydujący, złożony.",
     "details": "Klucze służą do identyfikacji rekordów i utrzymania relacji między tabelami.",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Podaj różnice między fields a properties w C#",
@@ -279,7 +279,7 @@
     "question": "Co to DML? Podaj przykłady",
     "answer": "-Data Manipulation Language- Zbiór instrukcji, służących do przetwarzania danych w relacyjnej bazie danych. np INSERT - wstawianie wierszy, UPDATE - modyfikacja istniejących danych lub DELETE - usuwanie wierszy",
     "details": "",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Enum w swift, jak się definiuje?",
@@ -321,7 +321,7 @@
     "question": "Co to jest zmienna statyczna klasy?",
     "answer": "To zmienna wspólna dla wszystkich obiektów danej klasy. Nie jest kopiowana dla każdego obiektu z osobna – istnieje tylko jeden egzemplarz w pamięci. Jeśli jeden obiekt ją zmieni, inne widzą tę zmianę.",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość, komisja 4"
   },
   {
     "question": "Czym są ciasteczka w https?",
@@ -339,13 +339,13 @@
     "question": "Czym są podzapytania w sql?",
     "answer": "Podzapytania (subqueries) w SQL to zapytania wewnątrz innych zapytań, które zwracają wynik używany przez zapytanie główne. Mogą być w klauzulach SELECT, WHERE lub FROM. Umożliwiają np. filtrowanie danych w oparciu o wynik innego zapytania.",
     "details": "Jednozdaniowo: Podzapytania to zapytania w zapytaniach, które pozwalają używać wyników jednego zapytania w innym.",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Co to DDOS?",
     "answer": "Distributed Denial of Service - Atak rozproszony, prowadzony z wielu komputerów jednocześnie. Są wykorzystywane do wymuszeń. Atakujący przeprowadza atak na małą skalę, po czym wymusza okup grożąc atakiem na dużą skalę.",
     "details": "",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Co to responsywność?",
@@ -357,7 +357,7 @@
     "question": "Co to histogram obrazu?",
     "answer": "Histogram obrazu to wykres pokazujący, ile pikseli w obrazie ma każdą możliwą wartość jasności lub koloru. np dla obrazu czarno-białego pokazuje rozkład od 0 (czarny) do 255 (biały). Dla obrazu kolorowego można mieć trzy histogramy – dla czerwonego, zielonego i niebieskiego kanału.",
     "details": "Jednozdaniowo: Histogram obrazu pokazuje, ile pikseli ma każdą wartość jasności lub koloru w obrazie.",
-    "category": "Grafika komputerowa"
+    "category": "Grafika komputerowa, komisja 4"
   },
   {
     "question": "Co to funkcja rekurencyjna? podaj przykłady",
@@ -367,7 +367,7 @@
   {
     "question": "Co to XML?",
     "answer": "XML (eXtensible Markup Language) to język znaczników do przechowywania i wymiany danych w formacie tekstowym. to notacja służąca do specyfikacji zawartości dokumentów. Służy do opisu struktury danych dokumentu (drzewo XML). Dokument XML musi być poprawnie zagnieżdżony, posiadać prolog z deklaracją wersji i ewentualnie deklarację DFD. Każdy element (poza głównym) ma jednego rodzica i może mieć wiele dzieci,.",
-    "details": ""
+    "details": "Ogólne, Inzynieria oprogramowania"
   },
   {
     "question": "Czym są inferencje w C#",
@@ -415,7 +415,7 @@
     "question": "Podaj 3 wady i zalety MPA",
     "answer": "Zalety: Mniej obciążenia początkowego – każda strona ładuje się osobno. Łatwiejsze do zbudowania prostych stron i serwisów, Łatwiej Google widzi stronę – każda podstrona ma własny adres, więc łatwiej ją znaleźć w wyszukiwarce (SEO) Wady: Wolniejsze działanie przy częstym przechodzeniu między stronami (pełne przeładowania), Większe zużycie zasobów serwera przy każdym żądaniu, Trudniejsza implementacja interaktywnych funkcji w porównaniu z SPA",
     "details": "",
-    "category": "Aplikacje internetowe"
+    "category": "Aplikacje internetowe, komisja 4"
   },
   {
     "question": "Czym są: konstruktor i destruktor?",
@@ -491,13 +491,13 @@
     "question": "Opisz algorytm „Flaga Polska”",
     "answer": "Służy do sortowania zbioru składającego się tylko z dwóch rodzajów elementów (np. 0 i 1). Dzieli tablicę na dwa podzbiory. Przeglądamy tablicę z dwóch stron jednocześnie: od lewej szukamy elementu, który nie pasuje (np. 1), a od prawej takiego, który powinien być na początku (np. 0), i zamieniamy je miejscami. Złożoność liniowa O(n)",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Opisz algorytm „Flaga Francji”",
     "answer": "Rozszerzenie flagi polskiej dla trzech wartości (np. 0, 1, 2). Dzieli zbiór na trzy części. Używa trzech wskaźników (początek, koniec i element bieżący), aby w jednym przejściu przez tablicę (O(n)) umieścić elementy w odpowiednich sekcjach",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "W jakich miejscach w programie umieszcza się funkcje?",
@@ -526,7 +526,7 @@
     "question": "Czym jest ERD?",
     "answer": "(Entity Relationship Diagram) to diagram związków encji. Prezentuje on model danych w systemie, ukazując encje (kolekcje danych), ich atrybuty oraz logiczne związki pomiędzy nimi. Jest to model konceptualny/logiczny niezależny od konkretnego systemu zarządzania bazą danych",
     "details": "",
-    "category": "Inzynieria oprogramowania"
+    "category": "Inzynieria oprogramowania, komisja 4"
   },
   {
     "question": "Czym jest wskaźnik do wskaźnika?",
@@ -538,19 +538,19 @@
     "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
     "answer": "1. Sortowanie przez wybieranie (SelectSort): Przeszukujemy nieposortowaną część tablicy, aby znaleźć element najmniejszy (lub największy) i zamieniamy go z pierwszym elementem tej części. Powtarzamy dla reszty tablicy. Złożoność O(n2). 2. Sortowanie szybkie (QuickSort): Algorytm „dziel i zwyciężaj”. Wybieramy element (pivot/mediana), dzielimy tablicę na dwie części (elementy mniejsze od pivota i większe), a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn),.",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Czym są: zbiór uczący, zbiór testujący i zbiór walidacyjny",
     "answer": "1. Zbiór uczący: - Służy do bezpośredniego trenowania modelu i nauki wzorców. 2. Słuzy Porównywania wydajności różnych modeli między sobą. 3. Zbiór testowy używany wyłącznie do ostatecznego sprawdzenia dokładności i zdolności generalizacji gotowego modelu.",
     "details": "",
-    "category": "AI"
+    "category": "AI, komisja 4"
   },
   {
     "question": "Co to walidacja krzyzowa",
     "answer": "To metoda oceny modelu. Polega na podziale zestawu danych na k podzestawów (foldów). Model jest wielokrotnie trenowany, gdzie każdorazowo inny podzbiór służy jako dane testowe, a pozostałe jako treningowe,Końcowym wynikiem jest średnia z tych testów.",
     "details": "",
-    "category": "AI"
+    "category": "AI, komisja 4"
   },
   {
     "question": "Omów architekturę MVC",
@@ -603,7 +603,7 @@
     "question": "Co to jest acid? Podaj jego cechy",
     "answer": "Transakcja - zbiór operacji bazodanowych traktowanych jako jedna całość. Cechy: A - Atomicity (Atomowość) Wszystko albo nic - transakcja wykonuje się w całości lub wcale. C - Consistency (Spójność) Transakcja przeprowadza bazę z jednego poprawnego stanu do drugiego. I - Isolation (Izolacja) Równoczesne transakcje nie wpływają na siebie nawzajem. Durability (Trwałość) Po zatwierdzeniu (COMMIT) zmiany są trwałe, nawet po awarii systemu.",
     "details": "",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Czym jest rozdzielczość w obrazie rastrowym?",
@@ -627,7 +627,7 @@
     "question": "Co to TCP i UDP?",
     "answer": "TCP i UDP to protokoły warstwy transportowej, służące do przesyłania danych między aplikacjami w sieci. TCP jest protokołem połączeniowym i niezawodnym. Przed wysłaniem danych zestawia połączenie, kontroluje poprawność transmisji, kolejność pakietów oraz ponawia wysyłanie w razie błędów. Jest wolniejszy, ale pewny. Wykorzystywany jest tam, gdzie liczy się poprawność danych, np. HTTP/HTTPS, FTP, SMTP, IMAP. UDP jest protokołem bezpołączeniowym i zawodnym. Nie sprawdza, czy dane dotarły ani w jakiej kolejności, dzięki czemu działa szybciej i z mniejszym narzutem. Stosowany jest tam, gdzie ważniejsza jest szybkość niż niezawodność, np. streaming wideo i audio, VoIP, gry online, DNS.",
     "details": "",
-    "category": "Sieci komputerowe"
+    "category": "Sieci komputerowe, komisja 4"
   },
   {
     "question": "Podaj wady i zalety SPA",
@@ -651,7 +651,7 @@
     "question": "Co to hermetyzacja w programowaniu obiektowym?",
     "answer": "Hermetyzacja, znana również jako enkapsulacja, polega na ukrywaniu wewnętrznych szczegółów implementacji klasy i udostępnianiu jedynie wyselekcjonowanego interfejsu publicznego. Mechanizm ten chroni stan obiektu przed niepoprawną modyfikacją z zewnątrz oraz pozwala na swobodną zmianę kodu wewnętrznego bez wpływu na inne części systemu korzystające z tej klasy.",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość, komisja 4"
   },
   {
     "question": "Podaj wady i zalety pól statycznych w klasie",
@@ -788,13 +788,13 @@
     "question": "Co to macierz pomyłek?",
     "answer": "Macierz pomyłek (ang. confusion matrix) to tabela służąca do oceny jakości modelu klasyfikacyjnego, zestawiająca predykcje klasyfikatora z rzeczywistymi danymi",
     "details": "W klasyfikacji binarnej składa się z czterech elementów: TP (True Positives): Poprawne trafienia.TN (True Negatives): Poprawne odrzucenia.  FP (False Positives): Fałszywe alarmy (błąd I rodzaju).  FN (False Negatives): Przeoczenia (błąd II rodzaju) . Na jej podstawie wylicza się miary takie jak dokładność (Accuracy), czułość (Sensitivity), swoistość (Specificity) oraz precyzję (Precision).",
-    "category": "AI"
+    "category": "AI, komisja 4"
   },
   {
     "question": "Czym są klasyfikatory",
     "answer": "Klasyfikator to model uczenia maszynowego (nadzorowanego), którego zadaniem jest przyporządkowanie obiektu do określonej kategorii (klasy) na podstawie wektora jego cech",
     "details": "",
-    "category": "AI"
+    "category": "AI, komisja 4"
   },
   {
     "question": "Wymień rodzaje struktur w swift i podaj operacje na nich",
@@ -817,7 +817,8 @@
   {
     "question": "Usługi google play",
     "answer": "Zamknięte API i usługi Google. Główne usługi (GMS - Google Mobile Services): Firebase - bazy danych, uwierzytelnianie, hosting, Mapy - Maps SDK, lokalizacja, Tożsamość - Google Sign-In, Google Pay",
-    "details": "To zestaw API rozszerzających system. Wykłady wymieniają głównie Firebase – np. Authentication (logowanie/rejestracja) oraz Firestore (skalowalna baza NoSQL w chmurze działająca offline)"
+    "details": "To zestaw API rozszerzających system. Wykłady wymieniają głównie Firebase – np. Authentication (logowanie/rejestracja) oraz Firestore (skalowalna baza NoSQL w chmurze działająca offline)",
+    "category": "Android"
   },
   {
     "question": "Istota wzorców projektowych, podział i przykład",
@@ -871,7 +872,7 @@
     "question": "Podaj reguły solid",
     "answer": "S – Single Responsibility Principle: jedna klasa = jedna odpowiedzialność, O – Open/Closed Principle: klasy otwarte na rozszerzenia, zamknięte na modyfikacje, L – Liskov Substitution Principle: obiekty klas dziedziczących mogą zastępować obiekty klas bazowych, I – Interface Segregation Principle: lepiej wiele wąskich interfejsów niż jeden duży, D – Dependency Inversion Principle: zależności od abstrakcji, nie od konkretów",
     "details": "SOLID to zasady projektowania obiektowego poprawiające czytelność, elastyczność i skalowalność kodu.",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania, komisja 4"
   },
   {
     "question": "Czym są prototypy funkcji?",
@@ -900,13 +901,13 @@
     "question": "Co to stos i jakie są jego funkcje/operacje?",
     "answer": "Stos to struktura typu LIFO (Last In First Out). Funkcje (operacje): push – połóż element na wierzchołek. pop – zdejmij element z wierzchołka. top – sprawdź wartość na wierzchołku. empty – sprawdź, czy stos jest pusty.",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
-    "question": "Czym jest kolejka i jakie są jej funkcje?",
+    "question": "Czym jest kolejka i jakie są jej funkcje i zastosowania?",
     "answer": "Kolejka (FIFO – First In First Out) to struktura, gdzie element dodany jako pierwszy, wychodzi jako pierwszy. Funkcje: attach (lub enqueue) – dołącz na koniec, detach (lub dequeue) – odłącz z początku, first – pokaż pierwszy element, empty – czy pusta",
-    "details": "",
-    "category": "Algorytmika"
+    "details": "Zastosowania kolejek: zarządzanie zadaniami w systemach operacyjnych, drukowanie dokumentów w kolejce, obsługa żądań w serwerach, przesyłanie pakietów w sieciach komputerowych.",
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Co to DOM?",
@@ -935,7 +936,7 @@
     "question": "Czym są testy integracyjne?",
     "answer": "Testy sprawdzające współdziałanie kilku komponentów systemu. Upewniają, że moduły działają poprawnie razem.",
     "details": "",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania, komisja 4"
   },
   {
     "question": "Czym są wątki w javie?",
@@ -1001,7 +1002,7 @@
     "question": "Co to cyfra kontrolna?",
     "answer": "Cyfra dodawana do numeru identyfikacyjnego (np. PESEL, ISBN), aby sprawdzić poprawność całego numeru. Obliczana według określonego algorytmu na podstawie pozostałych cyfr.",
     "details": "",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Rendering i Bufor Z jak jest wykorzystywany?",
@@ -1019,13 +1020,13 @@
     "question": "Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów",
     "answer": "Podział problemu na mniejsze podproblemy, rozwiązanie ich niezależnie (często rekurencyjnie) i scalenie wyników (np. MergeSort, QuickSort).",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Czym jest lista? Podaj przykłady i różnice w stosunku do tablic",
     "answer": "Lista: Liniowo uporządkowany zbiór elementów połączonych wskaźnikami. Przykłady: Jednokierunkowa (wskaźnik tylko na następnika), dwukierunkowa (na następnika i poprzednika), cykliczna (koniec łączy się z początkiem)",
     "details": "Różnice względem tablicy: Elementy nie muszą leżeć obok siebie w pamięci; łatwe dodawanie/usuwanie w środku (przepięcie wskaźników); brak swobodnego dostępu przez indeks (trzeba przejść po kolei).",
-    "category": "Algorytmika, Programowanie strukturalne / C"
+    "category": "Algorytmika, Programowanie strukturalne / C, komisja 4"
   },
   {
     "question": "Opisz funkcje filter() w swift",
@@ -1095,7 +1096,7 @@
     "question": "Wymień algorytmy wyszukiwania elementu w zbiorze",
     "answer": "1. Wyszukiwanie liniowe: Sprawdza każdy element po kolei (O(n)). 2. Wyszukiwanie binarne: Działa na posortowanym zbiorze, dzieli zakres na pół (O(logn)). 3. Wyszukiwanie interpolacyjne: Szacuje miejsce elementu (jak w słowniku).",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Wymień zarządców układu w android",
@@ -1161,7 +1162,7 @@
     "question": "Co to ORM?",
     "answer": "Technika mapowania obiektowo-relacyjnego. Służy do odwzorowania struktury bazy danych (tabel, relacji) na obiekty w języku programowania (klasy). Zaleta: Programista operuje na obiektach Java, a framework ORM (np. Hibernate, JPA) automatycznie generuje odpowiednie zapytania SQL. Cel: Uniezależnienie aplikacji od konkretnego silnika bazy danych i przyspieszenie developmentu.",
     "details": "",
-    "category": "Bazy danych, Ogólne, Aplikacje internetowe"
+    "category": "Bazy danych, Ogólne, Aplikacje internetowe. komisja 4"
   },
   {
     "question": "Co to i do czego służy NAT?",
@@ -1203,7 +1204,7 @@
     "question": "Co to schemat hornera?",
     "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n).",
     "details": "To algorytm pozwalający na efektywne obliczanie wartości wielomianu przy zminimalizowanej liczbie mnożeń. Jest również stosowany przy interpolacji z użyciem bazy Newtona. Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c).",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
     "question": "Co to SwiftUI?",
@@ -1221,18 +1222,18 @@
     "question": "Czym jest Lemat Wilkinsona",
     "answer": "opisuje wpływ błędów zaokrągleń na stabilność obliczeń numerycznych.",
     "details": "Wskazuje, że nawet algorytmy teoretycznie poprawne mogą generować duże błędy numeryczne z powodu kumulacji błędów zaokrągleń w arytmetyce zmiennoprzecinkowej.",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
     "question": "Czym jest ciąg Fibonacciego?",
     "answer": "To ciąg liczb naturalnych, w którym każda kolejna liczba jest sumą dwóch poprzednich. Początek: 0,1,1,2,3,5,8,13,21…",
     "details": "Wzór: Fn=Fn−1+Fn−2 dla n>1.",
-    "category": "Wprowadzenie do informatyki, Inne"
+    "category": "Wprowadzenie do informatyki, Inne, komisja 4"
   },
   {
     "question": "Jak działa zamiana z systemu binarnego na heksadecymalny i dziesiętny",
     "answer": "Na dziesiętny: Sumujemy potęgi liczby 2 tam, gdzie w zapisie binarnym jest \"1\". Na heksadecymalny (szesnastkowy): Dzielimy liczbę binarną na grupy po 4 bity (od prawej) i każdą grupę zamieniamy na cyfrę 0-9 lub literę A-F.",
-    "details": ""
+    "details": "Ogólne, komisja 4"
   },
   {
     "question": "Co to algorytm numeryczny stabilny i poprawny?",
@@ -1244,7 +1245,7 @@
     "question": "Wymień metody rozwiązywania układów liniowych",
     "answer": "Bezpośrednie: Eliminacja Gaussa (w tym z wyborem elementu podstawowego), rozkład LU (A=LR), metoda Choleskiego (dla macierzy symetrycznych dodatnio określonych), metoda ortogonalizacji Householdera. ",
     "details": " Iteracyjne: (Stosowane dla dużych układów, zbieżne w granicy)",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
@@ -1274,7 +1275,7 @@
     "question": "Czym są agregacje w SQL?",
     "answer": "Funkcje wykonujące obliczenia na zbiorze wierszy i zwracające pojedynczą wartość. Podstawowe: COUNT (liczba wierszy), SUM (suma), AVG (średnia), MIN (minimum), MAX (maksimum).",
     "details": "Używane z GROUP BY do grupowania wyników. Przykład: SELECT COUNT(*) FROM users GROUP BY city - liczy użytkowników w każdym mieście.",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Wymień kilka operacji na bazie danych",
@@ -1320,15 +1321,15 @@
   },
   {
     "question": "Na czym polega sortowanie przez kopcowanie?",
-    "answer": "To metoda sortowania wykorzystująca strukturę danych zwaną kopcem (heap), najczęściej kopiec maksymalny lub minimalny.",
+    "answer": "To metoda sortowania wykorzystująca strukturę danych zwaną kopcem (heap), najczęściej kopiec maksymalny lub minimalny. Kopiec to specjalna struktura danych w postaci prawie pełnego drzewa binarnego, w którym każdy węzeł spełnia własność kopca (np. w kopcu maksymalnym rodzic jest większy lub równy dzieciom)",
     "details": "Algorytm buduje kopiec z danych, a następnie wielokrotnie usuwa największy (lub najmniejszy) element z kopca i umieszcza go na końcu tablicy. Powtarza się to, aż wszystkie elementy zostaną posortowane. Złożoność czasowa: O(n log n).",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Jakie metody można wykonywać na stosie?",
     "answer": "Na stosie wykonuje się głównie operacje dodawania (push) i usuwania (pop) elementów oraz sprawdzania elementu na szczycie (peek/top).",
     "details": "Stos działa na zasadzie LIFO (Last In, First Out). Push – dodaje element na wierzch, Pop – usuwa element z wierzchu, Peek/Top – podgląda element na wierzchu bez usuwania.",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Jakie są typy związków między encjami?",
@@ -1352,7 +1353,7 @@
     "question": "Co to diagram DFD?",
     "answer": "(Data Flow Diagram) to diagram przepływu danych. Jest to strukturalna specyfikacja funkcji systemu, nazywana \"mapą procesów\". Służy do identyfikacji zależności między procesami przetwarzania a danymi.",
     "details": "Elementy składowe DFD to: Obiekt zewnętrzny (źródło/odbiorca danych), Proces (przetwarza dane),  Magazyn danych (gromadzi dane), Przepływ danych (strumienie przesyłania informacji)",
-    "category": "Inzynieria oprogramowania"
+    "category": "Inzynieria oprogramowania, komisja 4"
   },
   {
     "question": "Czym są tablice asocjacyjne na przykładzie PHP?",
@@ -1452,7 +1453,7 @@
     "question": "Co to algorytm Karpa-Rabina i drzewo Rabina?",
     "answer": "Algorytm Rabina-Karpa to algorytm wyszukiwania wzorca w tekście używający funkcji haszującej. Oblicza hash wzorca i porównuje z hashami podciągów tekstu. Drzewo Rabina (ang. Rabin fingerprint tree) to struktura danych wykorzystująca haszowanie do efektywnego porównywania bloków danych.",
     "details": "Algorytm Rabina-Karpa ma złożoność średnio O(n+m), w najgorszym przypadku O(nm).",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Co to licznik odwołań ARC w Swift?",
@@ -1611,7 +1612,7 @@
     "question": "Porównaj przeciążenia i Przesłanianie metody",
     "answer": "Przeciążanie: Ta sama klasa, różne parametry. Wybierane przez kompilator. Przesłanianie: Dziedziczenie, identyczne parametry. Klasa \"dziecko\" zmienia sposób działania metody, którą dostała od \"rodzica\".",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość, komisja 4"
   },
   {
     "question": "Co to Raii?",
@@ -1629,7 +1630,7 @@
     "question": "Co to encje? Wymień rodzaje",
     "answer": "Encja - zbiór jednorodnych obiektów wybranej rzeczywistości. Rodzaje: Encja silna - posiada własny identyfikator (klucz główny), Encja słaba - nie posiada swojego identyfikatora Encja asocjacyjna (łącząca) - tworzona w celu rozwiązania problemu wiele do wielu.",
     "details": "",
-    "category": "Inzynieria oprogramowania"
+    "category": "Inzynieria oprogramowania, komisja 4"
   },
   {
     "question": "Podaj różnice między razor pages a mvc w .net",
@@ -1659,7 +1660,7 @@
     "question": "Opisz dokument html5. Podaj przykładowe znaczniki",
     "answer": "HTML5 Służy do strukturyzowania treści w sieci, wprowadzając nowe elementy semantyczne (<header>, <footer>, <article>), obsługę multimediów (<audio>, <video>), grafikę wektorową (<canvas>), lokalne przechowywanie danych (localStorage) i lepszą integrację z aplikacjami webowymi.",
     "details": "",
-    "category": "Aplikacje internetowe"
+    "category": "Aplikacje internetowe, komisja 4"
   },
   {
     "question": "Czym jest programowanie imperatywne",
@@ -1761,7 +1762,7 @@
     "question": "Co to Mpa rozwiń skrót i omów",
     "answer": "Multi-Page Application (Wielostronicowa Aplikacja Internetowa). Tradycyjny model tworzenia stron. Każde kliknięcie w link lub wysłanie formularza powoduje wysłanie żądania do serwera, który generuje nowy dokument HTML i odsyła go do przeglądarki. Powoduje to przeładowanie całej strony.",
     "details": "",
-    "category": "Aplikacje internetowe"
+    "category": "Aplikacje internetowe, komisja 4"
   },
   {
     "question": "Co to maszyna turinga?",
@@ -1773,7 +1774,7 @@
     "question": "Co to drzewo AVL? jak są operacje na nim?",
     "answer": "To zrównoważone drzewo BST. Dla każdego węzła różnica wysokości jego lewego i prawego poddrzewa wynosi co najwyżej 1 (wartości -1, 0, 1). Jeśli po dodaniu/usunięciu elementu równowaga jest zachwiana (różnica wynosi 2 lub -2), drzewo naprawia się poprzez rotacje (pojedyncze lub podwójne).",
     "details": "Operacje: wyszukiwanie O(log n), wstawianie O(log n) z możliwą rotacją, usuwanie O(log n) z możliwą rotacją.",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Wymień związki w uml i je opisz",
@@ -1791,7 +1792,7 @@
     "question": "Jak działa ochrona antywirusowa? Podaj przykłady antywirusów",
     "answer": "Monitoruje system w czasie rzeczywistym, dokonując skanowania otwieranych/uruchumianych plików i poczty. W celu wykrycia nieznanych zagrożeń stosowana jest analiza heurystyczna oraz środowiska izolowane. Wykorzystuje aktualizowane bazy sygnatur wirusów.",
     "details": "Przykładowe programy antywirusowe: Windows Defender, Avast, Bitdefender, Norton.",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
     "question": "Czym się różni proces od wątku?",
@@ -1815,7 +1816,7 @@
     "question": "Czym są grafy, jakie jest ich zastosowanie i rodzaje przechowywania",
     "answer": "Graf: Zbiór wierzchołków i krawędzi łączących je. G=(V,E). Rodzaje przechowywania: Macierz sąsiedztwa: Tablica 2D, waga w komórce a[u][v]. Listy sąsiedztwa: Tablica list, gdzie dla każdego wierzchołka pamiętamy listę jego sąsiadów. Zastosowanie: Modelowanie sieci (drogi, internet), mapy, relacje, algorytmy najkrótszej ścieżki (Dijkstra, BFS),.",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika, komisja 4"
   },
   {
     "question": "Model OSI, wymień i opisz warstwy",
@@ -1886,7 +1887,7 @@
     "question": "Co to Tablica pomyłek - ocena jakości klasyfikatorów",
     "answer": "Jest to tabela służąca do oceny wydajności modelu klasyfikacyjnego, zestawiająca przewidywania modelu z rzeczywistymi danymi. Składa się z czterech elementów: Prawdziwie Pozytywnych (TP), Fałszywie Pozytywnych (FP), Prawdziwie Negatywnych (TN) i Fałszywie Negatywnych (FN). Pozwala na wyliczenie miar takich jak dokładność, czułość czy swoistość",
     "details": "",
-    "category": "AI"
+    "category": "AI, komisja 4"
   },
   {
     "question": "Co to lista w Prologu?",
@@ -1988,13 +1989,13 @@
     "question": "Powiedz wszystko co wiesz o git i o gałęziach",
     "answer": "Git – system kontroli wersji, pozwala śledzić zmiany w kodzie, wracać do wcześniejszych wersji i współpracować w zespole. Gałęzie – niezależne linie rozwoju kodu, pozwalają np. tworzyć funkcje, poprawki lub eksperymenty bez psucia głównej wersji (main/master). Operacje na gałęziach: git branch, git checkout, git merge, git rebase. Dzięki gałęziom: łatwe równoległe prace, testowanie i integracja zmian.",
     "details": "Jednozdaniowo: Git to system kontroli wersji, a gałęzie pozwalają rozwijać kod niezależnie od głównej linii.",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania, komisja 4"
   },
   {
     "question": "co to Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
     "answer": "Indeksy to struktury przyspieszające wyszukiwanie danych w tabeli. Automatyczne tworzą się najczęściej na kluczach głównych (PRIMARY KEY) i unikalnych (UNIQUE).",
     "details": "Dzięki nim baza szybciej wyszukuje rekordy według tych kolumn bez ręcznego definiowania indeksu.",
-    "category": "Bazy danych"
+    "category": "Bazy danych, komisja 4"
   },
   {
     "question": "Co to wzorzec budowniczy???????",
@@ -2043,5 +2044,65 @@
     "answer": "If: Wykonuje instrukcję, jeśli warunek jest prawdziwy. If...else: Pozwala wykonać jeden blok kodu, gdy warunek jest prawdziwy, a inny, gdy fałszywy. Switch: Wielowariantowa instrukcja wyboru. Porównuje zmienną (całkowitą lub znak) z wartościami case. Wymaga break, aby nie wykonywać kolejnych przypadków,.",
     "details": "",
     "category": "Programowanie strukturalne / C"
+  },
+  {
+    "question": "Czym jest funkcja kryptograficzna i jakie ma zastosowanie?",
+    "answer": "Funkcja kryptograficzna to funkcja matematyczna używana do zabezpieczania informacji poprzez ich przekształcanie w sposób trudny do odwrócenia lub złamania.",
+    "details": "Stosowana jest m.in. do szyfrowania danych, generowania skrótów, podpisów cyfrowych oraz zapewnienia integralności i poufności informacji.",
+    "category": "Bezpieczeństwo informacji, komisja 4"
+  },
+  {
+    "question": "Co to algorytm? podaj przykłady",
+    "answer": "Algorytm: Skończony ciąg jasno zdefiniowanych kroków prowadzący do rozwiązania zadania.",
+    "details": "Algorytm Euklidesa – obliczanie NWD; QuickSort – szybkie sortowanie danych; Algorytm Dijkstry – wyznaczanie najkrótszej ścieżki w grafie.",
+    "category": "Algorytmika, Wprowadzenie do informatyki, komisja 4"
+  },
+  {
+    "question": "Co to wskaźnik? czy może być wskaźnik na wartość specjalną?",
+    "answer": "Wskaźnik to zmienna przechowująca adres innej zmiennej w pamięci.",
+    "details": "Wskaźnik może wskazywać na wartość specjalną, np. NULL (0), co oznacza, że nie wskazuje na żaden poprawny obszar pamięci.",
+    "category": "Programowanie strukturalne / C, Ogólne, komisja 4"
+  },
+  {
+    "question": "Czym jest filtrowanie ruchu sieciowego?",
+    "answer": "Filtrowanie ruchu sieciowego to proces kontrolowania i ograniczania przesyłu danych w sieci na podstawie określonych reguł.",
+    "details": "Stosowane w firewallach i routerach do blokowania nieautoryzowanego dostępu, ochrony przed atakami i segregowania typów ruchu. Firewall to urządzenie lub oprogramowanie monitorujące ruch sieciowy i egzekwujące zasady bezpieczeństwa.",
+    "category": "Bezpieczeństwo informacji, komisja 4"
+  },
+  {
+    "question": "Co to CSS? czym są selektory i deskryptory?",
+    "answer": "CSS (Cascading Style Sheets) to język służący do opisu wyglądu dokumentów HTML.",
+    "details": "Selektory wybierają elementy HTML, np. `#id`, `.class`, `div`. Deskryptory (właściwości) określają ich styl, np. `color: red; font-size: 16px; margin: 10px;`.",
+    "category": "Aplikacje internetowe, komisja 4"
+  },
+  {
+    "question": "Stałopozycyjna i zmiennopozycyjna reprezentacja liczb standard IEEE 754",
+    "answer": "Stałopozycyjna reprezentacja zapisuje liczby z określoną liczbą bitów dla części całkowitej i ułamkowej. Zmiennopozycyjna (floating point) zapisuje liczbę jako mantysę i wykładnik według standardu IEEE 754.",
+    "details": "Przykłady: liczba 12.375 w formacie IEEE 754 pojedynczej precyzji: mantysa=1.10011, wykładnik=3; w stałopozycyjnym zapisie 16-bitowym: część całkowita=12, ułamkowa=0.375. Pozwala to na reprezentowanie dużych i małych wartości przy ograniczonej liczbie bitów.",
+    "category": "Wprowadzenie do informatyki, Inne, komisja 4"
+  },
+  {
+    "question":"jakie są gesty w ios?",
+    "answer": "Do podstawowych gestów należą: tap (stuknięcie), double tap, long press (długie przytrzymanie), swipe (przesunięcie), drag (przeciąganie), pinch (szczypanie), rotate (obrót).",
+    "details": "",
+    "category": "swift/ios" 
+  },
+  {
+    "question":"scharakteryzuj format wymiany json",
+    "answer": "JSON (JavaScript Object Notation) to lekki, tekstowy format wymiany danych oparty na strukturach klucz–wartość.",
+    "details": "",
+    "category": "Ogólne, komisja 4"
+  },
+  {
+    "question":"składowe statyczne klasy - wady i zalety",
+    "answer": "Składowe statyczne należą do klasy, a nie do jej instancji i są współdzielone przez wszystkie obiekty.",
+    "details": "Zalety: łatwy dostęp, brak potrzeby tworzenia obiektu. Wady: utrudnione testowanie, brak polimorfizmu, silne sprzężenie.",
+    "category": "Obiektowość, komisja 4"
+  },
+  {
+    "question":"",
+    "answer": "",
+    "details": "",
+    "category": ""
   }
 ]
