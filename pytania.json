@@ -2,27 +2,32 @@
   {
     "question": "Co to jest funkcja skrótu?",
     "answer": "Funkcja skrótu (ang. hash function) to funkcja matematyczna, która: przyjmuje dane wejściowe o dowolnej długości (np. tekst, plik, hasło) i zwraca wynik o stałej długości, zwany skrótem lub hashem.",
-    "details": "- Właściwości: 1. jednokierunkowość - trudno odtworzyć dane z hasha, 2. odporność na kolizje - trudno znaleźć dwa teksty o tym samym hashu, 3. stała wartość dla tych samych danych."
+    "details": "- Właściwości: 1. jednokierunkowość - trudno odtworzyć dane z hasha, 2. odporność na kolizje - trudno znaleźć dwa teksty o tym samym hashu, 3. stała wartość dla tych samych danych.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Typy opcjonalne w swift",
     "answer": "Typ opcjonalny może przechowywać poprawną wartość lub wartość nil (brak wartości). Definiuje się je znakiem zapytania „?",
-    "details": "Przykład: var stanowisko: String? "
+    "details": "Przykład: var stanowisko: String?",
+    "category": "ios"
   },
   {
     "question": "Podaj techniki ochrony danych",
     "answer": "1. Kryptografia 2. Kontrola dostępu i uwierzytelnianie 3. Oprogramowanie antywirusowe i firewalle 4. Bezpieczeństwo fizyczne",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to są nawroty w prologu?",
     "answer": "Mechanizm, pozwalający na powrót do ostatniego punktu wyboru w celu znalezienia alternatywnego rozwiązania.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Co to UML? (istota + przykłady)",
     "answer": "To zunifikowany język modelowania, będący standardem w inżynierii oprogramowania do wizualizacji, specyfikowania i dokumentowania systemów. Jego istotą jest dostarczenie uniwersalnego zestawu symboli graficznych, zrozumiałych zarówno dla programistów, jak i analityków. Przykładem diagramu UML jest diagram klas, diagram sekwencji czy diagram przypadków użycia.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Opisz adresowanie w excelu (2)",
@@ -196,7 +201,7 @@
   },
   {
     "question": "Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce",
-    "answer": "",
+    "answer": "Funkcja, której parametry zawierają zmienne typu polimorficznego. Definicja składa się z dwóch części: Opisu typu funkcji: zwieksz :: Integer -> Integer oraz Sposobu wyliczenia wartości funkcji: zwieksz x = x + 1",
     "details": ""
   },
   {
@@ -211,13 +216,13 @@
   },
   {
     "question": "Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?",
-    "answer": "",
+    "answer": "Zmienne definiujemy słowem var, a stałe słowem let. Interferencja (inferencja) typów polega na tym, że Swift sam wywnioskuje typ zmiennej na podstawie przypisanej wartości.",
     "details": ""
   },
   {
     "question": "Wymień rodzaje kluczy w bazie danych",
-    "answer": "",
-    "details": ""
+    "answer": "Klucz główny, obcy, unikalny, kandydujący, złożony.",
+    "details": "Klucze służą do identyfikacji rekordów i utrzymania relacji między tabelami."
   },
   {
     "question": "Podaj różnice między fields a properties w C#",
@@ -226,8 +231,8 @@
   },
   {
     "question": "Podaj różnice między grafiką rastrową a wektorową",
-    "answer": "",
-    "details": ""
+    "answer": "Grafika rastrowa składa się z pikseli, a wektorowa z figur matematycznych.",
+    "details": "Rastrowa traci jakość przy skalowaniu (np. JPG, PNG), a wektorowa nie (np. SVG, AI)."
   },
   {
     "question": "Co to DML? Podaj przykłady",
@@ -260,13 +265,8 @@
     "details": "4. Awaria fizycznego hosta —> unieruchomienie wszystkich maszyn wirtualnych."
   },
   {
-    "question": "Wymień połączenia sieciowe w virtual box",
-    "answer": "",
-    "details": ""
-  },
-  {
-    "question": "Wymień modele usług  chmurowych",
-    "answer": "",
+    "question": "Wymień modele usług chmurowych",
+    "answer": "IaaS — Infrastructure as a Service. PaaS – Platform as a Service. SaaS – Software as a Service",
     "details": ""
   },
   {
@@ -305,8 +305,8 @@
     "details": "Jednozdaniowo: Histogram obrazu pokazuje, ile pikseli ma każdą wartość jasności lub koloru w obrazie."
   },
   {
-    "question": "Co to funkcja rekurencyjna?",
-    "answer": "To funkcja, która wywołuje samą siebie. Musi posiadać \"warunek stopu\", aby nie działała w nieskończoność.",
+    "question": "Co to funkcja rekurencyjna? podaj przykłady",
+    "answer": "To funkcja, która wywołuje samą siebie. Musi posiadać \"warunek stopu\", aby nie działała w nieskończoność. Przykłady: Przeszukiwanie tekstu, drzewa decyzyjne",
     "details": ""
   },
   {
@@ -395,7 +395,7 @@
     "details": ""
   },
   {
-    "question": "Co to algorytm Euklidesa, podaj jego implementacje",
+    "question": "Co to algorytm Euklidesa, podaj jego implementacje ???",
     "answer": "Algorytm Euklidesa służy do znalezienia największego wspólnego dzielnika (NWD) dwóch liczb. Idea: NWD(a, b) = NWD(b, a mod b) Powtarzamy, aż reszta z dzielenia = 0.",
     "details": "Jednozdaniowo: Algorytm Euklidesa znajduje NWD dwóch liczb, powtarzając dzielenie i zastępując większą liczbę mniejszą, a mniejszą resztą, aż reszta wyniesie 0."
   },
@@ -585,9 +585,114 @@
     "details": "Do tworzenia służy CREATE TABLE, a do modyfikacji ALTER TABLE (np. dodawanie/usuwanie kolumn, zmiana typu danych). Usuwanie tabeli realizuje DROP TABLE."
   },
   {
-    "question": "Jaki jest cykl życia oprogramowania ???",
-    "answer": "",
+    "question": "Jaki jest cykl życia oprogramowania",
+    "answer": " 1. Faza strategiczna 2. Analiza systemowa 3. Określenie wymagań 4. Projektowanie (modelowanie) 5. Implementacja 6. Dokumentacja 7. Testowanie 8. Wdrażanie 9. Konserwacja (rozwój)",
     "details": ""
+  },
+  {
+    "question": "Android struktury tworzenia",
+    "answer": "Activity, Fragment, Service",
+    "details": ""
+  },
+  {
+    "question": "Co to są semafory i jakie są ich rodzaje?",
+    "answer": "Semafory to mechanizmy synchronizacji dostępu do współdzielonych zasobów w programach wielowątkowych.",
+    "details": "Wyróżnia się semafory binarne (0/1) i liczące (zliczają dostępne zasoby)."
+  },
+  {
+    "question": "Rozmiar a wymiar płótna w gimp",
+    "answer": "Rozmiar obrazu zmienia skalę grafiki, a wymiar płótna zmienia obszar roboczy bez skalowania.",
+    "details": "Płótno może przycinać lub dodawać puste obszary, rozmiar obrazu skaluje zawartość."
+  },
+  {
+    "question": "Czym są macierze RAID? cechy, zastosowanie, rozwinięcie skrótu",
+    "answer": "RAID to technika łączenia wielu dysków w jedną logiczną całość dla wydajności lub bezpieczeństwa danych.",
+    "details": "RAID (Redundant Array of Independent Disks) zwiększa niezawodność, wydajność lub oba te aspekty; stosowany w serwerach i centrach danych."
+  },
+  {
+    "question": "Jaka jest różnica między systemem informacyjnym a systemem informatycznym?",
+    "answer": "System informacyjny to całość obejmująca ludzi, procedury, dane i narzędzia, natomiast system informatyczny stanowi jego techniczną część opartą na sprzęcie i oprogramowaniu.",
+    "details": "System informatyczny wspiera realizację procesów systemu informacyjnego przy użyciu technologii komputerowych."
+  },
+  {
+    "question": "Co to podpis elektroniczny?",
+    "answer": "Podpis elektroniczny to mechanizm kryptograficzny służący do potwierdzania autentyczności nadawcy oraz integralności danych w postaci elektronicznej.",
+    "details": "Zapewnia identyfikację autora dokumentu, integralność treści oraz niezaprzeczalność wykonania operacji."
+  },
+  {
+    "question": "Podaj metody całkowania numerycznego",
+    "answer": " Wyróżnia się: Kwadratury interpolacyjne: w tym kwadratury Newtona-Cotesa (wzór prostokątów, trapezów, Simpsona, „trzech ósmych”) oraz Kwadratury Gaussa: np. Gaussa-Legendre’a, Gaussa-Czebyszewa (węzły są pierwiastkami wielomianów ortogonalnych)",
+    "details": "Jeszcze są Metody Monte Carlo: oparte na próbach losowych"
+  },
+  {
+    "question": "Czym są sekcje krytyczne? np w C++",
+    "answer": "Sekcje krytyczne to fragmenty programu, w których następuje dostęp do współdzielonych zasobów i które muszą być wykonywane w sposób wzajemnie wykluczający.",
+    "details": "W językach takich jak C++ realizuje się je za pomocą mechanizmów synchronizacji, np. mutexów lub semaforów."
+  },
+  {
+    "question": "Wielodziedziczenie - zalety i wady",
+    "answer": "Pozwala klasie dziedziczyć po wielu klasach, co zwiększa elastyczność, ale komplikuje projekt.",
+    "details": "Może prowadzić do konfliktów metod i trudniejszego utrzymania kodu."
+  },
+  {
+    "question": "Model konceptualny vs implementacyjny",
+    "answer": "Model konceptualny opisuje system na wysokim poziomie, a implementacyjny pokazuje jego techniczną realizację.",
+    "details": "Konceptualny jest niezależny od technologii, implementacyjny już nie."
+  },
+  {
+    "question": "Wymień cechy obiektowości",
+    "answer": "Hermetyzacja, dziedziczenie, polimorfizm, abstrakcja.",
+    "details": ""
+  },
+  {
+    "question": "Wymień metody uwierzytelniania użytkowników",
+    "answer": "Hasło, PIN, biometria, token, uwierzytelnianie dwuskładnikowe (2FA).",
+    "details": "Metody mogą być łączone dla zwiększenia bezpieczeństwa."
+  },
+  {
+    "question": "Podaj strukture projektu android",
+    "answer": "app/src/main/java: Katalog zawierający pliki źródłowe kodu (Java lub Kotlin), w tym klasy aktywności. app/src/main/res: Katalog zasobów aplikacji, podzielony na podkatalogi takie jak layout (pliki XML z układem interfejsu), drawable/mipmap (grafika) oraz values (teksty, kolory, style).  AndroidManifest.xml: Główny plik konfiguracyjny opisujący składniki aplikacji (aktywności, usługi), wymagane uprawnienia oraz wersję SDK.  build.gradle: Skrypty systemu budowania (dla modułu i projektu), definiujące zależności (biblioteki), wersje kompilacji i identyfikator aplikacji.  app/build: Katalog zawierający pliki wygenerowane automatycznie i pliki wynikowe (np. .apk)",
+    "details": ""
+  },
+  {
+    "question": "Czym są ciasteczka",
+    "answer": "Ciasteczka (cookies) to niewielkie porcje danych zapisywane po stronie klienta przez aplikacje internetowe.",
+    "details": "Służą do identyfikacji użytkownika, utrzymania sesji oraz przechowywania informacji o stanie aplikacji."
+  },
+  {
+    "question": "Lagrange /  Newton",
+    "answer": "Są to dwa sposoby wyznaczania wielomianu interpolacyjnego (różne bazy): Baza Lagrange’a: pozwala natychmiast zapisać wzór wielomianu, ale jest kosztowna obliczeniowo przy dodawaniu nowych węzłów. Baza Newtona: wykorzystuje ilorazy różnicowe do wyznaczenia współczynników wielomianu, a jego wartość oblicza się schematem Hornera",
+    "details": ""
+  },
+  {
+    "question": "Co to macierz pomyłek?",
+    "answer": "Macierz pomyłek (ang. confusion matrix) to tabela służąca do oceny jakości modelu klasyfikacyjnego, zestawiająca predykcje klasyfikatora z rzeczywistymi danymi",
+    "details": "W klasyfikacji binarnej składa się z czterech elementów: TP (True Positives): Poprawne trafienia.TN (True Negatives): Poprawne odrzucenia.  FP (False Positives): Fałszywe alarmy (błąd I rodzaju).  FN (False Negatives): Przeoczenia (błąd II rodzaju) . Na jej podstawie wylicza się miary takie jak dokładność (Accuracy), czułość (Sensitivity), swoistość (Specificity) oraz precyzję (Precision) ."
+  },
+  {
+    "question": "Czym są klasyfikatory",
+    "answer": "Klasyfikator to model uczenia maszynowego (nadzorowanego), którego zadaniem jest przyporządkowanie obiektu do określonej kategorii (klasy) na podstawie wektora jego cech",
+    "details": ""
+  },
+  {
+    "question": "Wymień rodzaje struktur w swift i podaj operacje na nich",
+    "answer": "Array, Dictionary, Set.",
+    "details": "Array: dodawanie/usuwanie elementów; Dictionary: operacje na parach klucz–wartość; Set: operacje zbiorowe (suma, część wspólna)."
+  },
+  {
+    "question": "Wymień parametry czcionek",
+    "answer": "krój (rodzaj czcionki, czyli Times New Roman, Arial, itp.), wielkość, kolor, styl (pogrubienie, kursywa, podkreślenie, przekreślenie), odstępy, wyróznienie (zakreślenie)",
+    "details": ""
+  },
+  {
+    "question": "Czym są fragmenty w android?",
+    "answer": "Fragmenty — „mini-aktywności\" osadzane w aktywności.",
+    "details": ""
+  },
+  {
+    "question": "Usługi google play",
+    "answer": "Zamknięte API i usługi Google. Główne usługi (GMS - Google Mobile Services): Firebase - bazy danych, uwierzytelnianie, hosting, Mapy - Maps SDK, lokalizacja, Tożsamość - Google Sign-In, Google Pay",
+    "details": "To zestaw API rozszerzających system. Wykłady wymieniają głównie Firebase – np. Authentication (logowanie/rejestracja) oraz Firestore (skalowalna baza NoSQL w chmurze działająca offline)"
   },
   {
     "question": "Istota wzorców projektowych, podział i przykład",
@@ -651,7 +756,7 @@
   },
   {
     "question": "Czym jest całkowanie numeryczne?",
-    "answer": "Jest to przybliżone obliczanie wartości całki oznaczonej za pomocą kwadratur. Zamiast szukać funkcji pierwotnej (co może być niemożliwe), oblicza się sumę ważoną wartości funkcji w wybranych punktach (węzłach). Przykład: pole pod wykresem przybliża się sumą pól prostokątów lub trapezów.",
+    "answer": "Jest to przybliżone obliczanie całek oznaczonych za pomocą skończonej sumy (zwanej kwadraturą), będącej kombinacją liniową wartości funkcji (i ewentualnie jej pochodnych) w określonych punktach zwanych węzłami",
     "details": ""
   },
   {
@@ -716,7 +821,7 @@
   },
   {
     "question": "Opisz architekturę w androidze",
-    "answer": "",
+    "answer": " Aplikacje działają w środowisku ART (Android Runtime), które kompiluje kod przy instalacji (AOT). Podstawowe składniki aplikacji to: Aktywności (ekrany), Usługi (praca w tle) i BroadcastReceiver (odbieranie zdarzeń systemowych). W warstwie danych zaleca się używanie bazy Room z ViewModel i LiveData",
     "details": ""
   },
   {
@@ -801,7 +906,7 @@
   },
   {
     "question": "Architektury baz danych",
-    "answer": "",
+    "answer": "1. Jednopoziomowa: baza i interfejs są na jednym poziomie. 2. Dwupoziomowa: klient i serwer bazy danych są oddzielone. 3. Trójpoziomowa: dodaje warstwę pośrednią (aplikacja) między klientem a serwerem bazy danych. 4. Rozproszona: dane znajdują się na wielu serwerach bazy danych. 5. Lokalna: baza danych znajduje się w całości na jednym urządzeniu.",
     "details": ""
   },
   {
@@ -841,7 +946,7 @@
   },
   {
     "question": "Czym są metody wirtualne w C++",
-    "answer": "To metody, które pozwalają na polimorfizm. Słowo virtual sprawia, że program w czasie działania sprawdza, jakiego typu jest obiekt i wywołuje właściwą wersję funkcji (nawet jeśli używamy wskaźnika na klasę bazową).",
+    "answer": "To metody, które pozwalają na polimorfizm. Słowo virtual sprawia, że program w czasie działania sprawdza, jakiego typu jest obiekt i wywołuje właściwą wersję funkcji (nawet jeśli używamy wskaźnika na klasę bazową).",
     "details": ""
   },
   {
@@ -866,7 +971,7 @@
   },
   {
     "question": "Czym jest eliminacja gaussa? ",
-    "answer": "Metoda dokładna rozwiązywania układu równań liniowych. Polega na sprowadzeniu macierzy układu do macierzy trójkątnej górnej za pomocą operacji elementarnych na wierszach (dodawanie wierszy, mnożenie przez skalar), a następnie wyliczeniu niewiadomych przez podstawianie wsteczne.",
+    "answer": "To dokładna metoda rozwiązywania układów równań liniowych. Składa się z dwóch etapów: 1. Postępowanie proste: sprowadzenie macierzy do postaci trójkątnej górnej. 2. Postępowanie odwrotne: rozwiązanie trójkątnego układu równań",
     "details": ""
   },
   {
@@ -911,14 +1016,14 @@
   },
   {
     "question": "Co to schemat hornera?",
-    "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n). Zamiast liczyć W(x)=2x^3+4x^2−x+5, przekształca się go do postaci: W(x)=((2x+4)x−1)x+5",
-    "details": "Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c)."
+    "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n).",
+    "details": "To algorytm pozwalający na efektywne obliczanie wartości wielomianu przy zminimalizowanej liczbie mnożeń. Jest również stosowany przy interpolacji z użyciem bazy Newtona. Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c)."
   },
   {
     "question": "Co to SwiftUI?",
     "answer": "SwiftUI to deklaratywny framework Apple do tworzenia interfejsów użytkownika.",
     "details": "Umożliwia budowanie UI w Swift poprzez opis wyglądu i zachowania widoków, automatycznie reagując na zmiany stanu. Jest używany w aplikacjach iOS, macOS, watchOS i tvOS."
-  },  
+  },
   {
     "question": "Co to firewall?",
     "answer": "Zapora filtrująca pakiety i blokująca niepożądany ruch sieciowy na podstawie zdefiniowanych reguł.",
@@ -935,14 +1040,14 @@
     "details": ""
   },
   {
-    "question": "Co to algorytm numeryczny stabilny i niepoprawny?",
-    "answer": "Algorytm stabilny: Taki, w którym błędy zaokrągleń (wynikające z arytmetyki komputera) nie kumulują się lawinowo w kolejnych krokach obliczeń. Mały błąd na wejściu nie generuje ogromnego błędu na wyjściu. Algorytm poprawny: Taki, który jest stabilny numerycznie i stosowany do zadania dobrze uwarunkowanego. Daje wynik bardzo bliski dokładnemu rozwiązaniu problemu dla lekko zaburzonych danych.",
+    "question": "Co to algorytm numeryczny stabilny i poprawny?",
+    "answer": "Algorytm stabilny: Gwarantuje uzyskanie rozwiązania z błędem tego samego rzędu, co optymalny poziom błędu dla danej klasy zadań. Niestabilność oznacza gwałtowne narastanie małych błędów w trakcie obliczeń Algorytm numerycznie poprawny: Daje wynik będący dokładnym rozwiązaniem zadania dla nieco zaburzonych danych wejściowych (na poziomie błędu reprezentacji)",
     "details": ""
   },
   {
     "question": "Wymień metody rozwiązywania układów liniowych",
-    "answer": "",
-    "details": ""
+    "answer": "Bezpośrednie: Eliminacja Gaussa (w tym z wyborem elementu podstawowego), rozkład LU (A=LR), metoda Choleskiego (dla macierzy symetrycznych dodatnio określonych), metoda ortogonalizacji Householdera. ",
+    "details": " Iteracyjne: (Stosowane dla dużych układów, zbieżne w granicy)"
   },
   {
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
@@ -976,17 +1081,12 @@
   },
   {
     "question": "Co robi metoda inicjalizacyjna w swift?",
-    "answer": "",
-    "details": ""
+    "answer": "Służy do utworzenia obiektu i ustawienia jego początkowego stanu. To taki konstruktor jak np w C++",
+    "details": "Inicjalizator (init) przypisuje wartości właściwościom obiektu przed jego użyciem i gwarantuje poprawną inicjalizację instancji."
   },
   {
     "question": "Czym jest zakleszczenie procesów?",
     "answer": "Zakleszczenie (ang. deadlock) to stan, w którym zbiór procesów czeka na zdarzenie, które może zostać wywołane tylko przez inny proces z tego samego zbioru (np. wzajemne oczekiwanie na zwolnienie zasobów). Aby wystąpiło, muszą zachodzić cztery warunki: wzajemne wykluczanie, przetrzymywanie i oczekiwanie, brak wywłaszczeń oraz czekanie cykliczne,.",
-    "details": ""
-  },
-  {
-    "question": "Czym są drzewa decyzyjne?",
-    "answer": "",
     "details": ""
   },
   {
@@ -1076,7 +1176,7 @@
   },
   {
     "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych ?????",
-    "answer": "Stosowanie systemów równoległych i rozproszonych pozwala na rozłożenie zadania obliczeniowego na zbiór obliczeń cząstkowych. Dzięki współbieżności zadanie to może zostać wykonane znacznie szybciej,. Systemy wieloprocesorowe pozwalają na pełne wykorzystanie zalet aplikacji wielowątkowych (paralelizm wykonywania wątków).",
+    "answer": "Obliczenia równoległe pozwalają zwiększyć wydajność systemów, wykonując obliczenia na wielu procesorach jednocześnie. Dzięki tym obliczeniom, duże, skomplikowane zadania można wykonywać szybciej i bardziej wydajnie.",
     "details": ""
   },
   {
@@ -1086,7 +1186,7 @@
   },
   {
     "question": "Na czym polega architektura 3 warstwowa???",
-    "answer": "",
+    "answer": "Polega na podziale aplikacji na trzy niezależne warstwy. Są to: warstwa prezentacji (UI), logiki biznesowej oraz danych (baza danych). Ułatwia rozwój i utrzymanie aplikacji.",
     "details": ""
   },
   {
@@ -1116,8 +1216,8 @@
   },
   {
     "question": "Co to układy Czebyszewa?",
-    "answer": "Układy punktów w przedziale [-1, 1], które są pierwiastkami wielomianów Czebyszewa. W analizach numerycznych wykorzystuje się je jako optymalne punkty do interpolacji - minimalizują błąd interpolacji wielomianowej. Punkty są gęściej rozmieszczone przy końcach przedziału, co zapobiega zjawisku Rungego (dużym oscylacjom wielomianu interpolacyjnego).",
-    "details": "Wzór na węzły Czebyszewa: x_k = cos((2k-1)π/(2n)), k=1,2,...,n. Używane w kwadraturach numerycznych i aproksymacji funkcji."
+    "answer": "To układy funkcji (wielomianów ortogonalnych) stosowane w aproksymacji. Węzły oparte na zerach wielomianów Czebyszewa minimalizują błąd interpolacji i zapobiegają efektowi Rungego na krańcach przedziału",
+    "details": ""
   },
   {
     "question": "Co to algorytm Karpa-Rabina i drzewo Rabina?",
@@ -1131,7 +1231,7 @@
   },
   {
     "question": "Na czym polega metoda najmniejszych kwadratów?",
-    "answer": "Metoda aproksymacji (przybliżania) stosowana głównie w układach nadokreślonych (więcej równań niż niewiadomych). Polega na znalezieniu takiej funkcji, która minimalizuje sumę kwadratów różnic (błędów) między wartościami zmierzonymi a wartościami tej funkcji",
+    "answer": "Polega na znalezieniu takiej funkcji aproksymującej (lub wektora współczynników), dla której suma kwadratów różnic między danymi wartościami a wartościami tej funkcji jest najmniejsza. Stosuje się ją m.in. do rozwiązywania nadokreślonych układów równań (więcej równań niż niewiadomych)",
     "details": ""
   },
   {
@@ -1166,7 +1266,7 @@
   },
   {
     "question": "Co to Multilayer perception?",
-    "answer": "",
+    "answer": " to klasa sztucznej sieci neuronowej ze sprzężeniem do przodu (feedforward). Składa się z co najmniej trzech warstw węzłów (wejściowej, ukrytej i wyjściowej). Wykorzystuje nieliniowe funkcje aktywacji w neuronach i uczy się metodą nadzorowaną zwaną propagacją wsteczną.",
     "details": ""
   },
   {
@@ -1226,7 +1326,7 @@
   },
   {
     "question": "Wymień algorytmy sortowania elementów w tablicy i ich złożoność",
-    "answer": "",
+    "answer": "1. BubbleSort (Bąbelkowe): O(n^2), InsertSort (Przez wstawianie): O(n^2), SelectSort (Przez wybieranie): O(n^2), QuickSort (Szybkie): Średnio O(nlogn), pesymistycznie O(n^2), MergeSort (Scalanie): O(nlogn), HeapSort (Kopcowanie): O(nlogn).",
     "details": ""
   },
   {
@@ -1241,8 +1341,8 @@
   },
   {
     "question": "Czym się różni NAT od mostkowania w virtualbox?",
-    "answer": "",
-    "details": ""
+    "answer": "NAT udostępnia internet maszynie wirtualnej przez hosta, mostkowanie podłącza ją bezpośrednio do sieci.",
+    "details": "W NAT maszyna jest niewidoczna w sieci lokalnej, a w mostkowaniu dostaje własny adres IP w tej samej sieci co host."
   },
   {
     "question": "Czym się różni wskaźnik od referencji w c++?",
@@ -1286,7 +1386,7 @@
   },
   {
     "question": "Co to interpolacja wielomianowa?",
-    "answer": "Metoda znajdowania wielomianu W(x), który dla zadanych punktów węzłowych (xi,yi) przyjmuje dokładnie te same wartości co funkcja badana, czyli W(xi)=yi. Wykres wielomianu interpolacyjnego musi \"przechodzić\" przez wszystkie zadane punkty.",
+    "answer": " Metoda wyznaczania wielomianu, który dokładnie przechodzi przez zadane punkty (węzły). Służy do znajdowania wzorów przybliżonych funkcji, gdy znane są jej wartości tylko w skończonej liczbie punktów",
     "details": ""
   },
   {
@@ -1336,17 +1436,17 @@
   },
   {
     "question": "Co to Iaas?",
-    "answer": "Dostajesz surowe zasoby: serwer, dysk, sieć.  Ty zarządzasz systemem operacyjnym i aplikacjami, dostawca dba tylko o sprzęt",
+    "answer": "Jest to model usług chmurowych. Dostajesz surowe zasoby: serwer, dysk, sieć.  Ty zarządzasz systemem operacyjnym i aplikacjami, dostawca dba tylko o sprzęt",
     "details": ""
   },
   {
     "question": "Co to Paas?",
-    "answer": "Dostajesz gotowe środowisko do uruchomienia kodu. Nie martwisz się o system operacyjny czy aktualizacje, wrzucasz tylko swoją aplikację",
+    "answer": "Jest to model usług chmurowych. Dostajesz gotowe środowisko do uruchomienia kodu. Nie martwisz się o system operacyjny czy aktualizacje, wrzucasz tylko swoją aplikację",
     "details": ""
   },
   {
     "question": "Co to Saas?",
-    "answer": " Dostajesz gotową aplikację dostępną przez sieć (np. Gmail). Tylko używasz, nic nie konfigurujesz \"pod spodem\".",
+    "answer": "Jest to model usług chmurowych. Dostajesz gotową aplikację dostępną przez sieć (np. Gmail). Tylko używasz, nic nie konfigurujesz \"pod spodem\".",
     "details": ""
   },
   {
@@ -1476,8 +1576,8 @@
   },
   {
     "question": "Wymień wszystkie paradygmaty programowania jakie znasz",
-    "answer": "",
-    "details": ""
+    "answer": "Imperatywny – opisuje jak wykonać krok po kroku; Deklaratywny – opisuje co ma być wynikiem; Obiektowy – opiera się na obiektach i klasach; Funkcyjny – bazuje na funkcjach i niemutowalności; Logiczny – opiera się na faktach i regułach; Proceduralny – program podzielony na procedury; Strukturalny – używa struktur sterujących zamiast goto.",
+    "details": "Często spotyka się też paradygmat reaktywny i zdarzeniowy, szczególnie w aplikacjach UI."
   },
   {
     "question": "Czym jest programowanie obiektowe?",
@@ -1485,8 +1585,8 @@
     "details": "Jednozdaniowo: OOP = programowanie za pomocą obiektów łączących dane i funkcje, które na nich operują."
   },
   {
-    "question": "Tablica pomyłek - ocena jakości klasyfikatorów",
-    "answer": "",
+    "question": "Co to Tablica pomyłek - ocena jakości klasyfikatorów",
+    "answer": "Jest to tabela służąca do oceny wydajności modelu klasyfikacyjnego, zestawiająca przewidywania modelu z rzeczywistymi danymi. Składa się z czterech elementów: Prawdziwie Pozytywnych (TP), Fałszywie Pozytywnych (FP), Prawdziwie Negatywnych (TN) i Fałszywie Negatywnych (FN). Pozwala na wyliczenie miar takich jak dokładność, czułość czy swoistość",
     "details": ""
   },
   {
@@ -1526,7 +1626,12 @@
   },
   {
     "question": "Pierwszy model neuronu",
-    "answer": "",
+    "answer": "Pierwszy model, znany jako neuron McCullocha-Pittsa (opracowany w 1943 r.), to matematyczne uproszczenie biologicznej komórki nerwowej. Oblicza on sumę ważoną sygnałów wejściowych i jeśli przekroczy ona określony próg, neuron się aktywuje (zwraca wartość 1), w przeciwnym razie pozostaje nieaktywny",
+    "details": ""
+  },
+  {
+    "question": "Jakie są typy warstw w sieciach neuronowych?",
+    "answer": "1. Warstwa wejściowa (Input layer) – przyjmuje dane surowe. 2. Warstwa/warstwy ukryte (Hidden layers) – znajdują się pomiędzy wejściem a wyjściem, dokonują przekształceń danych. 3. Warstwa wyjściowa (Output layer) – generuje ostateczny wynik sieci (np. predykcję)",
     "details": ""
   },
   {
@@ -1541,8 +1646,8 @@
   },
   {
     "question": "Wielozadaniowość w Android",
-    "answer": "",
-    "details": ""
+    "answer": "  Do zadań w tle używa się klasy Thread lub Service (długie operacje), a do komunikacji z interfejsem klasy Handler",
+    "details": "Zasada główna: nie blokuj wątku interfejsu (UI), bo spowoduje to błąd ANR (Application Not Responding)."
   },
   {
     "question": "Opisz cykl życia aktywności w Android",
@@ -1568,11 +1673,6 @@
     "question": "Powiedz wszystko co wiesz o git i o gałęziach",
     "answer": "Git – system kontroli wersji, pozwala śledzić zmiany w kodzie, wracać do wcześniejszych wersji i współpracować w zespole. Gałęzie – niezależne linie rozwoju kodu, pozwalają np. tworzyć funkcje, poprawki lub eksperymenty bez psucia głównej wersji (main/master). Operacje na gałęziach: git branch, git checkout, git merge, git rebase. Dzięki gałęziom: łatwe równoległe prace, testowanie i integracja zmian.",
     "details": "Jednozdaniowo: Git to system kontroli wersji, a gałęzie pozwalają rozwijać kod niezależnie od głównej linii."
-  },
-  {
-    "question": "Omów uogólniony schemat hornera",
-    "answer": "Metoda szybkiego obliczania wartości wielomianu, Pozwala zredukować liczbę mnożeń i dodawań w obliczeniach.",
-    "details": "Schemat Hornera = szybkie obliczanie wartości wielomianu poprzez rekurencyjne mnożenie i dodawanie."
   },
   {
     "question": "co to Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",

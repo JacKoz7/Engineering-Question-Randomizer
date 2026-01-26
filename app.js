@@ -17,7 +17,7 @@ const learnModeBtn = document.getElementById("learnModeBtn");
 window.addEventListener("DOMContentLoaded", async () => {
   loadToLearnFromStorage();
   await loadQuestionsFromFile();
-  toggleEmptyState(); 
+  toggleEmptyState();
 });
 
 noRepeatCheckbox.addEventListener("change", (e) => {
@@ -39,19 +39,26 @@ learnModeBtn.addEventListener("click", () => {
   learnModeBtn.classList.toggle("active", learnMode);
 
   if (learnMode) {
-    learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki ✓</span>';
-    
-    updateStats();
-    drawButton.click(); 
+    learnModeBtn.innerHTML =
+      '<span class="icon">📚</span><span class="text">Tryb nauki ✓</span>';
 
+    updateStats();
+    drawButton.click();
   } else {
-    learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki</span>';
+    learnModeBtn.innerHTML =
+      '<span class="icon">📚</span><span class="text">Tryb nauki</span>';
     usedQuestions = [];
     updateStats();
-    
+
     drawButton.click();
   }
 });
+
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text;
+  return div.innerHTML;
+}
 
 function loadToLearnFromStorage() {
   const stored = localStorage.getItem("toLearnQuestions");
@@ -78,11 +85,11 @@ function toggleToLearn(questionText) {
 }
 
 function toggleEmptyState() {
-    if (questionsContainer.children.length === 0) {
-        document.body.classList.add('no-questions');
-    } else {
-        document.body.classList.remove('no-questions');
-    }
+  if (questionsContainer.children.length === 0) {
+    document.body.classList.add("no-questions");
+  } else {
+    document.body.classList.remove("no-questions");
+  }
 }
 
 async function loadQuestionsFromFile() {
@@ -129,8 +136,8 @@ drawButton.addEventListener("click", () => {
   const pool = getQuestionPool();
 
   const availableQuestions = noRepeatMode
-      ? pool.filter((q) => !usedQuestions.includes(q))
-      : pool;
+    ? pool.filter((q) => !usedQuestions.includes(q))
+    : pool;
 
   if (availableQuestions.length === 0) {
     if (noRepeatMode && usedQuestions.length > 0) {
@@ -176,14 +183,14 @@ function displayQuestions(questions) {
                         <h3>Pytanie</h3>
                         <button class="bookmark-btn ${
                           isMarked ? "marked" : ""
-                        }" data-question="${q.question}">
+                        }" data-question="${escapeHtml(q.question)}">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
                     </div>
                     <div class="card-content">
-                        <p>${q.question}</p>
+                        <p>${escapeHtml(q.question)}</p>
                     </div>
                     <span class="flip-hint">Kliknij aby zobaczyć odpowiedź</span>
                 </div>
@@ -192,16 +199,18 @@ function displayQuestions(questions) {
                         <h3>Odpowiedź</h3>
                         <button class="bookmark-btn ${
                           isMarked ? "marked" : ""
-                        }" data-question="${q.question}">
+                        }" data-question="${escapeHtml(q.question)}">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
                     </div>
                     <div class="card-content">
-                        <p class="answer">${q.answer || "Brak odpowiedzi"}</p>
+                        <p class="answer">${escapeHtml(q.answer || "Brak odpowiedzi")}</p>
                         ${
-                          q.details ? `<p class="details">${q.details}</p>` : ""
+                          q.details
+                            ? `<p class="details">${escapeHtml(q.details)}</p>`
+                            : ""
                         }
                     </div>
                     <span class="flip-hint">Kliknij aby wrócić</span>
@@ -223,13 +232,15 @@ function displayQuestions(questions) {
         const questionText = btn.getAttribute("data-question");
         toggleToLearn(questionText);
 
-        document.querySelectorAll(`.bookmark-btn[data-question="${questionText}"]`).forEach(b => {
-             if (toLearnQuestions.has(questionText)) {
-                b.classList.add("marked");
-             } else {
-                b.classList.remove("marked");
-             }
-        });
+        document
+          .querySelectorAll(`.bookmark-btn[data-question="${questionText}"]`)
+          .forEach((b) => {
+            if (toLearnQuestions.has(questionText)) {
+              b.classList.add("marked");
+            } else {
+              b.classList.remove("marked");
+            }
+          });
       });
     });
 
