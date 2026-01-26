@@ -9,7 +9,7 @@
     "question": "Typy opcjonalne w swift",
     "answer": "Typ opcjonalny może przechowywać poprawną wartość lub wartość nil (brak wartości). Definiuje się je znakiem zapytania „?",
     "details": "Przykład: var stanowisko: String?",
-    "category": "ios"
+    "category": "swift/ios"
   },
   {
     "question": "Podaj techniki ochrony danych",
@@ -32,277 +32,332 @@
   {
     "question": "Opisz adresowanie w excelu (2)",
     "answer": "1. Adresowanie względne – np. A1 – adres komórki zmienia się automatycznie podczas kopiowania formuły w inne miejsce 2. Adresowanie bezwzględne – np. $A$1 – kolumna i wiersz są zablokowane, więc adres nie zmienia się przy kopiowaniu formuły.",
-    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu."
+    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu.",
+    "category": "Inne"
   },
   {
     "question": "Co to model przypadków użycia?",
     "answer": "Model opisujący funkcjonalność systemu z punktu widzenia użytkownika.",
-    "details": "Składa się z aktorów i przypadków użycia, pokazuje kto i w jaki sposób korzysta z systemu, bez opisywania implementacji."
+    "details": "Składa się z aktorów i przypadków użycia, pokazuje kto i w jaki sposób korzysta z systemu, bez opisywania implementacji.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Podaj generacje języków programowania",
     "answer": "- I generacja: programowanie bezpośrednio w kodzie maszynowym (binarnym). - II generacja: asemblery wykorzystujące znaki mnemotechniczne. - III generacja: języki wysokiego poziomu, uniwersalne i niezależne od maszyny. - IV generacja: środowiska graficzne i języki obiektowe. - V generacja: języki oparte na logice i funkcjach, wykorzystujące sztuczną inteligencję",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Zapytania elementarne i nieelementarne w prolog",
     "answer": "Elementarne - to zapytania, które nie zawierają żadnej zmiennej.  Np: ?-a(2,3).- Nieelementarne - to zapytania zawierające zmienne. - Odpowiedzią jest znalezienie właściwego podstawienia dla zmiennych. - Np: ?-mul(4,3,X).",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Podaj cechy haskella",
     "answer": "- funkcyjność, - silne typowanie, - typy wnioskowane z kontekstu, - leniwe wartościowanie, - czystość, bez efektów ubocznych, - modularny, hermetyzacja w obrębie modułów, - kontraktowy, - ochrona stanów - monady, - polimorfizm i enkapsulacja.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Jak się filtruje w SQL",
     "answer": "Filtrowanie danych odbywa się na poziomie wierszy tabeli źródłowej i jest realizowane przy użyciu klauzuli WHERE. Pozwala ona ograniczyć zbiór wynikowy do rekordów spełniających określone kryteria. Warunki złożone: Można je budować, łącząc warunki proste operatorami logicznymi AND, OR oraz NOT.",
-    "details": "Przykład: SELECT * FROM Customers WHERE Country = 'Mexico';"
+    "details": "Przykład: SELECT * FROM Customers WHERE Country = 'Mexico';",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to diagram klas?",
     "answer": "To najważniejszy diagram strukturalny w UML, służący do modelowania statycznej struktury systemu. Przedstawia klasy, ich atrybuty (pola), metody oraz relacje między nimi (dziedziczenie, asocjacja, kompozycja). Jest podstawą do generowania kodu szkieletowego aplikacji obiektowej.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to podpis cyfrowy?",
     "answer": "Mechanizm potwierdzający tożsamość nadawcy oraz integralność danych. Nadawca tworzy hash wiadomości funkcją skrótu i szyfruje go kluczem prywatnym.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Wymień sieci w virtual box",
     "answer": "NAT - VM korzysta z IP hosta, ukryta przed siecią zewnętrzną. Bridge - VM działa jak fizyczny komputer w sieci lokalnej. Host-Only - Komunikacja tylko między VM a hostem, bez dostępu do Internetu. Internal Network  - Komunikacja tylko między VM. NAT Network - NAT z możliwością komunikacji między wieloma VM.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to ADB?",
     "answer": "To uniwersalne narzędzie wiersza poleceń służące do komunikacji z fizycznym lub wirtualnym urządzeniem (emulatorem). ",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Co to system kolorów",
     "answer": "System kolorów to sposób zapisu i reprezentacji kolorów w informatyce i grafice.",
-    "details": "Najczęściej spotykane systemy to RGB (ekrany), CMYK (druk) oraz HSL/HSV (łatwiejsza manipulacja barwą)."
+    "details": "Najczęściej spotykane systemy to RGB (ekrany), CMYK (druk) oraz HSL/HSV (łatwiejsza manipulacja barwą).",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Co to jest BPMN",
     "answer": " (Business Process Model and Notation) to język graficzny składający się z zestawu symboli i zasad ich łączenia w diagramy. Służy do modelowania procesów biznesowych. Kluczowe cechy to koncepcja \"żetonu\" przepływającego przez diagram oraz węzły (zdarzenia, czynności, bramki) połączone przepływami. ",
-    "details": "Przykład: W wykładzie przedstawiono proces aukcji, który obejmuje zgłoszenie przedmiotu, wybór typu aukcji (kup teraz lub licytuj), zakończenie sprzedaży i pobranie prowizji. Innym przykładem jest proces obsługi zapytania ofertowego w firmie, podzielony na tory (baseny) dla biura, pracownika merytorycznego, kierownika i dyrektora."
+    "details": "Przykład: W wykładzie przedstawiono proces aukcji, który obejmuje zgłoszenie przedmiotu, wybór typu aukcji (kup teraz lub licytuj), zakończenie sprzedaży i pobranie prowizji. Innym przykładem jest proces obsługi zapytania ofertowego w firmie, podzielony na tory (baseny) dla biura, pracownika merytorycznego, kierownika i dyrektora.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to json web token?",
     "answer": "JWT (JSON Web Token) to otwarty standard przesyłania informacji w formie obiektu JSON, który jest podpisany cyfrowo w celu zapewnienia integralności i weryfikowalności. Jest powszechnie stosowany w nowoczesnych aplikacjach do autoryzacji bezstanowej, gdzie token przechowywany przez klienta zawiera wszystkie niezbędne informacje o jego uprawnieniach.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Podaj zalety wirtualizacji",
     "answer": "1. Oszczędność zasobów i prądu. 2. Łatwość klonowania. 3. Łatwiejsze zarządzanie. 4. Łatwość przywracania poprzedniego stanu systemu – migawki.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to polimorfizm? (+przykłady)",
     "answer": "Polimorfizm to wielopostaciowość, czyli właściwość pozwalająca traktować obiekty różnych typów w jednolity sposób, zazwyczaj przez wspólny interfejs klasy bazowej. Przykładem jest klasa bazowa Figura z wirtualną metodą pole, która w klasach pochodnych Koło i Prostokąt jest zaimplementowana w różny sposób, ale może być wywołana na liście wskaźników typu Figura, dając właściwy wynik dla każdego obiektu.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to dziedziczenie?",
     "answer": "jeden z filarów programowania obiektowego (OOP). Mechanizm, w którym nowa klasa (potomna/subklasa) przejmuje pola i metody klasy istniejącej (bazowej/superklasy). Cel: Reużywalność kodu i tworzenie hierarchii typów.",
-    "details": "Słowo kluczowe w java: extends."
+    "details": "Słowo kluczowe w java: extends.",
+    "category": "Obiektowość"
   },
   {
     "question": "Jak się uchronić przed utratą danych",
     "answer": "1. Kopie zapasowe 2. Obrazy dysków i synchronizacja 3. Macierze RAID 4. Klastry",
-    "details": "Macierze RAID: Zespół dysków fizycznych działających jako jeden wolumin logiczny. Klastry: Grupa połączonych komputerów działających jako jeden system."
+    "details": "Macierze RAID: Zespół dysków fizycznych działających jako jeden wolumin logiczny. Klastry: Grupa połączonych komputerów działających jako jeden system.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Rezolucja – Co to jest? jak działa i gdzie się ją stosuje?",
     "answer": "Proces zastępowania wyrażenia przez inne wyrażenie , aby udowodnić cel. Działa poprzez dopasowanie zapytania do głowy reguły i zastąpienie go treścią (ciałem) tej reguły.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Jak się adresuje komórki w arkuszu kalkulacyjnym",
     "answer": "1. Adresowanie względne – np. A1 – adres komórki zmienia się automatycznie podczas kopiowania formuły w inne miejsce 2. Adresowanie bezwzględne – np. $A$1 – kolumna i wiersz są zablokowane, więc adres nie zmienia się przy kopiowaniu formuły.",
-    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu."
+    "details": "jeszcze jest Adresowanie mieszane – np. $A1 lub A$1 – zablokowana jest tylko kolumna albo tylko wiersz, a druga część adresu zmienia się przy kopiowaniu.",
+    "category": "Inne"
   },
   {
     "question": "Co to unifikacja w prologu?",
     "answer": "Unifikacja - to proces dopasowywania termów, które stają się identyczne po dokonaniu odpowiednich podstawień za zmienne. ",
-    "details": "Podstawienie za konkretną zmienną musi być takie samo w całym wyrażeniu."
+    "details": "Podstawienie za konkretną zmienną musi być takie samo w całym wyrażeniu.",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Co to kompozycja?",
     "answer": "Zasada projektowa, w której jedna klasa zawiera obiekty innej klasy jako swoje pola.Relacja: \"Posiada coś\" (HAS-A), np. Samochód posiada Silnik. Przewaga nad dziedziczeniem: Luźniejsze powiązania (loose coupling), możliwość dynamicznej zmiany komponentów, brak problemów z wielodziedziczeniem.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Co to drzewo BST",
     "answer": "BST (Binary Search Tree) to binarne drzewo poszukiwań. Jego kluczowa cecha to uporządkowanie: dla każdego węzła, wszystkie elementy w jego lewym poddrzewie są mniejsze od niego, a w prawym poddrzewie – większe. Pozwala to na szybkie wyszukiwanie (złożoność oczekiwana O(logn))",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Infrastruktura klucza publicznego",
     "answer": "System zarządzający usługami uwierzytelniania i szyfrowania używając kluczy publicznych.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Przekształcenia bezkontekstowe grafiki rastrowej",
     "answer": "Przekształcenia bezkontekstowe (punktowe): Zmieniają wartość piksela niezależnie od jego sąsiadów.",
-    "details": "Przekształcenia kontekstowe (filtry): Zmieniają wartość piksela, uwzględniając sąsiadów. Używają masek filtrów (najczęściej 3×3)"
+    "details": "Przekształcenia kontekstowe (filtry): Zmieniają wartość piksela, uwzględniając sąsiadów. Używają masek filtrów (najczęściej 3×3)",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Podaj poziomy dostępności (modyfikatory dostępu) w obiektowości",
     "answer": "public: Każdy ma dostęp. private: Tylko metody tej samej klasy mają dostęp. protected: Dostęp ma ta klasa i klasy, które po niej dziedziczą.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Jak się układa elementy w aplikacji mobilnej swift?",
     "answer": "W SwiftUI używa się stosów: VStack (pionowo) HStack (poziomo) ZStack (warstwowo na sobie)",
-    "details": "Precyzyjne rozmieszczenie: alignment (wyrównanie), Spacer (odstępy), Divider (dzielniki)"
+    "details": "Precyzyjne rozmieszczenie: alignment (wyrównanie), Spacer (odstępy), Divider (dzielniki)",
+    "category": "swift/ios"
   },
   {
     "question": "Czym jest kursor w bazie danych?",
     "answer": "Struktura do przetwarzania wyników zapytania wiersz po wierszu (działa jak wskaźnik). Gdy trzeba przetwarzać każdy wiersz osobno w pętli (zamiast jednorazowej operacji na całym zbiorze).",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Klasa abstrakcyjna vs interfejs",
     "answer": "Różnice zacierają się od Javy 8, ale kluczowe to: Stan: Klasa abstrakcyjna może mieć pola (zmienne instancji/stan), interfejs ma tylko stałe (public static final). Dziedziczenie: Klasa może dziedziczyć tylko po jednej klasie (abstrakcyjnej), ale implementować wiele interfejsów.Konstruktory: Klasa abstrakcyjna ma konstruktory, interfejs nie. Przeznaczenie: Klasa abstrakcyjna definiuje tożsamość (\"czym to jest\"), interfejs definiuje kontrakt/zachowanie (\"co to potrafi robić\").",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to DDL?  Podaj przykład",
     "answer": "Data Definition Language - Zbiór instrukcji, służących do definiowania struktur danych w relacyjnej bazie danych. np CREATE - tworzenie tabel, baz, indeksów, ALTER - modyfikacja struktury (dodawanie kolumn, zmiana typów), DROP - usuwanie obiektów (tabela znika całkowicie)",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to urząd certyfikacyjny pki?",
     "answer": "Urząd certyfikacyjny (CA – Certificate Authority) to zaufana instytucja, która wydaje i podpisuje certyfikaty cyfrowe. Jest kluczowym elementem PKI (Public Key Infrastructure). Potwierdza, że dany klucz publiczny należy do konkretnej osoby, serwera lub organizacji.",
-    "details": "CA w PKI to instytucja, która potwierdza tożsamość i wydaje certyfikaty cyfrowe."
+    "details": "CA w PKI to instytucja, która potwierdza tożsamość i wydaje certyfikaty cyfrowe.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to jest instancja klasy?",
     "answer": "To po prostu inna nazwa na obiekt. Powstaje w momencie, gdy na podstawie klasy tworzy się konkretny byt w pamięci komputera.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to vpn?",
     "answer": "Virtual Private Network - Wirtualna sieć prywatna. Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. VPN tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Krotka w swift, jak się definiuje?",
     "answer": "Pozwala na grupowanie wielu wartości w jedną złożoną. Jej wartości nie muszą być tego samego typu. Krotka nienazwana: var osoba1 = (\"Adam\",\"Nowak\", 1960). Krotka nazwana: var osoba = (imie: \"Adam\", nazwisko: \"Nowak\", rok: 1960)",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "http vs https",
     "answer": "HTTP – protokół do przesyłania danych w internecie bez szyfrowania. Dane mogą być podsłuchane lub zmienione. HTTPS – to HTTP z szyfrowaniem SSL/TLS. Dane przesyłane są bezpiecznie i nikt ich nie podsłucha.",
-    "details": "W skrócie: HTTPS = bezpieczna wersja HTTP."
+    "details": "W skrócie: HTTPS = bezpieczna wersja HTTP.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Haskell – funkcje polimorficzne, napisz deklaracje takiej funkcji na kartce",
     "answer": "Funkcja, której parametry zawierają zmienne typu polimorficznego. Definicja składa się z dwóch części: Opisu typu funkcji: zwieksz :: Integer -> Integer oraz Sposobu wyliczenia wartości funkcji: zwieksz x = x + 1",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Podaj sposoby zabezpieczenia infrastruktury informatycznej",
     "answer": "1. Oprogramowanie antywirusowe AV (Antivirus). 2. Weryfikacja odwiedzanych stron WWW. 3. Aktualizacje systemu i oprogramowania. 4. Aktualizacje silnika programu AV i bazy wirusów.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Czym jest programowanie deklaratywne",
     "answer": "Programowanie deklaratywne to paradygmat, w którym programista opisuje, co chce osiągnąć, zamiast mówić komputerowi jak to zrobić krok po kroku. Przykłady języków/deklaratywnych narzędzi: SQL (zapytania do bazy), HTML (struktura strony)",
-    "details": "Jednozdaniowo: Deklaratywne = mówię komputerowi „co chcę”, on sam wymyśla jak to zrobić"
+    "details": "Jednozdaniowo: Deklaratywne = mówię komputerowi „co chcę”, on sam wymyśla jak to zrobić",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Jak definiujemy zmienne i stale w swift? czym jest interferencja typów?",
     "answer": "Zmienne definiujemy słowem var, a stałe słowem let. Interferencja (inferencja) typów polega na tym, że Swift sam wywnioskuje typ zmiennej na podstawie przypisanej wartości.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Wymień rodzaje kluczy w bazie danych",
     "answer": "Klucz główny, obcy, unikalny, kandydujący, złożony.",
-    "details": "Klucze służą do identyfikacji rekordów i utrzymania relacji między tabelami."
+    "details": "Klucze służą do identyfikacji rekordów i utrzymania relacji między tabelami.",
+    "category": "Bazy danych"
   },
   {
     "question": "Podaj różnice między fields a properties w C#",
     "answer": " Pola (Fields): Przechowują dane bezpośrednio. Właściwości (Properties): Są to składowe, które działają jak pola, ale de facto są metodami (posiadają akcesory get i set). Pozwalają na \"opakowanie\" dostępu do pól, umożliwiając np. walidację danych lub logowanie operacji przy ich ustawianiu/pobieraniu bez zmiany zewnętrznego interfejsu klasy",
-    "details": ""
+    "details": "",
+    "category": "C#"
   },
   {
     "question": "Podaj różnice między grafiką rastrową a wektorową",
     "answer": "Grafika rastrowa składa się z pikseli, a wektorowa z figur matematycznych.",
-    "details": "Rastrowa traci jakość przy skalowaniu (np. JPG, PNG), a wektorowa nie (np. SVG, AI)."
+    "details": "Rastrowa traci jakość przy skalowaniu (np. JPG, PNG), a wektorowa nie (np. SVG, AI).",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Co to DML? Podaj przykłady",
     "answer": "-Data Manipulation Language- Zbiór instrukcji, służących do przetwarzania danych w relacyjnej bazie danych. np INSERT - wstawianie wierszy, UPDATE - modyfikacja istniejących danych lub DELETE - usuwanie wierszy",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Enum w swift, jak się definiuje?",
     "answer": "Enum (typ wyliczeniowy) służy do grupowania powiązanych ze sobą wartości. enum NazwaTypu { case nazwaOpcji1 case nazwaOpcji2 }",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Co to SPA",
     "answer": "Single Page Application. Aplikacja internetowa, która ładuje tylko jeden plik HTML na początku. Cała dalsza nawigacja i zmiana treści odbywa się dynamicznie za pomocą JavaScript (manipulacja DOM) bez przeładowywania strony. Dane są dociągane z serwera w tle (AJAX/Fetch).",
-    "details": "Przykłady technologii: React, Angular, Vue."
+    "details": "Przykłady technologii: React, Angular, Vue.",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Wymień systemy kolorów, opisz jeden",
     "answer": "Przykładowe systemy kolorów to RGB, CMYK, HSL, HSV.",
-    "details": "RGB składa się z trzech składowych: czerwonej, zielonej i niebieskiej. Jest używany głównie w ekranach, gdzie kolory powstają przez mieszanie światła."
+    "details": "RGB składa się z trzech składowych: czerwonej, zielonej i niebieskiej. Jest używany głównie w ekranach, gdzie kolory powstają przez mieszanie światła.",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Różnice między klasą a obiektem",
     "answer": "Klasa to szablon definiujący strukturę i zachowanie obiektów.Obiekt to konkretna instancja klasy, posiadająca własne dane i istniejąca w pamięci programu.",
-    "details": "Klasa to teoretyczny projekt (np. plan budowy domu). Obiekt to konkretna rzecz zbudowana według tego planu (np. gotowy dom, w którym mieszkasz)."
+    "details": "Klasa to teoretyczny projekt (np. plan budowy domu). Obiekt to konkretna rzecz zbudowana według tego planu (np. gotowy dom, w którym mieszkasz).",
+    "category": "Obiektowość"
   },
   {
     "question": "Podaj wady wirtualizacji (ze 3 wady)",
     "answer": "1. Niższa wydajność. 2.Więcej konfiguracji. 3.Więcej maszyn do utrzymania.",
-    "details": "4. Awaria fizycznego hosta —> unieruchomienie wszystkich maszyn wirtualnych."
+    "details": "4. Awaria fizycznego hosta —> unieruchomienie wszystkich maszyn wirtualnych.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Wymień modele usług chmurowych",
     "answer": "IaaS — Infrastructure as a Service. PaaS – Platform as a Service. SaaS – Software as a Service",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to jest zmienna statyczna klasy?",
     "answer": "To zmienna wspólna dla wszystkich obiektów danej klasy. Nie jest kopiowana dla każdego obiektu z osobna – istnieje tylko jeden egzemplarz w pamięci. Jeśli jeden obiekt ją zmieni, inne widzą tę zmianę.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Czym są ciasteczka w https?",
     "answer": "Ciasteczka (Cookies) to małe pliki tekstowe zapisywane przez przeglądarkę na urządzeniu użytkownika na polecenie serwera internetowego. Służą do zapamiętywania informacji o użytkowniku, takich jak stan zalogowania czy preferencje witryny, i są automatycznie odsyłane do serwera przy każdym kolejnym żądaniu w ramach danej domeny.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to sesja?",
     "answer": "Sesja to mechanizm pozwalający na przechowywanie stanu aplikacji i identyfikację użytkownika pomiędzy kolejnymi żądaniami HTTP, które same w sobie są bezstanowe. Serwer generuje unikalny identyfikator sesji przekazywany klientowi, dzięki czemu przy każdym odświeżeniu strony system wie, czyj to profil i jakie dane powinien wyświetlić.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym są podzapytania w sql?",
     "answer": "Podzapytania (subqueries) w SQL to zapytania wewnątrz innych zapytań, które zwracają wynik używany przez zapytanie główne. Mogą być w klauzulach SELECT, WHERE lub FROM. Umożliwiają np. filtrowanie danych w oparciu o wynik innego zapytania.",
-    "details": "Jednozdaniowo: Podzapytania to zapytania w zapytaniach, które pozwalają używać wyników jednego zapytania w innym."
+    "details": "Jednozdaniowo: Podzapytania to zapytania w zapytaniach, które pozwalają używać wyników jednego zapytania w innym.",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to DDOS?",
     "answer": "Distributed Denial of Service - Atak rozproszony, prowadzony z wielu komputerów jednocześnie. Są wykorzystywane do wymuszeń. Atakujący przeprowadza atak na małą skalę, po czym wymusza okup grożąc atakiem na dużą skalę.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to responsywność?",
     "answer": "Responsive Web Design. Technika projektowania stron tak, aby ich układ i wygląd automatycznie dostosowywały się do rozmiaru ekranu urządzenia (smartfon, tablet, desktop).",
-    "details": "Mechanizmy: Media Queries, elastyczne siatki (grid/flexbox), obrazy skalowalne."
+    "details": "Mechanizmy: Media Queries, elastyczne siatki (grid/flexbox), obrazy skalowalne.",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to histogram obrazu?",
     "answer": "Histogram obrazu to wykres pokazujący, ile pikseli w obrazie ma każdą możliwą wartość jasności lub koloru. np dla obrazu czarno-białego pokazuje rozkład od 0 (czarny) do 255 (biały). Dla obrazu kolorowego można mieć trzy histogramy – dla czerwonego, zielonego i niebieskiego kanału.",
-    "details": "Jednozdaniowo: Histogram obrazu pokazuje, ile pikseli ma każdą wartość jasności lub koloru w obrazie."
+    "details": "Jednozdaniowo: Histogram obrazu pokazuje, ile pikseli ma każdą wartość jasności lub koloru w obrazie.",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Co to funkcja rekurencyjna? podaj przykłady",
@@ -317,72 +372,86 @@
   {
     "question": "Czym są inferencje w C#",
     "answer": "Realizuje się ją za pomocą słowa kluczowego var. Kompilator domyśla się typu zmiennej na podstawie wyrażenia znajdującego się po prawej stronie przypisania. Mechanizm ten działa tylko dla zmiennych lokalnych, jest silnie typowany (zmienna nie może zmienić typu) i przypomina słowo kluczowe auto z C++",
-    "details": ""
+    "details": "",
+    "category": "C#"
   },
   {
     "question": "Co to OSGI?",
     "answer": "OSGi (Open Services Gateway initiative). Dynamiczna platforma modułowa dla Java - dzieli aplikację na bundle (moduły).",
-    "details": ""
+    "details": "",
+    "category": "Integracje systemów"
   },
   {
     "question": "Podaj klasy typów w haskell",
     "answer": "Określają wspólne właściwości typów należących do danej klasy. Num – typy liczbowe - (np. Int, Float), obsługujące działania matematyczne. Eq – typy porównywalne - obsługujące operatory == (równy) oraz /= (różny), Ord – typy posiadające określoną kolejność - pozwala na użycie operatorów <, >, Show - klasa typów, których wartości można wypisywać na ekranie, Enum - klasa typów wyliczeniowych.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Podaj strukturę switch case",
     "answer": "Instrukcja warunkowa, która sprawdza wartość i wykonuje odpowiadający jej blok kodu.",
-    "details": "Przykład w Swift:\n\nswitch wartość {\n  case 1:\n    // kod dla 1\n  case 2:\n    // kod dla 2\n  default:\n    // kod dla innych przypadków\n}"
+    "details": "Przykład w Swift:\n\nswitch wartość {\n  case 1:\n    // kod dla 1\n  case 2:\n    // kod dla 2\n  default:\n    // kod dla innych przypadków\n}",
+    "category": "swift/ios"
   },
   {
     "question": "Co to core data",
     "answer": "Framework Apple do lokalnego przechowywania danych w aplikacjach iOS/macOS.",
-    "details": "Umożliwia modelowanie obiektów, zarządzanie relacjami między nimi i zapisywanie do bazy danych (SQLite w tle)."
+    "details": "Umożliwia modelowanie obiektów, zarządzanie relacjami między nimi i zapisywanie do bazy danych (SQLite w tle).",
+    "category": "swift/ios"
   },
   {
     "question": "Co to jest klasa?",
     "answer": "To definicja (szablon) łącząca dane (pola) oraz czynności, które można na nich wykonywać (metody). To fundament programowania obiektowego.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to klasa szablonowa",
     "answer": "Klasa szablonowa (template class) w C++ to klasa, która może działać dla różnych typów danych, bez pisania osobnej wersji klasy dla każdego typu.",
-    "details": "template <typename T> nad klasą"
+    "details": "template <typename T> nad klasą",
+    "category": "C++"
   },
   {
     "question": "Podaj 3 wady i zalety MPA",
     "answer": "Zalety: Mniej obciążenia początkowego – każda strona ładuje się osobno. Łatwiejsze do zbudowania prostych stron i serwisów, Łatwiej Google widzi stronę – każda podstrona ma własny adres, więc łatwiej ją znaleźć w wyszukiwarce (SEO) Wady: Wolniejsze działanie przy częstym przechodzeniu między stronami (pełne przeładowania), Większe zużycie zasobów serwera przy każdym żądaniu, Trudniejsza implementacja interaktywnych funkcji w porównaniu z SPA",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym są: konstruktor i destruktor?",
     "answer": "Konstruktor: Funkcja wywoływana automatycznie przy tworzeniu obiektu. Ustawia początkowe dane. Destruktor: Funkcja wywoływana automatycznie przy usuwaniu obiektu. Zwalnia pamięć i \"sprząta\" po obiekcie.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to architektura monolityczna i usługowa?",
     "answer": "Architektura monolityczna i architektura usługowa (microservices) to dwa podejścia do budowy aplikacji - Monolit: Cała aplikacja jest jednym dużym programem, Wszystkie funkcje, bazy danych i interfejsy są razem, Łatwiejsza na start, ale trudniejsza do rozbudowy i skalowania. Usługowa (microservices): Aplikacja podzielona na małe, niezależne usługi, które komunikują się ze sobą przez API, Każda usługa może mieć własną bazę danych i technologię, Łatwiejsze skalowanie i rozwój, ale bardziej skomplikowana infrastruktura.",
-    "details": "Jednozdaniowo: Monolit = wszystko w jednym programie, microservices = wiele małych, niezależnych usług współpracujących ze sobą."
+    "details": "Jednozdaniowo: Monolit = wszystko w jednym programie, microservices = wiele małych, niezależnych usług współpracujących ze sobą.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to lombok, podaj przykłady metod które lombok generuje",
     "answer": "Lombok to biblioteka w Javie, która automatycznie generuje kod, żeby nie pisać go ręcznie (gettery, settery, konstruktory itp.). Dzięki temu kod jest krótszy i czytelniejszy Przykłady metod i funkcji, które Lombok generuje: @Getter – generuje metodę getX() dla pola @Setter – generuje metodę setX() dla pola @ToString – generuje metodę toString() @EqualsAndHashCode – generuje metody equals() i hashCode() @NoArgsConstructor – generuje konstruktor bez argumentów @AllArgsConstructor – generuje konstruktor z wszystkimi polami @Builder – umożliwia tworzenie obiektów metodą buildera",
-    "details": ""
+    "details": "",
+    "category": "Java"
   },
   {
     "question": "Co to Kodowanie ASCII?",
     "answer": "Stary standard kodowania znaków używający 7 bitów (128 znaków). Zawiera tylko alfabet angielski, cyfry i znaki sterujące. Nie posiada polskich znaków (ą, ć itd.).",
-    "details": ""
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
   },
   {
     "question": "Co to unicode?",
     "answer": "Standard obejmujący zestaw znaków (liter, symboli, piktogramów) z niemal wszystkich pism świata. W odróżnieniu od starych standardów, Unicode przypisuje każdemu znakowi unikalny numer (Code Point), niezależnie od platformy czy języka.",
-    "details": ""
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
   },
   {
     "question": "Co to UTF-8?",
     "answer": "To najpopularniejszy sposób kodowania znaków Unicode. Jest zmiennej długości: jeden znak może zajmować od 1 do 4 bajtów. Dzięki temu jest oszczędny (podstawowe znaki alfabetu łacińskiego zajmują tylko 1 bajt, tak jak w ASCII) i uniwersalny (obsługuje wszystkie języki świata i emoji).",
-    "details": ""
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
   },
   {
     "question": "Co to internacjonalizacja?",
@@ -397,32 +466,38 @@
   {
     "question": "Co to algorytm Euklidesa, podaj jego implementacje ???",
     "answer": "Algorytm Euklidesa służy do znalezienia największego wspólnego dzielnika (NWD) dwóch liczb. Idea: NWD(a, b) = NWD(b, a mod b) Powtarzamy, aż reszta z dzielenia = 0.",
-    "details": "Jednozdaniowo: Algorytm Euklidesa znajduje NWD dwóch liczb, powtarzając dzielenie i zastępując większą liczbę mniejszą, a mniejszą resztą, aż reszta wyniesie 0."
+    "details": "Jednozdaniowo: Algorytm Euklidesa znajduje NWD dwóch liczb, powtarzając dzielenie i zastępując większą liczbę mniejszą, a mniejszą resztą, aż reszta wyniesie 0.",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Czym są wskaźniki i jakie jest ich zastosowanie",
     "answer": "Wskaźniki to zmienne przechowujące adresy pamięci innych zmiennych (adresowanie pośrednie). Zastosowania: Modyfikacja argumentów funkcji (przekazywanie przez adres), obsługa tablic, dynamiczna alokacja pamięci oraz tworzenie złożonych struktur danych,.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Jak zadeklarować funkcje polimorficzne w haskell",
     "answer": "Funkcja, której parametry zawierają **zmienne typu polimorficznego. Definicja składa się z dwóch części: Opisu typu funkcji: zwieksz :: Integer -> Integer, Sposobu wyliczenia wartości funkcji: zwieksz x = x + 1",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Czym jest klasa abstrakcyjna?",
     "answer": "Klasa zadeklarowana ze słowem kluczowym abstract, której nie można bezpośrednio instancjonować (nie można zrobić new). Cechy: Może zawierać metody abstrakcyjne (bez ciała, do zaimplementowania przez dzieci) oraz metody konkretne (z implementacją). Cel: Stanowi bazę/szablon dla innych klas. Może posiadać stan (pola).",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Opisz algorytm „Flaga Polska”",
     "answer": "Służy do sortowania zbioru składającego się tylko z dwóch rodzajów elementów (np. 0 i 1). Dzieli tablicę na dwa podzbiory. Przeglądamy tablicę z dwóch stron jednocześnie: od lewej szukamy elementu, który nie pasuje (np. 1), a od prawej takiego, który powinien być na początku (np. 0), i zamieniamy je miejscami. Złożoność liniowa O(n)",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Opisz algorytm „Flaga Francji”",
     "answer": "Rozszerzenie flagi polskiej dla trzech wartości (np. 0, 1, 2). Dzieli zbiór na trzy części. Używa trzech wskaźników (początek, koniec i element bieżący), aby w jednym przejściu przez tablicę (O(n)) umieścić elementy w odpowiednich sekcjach",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "W jakich miejscach w programie umieszcza się funkcje?",
@@ -432,42 +507,50 @@
   {
     "question": "Opisz te operatory z prologa: łączność, priorytet, przeciążenie",
     "answer": "Priorytet - każdy operator posiada liczbę całkowitą nieujemną określającą jego priorytet.Im mniejsza liczba tym wyższy priorytet operatora, Lączność - określana za pomocą atomów (wzorców) postaci afb. (Lewostronna, prawostronna, brak.), Przeciążanie - zmiana priorytetu i/lub łączności operatora Np: ?- op(100,yfx,+)",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Jakie są zależności między wskaźnikiem a tablicą?",
     "answer": "Nazwa tablicy jest w istocie wskaźnikiem na jej pierwszy element (stałym wskaźnikiem),. Tablice można indeksować za pomocą wskaźników (arytmetyka wskaźnikowa), a wskaźniki można indeksować jak tablice",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Podaj rodzaje kluczy w relacjach",
     "answer": "Klucz główny (Primary Key): Musi być unikalny i niepusty (NOT NULL). Klucz obcy (Foreign Key): Atrybut lub zbiór atrybutów, który wskazuje na klucz główny innej relacji. Klucz kandydujący (Candidate Key) – alternatywny klucz, który też mógłby pełnić rolę klucza głównego. Klucz unikalny (Unique Key) – zapewnia unikalność wartości w kolumnie lub grupie kolumn, ale może dopuszczać wartości NULL",
-    "details": "jeszcze jest Klucz złożony (Composite Key) – składa się z więcej niż jednej kolumny i razem jednoznacznie identyfikuje rekord. Przykład: w tabeli Zamówienia_Produkty klucz złożony z id_zamówienia + id_produktu."
+    "details": "jeszcze jest Klucz złożony (Composite Key) – składa się z więcej niż jednej kolumny i razem jednoznacznie identyfikuje rekord. Przykład: w tabeli Zamówienia_Produkty klucz złożony z id_zamówienia + id_produktu.",
+    "category": "Bazy danych"
   },
   {
     "question": "Czym jest ERD?",
     "answer": "(Entity Relationship Diagram) to diagram związków encji. Prezentuje on model danych w systemie, ukazując encje (kolekcje danych), ich atrybuty oraz logiczne związki pomiędzy nimi. Jest to model konceptualny/logiczny niezależny od konkretnego systemu zarządzania bazą danych",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Czym jest wskaźnik do wskaźnika?",
     "answer": "To zmienna, która przechowuje adres innego wskaźnika (podwójne pośrednictwo). W składni oznacza się go dwiema gwiazdkami (np. int **ptr), co pozwala np. na modyfikację samego wskaźnika w funkcji.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
     "answer": "1. Sortowanie przez wybieranie (SelectSort): Przeszukujemy nieposortowaną część tablicy, aby znaleźć element najmniejszy (lub największy) i zamieniamy go z pierwszym elementem tej części. Powtarzamy dla reszty tablicy. Złożoność O(n2). 2. Sortowanie szybkie (QuickSort): Algorytm „dziel i zwyciężaj”. Wybieramy element (pivot/mediana), dzielimy tablicę na dwie części (elementy mniejsze od pivota i większe), a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn),.",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Czym są: zbiór uczący, zbiór testujący i zbiór walidacyjny",
     "answer": "1. Zbiór uczący: - Służy do bezpośredniego trenowania modelu i nauki wzorców. 2. Słuzy Porównywania wydajności różnych modeli między sobą. 3. Zbiór testowy używany wyłącznie do ostatecznego sprawdzenia dokładności i zdolności generalizacji gotowego modelu.",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Co to walidacja krzyzowa",
     "answer": "To metoda oceny modelu. Polega na podziale zestawu danych na k podzestawów (foldów). Model jest wielokrotnie trenowany, gdzie każdorazowo inny podzbiór służy jako dane testowe, a pozostałe jako treningowe,Końcowym wynikiem jest średnia z tych testów.",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Omów architekturę MVC",
@@ -477,172 +560,206 @@
   {
     "question": "Czym są strumienie w c++?",
     "answer": "Strumienie w C++ to abstrakcja programistyczna służąca do sekwencyjnego przesyłania danych między programem a urządzeniami wejścia/wyjścia, takimi jak pliki czy konsola. Pozwalają one na ujednoliconą obsługę operacji we/wy za pomocą operatorów przesunięcia bitowego, ukrywając przed programistą szczegóły fizycznej reprezentacji urządzeń.",
-    "details": ""
+    "details": "",
+    "category": "C++"
   },
   {
     "question": "Co to docker?",
     "answer": "Docker to platforma do tworzenia, uruchamiania i zarządzania kontenerami, które izolują aplikacje i ich środowisko od systemu operacyjnego.",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Czym są kontenery systemowe i aplikacyjne?",
     "answer": "Kontenery systemowe – zawierają cały system operacyjny lub jego część, mogą uruchamiać wiele usług, np. LXC. Kontenery aplikacyjne – zawierają tylko aplikację i jej zależności, działają w izolacji od systemu, np. Docker.",
-    "details": "Jednozdaniowo: Kontenery systemowe to mini-OS, kontenery aplikacyjne to izolowana aplikacja z jej środowiskiem."
+    "details": "Jednozdaniowo: Kontenery systemowe to mini-OS, kontenery aplikacyjne to izolowana aplikacja z jej środowiskiem.",
+    "category": "Chmury/docker"
   },
   {
     "question": "Omów systemy wirtualizacji w linux",
     "answer": "Maszyny wirtualne dają pełną izolację systemów, kontenery są lżejsze i szybsze, ale współdzielą jądro. KVM (Kernel-based Virtual Machine) - Mechanizm w jądrze Linuksa umożliwiający pełną wirtualizację sprzętową. Każda maszyna wirtualna działa jak osobny proces. Wysoka wydajność, standard serwerowy. QEMU - Emulator sprzętu. Może działać bez wsparcia sprzętowego, ale jest wolny. Często używany razem z KVM. Xen - Hypervisor typu 1 działający bezpośrednio na sprzęcie. Dobra izolacja, rzadziej używany niż KVM. VirtualBox / VMware - ypervisory typu 2 (aplikacje). Proste w użyciu, głównie do nauki i testów. Kontenery (Docker, LXC) - Nie wirtualizują sprzętu, tylko izolują procesy w jednym jądrze. Bardzo lekkie i szybkie, ale z mniejszą izolacją niż VM.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Co to algorytmy siłowe? Podaj przykłady",
     "answer": "Algorytmy siłowe (brute-force) próbują wszystkich możliwych rozwiązań problemu, aż znajdą poprawne. Przykłady: Szukanie elementu w tablicy przez sprawdzanie wszystkich pozycji lub Łamanie hasła przez sprawdzanie wszystkich kombinacji",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Co to regresja liniowa i nieliniowa?",
     "answer": "Metoda statystyczna służąca do modelowania zależności między danymi. Regresja liniowa: Szukamy linii prostej y=ax+b, która najlepiej pasuje do chmury punktów danych. Regresja nieliniowa: Szukamy krzywej (np. wykładniczej, logarytmicznej, wielomianowej), która najlepiej opisuje dane, gdy zależność nie jest liniowa.",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Jak w języku C wypisać coś w konsoli?",
     "answer": "Używa się funkcji bibliotecznych z stdio.h: printf(\"format\", zmienne) – do wypisywania sformatowanego (tekst i liczby). lub puts(\"tekst\") – do wypisywania łańcuchów znaków (dodaje nową linię). lub putchar(znak) – do wypisania pojedynczego znaku.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Co to jest acid? Podaj jego cechy",
     "answer": "Transakcja - zbiór operacji bazodanowych traktowanych jako jedna całość. Cechy: A - Atomicity (Atomowość) Wszystko albo nic - transakcja wykonuje się w całości lub wcale. C - Consistency (Spójność) Transakcja przeprowadza bazę z jednego poprawnego stanu do drugiego. I - Isolation (Izolacja) Równoczesne transakcje nie wpływają na siebie nawzajem. Durability (Trwałość) Po zatwierdzeniu (COMMIT) zmiany są trwałe, nawet po awarii systemu.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Czym jest rozdzielczość w obrazie rastrowym?",
     "answer": "Określa szczegółowość obrazu rastrowego. Składa się z dwóch pojęć: PPI (Pixels Per Inch - pikseli na cal): Gęstość punktów obrazu —> zdolność zapisywania szczegółów. Rozmiar obrazu: Ilość pikseli w poziomie × pionie (1920×1080) lub całkowita liczba (5Mpix).",
-    "details": ""
+    "details": "",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Czym są klasy anonimowe w java?",
     "answer": "To klasy wewnętrzne nieposiadające nazwy, deklarowane i instancjonowane w tym samym miejscu kodu. Zastosowanie: Szybka implementacja interfejsu lub klasy abstrakcyjnej \"w locie\" (ad-hoc), używana jednorazowo, np. przy obsłudze zdarzeń (Listenery) lub w wątkach.",
-    "details": "np Runnable r = new Runnable() { // Początek klasy anonimowej"
+    "details": "np Runnable r = new Runnable() { // Początek klasy anonimowej",
+    "category": "Java, Obiektowość"
   },
   {
     "question": "Czym są komponenty stanowe i bezstanowe w React?",
     "answer": "Komponenty stanowe posiadają własny wewnętrzny stan (obiekt state lub hook useState), który przechowuje dane mogące ulec zmianie w czasie działania aplikacji. Zmiana stanu powoduje ponowne wyrenderowanie komponentu. Komponenty bezstanowe (funkcyjne bez hooków stanu) to tzw. komponenty prezentacyjne. Nie zarządzają danymi, a jedynie wyświetlają to, co otrzymają z góry poprzez props. Są prostsze w testowaniu i bardziej przewidywalne.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to TCP i UDP?",
     "answer": "TCP i UDP to protokoły warstwy transportowej, służące do przesyłania danych między aplikacjami w sieci. TCP jest protokołem połączeniowym i niezawodnym. Przed wysłaniem danych zestawia połączenie, kontroluje poprawność transmisji, kolejność pakietów oraz ponawia wysyłanie w razie błędów. Jest wolniejszy, ale pewny. Wykorzystywany jest tam, gdzie liczy się poprawność danych, np. HTTP/HTTPS, FTP, SMTP, IMAP. UDP jest protokołem bezpołączeniowym i zawodnym. Nie sprawdza, czy dane dotarły ani w jakiej kolejności, dzięki czemu działa szybciej i z mniejszym narzutem. Stosowany jest tam, gdzie ważniejsza jest szybkość niż niezawodność, np. streaming wideo i audio, VoIP, gry online, DNS.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Podaj wady i zalety SPA",
     "answer": "Zalety: Szybkie działanie – treść zmienia się dynamicznie bez przeładowywania całej strony, Łatwiejsze tworzenie interaktywnych funkcji – idealne dla aplikacji webowych (czaty, dashboardy), Płynniejsze doświadczenie użytkownika – przypomina działanie aplikacji mobilnej Wady: Gorsze SEO – wyszukiwarki trudniej indeksują treść, bo wiele danych ładuje się dynamicznie, Większe wymagania początkowe – trzeba pobrać dużo kodu JavaScript na start, Może być trudniejsze w utrzymaniu – większa złożoność kodu po stronie frontendu",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to są procesy?",
     "answer": " Proces to program w trakcie wykonywania przez system operacyjny. Posiada on swój numer identyfikacyjny (PID). Jądro systemu przechowuje informacje o jego stanie (kontekście), liście otwartych plików, uprawnieniach, bieżącym katalogu oraz przydzielonym obszarze pamięci",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Opisz użycie hashowania w aplikacjach internetowych",
     "answer": "Hashowanie w aplikacjach internetowych to proces jednostronnego przekształcania danych wejściowych, najczęściej haseł, w ciąg znaków o stałej długości za pomocą funkcji skrótu. Służy to bezpiecznemu przechowywaniu danych uwierzytelniających, uniemożliwiając odzyskanie oryginalnego hasła nawet w przypadku kradzieży bazy danych.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to hermetyzacja w programowaniu obiektowym?",
     "answer": "Hermetyzacja, znana również jako enkapsulacja, polega na ukrywaniu wewnętrznych szczegółów implementacji klasy i udostępnianiu jedynie wyselekcjonowanego interfejsu publicznego. Mechanizm ten chroni stan obiektu przed niepoprawną modyfikacją z zewnątrz oraz pozwala na swobodną zmianę kodu wewnętrznego bez wpływu na inne części systemu korzystające z tej klasy.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Podaj wady i zalety pól statycznych w klasie",
     "answer": "Zalety: Oszczędność pamięci (tylko jedna zmienna dla wszystkich) i łatwy dostęp do wspólnych danych. Wady: Ryzyko błędów przy wielu wątkach i trudniejsze testowanie kodu, bo zmienna statyczna trzyma stan \"globalnie\".",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Omów funkcje prefiksowe, infiksowe, postfiksowe w haskellu",
     "answer": "Omów funkcje prefiksowe, infiksowe i postfiksowe w Haskellu Np: mod 5 3 lub sin 1.2 Infiksowe — występują pomiędzy swoimi operandami. Np: 2 + 3 (operator + jest infiksowy domyślnie), Postfiksowe — występują bezpośrednio za operandem. w  tej notacji operator występuje bezpośrednio po argumencie Np: 16 & sqrt",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Czym są adaptery w obsłudze zdarzeń w Java?",
     "answer": "W starszych bibliotekach GUI (jak AWT/Swing) interfejsy nasłuchujące (Listener) miały często wiele metod. Jeśli programista chciał obsłużyć tylko jedną, musiał implementować wszystkie (zostawiając resztę pustą). Klasy adapterówto abstrakcyjne klasy, które implementują dany interfejs z pustymi metodami. Programista dziedziczy po adapterze i nadpisuje tylko tę jedną metodę, której potrzebuje, co upraszcza kod.",
-    "details": ""
+    "details": "",
+    "category": "Java"
   },
   {
     "question": "Omów proces testowania oprogramowania",
     "answer": "Polega na sprawdzaniu, czy program działa zgodnie z wymaganiami. Typy testów: jednostkowe, integracyjne, systemowe, akceptacyjne.",
-    "details": ""
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Czym jest parametryzacja typów w java?",
     "answer": "Mechanizm wprowadzony w Java 5 pozwalający na definiowanie klas, interfejsów i metod z użyciem typów jako parametrów (np. List<String>). Cel: Zapewnienie bezpieczeństwa typów w czasie kompilacji (wykrywanie błędów przed uruchomieniem) oraz eliminacja konieczności ręcznego rzutowania obiektów. Przykład: Zamiast ogólnej listy List, używamy List<Integer>, co gwarantuje, że w liście znajdą się tylko liczby całkowite.",
-    "details": ""
+    "details": "",
+    "category": "Java"
   },
   {
     "question": "Obsługa tabel w SQL – tworzenie i modyfikacja",
     "answer": "Obejmuje tworzenie nowych tabel oraz zmianę ich struktury za pomocą poleceń SQL.",
-    "details": "Do tworzenia służy CREATE TABLE, a do modyfikacji ALTER TABLE (np. dodawanie/usuwanie kolumn, zmiana typu danych). Usuwanie tabeli realizuje DROP TABLE."
+    "details": "Do tworzenia służy CREATE TABLE, a do modyfikacji ALTER TABLE (np. dodawanie/usuwanie kolumn, zmiana typu danych). Usuwanie tabeli realizuje DROP TABLE.",
+    "category": "Bazy danych"
   },
   {
     "question": "Jaki jest cykl życia oprogramowania",
     "answer": " 1. Faza strategiczna 2. Analiza systemowa 3. Określenie wymagań 4. Projektowanie (modelowanie) 5. Implementacja 6. Dokumentacja 7. Testowanie 8. Wdrażanie 9. Konserwacja (rozwój)",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Android struktury tworzenia",
     "answer": "Activity, Fragment, Service",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Co to są semafory i jakie są ich rodzaje?",
     "answer": "Semafory to mechanizmy synchronizacji dostępu do współdzielonych zasobów w programach wielowątkowych.",
-    "details": "Wyróżnia się semafory binarne (0/1) i liczące (zliczają dostępne zasoby)."
+    "details": "Wyróżnia się semafory binarne (0/1) i liczące (zliczają dostępne zasoby).",
+    "category": "Inne, Systemy operacyjne"
   },
   {
     "question": "Rozmiar a wymiar płótna w gimp",
     "answer": "Rozmiar obrazu zmienia skalę grafiki, a wymiar płótna zmienia obszar roboczy bez skalowania.",
-    "details": "Płótno może przycinać lub dodawać puste obszary, rozmiar obrazu skaluje zawartość."
+    "details": "Płótno może przycinać lub dodawać puste obszary, rozmiar obrazu skaluje zawartość.",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Czym są macierze RAID? cechy, zastosowanie, rozwinięcie skrótu",
     "answer": "RAID to technika łączenia wielu dysków w jedną logiczną całość dla wydajności lub bezpieczeństwa danych.",
-    "details": "RAID (Redundant Array of Independent Disks) zwiększa niezawodność, wydajność lub oba te aspekty; stosowany w serwerach i centrach danych."
+    "details": "RAID (Redundant Array of Independent Disks) zwiększa niezawodność, wydajność lub oba te aspekty; stosowany w serwerach i centrach danych.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Jaka jest różnica między systemem informacyjnym a systemem informatycznym?",
     "answer": "System informacyjny to całość obejmująca ludzi, procedury, dane i narzędzia, natomiast system informatyczny stanowi jego techniczną część opartą na sprzęcie i oprogramowaniu.",
-    "details": "System informatyczny wspiera realizację procesów systemu informacyjnego przy użyciu technologii komputerowych."
+    "details": "System informatyczny wspiera realizację procesów systemu informacyjnego przy użyciu technologii komputerowych.",
+    "category": "Wprowadzenie do informatyki, Inzynieria oprogramowania"
   },
   {
     "question": "Co to podpis elektroniczny?",
     "answer": "Podpis elektroniczny to mechanizm kryptograficzny służący do potwierdzania autentyczności nadawcy oraz integralności danych w postaci elektronicznej.",
-    "details": "Zapewnia identyfikację autora dokumentu, integralność treści oraz niezaprzeczalność wykonania operacji."
+    "details": "Zapewnia identyfikację autora dokumentu, integralność treści oraz niezaprzeczalność wykonania operacji.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Podaj metody całkowania numerycznego",
     "answer": " Wyróżnia się: Kwadratury interpolacyjne: w tym kwadratury Newtona-Cotesa (wzór prostokątów, trapezów, Simpsona, „trzech ósmych”) oraz Kwadratury Gaussa: np. Gaussa-Legendre’a, Gaussa-Czebyszewa (węzły są pierwiastkami wielomianów ortogonalnych)",
-    "details": "Jeszcze są Metody Monte Carlo: oparte na próbach losowych"
+    "details": "Jeszcze są Metody Monte Carlo: oparte na próbach losowych",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Czym są sekcje krytyczne? np w C++",
     "answer": "Sekcje krytyczne to fragmenty programu, w których następuje dostęp do współdzielonych zasobów i które muszą być wykonywane w sposób wzajemnie wykluczający.",
-    "details": "W językach takich jak C++ realizuje się je za pomocą mechanizmów synchronizacji, np. mutexów lub semaforów."
+    "details": "W językach takich jak C++ realizuje się je za pomocą mechanizmów synchronizacji, np. mutexów lub semaforów.",
+    "category": "C++, Inne"
   },
   {
     "question": "Wielodziedziczenie - zalety i wady",
     "answer": "Pozwala klasie dziedziczyć po wielu klasach, co zwiększa elastyczność, ale komplikuje projekt.",
-    "details": "Może prowadzić do konfliktów metod i trudniejszego utrzymania kodu."
+    "details": "Może prowadzić do konfliktów metod i trudniejszego utrzymania kodu.",
+    "category": "Obiektowość"
   },
   {
     "question": "Model konceptualny vs implementacyjny",
     "answer": "Model konceptualny opisuje system na wysokim poziomie, a implementacyjny pokazuje jego techniczną realizację.",
-    "details": "Konceptualny jest niezależny od technologii, implementacyjny już nie."
+    "details": "Konceptualny jest niezależny od technologii, implementacyjny już nie.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Wymień cechy obiektowości",
     "answer": "Hermetyzacja, dziedziczenie, polimorfizm, abstrakcja.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Wymień metody uwierzytelniania użytkowników",
@@ -652,42 +769,50 @@
   {
     "question": "Podaj strukture projektu android",
     "answer": "app/src/main/java: Katalog zawierający pliki źródłowe kodu (Java lub Kotlin), w tym klasy aktywności. app/src/main/res: Katalog zasobów aplikacji, podzielony na podkatalogi takie jak layout (pliki XML z układem interfejsu), drawable/mipmap (grafika) oraz values (teksty, kolory, style).  AndroidManifest.xml: Główny plik konfiguracyjny opisujący składniki aplikacji (aktywności, usługi), wymagane uprawnienia oraz wersję SDK.  build.gradle: Skrypty systemu budowania (dla modułu i projektu), definiujące zależności (biblioteki), wersje kompilacji i identyfikator aplikacji.  app/build: Katalog zawierający pliki wygenerowane automatycznie i pliki wynikowe (np. .apk)",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Czym są ciasteczka",
     "answer": "Ciasteczka (cookies) to niewielkie porcje danych zapisywane po stronie klienta przez aplikacje internetowe.",
-    "details": "Służą do identyfikacji użytkownika, utrzymania sesji oraz przechowywania informacji o stanie aplikacji."
+    "details": "Służą do identyfikacji użytkownika, utrzymania sesji oraz przechowywania informacji o stanie aplikacji.",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Lagrange /  Newton",
     "answer": "Są to dwa sposoby wyznaczania wielomianu interpolacyjnego (różne bazy): Baza Lagrange’a: pozwala natychmiast zapisać wzór wielomianu, ale jest kosztowna obliczeniowo przy dodawaniu nowych węzłów. Baza Newtona: wykorzystuje ilorazy różnicowe do wyznaczenia współczynników wielomianu, a jego wartość oblicza się schematem Hornera",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Co to macierz pomyłek?",
     "answer": "Macierz pomyłek (ang. confusion matrix) to tabela służąca do oceny jakości modelu klasyfikacyjnego, zestawiająca predykcje klasyfikatora z rzeczywistymi danymi",
-    "details": "W klasyfikacji binarnej składa się z czterech elementów: TP (True Positives): Poprawne trafienia.TN (True Negatives): Poprawne odrzucenia.  FP (False Positives): Fałszywe alarmy (błąd I rodzaju).  FN (False Negatives): Przeoczenia (błąd II rodzaju) . Na jej podstawie wylicza się miary takie jak dokładność (Accuracy), czułość (Sensitivity), swoistość (Specificity) oraz precyzję (Precision) ."
+    "details": "W klasyfikacji binarnej składa się z czterech elementów: TP (True Positives): Poprawne trafienia.TN (True Negatives): Poprawne odrzucenia.  FP (False Positives): Fałszywe alarmy (błąd I rodzaju).  FN (False Negatives): Przeoczenia (błąd II rodzaju) . Na jej podstawie wylicza się miary takie jak dokładność (Accuracy), czułość (Sensitivity), swoistość (Specificity) oraz precyzję (Precision).",
+    "category": "AI"
   },
   {
     "question": "Czym są klasyfikatory",
     "answer": "Klasyfikator to model uczenia maszynowego (nadzorowanego), którego zadaniem jest przyporządkowanie obiektu do określonej kategorii (klasy) na podstawie wektora jego cech",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Wymień rodzaje struktur w swift i podaj operacje na nich",
     "answer": "Array, Dictionary, Set.",
-    "details": "Array: dodawanie/usuwanie elementów; Dictionary: operacje na parach klucz–wartość; Set: operacje zbiorowe (suma, część wspólna)."
+    "details": "Array: dodawanie/usuwanie elementów; Dictionary: operacje na parach klucz–wartość; Set: operacje zbiorowe (suma, część wspólna).",
+    "category": "swift/ios"
   },
   {
     "question": "Wymień parametry czcionek",
     "answer": "krój (rodzaj czcionki, czyli Times New Roman, Arial, itp.), wielkość, kolor, styl (pogrubienie, kursywa, podkreślenie, przekreślenie), odstępy, wyróznienie (zakreślenie)",
-    "details": ""
+    "details": "",
+    "category": "Inne"
   },
   {
     "question": "Czym są fragmenty w android?",
     "answer": "Fragmenty — „mini-aktywności\" osadzane w aktywności.",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Usługi google play",
@@ -697,52 +822,62 @@
   {
     "question": "Istota wzorców projektowych, podział i przykład",
     "answer": "Wzorce projektowe to sprawdzone sposoby rozwiązywania typowych problemów w programowaniu obiektowym. Podział: Kreacyjne (np. Singleton, Builder) – tworzenie obiektów, Strukturalne (np. Adapter, Decorator) – organizacja klas i obiektów, Behawioralne (np. Observer, Strategy) – interakcje między obiektami",
-    "details": "Jednozdaniowo: Wzorce projektowe to gotowe rozwiązania typowych problemów projektowych w kodzie."
+    "details": "Jednozdaniowo: Wzorce projektowe to gotowe rozwiązania typowych problemów projektowych w kodzie.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Czym są elementy interfejsu?",
     "answer": "Elementy interfejsu (Widgety/Kontrolki) To podstawowe, wizualne składniki graficznego interfejsu użytkownika (GUI), które umożliwiają interakcję z aplikacją. Dzielą się na elementy sterujące (przyciski, suwaki), wprowadzania danych (pola tekstowe, checkboxy), nawigacyjne (menu, breadcrumbs) oraz informacyjne (paski postępu, tooltips).",
-    "details": ""
+    "details": "",
+    "category": "Interakcja człowiek - komputer"
   },
   {
     "question": "Co to są wyrażenia algebraiczne i do czego służą?",
     "answer": "W informatyce to zapisy składające się ze zmiennych, stałych i operatorów (np. x + 5 * y). Służą do: Obliczania wartości danych, Opisywania warunków logicznych (np. w instrukcji if (a > b + 1)), Modelowania algorytmów (np. wzory na złożoność).",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Co to jest drzewo procesów?",
     "answer": "To struktura tworzona przez wszystkie procesy w systemie, w której każdy proces jest potomkiem (ang. child) innego procesu – macierzystego (ang. parent), z wyjątkiem procesu inicjującego. Nowe procesy w drzewie powstają m.in. przez wywołanie funkcji fork.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Podaj typy pól w formularzu",
     "answer": "Atrybut type w znaczniku <input>: text, password, email, number, tel, url, search, date, time, color, file, checkbox, radio, hidden, submit, reset.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to box model w css?",
     "answer": "Model pudełkowy. Każdy element HTML jest traktowany jako prostokątne pudełko składające się z 4 warstw (od środka): Content: Właściwa treść (tekst, obrazek). Padding: Margines wewnętrzny (odstęp treści od ramki). Border: Ramka/obramowanie. Margin: Margines zewnętrzny (odstęp od innych elementów).",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Podaj strukutrę adresu MAC",
     "answer": "Media Access Control — adres jest 48-bitową liczbą zapisywaną w systemie szesnastkowym (heksadecymalnym). Składa się z dwóch części: pierwsze (OUI) 24 bity to kod producenta karty. pozostałe (NIC) 24 bity to unikatowy numer seryjny tej karty.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "IPv4 vs IPv6",
     "answer": "IPv4 używa adresów 32-bitowych, co daje ograniczoną liczbę adresów, natomiast IPv6 ma adresy 128-bitowe i praktycznie nieograniczoną pulę. IPv4 zapisuje adresy w formacie dziesiętnym z kropkami, a IPv6 w szesnastkowym z dwukropkami. W IPv4 często stosuje się NAT, w IPv6 nie jest on potrzebny. IPv6 oferuje prostszą budowę nagłówka, brak broadcastu (zastąpiony multicastem) oraz lepszą obsługę automatycznej konfiguracji.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Podaj reguły solid",
     "answer": "S – Single Responsibility Principle: jedna klasa = jedna odpowiedzialność, O – Open/Closed Principle: klasy otwarte na rozszerzenia, zamknięte na modyfikacje, L – Liskov Substitution Principle: obiekty klas dziedziczących mogą zastępować obiekty klas bazowych, I – Interface Segregation Principle: lepiej wiele wąskich interfejsów niż jeden duży, D – Dependency Inversion Principle: zależności od abstrakcji, nie od konkretów",
-    "details": "SOLID to zasady projektowania obiektowego poprawiające czytelność, elastyczność i skalowalność kodu."
+    "details": "SOLID to zasady projektowania obiektowego poprawiające czytelność, elastyczność i skalowalność kodu.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Czym są prototypy funkcji?",
     "answer": "Są to deklaracje funkcji (nagłówki zakończenie średnikiem) umieszczane zazwyczaj na początku programu, przed ich użyciem. Pozwalają kompilatorowi sprawdzić poprawność typów argumentów i typu zwracanego przed właściwą definicją funkcji",
-    "details": "np int add(int a, int b);"
+    "details": "np int add(int a, int b);",
+    "category": "Programowanie strukturalne / C, Ogólne"
   },
   {
     "question": "Co to wyrażenie lambda?",
@@ -752,37 +887,44 @@
   {
     "question": "Czym jest zapytanie o media?",
     "answer": "Technika CSS (@media), która pozwala stosować różne style CSS w zależności od parametrów urządzenia lub przeglądarki. Jest fundamentem responsywności (RWD). Przykład: @media (max-width: 600px) { body { background: blue; } } (zmień tło na niebieskie, jeśli ekran jest węższy niż 600px).",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym jest całkowanie numeryczne?",
     "answer": "Jest to przybliżone obliczanie całek oznaczonych za pomocą skończonej sumy (zwanej kwadraturą), będącej kombinacją liniową wartości funkcji (i ewentualnie jej pochodnych) w określonych punktach zwanych węzłami",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
-    "question": "Co to stos i jakie są jego funkcje?",
+    "question": "Co to stos i jakie są jego funkcje/operacje?",
     "answer": "Stos to struktura typu LIFO (Last In First Out). Funkcje (operacje): push – połóż element na wierzchołek. pop – zdejmij element z wierzchołka. top – sprawdź wartość na wierzchołku. empty – sprawdź, czy stos jest pusty.",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Czym jest kolejka i jakie są jej funkcje?",
     "answer": "Kolejka (FIFO – First In First Out) to struktura, gdzie element dodany jako pierwszy, wychodzi jako pierwszy. Funkcje: attach (lub enqueue) – dołącz na koniec, detach (lub dequeue) – odłącz z początku, first – pokaż pierwszy element, empty – czy pusta",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Co to DOM?",
     "answer": "Document Object Model (Obiektowy Model Dokumentu). Reprezentacja struktury dokumentu HTML w pamięci przeglądarki w postaci drzewa obiektów. Dzięki DOM język JavaScript może widzieć stronę, zmieniać jej treść, style i reagować na akcje użytkownika w czasie rzeczywistym.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to TDD?",
     "answer": "TDD (Test-Driven Development) Metoda tworzenia oprogramowania, w której najpierw pisze się testy, a potem kod, który je spełnia. Pomaga tworzyć bardziej niezawodny i dobrze przetestowany kod.",
-    "details": ""
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Czym są deskryptory w css?",
     "answer": "Deskryptor (technicznie): Występuje w regułach @ (np. @font-face), służy do definiowania właściwości zasobu, a nie stylu elementu (np. src, font-family wewnątrz @font-face).",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym są testy jednostokowe?",
@@ -792,87 +934,104 @@
   {
     "question": "Czym są testy integracyjne?",
     "answer": "Testy sprawdzające współdziałanie kilku komponentów systemu. Upewniają, że moduły działają poprawnie razem.",
-    "details": ""
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Czym są wątki w javie?",
     "answer": "Najmniejsze jednostki przetwarzania kodu, które mogą być zarządzane przez system operacyjny, działające w obrębie jednego procesu. Współdzielenie: Wątki w ramach jednego procesu współdzielą pamięć (stertę), co ułatwia komunikację, ale wymaga synchronizacji. Tworzenie: Poprzez rozszerzenie klasy Thread lub implementację interfejsu Runnable (i przekazanie do new Thread()).",
-    "details": ""
+    "details": "",
+    "category": "Java, Ogólne"
   },
   {
     "question": "Czym się charakteryzuje relacyjna baza danych?",
     "answer": "Relacyjna baza danych (RBD) to praktyczna implementacja modelu relacyjnego. Cechy: Struktura tabelaryczna, Więzy integralności, Relacje między tabelami, Transakcyjność (ACID), Normalizacja",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Czym się charakteryzuje nierelacyjna baza danych?",
     "answer": "Dane nie są przechowywane w tabelach jak w relacyjnych bazach. Typowe cechy: skalowalność pozioma, elastyczny schemat danych, szybkie operacje odczytu i zapisu. Przykłady: MongoDB (dokumentowa), Redis (klucz-wartość), Neo4j (grafowa).",
-    "details": "Nierelacyjna baza danych przechowuje dane w elastycznych strukturach, nie w tabelach, i łatwo się skalowalna."
+    "details": "Nierelacyjna baza danych przechowuje dane w elastycznych strukturach, nie w tabelach, i łatwo się skalowalna.",
+    "category": "Bazy danych"
   },
   {
     "question": "Co oznacza lewowiążącość i prawowiążącość w Haskellu?",
     "answer": "Lewowiążącość — działania wykonywane są od lewej do prawej. Np: Wyrażenie 2*3*4 jest traktowane jako (2*3)*4. rawowiążącość — działania wykonywane są od prawej do lewej. Np: Wyrażenie 2^3^4 jest traktowane jako 2^(3^4)",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Wymień rodzaje technologii chmurowych",
     "answer": "Kontenery (wirtualizacja poziomu OS). Mikrousługi (dzielenie aplikacji na małe procesy). Service Mesh (zarządzanie komunikacją usług). Niezmienna infrastruktura i deklaratywne API.",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Opisz architekturę w androidze",
     "answer": " Aplikacje działają w środowisku ART (Android Runtime), które kompiluje kod przy instalacji (AOT). Podstawowe składniki aplikacji to: Aktywności (ekrany), Usługi (praca w tle) i BroadcastReceiver (odbieranie zdarzeń systemowych). W warstwie danych zaleca się używanie bazy Room z ViewModel i LiveData",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Co to SQL injection",
     "answer": "Wysyłamy dużą liczbę złożonych zapytań SQL, spowalniając pracę serwera. W celu kradzieży danych bazy lub wyczerpania zasobów serwera.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji, Aplikacje internetowe, Bazy danych"
   },
   {
     "question": "Co to zasada DRY?",
     "answer": "DRY = Don't Repeat Yourself – zasada mówiąca, żeby nie powtarzać kodu ani logiki w programie. Pomaga utrzymać kod czysty, łatwy w utrzymaniu i mniej podatny na błędy.",
-    "details": ""
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Co robi reduce() w swift?",
     "answer": "reduce() przetwarza kolekcję i łączy jej elementy w jedną wartość, np. sumę, iloczyn czy string.",
-    "details": "np let numbers = [1, 2, 3, 4] let sum = numbers.reduce(0) { $0 + $1 } // wynik: 10"
+    "details": "np let numbers = [1, 2, 3, 4] let sum = numbers.reduce(0) { $0 + $1 } // wynik: 10",
+    "category": "swift/ios"
   },
   {
     "question": "Co to NoSQL?",
     "answer": "Nierelacyjna baza danych, która przechowuje dane w elastycznych strukturach, nie w tabelach. Dobrze nadaje się do skalowania poziomego i dużych, zmiennych danych. Przykłady: MongoDB, Redis, Cassandra.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to cyfra kontrolna?",
     "answer": "Cyfra dodawana do numeru identyfikacyjnego (np. PESEL, ISBN), aby sprawdzić poprawność całego numeru. Obliczana według określonego algorytmu na podstawie pozostałych cyfr.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Rendering i Bufor Z jak jest wykorzystywany?",
     "answer": "Rendering: Proces tworzenia obrazu 2D na podstawie 3D sceny. Buforu Z - kluczowy element tego procesu. Dla każdego piksela zapisuje jego współrzędną Z (odległość od obserwatora) Podczas rysowania obrazu algorytm sprawdza wartość Z. Wyświetla piksel, który znajduje się najbliżej ekranu, odrzucając obiekty zasłonięte.",
-    "details": ""
+    "details": "",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Podaj metody wstrzymywania wątków w java",
     "answer": "Thread.sleep(ms): Usypia aktualny wątek na określony czas. Nie zwalnia blokad (monitorów). Metoda statyczna. Object.wait(): Wątek czeka, aż inny wątek wywoła notify() na tym samym obiekcie. Zwalnia blokadę (monitor). Wymaga bloku synchronizowanego. Thread.join(): Wątek wywołujący czeka, aż wątek, na którym wywołano metodę, zakończy swoje działanie. LockSupport.park(): Niskopoziomowe zawieszenie wątku (używane w bibliotece java.util.concurrent).",
-    "details": ""
+    "details": "",
+    "category": "Java"
   },
   {
     "question": "Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów",
     "answer": "Podział problemu na mniejsze podproblemy, rozwiązanie ich niezależnie (często rekurencyjnie) i scalenie wyników (np. MergeSort, QuickSort).",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Czym jest lista? Podaj przykłady i różnice w stosunku do tablic",
     "answer": "Lista: Liniowo uporządkowany zbiór elementów połączonych wskaźnikami. Przykłady: Jednokierunkowa (wskaźnik tylko na następnika), dwukierunkowa (na następnika i poprzednika), cykliczna (koniec łączy się z początkiem)",
-    "details": "Różnice względem tablicy: Elementy nie muszą leżeć obok siebie w pamięci; łatwe dodawanie/usuwanie w środku (przepięcie wskaźników); brak swobodnego dostępu przez indeks (trzeba przejść po kolei)."
+    "details": "Różnice względem tablicy: Elementy nie muszą leżeć obok siebie w pamięci; łatwe dodawanie/usuwanie w środku (przepięcie wskaźników); brak swobodnego dostępu przez indeks (trzeba przejść po kolei).",
+    "category": "Algorytmika, Programowanie strukturalne / C"
   },
   {
     "question": "Opisz funkcje filter() w swift",
     "answer": "filter() wybiera z kolekcji tylko te elementy, które spełniają podany warunek. ",
-    "details": "let numbers = [1, 2, 3, 4, 5] let evenNumbers = numbers.filter { $0 % 2 == 0 } // wynik: [2, 4]"
+    "details": "let numbers = [1, 2, 3, 4, 5] let evenNumbers = numbers.filter { $0 % 2 == 0 } // wynik: [2, 4]",
+    "category": "swift/ios"
   },
   {
     "question": "Jakie znasz operacje binarne?",
@@ -882,17 +1041,20 @@
   {
     "question": "Co to tablica LUT?",
     "answer": "Look-Up Table, która przechowuje wcześniej obliczone wyniki, aby przyspieszyć obliczenia. Zamiast liczyć wynik „na żywo”, program sprawdza gotową wartość w tabeli. Przykład: stosowana w grafice komputerowej, szyfrowaniu czy przetwarzaniu sygnałów.",
-    "details": "Jednozdaniowo: LUT to tablica gotowych wyników używana do szybkiego odczytu zamiast liczenia."
+    "details": "Jednozdaniowo: LUT to tablica gotowych wyników używana do szybkiego odczytu zamiast liczenia.",
+    "category": "Inne"
   },
   {
     "question": "Czym jest unia? (programowanie strukturalne)",
     "answer": "Unia (union) to specjalny typ danych, który pozwala przechowywać różne typy danych w tym samym obszarze pamięci, ale tylko jeden z nich naraz. Unia definiuje kilka pól, które współdzielą tę samą pamięć. Rozmiar unii = rozmiar największego z jej pól.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "SZDB – co to, do czego służy, przykłady",
     "answer": "System Zarządzania Bazą Danych (SZBD) to oprogramowanie pośredniczące między fizycznym miejscem składowania danych a klientem, odpowiadające za bezpieczeństwo, spójność i współbieżność. Relacyjne SZBD: Oracle DB, Microsoft SQL Server, MySQL, PostgreSQL. Nierelacyjne SZBD: MongoDB, Redis, Apache Cassandra, Neo4j. - Główne funkcje:- Definiowanie i organizacja struktur - Przetwarzanie danych - Zapewnienie bezpieczeństwa - Kontrola spójności i współbieżności",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Opisz while i do while",
@@ -902,137 +1064,170 @@
   {
     "question": "Opisz strukturę React",
     "answer": "React opiera się na drzewie komponentów. Aplikacja składa się z małych, izolowanych fragmentów kodu (komponentów), które są zagnieżdżane jeden w drugim (np. App zawiera Header, Content, Footer). Przepływ danych jest jednokierunkowy (z góry na dół, od rodzica do dziecka przez props). React wykorzystuje Virtual DOM – lekką kopię rzeczywistego drzewa DOM, co pozwala na efektywne aktualizowanie tylko zmienionych elementów interfejsu.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Architektury baz danych",
     "answer": "1. Jednopoziomowa: baza i interfejs są na jednym poziomie. 2. Dwupoziomowa: klient i serwer bazy danych są oddzielone. 3. Trójpoziomowa: dodaje warstwę pośrednią (aplikacja) między klientem a serwerem bazy danych. 4. Rozproszona: dane znajdują się na wielu serwerach bazy danych. 5. Lokalna: baza danych znajduje się w całości na jednym urządzeniu.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Opisz paradygmat funkcyjny",
     "answer": "Programowanie funkcyjne (functional programming) to paradygmat, w którym program składa się głównie z funkcji, a nie zmiennych czy instrukcji sterujących. Przykładowe języki: Haskell, Python",
-    "details": "Jednozdaniowo: Funkcyjne = program składa się z funkcji, które nie zmieniają stanu i zawsze dają przewidywalny wynik."
+    "details": "Jednozdaniowo: Funkcyjne = program składa się z funkcji, które nie zmieniają stanu i zawsze dają przewidywalny wynik.",
+    "category": "Paradygmaty programowania, Ogólne"
   },
   {
     "question": "Na czym polega teksturowanie 3D",
     "answer": "Mapujemy obrazy 2D (tekstury) na powierzchnie obiektów 3D.",
-    "details": ""
+    "details": "",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Co to programowanie generyczne? Podaj przykłady w C++",
     "answer": "Programowanie generyczne to paradygmat tworzenia algorytmów i struktur danych w sposób niezależny od konkretnych typów, na których operują. W C++ realizuje się to za pomocą szablonów, na przykład tworząc jedną funkcję sortującą, która zadziała poprawnie zarówno dla tablicy liczb całkowitych, jak i ciągów znaków bez konieczności duplikowania kodu.",
-    "details": ""
+    "details": "",
+    "category": "C++, Ogólne"
   },
   {
     "question": "Wymień algorytmy wyszukiwania elementu w zbiorze",
     "answer": "1. Wyszukiwanie liniowe: Sprawdza każdy element po kolei (O(n)). 2. Wyszukiwanie binarne: Działa na posortowanym zbiorze, dzieli zakres na pół (O(logn)). 3. Wyszukiwanie interpolacyjne: Szacuje miejsce elementu (jak w słowniku).",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Wymień zarządców układu w android",
     "answer": "LinearLayout - elementy liniowo (pionowo/poziomo). ConstraintLayout - responsywne układy z relacjami. TableLayout - siatka (jak tabele HTML). RecyclerView - wydajne przewijalne listy",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Podaj sposoby odzyskiwania haseł",
     "answer": "Link resetujący (E-mail), Weryfikacja SMS (2FA), Kody zapasowe (Recovery codes), Interwencja administratora:",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to kontekst db w entity framework",
     "answer": " Kontekst bazy danych (reprezentowany przez klasę dziedziczącą po DbContext) to klasa implementująca wzorzec repozytorium, która zapewnia dostęp do danych w encjach bazodanowych. Musi zawierać właściwości typu DbSet<T>, które odpowiadają konkretnym tabelom/encjom",
-    "details": ""
+    "details": "",
+    "category": "C#"
   },
   {
     "question": "Czym są metody wirtualne w C++",
     "answer": "To metody, które pozwalają na polimorfizm. Słowo virtual sprawia, że program w czasie działania sprawdza, jakiego typu jest obiekt i wywołuje właściwą wersję funkcji (nawet jeśli używamy wskaźnika na klasę bazową).",
-    "details": ""
+    "details": "",
+    "category": "C++, Obiektowość"
   },
   {
     "question": "Podaj cechy express.js",
     "answer": "To minimalistyczny framework webowy dla Node.js. Jego główne cechy to: szybkość i lekkość (nie narzuca dużej struktury), potężny mechanizm routingu (mapowanie URL na funkcje), obsługa middleware (funkcji pośrednich przetwarzających żądania, np. logowanie, parsowanie JSON) oraz łatwość integracji z silnikami szablonów i bazami danych.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Strukturalizacja i destrukturalizacja danych w js",
     "answer": "Strukturalizacja i destrukturalizacja danych w JS Strukturalizacja to po prostu tworzenie obiektów lub tablic. Destrukturalizacja (wprowadzona w ES6) to składnia pozwalająca na \"rozpakowanie\" wartości z tablic lub właściwości z obiektów bezpośrednio do osobnych zmiennych. Zamiast pisać const name = user.name, piszemy const { name } = user. Zwiększa to czytelność kodu.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe, Inne"
   },
   {
     "question": "Co to jsx?",
     "answer": "To rozszerzenie składni języka JavaScript używane w React, które pozwala pisać kod wyglądający jak HTML wewnątrz plików JS. Nie jest to jednak czysty HTML, a \"lukier składniowy\" – kompilator (Babel) zamienia kod JSX na wywołania funkcji JavaScript React.createElement().",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym się charakteryzuje html5?",
     "answer": "html5 Służy do strukturyzowania treści w sieci, wprowadzając nowe elementy semantyczne (<header>, <footer>, <article>), obsługę multimediów (<audio>, <video>), grafikę wektorową (<canvas>), lokalne przechowywanie danych (localStorage) i lepszą integrację z aplikacjami webowymi.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym jest eliminacja gaussa? ",
     "answer": "To dokładna metoda rozwiązywania układów równań liniowych. Składa się z dwóch etapów: 1. Postępowanie proste: sprowadzenie macierzy do postaci trójkątnej górnej. 2. Postępowanie odwrotne: rozwiązanie trójkątnego układu równań",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Czym są kopie zapasowe?",
     "answer": "Duplikowanie danych w celu ich odtworzenia w przypadku utraty (awaria, atak ransomware, błąd ludzki).",
-    "details": "Rodzaje: Pełna (całość), Przyrostowa (zmiany od ostatniej jakiejkolwiek kopii), Różnicowa (zmiany od ostatniej pełnej kopii)."
+    "details": "Rodzaje: Pełna (całość), Przyrostowa (zmiany od ostatniej jakiejkolwiek kopii), Różnicowa (zmiany od ostatniej pełnej kopii).",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to ORM?",
     "answer": "Technika mapowania obiektowo-relacyjnego. Służy do odwzorowania struktury bazy danych (tabel, relacji) na obiekty w języku programowania (klasy). Zaleta: Programista operuje na obiektach Java, a framework ORM (np. Hibernate, JPA) automatycznie generuje odpowiednie zapytania SQL. Cel: Uniezależnienie aplikacji od konkretnego silnika bazy danych i przyspieszenie developmentu.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych, Ogólne, Aplikacje internetowe"
   },
   {
     "question": "Co to i do czego służy NAT?",
     "answer": "NAT (Network Address Translation) to mechanizm sieciowy, który tłumaczy adresy IP między siecią prywatną a publiczną. Służy do tego, aby wiele urządzeń w sieci lokalnej mogło korzystać z jednego publicznego adresu IP. Router zamienia adresy prywatne na publiczny podczas wychodzenia do internetu i odwrotnie przy odpowiedzi.",
-    "details": "W skrócie: NAT oszczędza adresy IPv4 i ukrywa sieć wewnętrzną przed internetem."
+    "details": "W skrócie: NAT oszczędza adresy IPv4 i ukrywa sieć wewnętrzną przed internetem.",
+    "category": "Bezpieczeństwo informacji, Sieci komputerowe"
   },
   {
     "question": "Opisz instrukcje warunkowe w SWIFT?",
     "answer": "Instrukcja if/else: if warunek { kod } else { kod }. Instrukcja guard: guard warunek else { //kod odpowiedzialny za obsługę błędów return }. Switch: switch wartość { case wartość1: kod; case wartość2: kod; default: kod } Musi ona zawierać blok default.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Jak się przekazuje parametry w funkcji w swift?",
     "answer": "Parametry przekazuje się przez wywołanie funkcji, podając wartości zgodne z jej definicją.",
-    "details": "Swift używa nazw parametrów zewnętrznych i wewnętrznych, np. func greet(name: String) { }. Domyślnie parametry są przekazywane przez wartość."
+    "details": "Swift używa nazw parametrów zewnętrznych i wewnętrznych, np. func greet(name: String) { }. Domyślnie parametry są przekazywane przez wartość.",
+    "category": "swift/ios"
   },
   {
     "question": "Opisz algorytmy wyszukiwania wzorca w tekście",
     "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)) 2. KMP (Knuth-Morris-Pratt): Wykorzystuje tablicę prefiksów, aby wiedzieć, o ile przesunąć wzorzec w razie niezgodności, unikając cofania się w tekście. 3. Boyer-Moore (BM): (Wymieniony w agendzie, brak szczegółowego opisu w dostarczonych fragmentach). 4. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Czym są przeciążenia?",
     "answer": "To użycie tej samej nazwy dla kilku funkcji w jednej klasie, ale z różnymi parametrami (inna liczba lub typ argumentów). Dzięki temu możesz mieć np. kilka wersji funkcji dodaj() – jedną dla liczb, drugą dla tekstów.",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Omów struktury i klasy w swift",
     "answer": "Struktury i klasy to typy złożone służące do modelowania danych i logiki w Swift.",
-    "details": "Struktury (struct) są typami wartości – kopiowane przy przekazaniu. Klasy (class) są typami referencyjnymi – przekazywane przez referencję, obsługują dziedziczenie i ARC."
+    "details": "Struktury (struct) są typami wartości – kopiowane przy przekazaniu. Klasy (class) są typami referencyjnymi – przekazywane przez referencję, obsługują dziedziczenie i ARC.",
+    "category": "swift/ios"
   },
   {
     "question": "Co to schemat hornera?",
     "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n).",
-    "details": "To algorytm pozwalający na efektywne obliczanie wartości wielomianu przy zminimalizowanej liczbie mnożeń. Jest również stosowany przy interpolacji z użyciem bazy Newtona. Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c)."
+    "details": "To algorytm pozwalający na efektywne obliczanie wartości wielomianu przy zminimalizowanej liczbie mnożeń. Jest również stosowany przy interpolacji z użyciem bazy Newtona. Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c).",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Co to SwiftUI?",
     "answer": "SwiftUI to deklaratywny framework Apple do tworzenia interfejsów użytkownika.",
-    "details": "Umożliwia budowanie UI w Swift poprzez opis wyglądu i zachowania widoków, automatycznie reagując na zmiany stanu. Jest używany w aplikacjach iOS, macOS, watchOS i tvOS."
+    "details": "Umożliwia budowanie UI w Swift poprzez opis wyglądu i zachowania widoków, automatycznie reagując na zmiany stanu. Jest używany w aplikacjach iOS, macOS, watchOS i tvOS.",
+    "category": "swift/ios"
   },
   {
     "question": "Co to firewall?",
     "answer": "Zapora filtrująca pakiety i blokująca niepożądany ruch sieciowy na podstawie zdefiniowanych reguł.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji, Sieci komputerowe"
+  },
+  {
+    "question": "Czym jest Lemat Wilkinsona",
+    "answer": "opisuje wpływ błędów zaokrągleń na stabilność obliczeń numerycznych.",
+    "details": "Wskazuje, że nawet algorytmy teoretycznie poprawne mogą generować duże błędy numeryczne z powodu kumulacji błędów zaokrągleń w arytmetyce zmiennoprzecinkowej.",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Czym jest ciąg Fibonacciego?",
     "answer": "To ciąg liczb naturalnych, w którym każda kolejna liczba jest sumą dwóch poprzednich. Początek: 0,1,1,2,3,5,8,13,21…",
-    "details": "Wzór: Fn=Fn−1+Fn−2 dla n>1."
+    "details": "Wzór: Fn=Fn−1+Fn−2 dla n>1.",
+    "category": "Wprowadzenie do informatyki, Inne"
   },
   {
     "question": "Jak działa zamiana z systemu binarnego na heksadecymalny i dziesiętny",
@@ -1042,142 +1237,170 @@
   {
     "question": "Co to algorytm numeryczny stabilny i poprawny?",
     "answer": "Algorytm stabilny: Gwarantuje uzyskanie rozwiązania z błędem tego samego rzędu, co optymalny poziom błędu dla danej klasy zadań. Niestabilność oznacza gwałtowne narastanie małych błędów w trakcie obliczeń Algorytm numerycznie poprawny: Daje wynik będący dokładnym rozwiązaniem zadania dla nieco zaburzonych danych wejściowych (na poziomie błędu reprezentacji)",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Wymień metody rozwiązywania układów liniowych",
     "answer": "Bezpośrednie: Eliminacja Gaussa (w tym z wyborem elementu podstawowego), rozkład LU (A=LR), metoda Choleskiego (dla macierzy symetrycznych dodatnio określonych), metoda ortogonalizacji Householdera. ",
-    "details": " Iteracyjne: (Stosowane dla dużych układów, zbieżne w granicy)"
+    "details": " Iteracyjne: (Stosowane dla dużych układów, zbieżne w granicy)",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
     "answer": "Git zarządza historią zmian poprzez commity i gałęzie, umożliwiając równoległą pracę.",
-    "details": "Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase."
+    "details": "Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Czym są węzły integralności w bazach danych? Jak się je tworzy i usuwa?",
     "details": "To reguły zapewniające poprawność i spójność danych w bazie.",
-    "answer": "Tworzy się je poprzez ograniczenia (constraints) takie jak PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK przy CREATE TABLE lub ALTER TABLE. Usuwa się je poleceniem ALTER TABLE DROP CONSTRAINT."
+    "answer": "Tworzy się je poprzez ograniczenia (constraints) takie jak PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK przy CREATE TABLE lub ALTER TABLE. Usuwa się je poleceniem ALTER TABLE DROP CONSTRAINT.",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to LIFO i FIFO?",
     "answer": "LIFO (Last In, First Out) – zasada działania stosu, gdzie ostatni dodany element jest pierwszym usuniętym. FIFO (First In, First Out) – zasada działania kolejki, gdzie pierwszy dodany element jest pierwszym usuniętym.",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Podaj przykład implementacji stosu w programowaniu",
     "answer": "Stos można zaimplementować używając tablicy lub listy. Główne operacje: push (dodaj element na szczyt), pop (usuń element ze szczytu), top (podejrzyj szczyt bez usuwania). Działa na zasadzie LIFO (Last In First Out).",
-    "details": "Przykład w Pythonie: lista z metodami append() i pop(). W C++: std::stack. W praktyce: wywołania funkcji, cofanie operacji (undo), sprawdzanie nawiasów."
+    "details": "Przykład w Pythonie: lista z metodami append() i pop(). W C++: std::stack. W praktyce: wywołania funkcji, cofanie operacji (undo), sprawdzanie nawiasów.",
+    "category": "Algorytmika"
   },
   {
     "question": "Czym są agregacje w SQL?",
     "answer": "Funkcje wykonujące obliczenia na zbiorze wierszy i zwracające pojedynczą wartość. Podstawowe: COUNT (liczba wierszy), SUM (suma), AVG (średnia), MIN (minimum), MAX (maksimum).",
-    "details": "Używane z GROUP BY do grupowania wyników. Przykład: SELECT COUNT(*) FROM users GROUP BY city - liczy użytkowników w każdym mieście."
+    "details": "Używane z GROUP BY do grupowania wyników. Przykład: SELECT COUNT(*) FROM users GROUP BY city - liczy użytkowników w każdym mieście.",
+    "category": "Bazy danych"
   },
   {
     "question": "Wymień kilka operacji na bazie danych",
     "answer": "Tworzenie (Insert) – dodawanie nowych rekordów do tabeli. np: INSERT INTO Student (imie, nazwisko) VALUES ('Jan', 'Kowalski'); Odczyt (select) – pobieranie danych z tabeli. Przykład: SELECT * FROM Student WHERE nazwisko = 'Kowalski'; Aktualizacja (Update) – zmiana istniejących danych. Przykład: UPDATE Student SET imie = 'Janusz' WHERE id_student = 1; Usuwanie (Delete) – usunięcie rekordów z tabeli. Przykład: DELETE FROM Student WHERE id_student = 1;",
-    "details": "inne operacje przydatne w SQL: Tworzenie struktury bazy i tabel: CREATE DATABASE, CREATE TABLE Usuwanie tabel: DROP TABLE Łączenie danych z wielu tabel: JOIN Sortowanie i filtrowanie: ORDER BY, WHERE Grupowanie i agregacja: GROUP BY, COUNT(), SUM(), AVG()"
+    "details": "inne operacje przydatne w SQL: Tworzenie struktury bazy i tabel: CREATE DATABASE, CREATE TABLE Usuwanie tabel: DROP TABLE Łączenie danych z wielu tabel: JOIN Sortowanie i filtrowanie: ORDER BY, WHERE Grupowanie i agregacja: GROUP BY, COUNT(), SUM(), AVG()",
+    "category": "Bazy danych"
   },
   {
     "question": "Co robi metoda inicjalizacyjna w swift?",
     "answer": "Służy do utworzenia obiektu i ustawienia jego początkowego stanu. To taki konstruktor jak np w C++",
-    "details": "Inicjalizator (init) przypisuje wartości właściwościom obiektu przed jego użyciem i gwarantuje poprawną inicjalizację instancji."
+    "details": "Inicjalizator (init) przypisuje wartości właściwościom obiektu przed jego użyciem i gwarantuje poprawną inicjalizację instancji.",
+    "category": "swift/ios"
   },
   {
     "question": "Czym jest zakleszczenie procesów?",
     "answer": "Zakleszczenie (ang. deadlock) to stan, w którym zbiór procesów czeka na zdarzenie, które może zostać wywołane tylko przez inny proces z tego samego zbioru (np. wzajemne oczekiwanie na zwolnienie zasobów). Aby wystąpiło, muszą zachodzić cztery warunki: wzajemne wykluczanie, przetrzymywanie i oczekiwanie, brak wywłaszczeń oraz czekanie cykliczne,.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Co to system operacyjny?",
     "answer": "To oprogramowanie pośredniczące między użytkownikiem a sprzętem komputera. Jego celem jest tworzenie środowiska do wydajnej pracy poprzez zarządzanie zasobami (procesor, pamięć, pliki), sterowanie procesami oraz realizację operacji wejścia-wyjścia,,.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Czym jest twierdzenie CAP?",
     "answer": "Twierdzenie CAP Teoria dotycząca systemów rozproszonych, która mówi, że niemożliwe jest jednoczesne spełnienie trzech warunków: 1. Consistency (Spójność): Każdy odczyt daje najbardziej aktualne dane. 2. Availability (Dostępność): Każde zapytanie otrzymuje odpowiedź (bez błędów). 3. Partition tolerance (Tolerancja na podział): System działa mimo awarii sieci między węzłami. W praktyce projektant musi wybrać tylko dwie z tych trzech cech (np. CP lub AP).",
-    "details": ""
+    "details": "",
+    "category": "Inne"
   },
   {
     "question": "Na czym polega problem ucztujących filozofów?",
     "answer": " Jest to klasyczny problem synchronizacji ilustrujący zagrożenie zakleszczeniem i głodzeniem przy przydziale zasobów. Pięciu filozofów siedzi przy stole z miską ryżu i pięcioma pałeczkami. Aby jeść, filozof musi podnieść dwie pałeczki leżące obok niego (lewą i prawą). Problem polega na takiej synchronizacji, aby uniknąć sytuacji, w której każdy weźmie jedną pałeczkę i będzie czekał w nieskończoność na drugą (zakleszczenie),.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne, Inne"
   },
   {
     "question": "Podaj różnice między tagami a frazą kluczową (HTML)",
     "answer": "Tag (np. <h1>, <p>) – element HTML, który określa strukturę i znaczenie treści na stronie (np. nagłówek, akapit). Dzięki tagom przeglądarka i wyszukiwarki wiedzą, co jest nagłówkiem, a co tekstem zwykłym. Fraza kluczowa (keyword) – konkretne słowo lub wyrażenie, które opisuje zawartość strony i jest ważne dla SEO. Pomaga wyszukiwarkom zrozumieć, o czym jest strona i dla jakich zapytań ma się pojawiać w wynikach.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Na czym polega sortowanie przez kopcowanie?",
     "answer": "To metoda sortowania wykorzystująca strukturę danych zwaną kopcem (heap), najczęściej kopiec maksymalny lub minimalny.",
-    "details": "Algorytm buduje kopiec z danych, a następnie wielokrotnie usuwa największy (lub najmniejszy) element z kopca i umieszcza go na końcu tablicy. Powtarza się to, aż wszystkie elementy zostaną posortowane. Złożoność czasowa: O(n log n)."
+    "details": "Algorytm buduje kopiec z danych, a następnie wielokrotnie usuwa największy (lub najmniejszy) element z kopca i umieszcza go na końcu tablicy. Powtarza się to, aż wszystkie elementy zostaną posortowane. Złożoność czasowa: O(n log n).",
+    "category": "Algorytmika"
   },
   {
     "question": "Jakie metody można wykonywać na stosie?",
     "answer": "Na stosie wykonuje się głównie operacje dodawania (push) i usuwania (pop) elementów oraz sprawdzania elementu na szczycie (peek/top).",
-    "details": "Stos działa na zasadzie LIFO (Last In, First Out). Push – dodaje element na wierzch, Pop – usuwa element z wierzchu, Peek/Top – podgląda element na wierzchu bez usuwania."
+    "details": "Stos działa na zasadzie LIFO (Last In, First Out). Push – dodaje element na wierzch, Pop – usuwa element z wierzchu, Peek/Top – podgląda element na wierzchu bez usuwania.",
+    "category": "Algorytmika"
   },
   {
     "question": "Jakie są typy związków między encjami?",
     "answer": "Jeden-do-jednego (1:1). Jeden-do-wielu (1:M). Wiele-do-wielu (M:N). Związek unarny - encja połączona sama ze sobą.",
-    "details": "Wyróżnia się związki ze względu na liczbę uczestników: unarne (rekurencyjne), binarne i n-arne. Ze względu na liczność (moc) wyróżnia się związki powyższe."
+    "details": "Wyróżnia się związki ze względu na liczbę uczestników: unarne (rekurencyjne), binarne i n-arne. Ze względu na liczność (moc) wyróżnia się związki powyższe.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to RGB?",
     "answer": "RGB składa się z trzech składowych: czerwonej, zielonej i niebieskiej. Jest używany głównie w ekranach, gdzie kolory powstają przez mieszanie światła",
-    "details": "Trzy składowe: R, G, B (każda 0-255). 0,0,0 = czarny; 255,255,255 = biały"
+    "details": "Trzy składowe: R, G, B (każda 0-255). 0,0,0 = czarny; 255,255,255 = biały",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Na czym polega asynchroniczność w js?",
     "answer": "Asynchroniczność w JavaScript to model wykonywania operacji, w którym zadania czasochłonne, takie jak zapytania sieciowe, są realizowane w tle bez blokowania głównego wątku przeglądarki. Opiera się on na pętli zdarzeń (Event Loop) i wykorzystuje mechanizmy takie jak callbacki, obietnice (Promises) czy składnię async/await do obsługi wyników po zakończeniu operacji.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to diagram DFD?",
     "answer": "(Data Flow Diagram) to diagram przepływu danych. Jest to strukturalna specyfikacja funkcji systemu, nazywana \"mapą procesów\". Służy do identyfikacji zależności między procesami przetwarzania a danymi.",
-    "details": "Elementy składowe DFD to: Obiekt zewnętrzny (źródło/odbiorca danych), Proces (przetwarza dane),  Magazyn danych (gromadzi dane), Przepływ danych (strumienie przesyłania informacji)"
+    "details": "Elementy składowe DFD to: Obiekt zewnętrzny (źródło/odbiorca danych), Proces (przetwarza dane),  Magazyn danych (gromadzi dane), Przepływ danych (strumienie przesyłania informacji)",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Czym są tablice asocjacyjne na przykładzie PHP?",
     "answer": "Tablice asocjacyjne to struktury danych przechowujące pary klucz-wartość, gdzie kluczem jest zazwyczaj ciąg znaków, a nie indeks liczbowy. W PHP pozwala to na intuicyjny dostęp do danych poprzez nazwy, na przykład $pracownik['nazwisko'] = 'Kowalski', co ułatwia mapowanie realnych danych na struktury programistyczne.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to cross site scripting?",
     "answer": "Cross-Site Scripting (XSS) to podatność bezpieczeństwa polegająca na wstrzyknięciu złośliwego skryptu, zazwyczaj w języku JavaScript, do zaufanej strony internetowej wyświetlanej innym użytkownikom. Wykonanie takiego skryptu w przeglądarce ofiary pozwala atakującemu na kradzież ciasteczek sesyjnych, tokenów lub przekierowanie na fałszywe witryny.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe, Bezpieczeństwo informacji"
   },
   {
     "question": "Czym jest ergonomia?",
     "answer": "W informatyce to dziedzina zajmująca się projektowaniem systemów (sprzętu i oprogramowania) tak, aby były one najlepiej dostosowane do psychofizycznych możliwości człowieka. Celem jest zapewnienie komfortu, bezpieczeństwa, wydajności pracy i minimalizacji zmęczenia użytkownika.",
-    "details": ""
+    "details": "",
+    "category": "Interakcja człowiek - komputer"
   },
   {
     "question": "Czym są historyjki użytkownika?",
     "answer": "To sposób zapisywania wymagań w metodykach zwinnych (Agile). Są to krótkie, proste opisy funkcjonalności z perspektywy użytkownika końcowego. Budowa opiera się na schemacie: \"Jako [rola użytkownika], chcę [funkcjonalność], aby [korzyść]\". Służą do skupienia zespołu na wartości biznesowej, a nie na technicznych szczegółach implementacji.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Czym są scenariusze przypadków użycia?",
     "answer": "To szczegółowy opis kroków, jakie zachodzą podczas realizacji konkretnego Przypadku Użycia (Use Case). Scenariusz opisuje interakcję między aktorem (użytkownikiem) a systemem. Składa się ze scenariusza głównego (ścieżka optymistyczna, gdzie wszystko idzie dobrze) oraz scenariuszy alternatywnych i błędów (np. co się stanie, gdy użytkownik poda złe hasło).",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Diagram sekwencji, co to i po co się stosuje?",
     "answer": "To rodzaj diagramu interakcji w UML, który przedstawia współpracę obiektów w systemie uporządkowaną w czasie. Oś pionowa reprezentuje czas, a pozioma obiekty. Stosuje się go, aby zwizualizować konkretny scenariusz działania (np. proces logowania), pokazując dokładnie, jakie komunikaty i w jakiej kolejności obiekty wymieniają między sobą.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Na czym polega szyfrowanie?",
     "answer": "Szyfrowanie - operacja przekształcenia danych z postaci jawnej do postaci niezrozumiałej dla osób nieupoważnionych.",
-    "details": "Szyfrogram — wynik tej operacji."
+    "details": "Szyfrogram — wynik tej operacji.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Jakie korzyści płyną ze stosowania obliczeń równoległych ?????",
     "answer": "Obliczenia równoległe pozwalają zwiększyć wydajność systemów, wykonując obliczenia na wielu procesorach jednocześnie. Dzięki tym obliczeniom, duże, skomplikowane zadania można wykonywać szybciej i bardziej wydajnie.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne, Inne"
   },
   {
     "question": "Czym są funkcje wyższego rzędu?",
@@ -1187,12 +1410,14 @@
   {
     "question": "Na czym polega architektura 3 warstwowa???",
     "answer": "Polega na podziale aplikacji na trzy niezależne warstwy. Są to: warstwa prezentacji (UI), logiki biznesowej oraz danych (baza danych). Ułatwia rozwój i utrzymanie aplikacji.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Czym jest porgramowanie równoległe? (paradygmat programowania równoległego)",
     "answer": "To jednoczesne uruchamianie wielu zadań (np. testów w GitHub Actions) lub instancji aplikacji, aby przyspieszyć wykonanie lub obsłużyć większy ruch.",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker, Inne"
   },
   {
     "question": "Na czym polega architektura klient-serwer",
@@ -1202,42 +1427,50 @@
   {
     "question": "Jak działa mediaplayer w Android?",
     "answer": "MediaPlayer to klasa w Androidzie służąca do odtwarzania plików audio i wideo. Działa jako maszyna stanów - przechodzi przez stany: Idle → Initialized → Prepared → Started → Paused → Stopped. Należy przygotować źródło danych (setDataSource), przygotować odtwarzacz (prepare/prepareAsync), następnie uruchomić (start). Po zakończeniu należy zwolnić zasoby (release).",
-    "details": "Obsługuje różne źródła: pliki lokalne, zasoby aplikacji, strumienie sieciowe (URL). Ważne: używać prepareAsync dla źródeł sieciowych, by nie blokować UI."
+    "details": "Obsługuje różne źródła: pliki lokalne, zasoby aplikacji, strumienie sieciowe (URL). Ważne: używać prepareAsync dla źródeł sieciowych, by nie blokować UI.",
+    "category": "Android"
   },
   {
     "question": "Co to DHCP?",
     "answer": "DHCP (Dynamic Host Configuration Protocol) to protokół sieciowy, który automatycznie przydziela urządzeniom konfigurację sieciową. Dzięki DHCP komputer otrzymuje m.in. adres IP, maskę sieci, bramę domyślną i adres serwera DNS bez ręcznej konfiguracji. Jest powszechnie używany w sieciach lokalnych i domowych.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Co to AFL?",
     "answer": "Application Level Flood - Wysyłanie zbyt dużej liczby zapytań do aplikacji. Wykorzystanie błędu aplikacji, w wyniku którego zużywa całe zasoby systemu (zasoby procesora lub wypełnia cały dysk (dane, logi).",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to układy Czebyszewa?",
     "answer": "To układy funkcji (wielomianów ortogonalnych) stosowane w aproksymacji. Węzły oparte na zerach wielomianów Czebyszewa minimalizują błąd interpolacji i zapobiegają efektowi Rungego na krańcach przedziału",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Co to algorytm Karpa-Rabina i drzewo Rabina?",
     "answer": "Algorytm Rabina-Karpa to algorytm wyszukiwania wzorca w tekście używający funkcji haszującej. Oblicza hash wzorca i porównuje z hashami podciągów tekstu. Drzewo Rabina (ang. Rabin fingerprint tree) to struktura danych wykorzystująca haszowanie do efektywnego porównywania bloków danych.",
-    "details": "Algorytm Rabina-Karpa ma złożoność średnio O(n+m), w najgorszym przypadku O(nm)."
+    "details": "Algorytm Rabina-Karpa ma złożoność średnio O(n+m), w najgorszym przypadku O(nm).",
+    "category": "Algorytmika"
   },
   {
     "question": "Co to licznik odwołań ARC w Swift?",
     "answer": "Automatic Reference Counting to mechanizm automatycznego zarządzania pamięcią w języku Swift. Każdy obiekt ma licznik, który śledzi ile zmiennych/właściwości wskazuje na ten obiekt. Gdy tworzysz nową referencję, licznik rośnie. Gdy referencja przestaje istnieć, licznik maleje. Kiedy licznik spadnie do zera, obiekt jest automatycznie usuwany z pamięci.",
-    "details": "Problem: cykle referencji (A wskazuje na B, B na A) - rozwiązanie przez weak/unowned references."
+    "details": "Problem: cykle referencji (A wskazuje na B, B na A) - rozwiązanie przez weak/unowned references.",
+    "category": "swift/ios"
   },
   {
     "question": "Na czym polega metoda najmniejszych kwadratów?",
     "answer": "Polega na znalezieniu takiej funkcji aproksymującej (lub wektora współczynników), dla której suma kwadratów różnic między danymi wartościami a wartościami tej funkcji jest najmniejsza. Stosuje się ją m.in. do rozwiązywania nadokreślonych układów równań (więcej równań niż niewiadomych)",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Co to rozproszone systemy kontroli wersji?",
     "answer": "Systemy, w których każdy użytkownik ma pełną kopię repozytorium (wraz z historią zmian) na swoim komputerze. Umożliwiają pracę offline i łatwiejsze rozgałęzianie (branching). Przykłady: Git, Mercurial.",
-    "details": "W przeciwieństwie do scentralizowanych systemów (SVN), gdzie historia jest tylko na serwerze."
+    "details": "W przeciwieństwie do scentralizowanych systemów (SVN), gdzie historia jest tylko na serwerze.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Budowa try catch. Co to wyjątki?",
@@ -1247,47 +1480,56 @@
   {
     "question": "Opisz szyfrowanie symetryczne i asymetryczne",
     "answer": "Symetryczne — ten sam klucz do utajniania i odczytu danych. Asymetryczne — wykorzystuje parę komplementarnych kluczy: publiczny - dostępny dla wszystkich i prywatny - utrzymywany w tajemnicy.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Jak otrzymać obraz dockerowy?",
     "answer": "Dwa sposoby: pobrać gotowy z Docker Hub poleceniem 'docker pull nazwa_obrazu' lub zbudować własny z Dockerfile poleceniem 'docker build -t nazwa_obrazu .'",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to docker-compose?",
     "answer": "Narzędzie do uruchamiania wielu kontenerów Docker jednocześnie. Konfiguracja w pliku YAML, uruchomienie jednym poleceniem 'docker-compose up'.",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to css?",
     "answer": "Cascading Style Sheets (Kaskadowe Arkusze Stylów). Język służący do opisu warstwy prezentacji dokumentu HTML. Odpowiada za wygląd: kolory, czcionki, układy, animacje i dostosowanie do urządzeń mobilnych. Oddziela treść (HTML) od wyglądu.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to Multilayer perception?",
     "answer": " to klasa sztucznej sieci neuronowej ze sprzężeniem do przodu (feedforward). Składa się z co najmniej trzech warstw węzłów (wejściowej, ukrytej i wyjściowej). Wykorzystuje nieliniowe funkcje aktywacji w neuronach i uczy się metodą nadzorowaną zwaną propagacją wsteczną.",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Co to knn?",
     "answer": "K-Nearest Neighbors. Klasyfikator najbliższego sąsiada to model uczenia maszynowego. Dokonuje przewidywań na podstawie najczęściej występującej klasy „k” najbliższych punktów danych w przestrzeni cech.",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Co to drzewa decyzyjne?",
     "answer": "To graficzna struktura, w której: Węzły reprezentują testy na cechach danych. Gałęzie to wyniki tych testów. Liście to ostateczne decyzje lub etykiety klas.",
-    "details": ""
+    "details": "",
+    "category": "AI, Algorytmika"
   },
   {
     "question": "Co to szyfr cezara?",
     "answer": "To klasyczny szyfr podstawieniowy. Zastąpienie każdej litery w tekście literą położoną o trzy miejsca dalej w alfabecie.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Czym są protokoły w Swift?",
     "answer": "Definicja zestawu wymagań (metod, właściwości), które musi spełnić typ je przyjmujący. Działają jak interfejs/kontrakt.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Co to CRUD?",
@@ -1297,22 +1539,26 @@
   {
     "question": "Co to MVVM? (głównie w swift)",
     "answer": "Model-View-ViewModel - wzorzec architektoniczny rozdzielający logikę od interfejsu. Model to dane, View to UI, ViewModel pośredniczy między nimi i przetwarza dane dla widoku. View obserwuje zmiany w ViewModel.",
-    "details": "W Swift używa się binding (np. Combine, SwiftUI) do automatycznej aktualizacji widoku po zmianie danych w ViewModel."
+    "details": "W Swift używa się binding (np. Combine, SwiftUI) do automatycznej aktualizacji widoku po zmianie danych w ViewModel.",
+    "category": "Ogólne, swift/ios"
   },
   {
     "question": "Co to singleton?",
     "answer": "Wzorzec projektowy zapewniający, że klasa ma tylko jedną instancję w całej aplikacji i globalny punkt dostępu do niej.",
-    "details": "Przykład w Swift: class Manager { static let shared = Manager(); private init() {} }. Używane np. do zarządzania konfiguracją, połączeniami z bazą."
+    "details": "Przykład w Swift: class Manager { static let shared = Manager(); private init() {} }. Używane np. do zarządzania konfiguracją, połączeniami z bazą.",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to wzorce projektowe?",
     "answer": "Sprawdzone, uniwersalne szablony rozwiązań powtarzających się problemów projektowych w inżynierii oprogramowania.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Wymień sposoby przekazywania danych w aplikacji mobilnych (android)",
     "answer": "1. Intencje (Intent) - Proste dane (klucz-wartość) przez Bundle (metoda putExtra). 2. LiveData - Dane w czasie rzeczywistym, uwzględnia cykl życia. 3. Interfejs Parcelable - Przesyłanie całych obiektów klas, przez opakowanie ich stanu do intencji.",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Co to uwierzytelnianie i autoryzacja? Czym się różnią?",
@@ -1322,237 +1568,284 @@
   {
     "question": "Podaj sposoby ochrony przed atakami typu session hijacking",
     "answer": "Przejęcie sesji polega na kradzieży identyfikatora sesji (Session ID). Ochrona: HTTPS (SSL/TLS): Szyfrowanie całej komunikacji (uniemożliwia podsłuchanie ID sesji w sieci). Flaga HttpOnly: Ustawienie w ciasteczku, które blokuje dostęp do niego z poziomu JavaScript (chroni przed XSS). Flaga Secure: Wymusza przesyłanie ciasteczka tylko po szyfrowanym połączeniu HTTPS. Regeneracja ID sesji: Zmiana identyfikatora sesji na nowy natychmiast po poprawnym zalogowaniu użytkownika. Krótki czas życia sesji (Timeout): Automatyczne wylogowanie po okresie bezczynności.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Wymień algorytmy sortowania elementów w tablicy i ich złożoność",
     "answer": "1. BubbleSort (Bąbelkowe): O(n^2), InsertSort (Przez wstawianie): O(n^2), SelectSort (Przez wybieranie): O(n^2), QuickSort (Szybkie): Średnio O(nlogn), pesymistycznie O(n^2), MergeSort (Scalanie): O(nlogn), HeapSort (Kopcowanie): O(nlogn).",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Wymień metody protokołu http i je opisz",
     "answer": "GET: Pobieranie zasobów (np. wyświetlenie strony). Nie zmienia stanu serwera. POST: Wysyłanie danych w celu utworzenia nowego zasobu (np. rejestracja). PUT: Aktualizacja/nadpisanie całego zasobu (przesyłamy komplet danych). PATCH: Aktualizacja częściowa zasobu (zmieniamy tylko jedno pole). DELETE: Usunięcie zasobu.",
-    "details": "HEAD: Pobranie tylko nagłówków (bez treści)."
+    "details": "HEAD: Pobranie tylko nagłówków (bez treści).",
+    "category": "Aplikacje internetowe, Ogólne"
   },
   {
     "question": "Wady i zalety biblioteki lombok",
     "answer": "Zalety: Znaczna redukcja kodu (klasy są krótsze i czytelniejsze), przyspieszenie pisania aplikacji, łatwiejsza refaktoryzacja (zmiana nazwy pola automatycznie aktualizuje gettery/settery). Wady: Wymaga instalacji wtyczki w IDE (inaczej kod świeci na czerwono), utrudnia debugowanie (kod nie istnieje fizycznie w pliku źródłowym), wprowadza silne uzależnienie projektu od zewnętrznej biblioteki.",
-    "details": ""
+    "details": "",
+    "category": "Java"
   },
   {
     "question": "Czym się różni NAT od mostkowania w virtualbox?",
     "answer": "NAT udostępnia internet maszynie wirtualnej przez hosta, mostkowanie podłącza ją bezpośrednio do sieci.",
-    "details": "W NAT maszyna jest niewidoczna w sieci lokalnej, a w mostkowaniu dostaje własny adres IP w tej samej sieci co host."
+    "details": "W NAT maszyna jest niewidoczna w sieci lokalnej, a w mostkowaniu dostaje własny adres IP w tej samej sieci co host.",
+    "category": "Bezpieczeństwo informacji, Sieci komputerowe"
   },
   {
     "question": "Czym się różni wskaźnik od referencji w c++?",
     "answer": "Wskaźnik: Przechowuje adres pamięci. Może być \"pusty\" (nullptr) i można go zmienić w trakcie działania programu. Referencja: To stały \"pseudonim\" istniejącej zmiennej. Nie może być pusta i nie da się jej \"przepiąć\" na inną zmienną.",
-    "details": ""
+    "details": "",
+    "category": "C++, Programowanie strukturalne / C"
   },
   {
     "question": "Czym są metody wirtualne w C#?",
     "answer": "Metody oznaczone słowem kluczowym 'virtual', które można nadpisać (override) w klasach pochodnych. Umożliwiają polimorfizm - wywołanie metody na typie bazowym uruchomi wersję z klasy pochodnej.",
-    "details": "Bez 'virtual' metoda w klasie pochodnej tylko ukrywa (hide) metodę bazową, nie nadpisuje jej."
+    "details": "Bez 'virtual' metoda w klasie pochodnej tylko ukrywa (hide) metodę bazową, nie nadpisuje jej.",
+    "category": "C#"
   },
   {
     "question": "Porównaj przeciążenia i Przesłanianie metody",
     "answer": "Przeciążanie: Ta sama klasa, różne parametry. Wybierane przez kompilator. Przesłanianie: Dziedziczenie, identyczne parametry. Klasa \"dziecko\" zmienia sposób działania metody, którą dostała od \"rodzica\".",
-    "details": ""
+    "details": "",
+    "category": "Obiektowość"
   },
   {
     "question": "Co to Raii?",
     "answer": "RAII to idiom programistyczny w C++, który wiąże cykl życia zasobu z cyklem życia obiektu. Zasób, taki jak pamięć, plik czy gniazdo sieciowe, jest pozyskiwany w konstruktorze obiektu i zwalniany automatycznie w jego destruktorze, co gwarantuje zwolnienie zasobów nawet w przypadku wystąpienia wyjątków.",
-    "details": ""
+    "details": "",
+    "category": "C++"
   },
   {
     "question": "Jak się łączy zbiory danych? (SQL)",
     "answer": "„Łączenie” oznacza zwykle JOIN – powiązanie tabel według jakiegoś klucza: INNER JOIN – Łączymy tylko te rekordy, które mają pasujący klucz w obu tabelach. LEFT JOIN – wszystkie rekordy z lewej tabeli + dopasowane z prawej (lub NULL jeśli brak). RIGHT JOIN – analogicznie dla prawej tabeli",
-    "details": "FULL OUTER JOIN – wszystkie rekordy z obu tabel, brakujące wartości jako NULL"
+    "details": "FULL OUTER JOIN – wszystkie rekordy z obu tabel, brakujące wartości jako NULL",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to encje? Wymień rodzaje",
     "answer": "Encja - zbiór jednorodnych obiektów wybranej rzeczywistości. Rodzaje: Encja silna - posiada własny identyfikator (klucz główny), Encja słaba - nie posiada swojego identyfikatora Encja asocjacyjna (łącząca) - tworzona w celu rozwiązania problemu wiele do wielu.",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Podaj różnice między razor pages a mvc w .net",
     "answer": "Razor Pages to prostsza architektura oparta na plikach - każda strona to osobny plik z logiką w PageModel. MVC rozdziela aplikację na Model-View-Controller z osobnymi kontrolerami obsługującymi wiele widoków. Każda strona w razor pages składa się z pliku widoku (.cshtml) oraz pliku z logiką (code-behind, .cshtml.cs)",
-    "details": "Razor Pages lepsze do prostych, stronnicowych aplikacji (CRUD). MVC lepsze do złożonych aplikacji z wieloma endpointami i REST API."
+    "details": "Razor Pages lepsze do prostych, stronnicowych aplikacji (CRUD). MVC lepsze do złożonych aplikacji z wieloma endpointami i REST API.",
+    "category": "C#"
   },
   {
     "question": "Czym są metody asynchroniczne w C#",
     "answer": "Metody oznaczone 'async', które wykonują operacje bez blokowania wątku. Używają 'await' do oczekiwania na zakończenie operacji. Zwracają Task lub Task<T>.",
-    "details": ""
+    "details": "",
+    "category": "C#"
   },
   {
     "question": "Co to interpolacja wielomianowa?",
     "answer": " Metoda wyznaczania wielomianu, który dokładnie przechodzi przez zadane punkty (węzły). Służy do znajdowania wzorów przybliżonych funkcji, gdy znane są jej wartości tylko w skończonej liczbie punktów",
-    "details": ""
+    "details": "",
+    "category": "Algorytmy analizy numerycznej"
   },
   {
     "question": "Opisz podstawowe elementy grafiki 3D",
     "answer": "1. Voxel (Volumetric Pixel): Element 3D matrycy o określonych rozmiarach. 2. Vertex (wierzchołek): Punkt w przestrzeni 3D: (x, y, z) lub 4 współrzędne jednorodne. 3. Krawędź (edge): Połączenie między dwoma wierzchołkami. 4. Ściana (face/polygon): Płaska powierzchnia utworzona przez połączenie krawędzi (np. trójkąt, czworokąt). 5. Siatka (mesh): Zbiór wierzchołków, krawędzi i ścian tworzących model 3D.",
-    "details": ""
+    "details": "",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Opisz dokument html5. Podaj przykładowe znaczniki",
     "answer": "HTML5 Służy do strukturyzowania treści w sieci, wprowadzając nowe elementy semantyczne (<header>, <footer>, <article>), obsługę multimediów (<audio>, <video>), grafikę wektorową (<canvas>), lokalne przechowywanie danych (localStorage) i lepszą integrację z aplikacjami webowymi.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Czym jest programowanie imperatywne",
     "answer": "Opisujemy kolejne czynności, które komputer ma wykonać, by osiągnąć cel. Przykład języka imperatywnego: C, C++, Java, Python (część stylu imperatywnego).",
-    "details": "Opiera się na architekturze von Neumanna (pamięć + procesor wykonujący rozkazy)."
+    "details": "Opiera się na architekturze von Neumanna (pamięć + procesor wykonujący rozkazy).",
+    "category": "Paradygmaty programowania, Ogólne"
   },
   {
     "question": "Scharakteryzuj i porównaj SOAP z REST",
     "answer": "To dwa podejścia do tworzenia usług sieciowych (API), różniące się filozofią i budową. SOAP (Simple Object Access Protocol) to protokół komunikacyjny. Jest ścisły, sformalizowany i wykorzystuje wyłącznie format XML. Posiada wbudowane standardy bezpieczeństwa (WS-Security) i obsługi transakcji, dlatego jest stosowany w bankowości i systemach enterprise. Jest jednak \"ciężki\" i trudniejszy w implementacji. REST (Representational State Transfer) to styl architektoniczny. Jest lżejszy, elastyczny i wykorzystuje standardowe metody HTTP (GET, POST, PUT, DELETE). Dane przesyła zazwyczaj jako JSON (choć może też XML). Jest łatwiejszy w skalowaniu i dominuje w nowoczesnych aplikacjach webowych i mobilnych.",
-    "details": ""
+    "details": "",
+    "category": "Integracje systemów"
   },
   {
     "question": "Wymień rodzaje cieniowania w 3D i opisz jeden",
     "answer": "Rodzaje cieniowania: Płaskie, Gouraud, Phong",
-    "details": "Cieniowanie Płaskie: Wykorzystuje wektor normalny wielokąta (np. trójkąta) Na jego podstawie oblicza stałą wartość oświetlenia. Mnoży tę wartość przez kolor powierzchni (lub tekstury). Wypełnia każdy punkt wielokąta tym samym kolorem."
+    "details": "Cieniowanie Płaskie: Wykorzystuje wektor normalny wielokąta (np. trójkąta) Na jego podstawie oblicza stałą wartość oświetlenia. Mnoży tę wartość przez kolor powierzchni (lub tekstury). Wypełnia każdy punkt wielokąta tym samym kolorem.",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Czym są inteligentne wskaźniki?",
     "answer": "Inteligentne wskaźniki to obiekty klas opakowujących surowe wskaźniki, które automatycznie zarządzają cyklem życia wskazywanego obiektu zgodnie z zasadą RAII. Gwarantują one automatyczne zwolnienie pamięci w momencie, gdy wskaźnik przestaje być używany, eliminując wycieki pamięci (przykłady to unique_ptr i shared_ptr).",
-    "details": ""
+    "details": "",
+    "category": "C++"
   },
   {
     "question": "Podaj sposoby zabezpieczenia systemu operacyjnego",
     "answer": "Aktualizacje: Regularne wgrywanie poprawek bezpieczeństwa (patch management). Zasada najmniejszych przywilejów: Praca na koncie użytkownika, a nie administratora (root). Firewall: Konfiguracja zapory sieciowej (blokowanie nieużywanych portów). Antywirus/EDR: Oprogramowanie monitorujące zachowanie systemu i wykrywające malware Szyfrowanie dysków: Np. BitLocker, LUKS.",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Co to model siatkowy w grafice 3D i z czego się składa?",
     "answer": "Reprezentacja powierzchni obiektu 3D za pomocą połączonych wielokątów. ",
-    "details": "Służy do Przybliżania kształtu obiektu, Łatwości przetwarzania i renderowania"
+    "details": "Służy do Przybliżania kształtu obiektu, Łatwości przetwarzania i renderowania",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Co to polimorfizm statyczny i dynamiczny w c++?",
     "answer": "Polimorfizm statyczny zachodzi na etapie kompilacji i jest realizowany poprzez mechanizmy przeciążania funkcji oraz szablonów, gdzie kompilator generuje odpowiedni kod dla konkretnych typów. Polimorfizm dynamiczny występuje w czasie działania programu i opiera się na dziedziczeniu oraz funkcjach wirtualnych, umożliwiając wywoływanie metod specyficznych dla klasy pochodnej poprzez wskaźnik lub referencję typu bazowego.",
-    "details": ""
+    "details": "",
+    "category": "C++, Obiektowość"
   },
   {
     "question": "Co to Iaas?",
     "answer": "Jest to model usług chmurowych. Dostajesz surowe zasoby: serwer, dysk, sieć.  Ty zarządzasz systemem operacyjnym i aplikacjami, dostawca dba tylko o sprzęt",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to Paas?",
     "answer": "Jest to model usług chmurowych. Dostajesz gotowe środowisko do uruchomienia kodu. Nie martwisz się o system operacyjny czy aktualizacje, wrzucasz tylko swoją aplikację",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to Saas?",
     "answer": "Jest to model usług chmurowych. Dostajesz gotową aplikację dostępną przez sieć (np. Gmail). Tylko używasz, nic nie konfigurujesz \"pod spodem\".",
-    "details": ""
+    "details": "",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to chmura?",
     "answer": "Model dostępu na żądanie do puli konfigurowalnych zasobów obliczeniowych przez Internet.",
-    "details": "Np: sieci, serwery, pamięć masowa."
+    "details": "Np: sieci, serwery, pamięć masowa.",
+    "category": "Chmury/docker"
   },
   {
     "question": "Co to klasy szablonowe w c++?",
     "answer": "Klasy szablonowe to mechanizm metaprogramowania w C++ pozwalający na zdefiniowanie ogólnego wzorca klasy, który jest niezależny od konkretnego typu danych. Kompilator na podstawie tego wzorca generuje właściwy kod klasy dla typu podanego w momencie jej konkretyzacji, co jest fundamentem biblioteki standardowej STL.",
-    "details": ""
+    "details": "",
+    "category": "C++"
   },
   {
     "question": "Wymień typy tekstur",
     "answer": "Diffuse map  - podstawowy kolor powierzchni. Metallic map - właściwości materiału. Alpha map - przezroczystość. Emissive map - samoświecenie. Normal map - symulacja nierówności.",
-    "details": ""
+    "details": "",
+    "category": "Grafika komputerowa"
   },
   {
     "question": "Jakie są uprawnienia systemów plików?",
     "answer": "System UNIX definiuje uprawnienia na trzech poziomach: użytkownik (właściciel), grupa oraz pozostali. Dla każdego poziomu określa się prawa: Czytanie (r): odczyt treści pliku lub sprawdzanie zawartości katalogu. Pisanie (w): zmiana zawartości pliku lub katalogu. Wykonywanie (x): uruchomienie pliku jako programu lub wejście do katalogu (uczynienie go bieżącym). ",
-    "details": "Istnieją też uprawnienia rozszerzone: SUID (ustawienie ID użytkownika przy uruchomieniu), SGID (ustawienie ID grupy) oraz Sticky bit (bit lepkości),."
+    "details": "Istnieją też uprawnienia rozszerzone: SUID (ustawienie ID użytkownika przy uruchomieniu), SGID (ustawienie ID grupy) oraz Sticky bit (bit lepkości).",
+    "category": "Systemy operacyjne"
   },
   {
     "question": "Podaj metody walidacji formularza html",
     "answer": "Po stronie klienta (HTML5): Atrybuty required, type=\"email\", min, max, pattern (wyrażenia regularne), maxlength.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to local storage i session storage",
     "answer": "Session Storage: Dane tymczasowe, dostępne tylko w ramach jednej karty/okna przeglądarki. Znikają po zamknięciu karty. Local Storage: Dane trwałe, nie mają daty wygaśnięcia. Pozostają w przeglądarce do momentu ręcznego usunięcia przez użytkownika lub aplikację. Współdzielone między kartami tej samej domeny.",
-    "details": "Oba Mechanizmy Web Storage (przechowywanie danych w przeglądarce w formacie klucz-wartość)."
+    "details": "Oba Mechanizmy Web Storage (przechowywanie danych w przeglądarce w formacie klucz-wartość).",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to Mpa rozwiń skrót i omów",
     "answer": "Multi-Page Application (Wielostronicowa Aplikacja Internetowa). Tradycyjny model tworzenia stron. Każde kliknięcie w link lub wysłanie formularza powoduje wysłanie żądania do serwera, który generuje nowy dokument HTML i odsyła go do przeglądarki. Powoduje to przeładowanie całej strony.",
-    "details": ""
+    "details": "",
+    "category": "Aplikacje internetowe"
   },
   {
     "question": "Co to maszyna turinga?",
     "answer": "To teoretyczny model komputera wymyślony przez Alana Turinga. Składa się z: Nieskończonej taśmy z komórkami (pamięć). Głowicy, która czyta i zapisuje symbole oraz porusza się w lewo/prawo. Tablicy przejść (programu), która mówi, co zrobić w zależności od stanu i symbolu na taśmie. Służy do udowadniania, co jest możliwe do obliczenia przez komputery.",
-    "details": ""
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
   },
   {
     "question": "Co to drzewo AVL? jak są operacje na nim?",
     "answer": "To zrównoważone drzewo BST. Dla każdego węzła różnica wysokości jego lewego i prawego poddrzewa wynosi co najwyżej 1 (wartości -1, 0, 1). Jeśli po dodaniu/usunięciu elementu równowaga jest zachwiana (różnica wynosi 2 lub -2), drzewo naprawia się poprzez rotacje (pojedyncze lub podwójne).",
-    "details": "Operacje: wyszukiwanie O(log n), wstawianie O(log n) z możliwą rotacją, usuwanie O(log n) z możliwą rotacją."
+    "details": "Operacje: wyszukiwanie O(log n), wstawianie O(log n) z możliwą rotacją, usuwanie O(log n) z możliwą rotacją.",
+    "category": "Algorytmika"
   },
   {
     "question": "Wymień związki w uml i je opisz",
     "answer": " Powiązanie (Association): podstawowe połączenie między elementami (np. aktor używa przypadku użycia, klient ma fakturę). Zależność (Dependency): relacja użycia, często oznaczana przerywaną strzałką.  Agregacja: relacja \"całość-część\" (np. Miasto składa się z Ulic). Kompozycja: silniejsza forma agregacji, gdzie część nie może istnieć bez całości (np. Dom i Pokój). Generalizacja (Generalization): dziedziczenie, relacja \"jest rodzajem\" (np. Osoba Fizyczna dziedziczy po Osobie Prawnej)",
-    "details": ""
+    "details": "",
+    "category": "Inzynieria oprogramowania"
   },
   {
     "question": "Co to jest i do czego służy struktura?",
     "answer": "Struktura (struct) to zdefiniowany przez programistę typ danych, który pozwala zgrupować pod jedną nazwą wiele zmiennych różnych typów (np. liczbę, napis i tablicę). Służy do opisu pojedynczych obiektów o wielu cechach (np. osoba: imię, wiek),.",
-    "details": "Różnica między unią: Struktura Zajmuje w przybliżeniu sumę rozmiarów wszystkich pól a Unia Zajmuje rozmiar największego pola."
+    "details": "Różnica między unią: Struktura Zajmuje w przybliżeniu sumę rozmiarów wszystkich pól a Unia Zajmuje rozmiar największego pola.",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Jak działa ochrona antywirusowa? Podaj przykłady antywirusów",
     "answer": "Monitoruje system w czasie rzeczywistym, dokonując skanowania otwieranych/uruchumianych plików i poczty. W celu wykrycia nieznanych zagrożeń stosowana jest analiza heurystyczna oraz środowiska izolowane. Wykorzystuje aktualizowane bazy sygnatur wirusów.",
-    "details": "Przykładowe programy antywirusowe: Windows Defender, Avast, Bitdefender, Norton."
+    "details": "Przykładowe programy antywirusowe: Windows Defender, Avast, Bitdefender, Norton.",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Czym się różni proces od wątku?",
     "answer": "Proces to wykonywany program posiadający własną przestrzeń adresową, kontekst i zasoby. Wątek istnieje wewnątrz procesu. Jest ciągiem instrukcji, który ma własny stos, rejestry i priorytet, ale współdzieli pamięć i zasoby (np. otwarte pliki) z innymi wątkami tego samego procesu. Przełączanie między wątkami jest znacznie szybsze niż między procesami.",
-    "details": ""
+    "details": "",
+    "category": "Systemy operacyjne, Ogólne"
   },
   {
     "question": "jak działają stałe i zmienne lokalne oraz globalne w C?",
     "answer": "Stałe: Definiowane przez const (niezmienna zmienna) lub #define (makro preprocesora), ich wartość nie może być modyfikowana w programie. Zmienne lokalne: Deklarowane wewnątrz funkcji/bloku, widoczne tylko tam (znikają po wyjściu z bloku). Zmienne globalne: Deklarowane poza funkcjami, widoczne w całym pliku i dostępne dla wszystkich funkcji,.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "jak uruchomić program c?",
     "answer": "Proces tworzenia to: pisanie kodu -> kompilacja (tłumaczenie na kod maszynowy) -> konsolidacja (łączenie bibliotek). Aby uruchomić program, należy wywołać plik wynikowy (np. .exe). Każdy program musi posiadać funkcję main()",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "Czym są grafy, jakie jest ich zastosowanie i rodzaje przechowywania",
     "answer": "Graf: Zbiór wierzchołków i krawędzi łączących je. G=(V,E). Rodzaje przechowywania: Macierz sąsiedztwa: Tablica 2D, waga w komórce a[u][v]. Listy sąsiedztwa: Tablica list, gdzie dla każdego wierzchołka pamiętamy listę jego sąsiadów. Zastosowanie: Modelowanie sieci (drogi, internet), mapy, relacje, algorytmy najkrótszej ścieżki (Dijkstra, BFS),.",
-    "details": ""
+    "details": "",
+    "category": "Algorytmika"
   },
   {
     "question": "Model OSI, wymień i opisz warstwy",
     "answer": "Open Systems Interconnection (OSI) to model sieciowy składający się z 7 warstw: 1. Warstwa fizyczna: Transmisja bitów przez medium fizyczne. 2. Warstwa łącza danych: Ramkowanie, adresowanie MAC, wykrywanie błędów. 3. Warstwa sieciowa: Routing, adresowanie IP. 4. Warstwa transportowa: Kontrola przepływu, niezawodność (TCP/UDP). 5. Warstwa sesji: Zarządzanie sesjami komunikacyjnymi. 6. Warstwa prezentacji: Formatowanie danych, szyfrowanie. 7. Warstwa aplikacji: Interfejs użytkownika i aplikacje sieciowe.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Podstawowe pojęcia: (szyfrowanie, szyfrogram, klucz kryptograficzny)",
     "answer": "Szyfrowanie — operacja przekształcenia danych z postaci jawnej do postaci niezrozumiałej dla osób nieupoważnionych. Szyfrogram —> wynik tej operacji. Klucz kryptograficzny — dodatkowe dane używane do szyfrowania i deszyfrowania. Bez znajomości klucza odczytanie wiadomości powinno być obliczeniowo nieefektywne lub niemożliwe. ",
-    "details": ""
+    "details": "",
+    "category": "Bezpieczeństwo informacji"
   },
   {
     "question": "Wymień i opisz rodzaje sieci",
     "answer": "- LAN (Local Area Network): Sieć lokalna, ograniczona obszarem np. budynku - MAN (Metropolitan Area Network): Sieć miejska, obejmująca miasto. - WAN (Wide Area Network): Sieć rozległa, łącząca punkty na dużych odległościach.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Co to ARP?",
     "answer": "Address Resolution Protocol — zapewnia komunikację w sieciach rozgłoszeniowych, poprzez odwzorowanie adresów IPv4 na adresy MAC, oraz utrzymanie tablicy odwzorowania (mapowania).",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe"
   },
   {
     "question": "Co to DNS?",
     "answer": "DNS (Domain Name System) to system nazw w sieci, który tłumaczy nazwy domenowe na adresy IP. Służy do tego, aby użytkownik mógł używać czytelnych nazw, takich jak google.com, zamiast zapamiętywać adresy IP, np. 142.250.74.14. Gdy wpisujesz adres strony, DNS wyszukuje odpowiadający mu adres IP i umożliwia nawiązanie połączenia z serwerem.",
-    "details": ""
+    "details": "",
+    "category": "Sieci komputerowe, Ogólne"
   },
   {
     "question": "Co to normalizacja?",
@@ -1562,161 +1855,193 @@
   {
     "question": "Co to DCL? Podaj przyklady",
     "answer": "Data Control Language - Zbiór instrukcji, służących do zarządzania uprawnieniami i kontrolą dostępu do danych. np. GRANT - nadawanie uprawnień lub REVOKE - odbieranie uprawnień",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to model danych?",
     "answer": "Model danych – abstrakcyjny opis rzeczywistości, która ma być odwzorowana w bazie danych.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych, Inzynieria oprogramowania"
   },
   {
     "question": "Czym są transakcje w SQL?",
     "answer": "W SQL transakcja to logiczna jednostka pracy, która grupuje jeden lub więcej poleceń SQL w taki sposób, żeby były wykonane wszystkie razem albo żadne. Dzięki temu baza danych zachowuje spójność.",
-    "details": ""
+    "details": "",
+    "category": "Bazy danych"
   },
   {
     "question": "Wymień wszystkie paradygmaty programowania jakie znasz",
     "answer": "Imperatywny – opisuje jak wykonać krok po kroku; Deklaratywny – opisuje co ma być wynikiem; Obiektowy – opiera się na obiektach i klasach; Funkcyjny – bazuje na funkcjach i niemutowalności; Logiczny – opiera się na faktach i regułach; Proceduralny – program podzielony na procedury; Strukturalny – używa struktur sterujących zamiast goto.",
-    "details": "Często spotyka się też paradygmat reaktywny i zdarzeniowy, szczególnie w aplikacjach UI."
+    "details": "Często spotyka się też paradygmat reaktywny i zdarzeniowy, szczególnie w aplikacjach UI.",
+    "category": "Paradygmaty programowania, Ogólne"
   },
   {
     "question": "Czym jest programowanie obiektowe?",
     "answer": "Programowanie obiektowe (OOP) to paradygmat, w którym program dzielimy na obiekty, które łączą dane (pola) i funkcje (metody) działające na tych danych. Przykładowe języki OOP: Java, C++, C#, Python.",
-    "details": "Jednozdaniowo: OOP = programowanie za pomocą obiektów łączących dane i funkcje, które na nich operują."
+    "details": "Jednozdaniowo: OOP = programowanie za pomocą obiektów łączących dane i funkcje, które na nich operują.",
+    "category": "Paradygmaty programowania, Obiektowość, Ogólne"
   },
   {
     "question": "Co to Tablica pomyłek - ocena jakości klasyfikatorów",
     "answer": "Jest to tabela służąca do oceny wydajności modelu klasyfikacyjnego, zestawiająca przewidywania modelu z rzeczywistymi danymi. Składa się z czterech elementów: Prawdziwie Pozytywnych (TP), Fałszywie Pozytywnych (FP), Prawdziwie Negatywnych (TN) i Fałszywie Negatywnych (FN). Pozwala na wyliczenie miar takich jak dokładność, czułość czy swoistość",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Co to lista w Prologu?",
     "answer": "To uporządkowany ciąg elementów o dowolnej długości. Lista składa się z dwóch części: głowa -  stanowi pierwszy element listy. ogon - jest wszystkim co pozostało z listy po „odjęciu” od niej głowy.",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Opisz operatory w Prologu",
     "answer": "Priorytet - każdy operator posiada liczbę całkowitą nieujemną określającą jego priorytet.Im mniejsza liczba tym wyższy priorytet operatora, Lączność - określana za pomocą atomów (wzorców) postaci afb. (Lewostronna, prawostronna, brak.), Przeciążanie - zmiana priorytetu i/lub łączności operatora Np: ?- op(100,yfx,+)",
-    "details": ""
+    "details": "",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Podaj cechy języka Prolog",
     "answer": "Deklaratywny – opisuje co jest prawdą, a nie jak coś zrobić krok po kroku, Opiera się na faktach i regułach – wiedza w bazie danych, a program pyta o wnioski, Brak tradycyjnych pętli – iteracje realizowane przez rekursję i mechanizm backtrackingu",
-    "details": "Prosto do zapamiętania: Prolog = język logiki, który odpowiada na pytania na podstawie faktów i reguł."
+    "details": "Prosto do zapamiętania: Prolog = język logiki, który odpowiada na pytania na podstawie faktów i reguł.",
+    "category": "Paradygmaty programowania"
   },
   {
     "question": "Czym są Sieci samouczące, samoorganizujące się i rekurencyjne?",
     "answer": "To rodzaje sztucznych sieci neuronowych różniące się sposobem uczenia i przetwarzania danych.",
-    "details": "Samouczące uczą się na podstawie danych treningowych, samoorganizujące się grupują dane bez nauczyciela (np. SOM), a rekurencyjne posiadają sprzężenia zwrotne i pamięć stanu."
+    "details": "Samouczące uczą się na podstawie danych treningowych, samoorganizujące się grupują dane bez nauczyciela (np. SOM), a rekurencyjne posiadają sprzężenia zwrotne i pamięć stanu.",
+    "category": "AI"
   },
   {
     "question": "Jakie są sposoby uczenia maszynowego",
     "answer": "1. Uczenie nadzorowane: Program otrzymuje dane wejściowe wraz z pożądanymi wynikami („etykietami”) i uczy się ogólnej zasady odwzorowania jednych na drugie. 2. Uczenie nienadzorowane: Algorytm próbuje samodzielnie odkryć strukturę lub ukryte wzorce w danych, nie otrzymując żadnych etykiet. Uczenie ze wzmocnieniem: Program wchodzi w interakcję z dynamicznym środowiskiem i uczy się poprzez system nagród, które stara się zmaksymalizować.",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Opisz instrukcje iteracyjne w Swift",
     "answer": "Pętla for-in: Jednokrotne wykonanie bloku kodu dla każdego elementu zakresie lub kolekcji. Pętla while: .Wykonuje zestaw instrukcji dopóki  warunek jest prawdziwy, Pętla repeat-while —> „do-while” w innych językach: Najpierw wykonuje blok kodu, a dopiero potem sprawdza warunek - Gwarantuje, że kod wewnątrz pętli wykona się co najmniej jeden raz.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Co to napisy i literały w Swift?",
     "answer": "Napisy (String) to typ danych przechowujący tekst. Literały to konkretne wartości tekstowe zapisane w kodzie w cudzysłowach, np. \"Hello\" lub \"\"\"tekst wieloliniowy\"\"\".",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Pierwszy model neuronu",
     "answer": "Pierwszy model, znany jako neuron McCullocha-Pittsa (opracowany w 1943 r.), to matematyczne uproszczenie biologicznej komórki nerwowej. Oblicza on sumę ważoną sygnałów wejściowych i jeśli przekroczy ona określony próg, neuron się aktywuje (zwraca wartość 1), w przeciwnym razie pozostaje nieaktywny",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Jakie są typy warstw w sieciach neuronowych?",
     "answer": "1. Warstwa wejściowa (Input layer) – przyjmuje dane surowe. 2. Warstwa/warstwy ukryte (Hidden layers) – znajdują się pomiędzy wejściem a wyjściem, dokonują przekształceń danych. 3. Warstwa wyjściowa (Output layer) – generuje ostateczny wynik sieci (np. predykcję)",
-    "details": ""
+    "details": "",
+    "category": "AI"
   },
   {
     "question": "Podaj różnice między git merge a git rebase",
     "answer": "Merge łączy gałęzie zachowując historię wszystkich commitów, rebase przenosi commity na nową bazę, tworząc liniową historię.",
-    "details": "Merge tworzy nowy commit scalający, rebase przepina commity, co upraszcza historię, ale zmienia identyfikatory commitów."
+    "details": "Merge tworzy nowy commit scalający, rebase przepina commity, co upraszcza historię, ale zmienia identyfikatory commitów.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "SwiftUI vs UIKit",
     "answer": "SwiftUI to nowoczesny, deklaratywny framework do budowy UI (opisujesz jak ma wyglądać). UIKit to starszy, imperatywny framework (opisujesz kroki jak to zbudować).",
-    "details": "SwiftUI: prostsza składnia, automatyczny podgląd na żywo, wymaga iOS 13+. UIKit: więcej kontroli, większa kompatybilność, trudniejszy w utrzymaniu."
+    "details": "SwiftUI: prostsza składnia, automatyczny podgląd na żywo, wymaga iOS 13+. UIKit: więcej kontroli, większa kompatybilność, trudniejszy w utrzymaniu.",
+    "category": "swift/ios"
   },
   {
     "question": "Wielozadaniowość w Android",
     "answer": "  Do zadań w tle używa się klasy Thread lub Service (długie operacje), a do komunikacji z interfejsem klasy Handler",
-    "details": "Zasada główna: nie blokuj wątku interfejsu (UI), bo spowoduje to błąd ANR (Application Not Responding)."
+    "details": "Zasada główna: nie blokuj wątku interfejsu (UI), bo spowoduje to błąd ANR (Application Not Responding).",
+    "category": "Android"
   },
   {
     "question": "Opisz cykl życia aktywności w Android",
     "answer": "1. onCreate (tworzenie), 2. onStart (widoczna), 3. onResume (aktywny), 4. onPause (częściowo zasłonięta), 5. onStop (niewidoczna), 6. onDestroy (niszczenie).",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Podstawy komunikacji sieciowej na platformie Android.",
     "answer": "Wymagane uprawnienie: INTERNET w manifeście. Protokoły: HTTP/HTTPS. Standard: usługi REST. Biblioteka: Retrofit 2 (mapowanie JSON → obiekty Java)",
-    "details": ""
+    "details": "",
+    "category": "Android"
   },
   {
     "question": "Na czym polega wstrzykiwanie zależności (Dependency Injection)",
     "answer": "Polega na dostarczaniu obiektom zależności z zewnątrz, zamiast tworzenia ich wewnątrz klasy. Ułatwia testowanie, wymienność komponentów i utrzymanie kodu. Przykład w Swift/Java: klasa Car dostaje silnik (Engine) jako parametr konstruktora, zamiast tworzyć go sama.",
-    "details": "Dependency Injection = dostarczanie obiektom ich zależności z zewnątrz zamiast tworzenia ich w środku."
+    "details": "Dependency Injection = dostarczanie obiektom ich zależności z zewnątrz zamiast tworzenia ich w środku.",
+    "category": "Obiektowość"
   },
   {
     "question": "Powiedz wszystko co wiesz o testach funkcjonalności",
     "answer": "Sprawdzają, czy system działa zgodnie z wymaganiami użytkownika. Mogą obejmować np. logowanie, zakupy w sklepie, przesyłanie formularzy.",
-    "details": "Testy funkcjonalności sprawdzają, czy aplikacja działa zgodnie z oczekiwaniami użytkownika."
+    "details": "Testy funkcjonalności sprawdzają, czy aplikacja działa zgodnie z oczekiwaniami użytkownika.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "Powiedz wszystko co wiesz o git i o gałęziach",
     "answer": "Git – system kontroli wersji, pozwala śledzić zmiany w kodzie, wracać do wcześniejszych wersji i współpracować w zespole. Gałęzie – niezależne linie rozwoju kodu, pozwalają np. tworzyć funkcje, poprawki lub eksperymenty bez psucia głównej wersji (main/master). Operacje na gałęziach: git branch, git checkout, git merge, git rebase. Dzięki gałęziom: łatwe równoległe prace, testowanie i integracja zmian.",
-    "details": "Jednozdaniowo: Git to system kontroli wersji, a gałęzie pozwalają rozwijać kod niezależnie od głównej linii."
+    "details": "Jednozdaniowo: Git to system kontroli wersji, a gałęzie pozwalają rozwijać kod niezależnie od głównej linii.",
+    "category": "Procesy wytwarzania oprogramowania"
   },
   {
     "question": "co to Indeksy w relacyjnych bazach danych - podać na czym są automatyczne",
     "answer": "Indeksy to struktury przyspieszające wyszukiwanie danych w tabeli. Automatyczne tworzą się najczęściej na kluczach głównych (PRIMARY KEY) i unikalnych (UNIQUE).",
-    "details": "Dzięki nim baza szybciej wyszukuje rekordy według tych kolumn bez ręcznego definiowania indeksu."
+    "details": "Dzięki nim baza szybciej wyszukuje rekordy według tych kolumn bez ręcznego definiowania indeksu.",
+    "category": "Bazy danych"
   },
   {
     "question": "Co to wzorzec budowniczy???????",
     "answer": "Wzorzec projektowy pozwala tworzyć złożone obiekty krok po kroku, oddzielając konstrukcję od reprezentacji. Umożliwia tworzenie różnych wariantów obiektu przy tym samym procesie budowy. Przykład: budowanie obiektu Car z różnymi opcjami wyposażenia.",
-    "details": "Jednozdaniowo: Builder = wzorzec do stopniowego tworzenia złożonych obiektów w kontrolowany sposób."
+    "details": "Jednozdaniowo: Builder = wzorzec do stopniowego tworzenia złożonych obiektów w kontrolowany sposób.",
+    "category": "Inne"
   },
   {
     "question": "Co to CI/CD?",
     "answer": "Continuous Integration/Continuous Deployment - praktyki automatyzacji procesu wytwarzania oprogramowania. CI automatycznie buduje i testuje kod po każdej zmianie. CD automatycznie wdraża przetestowany kod na środowisko produkcyjne.",
-    "details": "Narzędzia: np GitHub Actions. Skraca czas wdrożeń i redukuje błędy ludzkie."
+    "details": "Narzędzia: np GitHub Actions. Skraca czas wdrożeń i redukuje błędy ludzkie.",
+    "category": "Procesy wytwarzania oprogramowania, Chmury/docker"
   },
   {
     "question": "Architektura systemu IOS",
     "answer": "Cztery podstawowe warstwy: 1. Core OS - Jądro systemu, sterowniki, bezpieczeństwo. 2. Core Services - Podstawowe usługi: Core Foundation, lokalizacja (Core Location), ruch (Core Motion). 3. Media - Grafika (Core Graphics), dźwięk (AVFoundation), wideo. 4. Cocoa Touch - Frameworki UI: UIKit, obsługa dotyku, powiadomienia.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Przekazywanie danych między widokami w SwiftUI",
     "answer": "1. Właściwości (Properties) - Dane przekazywane przy inicjalizacji widoku w NavigationLink. 2. @State - Dane lokalne widoku, zmiany powodują odświeżenie UI. 3. @Binding - Dwukierunkowe powiązanie danych między widokami. 4. @EnvironmentObject - Udostępnianie danych w całej hierarchii widoków. 5. @ObservedObject - Obserwowanie zewnętrznego obiektu danych.",
-    "details": ""
+    "details": "",
+    "category": "swift/ios"
   },
   {
     "question": "Sposoby trwałego przechowywania danych na potrzeby aplikacji mobilnych. (android)",
     "answer": "1. Baza danych SQLite - Relacyjna baza, często z biblioteką Room (ORM). 2. SharedPreferences (plik XML) - Pary klucz-wartość dla ustawień aplikacji (tekst, liczby, booleany). 3. Pliki - Pamięć wewnętrzna/zewnętrzna (np. obrazy w MediaStore).",
-    "details": "Na iOS odpowiednikami są: Core Data (lub SQLite) do danych strukturalnych, UserDefaults do prostych ustawień klucz-wartość oraz FileManager do zapisu plików w katalogach aplikacji."
+    "details": "Na iOS odpowiednikami są: Core Data (lub SQLite) do danych strukturalnych, UserDefaults do prostych ustawień klucz-wartość oraz FileManager do zapisu plików w katalogach aplikacji.",
+    "category": "Android"
   },
   {
     "question": "Co to preprocesor",
     "answer": "To program (edytor), który przetwarza kod źródłowy przed właściwą kompilacją. Obsługuje dyrektywy zaczynające się od # (np. dołączanie plików, makrodefinicje, kompilację warunkową),.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "co to typedef",
     "answer": "Słowo kluczowe służące do definiowania nowych nazw (aliasów) dla istniejących już typów danych. Nie tworzy nowego typu, lecz upraszcza nazewnictwo (np. typedef unsigned int size_t)",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   },
   {
     "question": "opisz instrukcje warunkowe/strukturyzujące w C: if, if…else, switch",
     "answer": "If: Wykonuje instrukcję, jeśli warunek jest prawdziwy. If...else: Pozwala wykonać jeden blok kodu, gdy warunek jest prawdziwy, a inny, gdy fałszywy. Switch: Wielowariantowa instrukcja wyboru. Porównuje zmienną (całkowitą lub znak) z wartościami case. Wymaga break, aby nie wykonywać kolejnych przypadków,.",
-    "details": ""
+    "details": "",
+    "category": "Programowanie strukturalne / C"
   }
 ]

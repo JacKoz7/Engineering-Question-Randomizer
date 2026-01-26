@@ -29,7 +29,7 @@
               <span class="icon">📚</span>
               <span class="text">Tryb nauki</span>
             </button>
-            <div class="version-tag">v1.5</div>
+            <div class="version-tag">v2.0</div>
           </div>
         </div>
 
@@ -56,6 +56,36 @@
           </div>
         </div>
       </header>
+
+      <div class="filters-wrapper glass-panel">
+        <button id="categoryToggleBtn" class="filter-toggle-btn">
+          <div class="filter-info">
+            <span class="icon">🏷️</span>
+            <span class="label">Kategorie</span>
+            <span id="filterSummary" class="filter-summary">Wszystkie</span>
+          </div>
+          <svg
+            class="chevron-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+
+        <div class="categories-list">
+          <div class="categories-scroll-wrapper">
+            <div
+              id="categoriesContainer"
+              class="categories-inner-content"
+            ></div>
+          </div>
+        </div>
+      </div>
 
       <main id="questionsContainer" class="cards-grid"></main>
 

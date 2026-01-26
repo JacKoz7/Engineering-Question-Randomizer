@@ -3,6 +3,7 @@ let usedQuestions = [];
 let noRepeatMode = false;
 let learnMode = false;
 let toLearnQuestions = new Set();
+let selectedCategories = new Set();
 
 const questionCount = document.getElementById("questionCount");
 const unansweredCount = document.getElementById("unansweredCount");
@@ -14,10 +15,19 @@ const questionsContainer = document.getElementById("questionsContainer");
 const noRepeatCheckbox = document.getElementById("noRepeatCheckbox");
 const learnModeBtn = document.getElementById("learnModeBtn");
 
+const categoriesContainer = document.getElementById("categoriesContainer");
+const categoryToggleBtn = document.getElementById("categoryToggleBtn");
+const filterSummary = document.getElementById("filterSummary");
+const filtersWrapper = document.querySelector(".filters-wrapper");
+
 window.addEventListener("DOMContentLoaded", async () => {
   loadToLearnFromStorage();
   await loadQuestionsFromFile();
   toggleEmptyState();
+});
+
+categoryToggleBtn.addEventListener("click", () => {
+    filtersWrapper.classList.toggle("open");
 });
 
 noRepeatCheckbox.addEventListener("change", (e) => {
@@ -97,6 +107,8 @@ async function loadQuestionsFromFile() {
     const response = await fetch("pytania.json");
     allQuestions = await response.json();
 
+    renderCategories();
+
     updateStats();
     drawButton.disabled = false;
   } catch (error) {
@@ -105,7 +117,78 @@ async function loadQuestionsFromFile() {
   }
 }
 
+function getCategoriesFromQuestion(q) {
+    if (!q.category) return ["Ogólne"];
+    return q.category.split(',').map(c => c.trim()).filter(c => c.length > 0);
+}
+
+function renderCategories() {
+    const categoriesMap = {};
+
+    allQuestions.forEach(q => {
+        const cats = getCategoriesFromQuestion(q);
+        
+        cats.forEach(cat => {
+            categoriesMap[cat] = (categoriesMap[cat] || 0) + 1;
+        });
+    });
+
+    categoriesContainer.innerHTML = '';
+    
+    const gridInner = document.createElement('div');
+    gridInner.className = 'categories-grid-inner';
+
+    Object.keys(categoriesMap).sort().forEach(cat => {
+        const count = categoriesMap[cat];
+        
+        const label = document.createElement('label');
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.className = 'category-checkbox';
+        input.value = cat;
+        
+        input.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                selectedCategories.add(cat);
+            } else {
+                selectedCategories.delete(cat);
+            }
+            if(noRepeatMode) usedQuestions = []; 
+            
+            updateFilterSummary();
+            updateStats();
+        });
+
+        const span = document.createElement('span');
+        span.className = 'category-label';
+        span.innerHTML = `${cat} <span class="category-count">(${count})</span>`;
+
+        label.appendChild(input);
+        label.appendChild(span);
+        gridInner.appendChild(label);
+    });
+
+    categoriesContainer.appendChild(gridInner);
+}
+
+function updateFilterSummary() {
+    if (selectedCategories.size === 0) {
+        filterSummary.textContent = "Wszystkie";
+        filterSummary.style.opacity = "0.7";
+    } else {
+        const count = selectedCategories.size;
+        let text = "kategorii";
+        if (count === 1) text = "kategoria";
+        else if (count >= 2 && count <= 4) text = "kategorie";
+        
+        filterSummary.textContent = `Wybrano: ${count} ${text}`;
+        filterSummary.style.opacity = "1";
+    }
+}
+
 function updateStats() {
+  const pool = getQuestionPool(); 
+  
   questionCount.textContent = allQuestions.length;
 
   const unanswered = allQuestions.filter(
@@ -116,7 +199,6 @@ function updateStats() {
   toLearnCount.textContent = toLearnQuestions.size;
 
   if (noRepeatMode) {
-    const pool = getQuestionPool();
     const remaining = Math.max(0, pool.length - usedQuestions.length);
     remainingCount.textContent = remaining;
     remainingCounter.style.display = "flex";
@@ -126,10 +208,20 @@ function updateStats() {
 }
 
 function getQuestionPool() {
+  let pool = allQuestions;
+
   if (learnMode) {
-    return allQuestions.filter((q) => toLearnQuestions.has(q.question));
+    pool = pool.filter((q) => toLearnQuestions.has(q.question));
   }
-  return allQuestions;
+
+  if (selectedCategories.size > 0) {
+      pool = pool.filter(q => {
+          const cats = getCategoriesFromQuestion(q);
+          return cats.some(cat => selectedCategories.has(cat));
+      });
+  }
+
+  return pool;
 }
 
 drawButton.addEventListener("click", () => {
@@ -141,12 +233,12 @@ drawButton.addEventListener("click", () => {
 
   if (availableQuestions.length === 0) {
     if (noRepeatMode && usedQuestions.length > 0) {
-      alert("Wszystkie pytania zostały wyświetlone. Resetuję pulę.");
+      alert("Wszystkie pytania z wybranej puli zostały wyświetlone. Resetuję listę zużytych.");
       usedQuestions = [];
       updateStats();
       return;
     }
-    alert("Brak dostępnych pytań.");
+    alert("Brak dostępnych pytań spełniających kryteria (sprawdź filtry lub tryb nauki).");
     return;
   }
 
@@ -175,6 +267,9 @@ function displayQuestions(questions) {
     card.style.animationDelay = `${index * 0.1}s`;
 
     const isMarked = toLearnQuestions.has(q.question);
+    
+    const cats = getCategoriesFromQuestion(q);
+    const badgesHTML = cats.map(c => `<span class="category-badge">${escapeHtml(c)}</span>`).join('');
 
     card.innerHTML = `
             <div class="card-inner">
@@ -190,6 +285,9 @@ function displayQuestions(questions) {
                         </button>
                     </div>
                     <div class="card-content">
+                        <div class="badges-wrapper">
+                            ${badgesHTML}
+                        </div>
                         <p>${escapeHtml(q.question)}</p>
                     </div>
                     <span class="flip-hint">Kliknij aby zobaczyć odpowiedź</span>
@@ -206,6 +304,9 @@ function displayQuestions(questions) {
                         </button>
                     </div>
                     <div class="card-content">
+                        <div class="badges-wrapper">
+                            ${badgesHTML}
+                        </div>
                         <p class="answer">${escapeHtml(q.answer || "Brak odpowiedzi")}</p>
                         ${
                           q.details
