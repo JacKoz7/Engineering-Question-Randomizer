@@ -217,8 +217,8 @@
   },
   {
     "question": "Co to vpn?",
-    "answer": "Virtual Private Network - Wirtualna sieć prywatna. Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. VPN tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
-    "details": "",
+    "answer": "Virtual Private Network - Wirtualna sieć prywatna. tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
+    "details": "Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. ",
     "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
@@ -467,7 +467,7 @@
     "question": "Co to algorytm Euklidesa, podaj jego implementacje ???",
     "answer": "Algorytm Euklidesa służy do znalezienia największego wspólnego dzielnika (NWD) dwóch liczb. Idea: NWD(a, b) = NWD(b, a mod b) Powtarzamy, aż reszta z dzielenia = 0.",
     "details": "Jednozdaniowo: Algorytm Euklidesa znajduje NWD dwóch liczb, powtarzając dzielenie i zastępując większą liczbę mniejszą, a mniejszą resztą, aż reszta wyniesie 0.",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Czym są wskaźniki i jakie jest ich zastosowanie",
@@ -536,7 +536,7 @@
   },
   {
     "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
-    "answer": "1. Sortowanie przez wybieranie (SelectSort): Przeszukujemy nieposortowaną część tablicy, aby znaleźć element najmniejszy (lub największy) i zamieniamy go z pierwszym elementem tej części. Powtarzamy dla reszty tablicy. Złożoność O(n2). 2. Sortowanie szybkie (QuickSort): Algorytm „dziel i zwyciężaj”. Wybieramy element (pivot/mediana), dzielimy tablicę na dwie części (elementy mniejsze od pivota i większe), a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn),.",
+    "answer": "bubble sort - porównujemy kolejne pary elementów i je zamieniamy miejscami jeśli są w złej kolejności. Złożoność O(n^2). QuickSort - algorytm dziel i zwyciężaj wybieramy element pivot, dzielimy tablice na dwie części - elementy większe od pivota i mniejsze a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn)",
     "details": "",
     "category": "Algorytmika, komisja 4"
   },
@@ -591,7 +591,7 @@
     "question": "Co to regresja liniowa i nieliniowa?",
     "answer": "Metoda statystyczna służąca do modelowania zależności między danymi. Regresja liniowa: Szukamy linii prostej y=ax+b, która najlepiej pasuje do chmury punktów danych. Regresja nieliniowa: Szukamy krzywej (np. wykładniczej, logarytmicznej, wielomianowej), która najlepiej opisuje dane, gdy zależność nie jest liniowa.",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "AI"
   },
   {
     "question": "Jak w języku C wypisać coś w konsoli?",
@@ -624,8 +624,8 @@
     "category": "Aplikacje internetowe"
   },
   {
-    "question": "Co to TCP i UDP?",
-    "answer": "TCP i UDP to protokoły warstwy transportowej, służące do przesyłania danych między aplikacjami w sieci. TCP jest protokołem połączeniowym i niezawodnym. Przed wysłaniem danych zestawia połączenie, kontroluje poprawność transmisji, kolejność pakietów oraz ponawia wysyłanie w razie błędów. Jest wolniejszy, ale pewny. Wykorzystywany jest tam, gdzie liczy się poprawność danych, np. HTTP/HTTPS, FTP, SMTP, IMAP. UDP jest protokołem bezpołączeniowym i zawodnym. Nie sprawdza, czy dane dotarły ani w jakiej kolejności, dzięki czemu działa szybciej i z mniejszym narzutem. Stosowany jest tam, gdzie ważniejsza jest szybkość niż niezawodność, np. streaming wideo i audio, VoIP, gry online, DNS.",
+    "question": "Jaka jest róznica miedzy tcp a udp?",
+    "answer": "TCP jest protokołem połączeniowym i niezawodnym – zapewnia dostarczenie danych, ich poprawną kolejność oraz kontrolę błędów, natomiast UDP jest protokołem bezpołączeniowym i zawodnym – nie gwarantuje dostarczenia ani kolejności pakietów, ale oferuje mniejsze opóźnienia i większą szybkość transmisji.",
     "details": "",
     "category": "Sieci komputerowe, komisja 4"
   },
@@ -649,8 +649,8 @@
   },
   {
     "question": "Co to hermetyzacja w programowaniu obiektowym?",
-    "answer": "Hermetyzacja, znana również jako enkapsulacja, polega na ukrywaniu wewnętrznych szczegółów implementacji klasy i udostępnianiu jedynie wyselekcjonowanego interfejsu publicznego. Mechanizm ten chroni stan obiektu przed niepoprawną modyfikacją z zewnątrz oraz pozwala na swobodną zmianę kodu wewnętrznego bez wpływu na inne części systemu korzystające z tej klasy.",
-    "details": "",
+    "answer": "Hermetyzacja (enkapsulacja) to jedna z podstawowych cech programowania obiektowego, polegająca na ukrywaniu wewnętrznej implementacji obiektu i udostępnianiu jedynie jasno zdefiniowanego interfejsu.",
+    "details": "Realizowana jest poprzez modyfikatory dostępu (np. private, protected, public), co zwiększa bezpieczeństwo danych, ogranicza zależności między klasami i ułatwia utrzymanie kodu.",
     "category": "Obiektowość, komisja 4"
   },
   {
@@ -697,7 +697,7 @@
   },
   {
     "question": "Android struktury tworzenia",
-    "answer": "Activity, Fragment, Service",
+    "answer": "Activity - Podstawowy ekran aplikacji posiadający cykl życia, Fragment - mini-aktywności, Service -  Komponenty do pracy w tle (np odtwarzanie muzyki)",
     "details": "",
     "category": "Android"
   },
@@ -734,8 +734,8 @@
   {
     "question": "Podaj metody całkowania numerycznego",
     "answer": " Wyróżnia się: Kwadratury interpolacyjne: w tym kwadratury Newtona-Cotesa (wzór prostokątów, trapezów, Simpsona, „trzech ósmych”) oraz Kwadratury Gaussa: np. Gaussa-Legendre’a, Gaussa-Czebyszewa (węzły są pierwiastkami wielomianów ortogonalnych)",
-    "details": "Jeszcze są Metody Monte Carlo: oparte na próbach losowych",
-    "category": "Algorytmy analizy numerycznej"
+    "details": "",
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Czym są sekcje krytyczne? np w C++",
@@ -759,30 +759,31 @@
     "question": "Wymień cechy obiektowości",
     "answer": "Hermetyzacja, dziedziczenie, polimorfizm, abstrakcja.",
     "details": "",
-    "category": "Obiektowość"
+    "category": "Obiektowość "
   },
   {
     "question": "Wymień metody uwierzytelniania użytkowników",
     "answer": "Hasło, PIN, biometria, token, uwierzytelnianie dwuskładnikowe (2FA).",
-    "details": "Metody mogą być łączone dla zwiększenia bezpieczeństwa."
+    "details": "Metody mogą być łączone dla zwiększenia bezpieczeństwa.",
+    "category": "Bezpieczeństwo informacji "
   },
   {
     "question": "Podaj strukture projektu android",
     "answer": "app/src/main/java: Katalog zawierający pliki źródłowe kodu (Java lub Kotlin), w tym klasy aktywności. app/src/main/res: Katalog zasobów aplikacji, podzielony na podkatalogi takie jak layout (pliki XML z układem interfejsu), drawable/mipmap (grafika) oraz values (teksty, kolory, style).  AndroidManifest.xml: Główny plik konfiguracyjny opisujący składniki aplikacji (aktywności, usługi), wymagane uprawnienia oraz wersję SDK.  build.gradle: Skrypty systemu budowania (dla modułu i projektu), definiujące zależności (biblioteki), wersje kompilacji i identyfikator aplikacji.  app/build: Katalog zawierający pliki wygenerowane automatycznie i pliki wynikowe (np. .apk)",
     "details": "",
-    "category": "Android"
+    "category": "Android "
   },
   {
     "question": "Czym są ciasteczka",
     "answer": "Ciasteczka (cookies) to niewielkie porcje danych zapisywane po stronie klienta przez aplikacje internetowe.",
     "details": "Służą do identyfikacji użytkownika, utrzymania sesji oraz przechowywania informacji o stanie aplikacji.",
-    "category": "Aplikacje internetowe"
+    "category": "Aplikacje internetowe "
   },
   {
     "question": "Lagrange /  Newton",
     "answer": "Są to dwa sposoby wyznaczania wielomianu interpolacyjnego (różne bazy): Baza Lagrange’a: pozwala natychmiast zapisać wzór wielomianu, ale jest kosztowna obliczeniowo przy dodawaniu nowych węzłów. Baza Newtona: wykorzystuje ilorazy różnicowe do wyznaczenia współczynników wielomianu, a jego wartość oblicza się schematem Hornera",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Co to macierz pomyłek?",
@@ -812,13 +813,13 @@
     "question": "Czym są fragmenty w android?",
     "answer": "Fragmenty — „mini-aktywności\" osadzane w aktywności.",
     "details": "",
-    "category": "Android"
+    "category": "Android "
   },
   {
     "question": "Usługi google play",
     "answer": "Zamknięte API i usługi Google. Główne usługi (GMS - Google Mobile Services): Firebase - bazy danych, uwierzytelnianie, hosting, Mapy - Maps SDK, lokalizacja, Tożsamość - Google Sign-In, Google Pay",
     "details": "To zestaw API rozszerzających system. Wykłady wymieniają głównie Firebase – np. Authentication (logowanie/rejestracja) oraz Firestore (skalowalna baza NoSQL w chmurze działająca offline)",
-    "category": "Android"
+    "category": "Android "
   },
   {
     "question": "Istota wzorców projektowych, podział i przykład",
@@ -836,7 +837,7 @@
     "question": "Co to są wyrażenia algebraiczne i do czego służą?",
     "answer": "W informatyce to zapisy składające się ze zmiennych, stałych i operatorów (np. x + 5 * y). Służą do: Obliczania wartości danych, Opisywania warunków logicznych (np. w instrukcji if (a > b + 1)), Modelowania algorytmów (np. wzory na złożoność).",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Co to jest drzewo procesów?",
@@ -866,7 +867,7 @@
     "question": "IPv4 vs IPv6",
     "answer": "IPv4 używa adresów 32-bitowych, co daje ograniczoną liczbę adresów, natomiast IPv6 ma adresy 128-bitowe i praktycznie nieograniczoną pulę. IPv4 zapisuje adresy w formacie dziesiętnym z kropkami, a IPv6 w szesnastkowym z dwukropkami. W IPv4 często stosuje się NAT, w IPv6 nie jest on potrzebny. IPv6 oferuje prostszą budowę nagłówka, brak broadcastu (zastąpiony multicastem) oraz lepszą obsługę automatycznej konfiguracji.",
     "details": "",
-    "category": "Sieci komputerowe"
+    "category": "Sieci komputerowe "
   },
   {
     "question": "Podaj reguły solid",
@@ -878,12 +879,13 @@
     "question": "Czym są prototypy funkcji?",
     "answer": "Są to deklaracje funkcji (nagłówki zakończenie średnikiem) umieszczane zazwyczaj na początku programu, przed ich użyciem. Pozwalają kompilatorowi sprawdzić poprawność typów argumentów i typu zwracanego przed właściwą definicją funkcji",
     "details": "np int add(int a, int b);",
-    "category": "Programowanie strukturalne / C, Ogólne"
+    "category": "Programowanie strukturalne / C, Ogólne "
   },
   {
     "question": "Co to wyrażenie lambda?",
     "answer": "Definicja funkcji anonimowej, czyli takiej, która nie posiada nadanej nazwy. ",
-    "details": "W haskell Zapisuje się ją przy użyciu znaku \\ po którym następują argumenty, strzałka -> oraz treść wyrażenia. Przykład: \\x -> x * x to funkcja kwadratowa."
+    "details": "W haskell Zapisuje się ją przy użyciu znaku \\ po którym następują argumenty, strzałka -> oraz treść wyrażenia. Przykład: \\x -> x * x to funkcja kwadratowa.",
+    "category": "Ogólne "
   },
   {
     "question": "Czym jest zapytanie o media?",
@@ -895,7 +897,7 @@
     "question": "Czym jest całkowanie numeryczne?",
     "answer": "Jest to przybliżone obliczanie całek oznaczonych za pomocą skończonej sumy (zwanej kwadraturą), będącej kombinacją liniową wartości funkcji (i ewentualnie jej pochodnych) w określonych punktach zwanych węzłami",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Co to stos i jakie są jego funkcje/operacje?",
@@ -913,13 +915,13 @@
     "question": "Co to DOM?",
     "answer": "Document Object Model (Obiektowy Model Dokumentu). Reprezentacja struktury dokumentu HTML w pamięci przeglądarki w postaci drzewa obiektów. Dzięki DOM język JavaScript może widzieć stronę, zmieniać jej treść, style i reagować na akcje użytkownika w czasie rzeczywistym.",
     "details": "",
-    "category": "Aplikacje internetowe"
+    "category": "Aplikacje internetowe "
   },
   {
     "question": "Co to TDD?",
     "answer": "TDD (Test-Driven Development) Metoda tworzenia oprogramowania, w której najpierw pisze się testy, a potem kod, który je spełnia. Pomaga tworzyć bardziej niezawodny i dobrze przetestowany kod.",
     "details": "",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania "
   },
   {
     "question": "Czym są deskryptory w css?",
@@ -933,7 +935,7 @@
     "details": ""
   },
   {
-    "question": "Czym są testy integracyjne?",
+    "question": "Powiedz wszystko co wiesz o testach integracyjych?",
     "answer": "Testy sprawdzające współdziałanie kilku komponentów systemu. Upewniają, że moduły działają poprawnie razem.",
     "details": "",
     "category": "Procesy wytwarzania oprogramowania, komisja 4"
@@ -984,7 +986,7 @@
     "question": "Co to zasada DRY?",
     "answer": "DRY = Don't Repeat Yourself – zasada mówiąca, żeby nie powtarzać kodu ani logiki w programie. Pomaga utrzymać kod czysty, łatwy w utrzymaniu i mniej podatny na błędy.",
     "details": "",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania "
   },
   {
     "question": "Co robi reduce() w swift?",
@@ -996,7 +998,7 @@
     "question": "Co to NoSQL?",
     "answer": "Nierelacyjna baza danych, która przechowuje dane w elastycznych strukturach, nie w tabelach. Dobrze nadaje się do skalowania poziomego i dużych, zmiennych danych. Przykłady: MongoDB, Redis, Cassandra.",
     "details": "",
-    "category": "Bazy danych"
+    "category": "Bazy danych "
   },
   {
     "question": "Co to cyfra kontrolna?",
@@ -1037,7 +1039,7 @@
   {
     "question": "Jakie znasz operacje binarne?",
     "answer": "AND (&) – wynik 1 tylko gdy oba bity = 1. OR (|) – wynik 1 jeśli przynajmniej jeden bit = 1. XOR (^) – wynik 1 jeśli bity są różne. NOT (~) – negacja bitu. Przesunięcia bitowe (<<, >>) – przesuwanie bitów w lewo lub prawo",
-    "details": ""
+    "details": "Ogólne "
   },
   {
     "question": "Co to tablica LUT?",
@@ -1060,7 +1062,7 @@
   {
     "question": "Opisz while i do while",
     "answer": "1. While: Sprawdza warunek na początku. Jeśli warunek nie jest spełniony, pętla nie wykona się ani razu.2. Do...while: Sprawdza warunek na końcu pętli. Gwarantuje wykonanie instrukcji wewnątrz pętli przynajmniej jeden raz.",
-    "details": ""
+    "details": "Ogólne "
   },
   {
     "question": "Opisz strukturę React",
@@ -1072,7 +1074,7 @@
     "question": "Architektury baz danych",
     "answer": "1. Jednopoziomowa: baza i interfejs są na jednym poziomie. 2. Dwupoziomowa: klient i serwer bazy danych są oddzielone. 3. Trójpoziomowa: dodaje warstwę pośrednią (aplikacja) między klientem a serwerem bazy danych. 4. Rozproszona: dane znajdują się na wielu serwerach bazy danych. 5. Lokalna: baza danych znajduje się w całości na jednym urządzeniu.",
     "details": "",
-    "category": "Bazy danych"
+    "category": "Bazy danych "
   },
   {
     "question": "Opisz paradygmat funkcyjny",
@@ -1093,16 +1095,16 @@
     "category": "C++, Ogólne"
   },
   {
-    "question": "Wymień algorytmy wyszukiwania elementu w zbiorze",
+    "question": "Wymień algorytmy wyszukiwania elementu w zbiorze/tablicy",
     "answer": "1. Wyszukiwanie liniowe: Sprawdza każdy element po kolei (O(n)). 2. Wyszukiwanie binarne: Działa na posortowanym zbiorze, dzieli zakres na pół (O(logn)). 3. Wyszukiwanie interpolacyjne: Szacuje miejsce elementu (jak w słowniku).",
     "details": "",
     "category": "Algorytmika, komisja 4"
   },
   {
-    "question": "Wymień zarządców układu w android",
+    "question": "Wymień zarządców układu w android (android tworzenie GUI)",
     "answer": "LinearLayout - elementy liniowo (pionowo/poziomo). ConstraintLayout - responsywne układy z relacjami. TableLayout - siatka (jak tabele HTML). RecyclerView - wydajne przewijalne listy",
     "details": "",
-    "category": "Android"
+    "category": "Android "
   },
   {
     "question": "Podaj sposoby odzyskiwania haseł",
@@ -1150,25 +1152,25 @@
     "question": "Czym jest eliminacja gaussa? ",
     "answer": "To dokładna metoda rozwiązywania układów równań liniowych. Składa się z dwóch etapów: 1. Postępowanie proste: sprowadzenie macierzy do postaci trójkątnej górnej. 2. Postępowanie odwrotne: rozwiązanie trójkątnego układu równań",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Czym są kopie zapasowe?",
     "answer": "Duplikowanie danych w celu ich odtworzenia w przypadku utraty (awaria, atak ransomware, błąd ludzki).",
     "details": "Rodzaje: Pełna (całość), Przyrostowa (zmiany od ostatniej jakiejkolwiek kopii), Różnicowa (zmiany od ostatniej pełnej kopii).",
-    "category": "Bezpieczeństwo informacji"
+    "category": "Bezpieczeństwo informacji "
   },
   {
-    "question": "Co to ORM?",
-    "answer": "Technika mapowania obiektowo-relacyjnego. Służy do odwzorowania struktury bazy danych (tabel, relacji) na obiekty w języku programowania (klasy). Zaleta: Programista operuje na obiektach Java, a framework ORM (np. Hibernate, JPA) automatycznie generuje odpowiednie zapytania SQL. Cel: Uniezależnienie aplikacji od konkretnego silnika bazy danych i przyspieszenie developmentu.",
-    "details": "",
-    "category": "Bazy danych, Ogólne, Aplikacje internetowe. komisja 4"
+    "question": "Co to ORM? rozwiń skrót. Podaj wady i zalety oraz przykłady frameworków",
+    "answer": "ORM (Object-Relational Mapping) to technika mapowania obiektowo-relacyjnego. to technika, która pozwala pracować z bazą danych za pomocą obiektów w kodzie, zamiast pisać zapytania SQL",
+    "details": "Zalety: szybszy development, mniejsza ilość ręcznie pisanego SQL, większa czytelność i spójność kodu, przenośność między różnymi silnikami baz danych, wsparcie dla relacji i transakcji. Wady: narzut wydajnościowy, mniejsza kontrola nad generowanym SQL, trudniejsze debugowanie, możliwość generowania nieoptymalnych zapytań, krzywa uczenia się. Przykłady frameworków ORM: Hibernate, JPA (Java), Entity Framework (.NET), Sequelize (Node.js), TypeORM, Doctrine (PHP).",
+    "category": "Bazy danych, Ogólne, Aplikacje internetowe, komisja 4"
   },
   {
     "question": "Co to i do czego służy NAT?",
     "answer": "NAT (Network Address Translation) to mechanizm sieciowy, który tłumaczy adresy IP między siecią prywatną a publiczną. Służy do tego, aby wiele urządzeń w sieci lokalnej mogło korzystać z jednego publicznego adresu IP. Router zamienia adresy prywatne na publiczny podczas wychodzenia do internetu i odwrotnie przy odpowiedzi.",
     "details": "W skrócie: NAT oszczędza adresy IPv4 i ukrywa sieć wewnętrzną przed internetem.",
-    "category": "Bezpieczeństwo informacji, Sieci komputerowe"
+    "category": "Bezpieczeństwo informacji, Sieci komputerowe "
   },
   {
     "question": "Opisz instrukcje warunkowe w SWIFT?",
@@ -1184,9 +1186,9 @@
   },
   {
     "question": "Opisz algorytmy wyszukiwania wzorca w tekście",
-    "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)) 2. KMP (Knuth-Morris-Pratt): Wykorzystuje tablicę prefiksów, aby wiedzieć, o ile przesunąć wzorzec w razie niezgodności, unikając cofania się w tekście. 3. Boyer-Moore (BM): (Wymieniony w agendzie, brak szczegółowego opisu w dostarczonych fragmentach). 4. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
+    "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)) 2. KMP (Knuth-Morris-Pratt): Wykorzystuje tablicę prefiksów, aby wiedzieć, o ile przesunąć wzorzec w razie niezgodności, unikając cofania się w tekście. 3. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
     "details": "",
-    "category": "Algorytmika"
+    "category": "Algorytmika "
   },
   {
     "question": "Czym są przeciążenia?",
@@ -1225,9 +1227,9 @@
     "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
-    "question": "Czym jest ciąg Fibonacciego?",
+    "question": "Czym jest ciąg Fibonacciego? podaj soposby implementacji z oceną efektywnosci algorytmów ",
     "answer": "To ciąg liczb naturalnych, w którym każda kolejna liczba jest sumą dwóch poprzednich. Początek: 0,1,1,2,3,5,8,13,21…",
-    "details": "Wzór: Fn=Fn−1+Fn−2 dla n>1.",
+    "details": "Np jest implementacja rekurencyjna: bardzo prosta koncepcyjnie, ale nieefektywna – złożoność czasowa O(2^n)",
     "category": "Wprowadzenie do informatyki, Inne, komisja 4"
   },
   {
@@ -1239,7 +1241,7 @@
     "question": "Co to algorytm numeryczny stabilny i poprawny?",
     "answer": "Algorytm stabilny: Gwarantuje uzyskanie rozwiązania z błędem tego samego rzędu, co optymalny poziom błędu dla danej klasy zadań. Niestabilność oznacza gwałtowne narastanie małych błędów w trakcie obliczeń Algorytm numerycznie poprawny: Daje wynik będący dokładnym rozwiązaniem zadania dla nieco zaburzonych danych wejściowych (na poziomie błędu reprezentacji)",
     "details": "",
-    "category": "Algorytmy analizy numerycznej"
+    "category": "Algorytmy analizy numerycznej "
   },
   {
     "question": "Wymień metody rozwiązywania układów liniowych",
@@ -1251,7 +1253,7 @@
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
     "answer": "Git zarządza historią zmian poprzez commity i gałęzie, umożliwiając równoległą pracę.",
     "details": "Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase.",
-    "category": "Procesy wytwarzania oprogramowania"
+    "category": "Procesy wytwarzania oprogramowania "
   },
   {
     "question": "Czym są węzły integralności w bazach danych? Jak się je tworzy i usuwa?",
@@ -1377,7 +1379,7 @@
     "question": "Czym są historyjki użytkownika?",
     "answer": "To sposób zapisywania wymagań w metodykach zwinnych (Agile). Są to krótkie, proste opisy funkcjonalności z perspektywy użytkownika końcowego. Budowa opiera się na schemacie: \"Jako [rola użytkownika], chcę [funkcjonalność], aby [korzyść]\". Służą do skupienia zespołu na wartości biznesowej, a nie na technicznych szczegółach implementacji.",
     "details": "",
-    "category": "Inzynieria oprogramowania"
+    "category": "Inzynieria oprogramowania "
   },
   {
     "question": "Czym są scenariusze przypadków użycia?",
@@ -1427,7 +1429,7 @@
   },
   {
     "question": "Jak działa mediaplayer w Android?",
-    "answer": "MediaPlayer to klasa w Androidzie służąca do odtwarzania plików audio i wideo. Działa jako maszyna stanów - przechodzi przez stany: Idle → Initialized → Prepared → Started → Paused → Stopped. Należy przygotować źródło danych (setDataSource), przygotować odtwarzacz (prepare/prepareAsync), następnie uruchomić (start). Po zakończeniu należy zwolnić zasoby (release).",
+    "answer": ": Główna klasa do odtwarzania audio/wideo. Obsługuje pliki lokalne (katalog res/raw) i strumienie sieciowe. Działa jako maszyna stanów (Idle -> Prepared -> Started)",
     "details": "Obsługuje różne źródła: pliki lokalne, zasoby aplikacji, strumienie sieciowe (URL). Ważne: używać prepareAsync dla źródeł sieciowych, by nie blokować UI.",
     "category": "Android"
   },
@@ -1518,7 +1520,7 @@
     "question": "Co to drzewa decyzyjne?",
     "answer": "To graficzna struktura, w której: Węzły reprezentują testy na cechach danych. Gałęzie to wyniki tych testów. Liście to ostateczne decyzje lub etykiety klas.",
     "details": "",
-    "category": "AI, Algorytmika"
+    "category": "AI, Algorytmika "
   },
   {
     "question": "Co to szyfr cezara?",
@@ -1535,7 +1537,7 @@
   {
     "question": "Co to CRUD?",
     "answer": "CRUD to akronim od angielskich słów Create, Read, Update, Delete, oznaczający cztery podstawowe operacje na trwałych danych w systemach informatycznych. Termin ten definiuje standardowy zestaw funkcjonalności niezbędnych do zarządzania encjami w bazie danych lub poprzez API.",
-    "details": ""
+    "details": "Ogólne "
   },
   {
     "question": "Co to MVVM? (głównie w swift)",
@@ -1559,12 +1561,12 @@
     "question": "Wymień sposoby przekazywania danych w aplikacji mobilnych (android)",
     "answer": "1. Intencje (Intent) - Proste dane (klucz-wartość) przez Bundle (metoda putExtra). 2. LiveData - Dane w czasie rzeczywistym, uwzględnia cykl życia. 3. Interfejs Parcelable - Przesyłanie całych obiektów klas, przez opakowanie ich stanu do intencji.",
     "details": "",
-    "category": "Android"
+    "category": "Android "
   },
   {
     "question": "Co to uwierzytelnianie i autoryzacja? Czym się różnią?",
     "answer": "Uwierzytelnianie (Authentication) to proces weryfikacji tożsamości użytkownika – odpowiedź na pytanie \"Kim jesteś?\". Przykładem jest podanie loginu i hasła. Autoryzacja (Authorization) następuje po uwierzytelnieniu i jest procesem sprawdzania uprawnień – odpowiedź na pytanie \"Co możesz zrobić?\". Przykładem jest sprawdzenie, czy zalogowany użytkownik ma prawo usunąć dany plik.",
-    "details": ""
+    "details": "Ogólne "
   },
   {
     "question": "Podaj sposoby ochrony przed atakami typu session hijacking",
@@ -1609,8 +1611,8 @@
     "category": "C#"
   },
   {
-    "question": "Porównaj przeciążenia i Przesłanianie metody",
-    "answer": "Przeciążanie: Ta sama klasa, różne parametry. Wybierane przez kompilator. Przesłanianie: Dziedziczenie, identyczne parametry. Klasa \"dziecko\" zmienia sposób działania metody, którą dostała od \"rodzica\".",
+    "question": "co to przeciążenia i Przesłanianie metody",
+    "answer": "Przeciążenie (Overloading) to definiowanie wielu metod o tej samej nazwie, ale z różnymi parametrami (typy, liczba). Przesłanianie (Overriding) to redefiniowanie metody odziedziczonej z klasy bazowej w klasie pochodnej, aby zmienić jej zachowanie.",
     "details": "",
     "category": "Obiektowość, komisja 4"
   },
@@ -2077,32 +2079,80 @@
   },
   {
     "question": "Stałopozycyjna i zmiennopozycyjna reprezentacja liczb standard IEEE 754",
-    "answer": "Stałopozycyjna reprezentacja zapisuje liczby z określoną liczbą bitów dla części całkowitej i ułamkowej. Zmiennopozycyjna (floating point) zapisuje liczbę jako mantysę i wykładnik według standardu IEEE 754.",
+    "answer": "Reprezentacja stałopozycyjna to reprezentacja gdzie gdzie na część całkowitą liczby i na jej część ułamkową składają się takie same liczby bitów. Zmiennopozycyjna zapisuje liczbę jako mantysę i wykładnik według standardu IEEE 754.",
     "details": "Przykłady: liczba 12.375 w formacie IEEE 754 pojedynczej precyzji: mantysa=1.10011, wykładnik=3; w stałopozycyjnym zapisie 16-bitowym: część całkowita=12, ułamkowa=0.375. Pozwala to na reprezentowanie dużych i małych wartości przy ograniczonej liczbie bitów.",
     "category": "Wprowadzenie do informatyki, Inne, komisja 4"
   },
   {
-    "question":"jakie są gesty w ios?",
+    "question": "jakie są gesty w ios?",
     "answer": "Do podstawowych gestów należą: tap (stuknięcie), double tap, long press (długie przytrzymanie), swipe (przesunięcie), drag (przeciąganie), pinch (szczypanie), rotate (obrót).",
     "details": "",
-    "category": "swift/ios" 
+    "category": "swift/ios"
   },
   {
-    "question":"scharakteryzuj format wymiany json",
+    "question": "scharakteryzuj format wymiany json",
     "answer": "JSON (JavaScript Object Notation) to lekki, tekstowy format wymiany danych oparty na strukturach klucz–wartość.",
     "details": "",
     "category": "Ogólne, komisja 4"
   },
   {
-    "question":"składowe statyczne klasy - wady i zalety",
+    "question": "składowe statyczne klasy - wady i zalety",
     "answer": "Składowe statyczne należą do klasy, a nie do jej instancji i są współdzielone przez wszystkie obiekty.",
     "details": "Zalety: łatwy dostęp, brak potrzeby tworzenia obiektu. Wady: utrudnione testowanie, brak polimorfizmu, silne sprzężenie.",
     "category": "Obiektowość, komisja 4"
   },
   {
-    "question":"",
+    "question": "Na czym polega merge sort?",
+    "answer": "Merge sort to algorytm sortowania oparty na metodzie dziel i zwyciężaj.",
+    "details": "Algorytm rekurencyjnie dzieli tablicę na coraz mniejsze części, aż do jednoelementowych, a następnie scala je w uporządkowany sposób. Złożoność czasowa wynosi O(n log n)",
+    "category": "Algorytmika"
+  },
+  {
+    "question": "Co to język programowania?",
+    "answer": "Zbiór zasad (znaków i symboli oraz reguł ich stosowania), dzięki którym powstaje kod źródłowy programu komputerowego.",
+    "details": "Kod źródłowy musi zostać przetworzony na kod maszynowy. Etap ten nosi nazwę translacji.",
+    "category": "Ogólne, Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Co to schemat N-S (Nassi-Schneidermana)",
+    "answer": "Alternatywa dla schematów blokowych. Są to diagramy strukturalne bez strzałek, gdzie algorytm przedstawiony jest jako jeden duży prostokąt podzielony na mniejsze bloki reprezentujące sekwencje, wybory i pętle,.",
+    "details": "",
+    "category": "Ogólne, Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Co to histogram",
+    "answer": "Histogram to graficzna reprezentacja rozkładu danych liczbowych. Histogram przedstawia, jak często (z jaką częstością) występują wartości danych w określonych przedziałach (klasach).",
+    "details": "Róznica miedzy wykresem słupkowym. histogram → dane ciągłe, przedziały, słupki się stykają, wykres słupkowy → dane kategoryczne, słupki są oddzielone.",
+    "category": "Ogólne"
+  },
+  {
+    "question": "",
     "answer": "",
     "details": "",
     "category": ""
+  },
+  {
+    "question": "Elementy grafiki w android",
+    "answer": "Canvas (Płótno): Klasa zawierająca metody rysowania (linie, koła, bitmapy), Paint (Farba): Określa styl, kolor i grubość rysowania, SurfaceView: Specjalny widok do rysowania w osobnym wątku (wydajniejszy, np. do gier)",
+    "details": "",
+    "category": ""
+  },
+  {
+    "question": "Modyfikacja wyglądu komponentów w android",
+    "answer": "Style aplikujemy globanie w AndroidManifest.xml.Dodatkowo wygląd komponentów można modyfikować za pomocą Drawable (to zasób graficzny w Androidzie): Możliwość definiowania własnych kształtów (np. prostokąt z zaokrąglonymi rogami) w XML ",
+    "details": "",
+    "category": "Android"
+  },
+  {
+    "question": "Co to TCP?",
+    "answer": "TCP (Transmission Control Protocol) to protokół warstwy transportowej zapewniający niezawodne, połączeniowe przesyłanie danych.",
+    "details": "",
+    "category": "Sieci komputerowe "
+  },
+  {
+    "question": "Co to UDP?",
+    "answer": "UDP (User Datagram Protocol) to protokół warstwy transportowej umożliwiający bezpołączeniowe przesyłanie danych.",
+    "details": "",
+    "category": "Sieci komputerowe "
   }
 ]
