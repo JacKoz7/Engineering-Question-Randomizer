@@ -536,7 +536,7 @@
   },
   {
     "question": "Podaj co najmniej dwa sortowania w algorytmach i je opisz",
-    "answer": "bubble sort - porównujemy kolejne pary elementów i je zamieniamy miejscami jeśli są w złej kolejności. Złożoność O(n^2). QuickSort - algorytm dziel i zwyciężaj wybieramy element pivot, dzielimy tablice na dwie części - elementy większe od pivota i mniejsze a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn)",
+    "answer": "bubble sort - porównujemy kolejne pary elementów i je zamieniamy miejscami jeśli są w złej kolejności. Złożoność O(n^2). QuickSort (Algorytm Hoare’a) - algorytm dziel i zwyciężaj wybieramy element pivot, dzielimy tablice na dwie części - elementy większe od pivota i mniejsze a następnie rekurencyjnie sortujemy te części. Średnia złożoność O(nlogn)",
     "details": "",
     "category": "Algorytmika, komisja 4"
   },
@@ -774,14 +774,8 @@
     "category": "Android "
   },
   {
-    "question": "Czym są ciasteczka",
-    "answer": "Ciasteczka (cookies) to niewielkie porcje danych zapisywane po stronie klienta przez aplikacje internetowe.",
-    "details": "Służą do identyfikacji użytkownika, utrzymania sesji oraz przechowywania informacji o stanie aplikacji.",
-    "category": "Aplikacje internetowe "
-  },
-  {
     "question": "Lagrange /  Newton",
-    "answer": "Są to dwa sposoby wyznaczania wielomianu interpolacyjnego (różne bazy): Baza Lagrange’a: pozwala natychmiast zapisać wzór wielomianu, ale jest kosztowna obliczeniowo przy dodawaniu nowych węzłów. Baza Newtona: wykorzystuje ilorazy różnicowe do wyznaczenia współczynników wielomianu, a jego wartość oblicza się schematem Hornera",
+    "answer": "Są to dwa sposoby wyznaczania wielomianu interpolacyjnego: Metoda Lagrange’a daje gotowy wzór wielomianu interpolacyjnego, a metoda Newtona buduje go iteracyjnie, umożliwiając łatwe rozszerzanie o nowe punkty.",
     "details": "",
     "category": "Algorytmy analizy numerycznej "
   },
@@ -924,12 +918,6 @@
     "category": "Procesy wytwarzania oprogramowania "
   },
   {
-    "question": "Czym są deskryptory w css?",
-    "answer": "Deskryptor (technicznie): Występuje w regułach @ (np. @font-face), służy do definiowania właściwości zasobu, a nie stylu elementu (np. src, font-family wewnątrz @font-face).",
-    "details": "",
-    "category": "Aplikacje internetowe"
-  },
-  {
     "question": "Czym są testy jednostokowe?",
     "answer": "Testy sprawdzające pojedyncze funkcje, metody lub klasy w izolacji od reszty systemu. Pomagają szybko wykryć błędy w konkretnych fragmentach kodu.",
     "details": ""
@@ -1020,7 +1008,7 @@
   },
   {
     "question": "Co to „Dziel i zwyciężaj”? Podaj przykład algorytmów",
-    "answer": "Podział problemu na mniejsze podproblemy, rozwiązanie ich niezależnie (często rekurencyjnie) i scalenie wyników (np. MergeSort, QuickSort).",
+    "answer": "Podział problemu na mniejsze podproblemy, rozwiązanie ich niezależnie (często rekurencyjnie) i scalenie wyników (np.QuickSort, MergeSort ).",
     "details": "",
     "category": "Algorytmika, komisja 4"
   },
@@ -1186,7 +1174,7 @@
   },
   {
     "question": "Opisz algorytmy wyszukiwania wzorca w tekście",
-    "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)) 2. KMP (Knuth-Morris-Pratt): Wykorzystuje tablicę prefiksów, aby wiedzieć, o ile przesunąć wzorzec w razie niezgodności, unikając cofania się w tekście. 3. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
+    "answer": "1. Algorytm naiwny: Przesuwa wzorzec o 1 pozycję i za każdym razem porównuje wszystkie znaki. Bardzo wolny dla długich tekstów (O(dt⋅dw)). 2. Karp-Rabin (KR): Wykorzystuje funkcje haszujące (porównuje skróty liczbowe fragmentów tekstu ze skrótem wzorca).",
     "details": "",
     "category": "Algorytmika "
   },
@@ -1223,7 +1211,7 @@
   {
     "question": "Czym jest Lemat Wilkinsona",
     "answer": "opisuje wpływ błędów zaokrągleń na stabilność obliczeń numerycznych.",
-    "details": "Wskazuje, że nawet algorytmy teoretycznie poprawne mogą generować duże błędy numeryczne z powodu kumulacji błędów zaokrągleń w arytmetyce zmiennoprzecinkowej.",
+    "details": "",
     "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
@@ -1245,14 +1233,14 @@
   },
   {
     "question": "Wymień metody rozwiązywania układów liniowych",
-    "answer": "Bezpośrednie: Eliminacja Gaussa (w tym z wyborem elementu podstawowego), rozkład LU (A=LR), metoda Choleskiego (dla macierzy symetrycznych dodatnio określonych), metoda ortogonalizacji Householdera. ",
-    "details": " Iteracyjne: (Stosowane dla dużych układów, zbieżne w granicy)",
+    "answer": "Bezpośrednie: Eliminacja Gaussa, metoda Choleskiego",
+    "details": "Eliminacja Gaussa polega na przekształceniu układu równań do postaci trójkątnej, a metoda Choleskiego na rozkładzie macierzy symetrycznej dodatnio określonej na iloczyn macierzy trójkątnej i jej transpozycji.",
     "category": "Algorytmy analizy numerycznej, komisja 4"
-  },
+  },  
   {
     "question": "Opisz przepływ danych i operacje na gałęziach w git",
-    "answer": "Git zarządza historią zmian poprzez commity i gałęzie, umożliwiając równoległą pracę.",
-    "details": "Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase.",
+    "answer": "Git zarządza historią zmian poprzez commity i gałęzie, umożliwiając równoległą pracę. Dane przepływają przez commit, push, pull i fetch. Operacje na gałęziach obejmują branch, checkout/switch, merge i rebase.",
+    "details": "",
     "category": "Procesy wytwarzania oprogramowania "
   },
   {
@@ -1322,7 +1310,7 @@
     "category": "Aplikacje internetowe"
   },
   {
-    "question": "Na czym polega sortowanie przez kopcowanie?",
+    "question": "Na czym polega sortowanie przez kopcowanie? co to kopiec?",
     "answer": "To metoda sortowania wykorzystująca strukturę danych zwaną kopcem (heap), najczęściej kopiec maksymalny lub minimalny. Kopiec to specjalna struktura danych w postaci prawie pełnego drzewa binarnego, w którym każdy węzeł spełnia własność kopca (np. w kopcu maksymalnym rodzic jest większy lub równy dzieciom)",
     "details": "Algorytm buduje kopiec z danych, a następnie wielokrotnie usuwa największy (lub najmniejszy) element z kopca i umieszcza go na końcu tablicy. Powtarza się to, aż wszystkie elementy zostaną posortowane. Złożoność czasowa: O(n log n).",
     "category": "Algorytmika, komisja 4"
@@ -1371,7 +1359,7 @@
   },
   {
     "question": "Czym jest ergonomia?",
-    "answer": "W informatyce to dziedzina zajmująca się projektowaniem systemów (sprzętu i oprogramowania) tak, aby były one najlepiej dostosowane do psychofizycznych możliwości człowieka. Celem jest zapewnienie komfortu, bezpieczeństwa, wydajności pracy i minimalizacji zmęczenia użytkownika.",
+    "answer": "W informatyce ergonomia to projektowanie systemów tak, aby były wygodne, bezpieczne i dopasowane do możliwości użytkownika.",
     "details": "",
     "category": "Interakcja człowiek - komputer"
   },
@@ -1447,10 +1435,10 @@
   },
   {
     "question": "Co to układy Czebyszewa?",
-    "answer": "To układy funkcji (wielomianów ortogonalnych) stosowane w aproksymacji. Węzły oparte na zerach wielomianów Czebyszewa minimalizują błąd interpolacji i zapobiegają efektowi Rungego na krańcach przedziału",
+    "answer": "Układy Czebyszewa to zestawy punktów oparte na zerach wielomianów Czebyszewa, stosowane do interpolacji i aproksymacji w celu minimalizacji błędu.",
     "details": "",
     "category": "Algorytmy analizy numerycznej"
-  },
+  },  
   {
     "question": "Co to algorytm Karpa-Rabina i drzewo Rabina?",
     "answer": "Algorytm Rabina-Karpa to algorytm wyszukiwania wzorca w tekście używający funkcji haszującej. Oblicza hash wzorca i porównuje z hashami podciągów tekstu. Drzewo Rabina (ang. Rabin fingerprint tree) to struktura danych wykorzystująca haszowanie do efektywnego porównywania bloków danych.",
@@ -1576,7 +1564,7 @@
   },
   {
     "question": "Wymień algorytmy sortowania elementów w tablicy i ich złożoność",
-    "answer": "1. BubbleSort (Bąbelkowe): O(n^2), InsertSort (Przez wstawianie): O(n^2), SelectSort (Przez wybieranie): O(n^2), QuickSort (Szybkie): Średnio O(nlogn), pesymistycznie O(n^2), MergeSort (Scalanie): O(nlogn), HeapSort (Kopcowanie): O(nlogn).",
+    "answer": "1. BubbleSort (Bąbelkowe): O(n^2), InsertSort (Przez wstawianie): O(n^2), SelectSort (Przez wybieranie): O(n^2), QuickSort (Algorytm Hoare’a) (Szybkie): Średnio O(nlogn), pesymistycznie O(n^2), MergeSort (Scalanie): O(nlogn), HeapSort (Kopcowanie): O(nlogn).",
     "details": "",
     "category": "Algorytmika"
   },
@@ -2126,12 +2114,6 @@
     "category": "Ogólne"
   },
   {
-    "question": "",
-    "answer": "",
-    "details": "",
-    "category": ""
-  },
-  {
     "question": "Elementy grafiki w android",
     "answer": "Canvas (Płótno): Klasa zawierająca metody rysowania (linie, koła, bitmapy), Paint (Farba): Określa styl, kolor i grubość rysowania, SurfaceView: Specjalny widok do rysowania w osobnym wątku (wydajniejszy, np. do gier)",
     "details": "",
@@ -2154,5 +2136,101 @@
     "answer": "UDP (User Datagram Protocol) to protokół warstwy transportowej umożliwiający bezpołączeniowe przesyłanie danych.",
     "details": "",
     "category": "Sieci komputerowe "
+  },
+  {
+    "question": "Co to zasada KISS",
+    "answer": "KISS (Keep It Simple, Stupid) to zasada projektowania oprogramowania mówiąca, że rozwiązania powinny być jak najprostsze i nie zawierać zbędnej złożoności.",
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
+  },
+  {
+    "question": "Co to zasada YAGNI",
+    "answer": "YAGNI (You Aren’t Gonna Need It) to zasada mówiąca, że nie należy implementować funkcjonalności, dopóki nie jest ona rzeczywiście potrzebna.",
+    "details": "Chroni przed nadmiernym rozbudowywaniem systemu, redukuje koszty utrzymania i ryzyko błędów.",
+    "category": "Procesy wytwarzania oprogramowania"
+  },  
+  {
+    "question": "Czym są testy jednostkowe?",
+    "answer": "Testy jednostkowe to testy automatyczne sprawdzające poprawność działania najmniejszych fragmentów kodu, takich jak pojedyncze funkcje lub metody.",
+    "details": "",
+    "category": "Procesy wytwarzania oprogramowania"
+  },
+  {
+    "question": "Podaj poziomy izolacji transakcji",
+    "answer": "Serializable, Snapshot, Repeatable Read, Read Committed, Read Uncommitted",
+    "details": "",
+    "category": "Integracje systemów"
+  },
+  {
+    "question": "Co to diagram komponentów",
+    "answer": "Diagram UML przedstawiający fizyczną strukturę systemu - komponenty i ich zależności.",
+    "details": "",
+    "category": "Inzynieria oprogramowania "
+  },
+  {
+    "question": "Co to diagram wdrożenia",
+    "answer": "Diagram UML pokazujący fizyczne rozmieszczenie komponentów na węzłach sprzętowych.",
+    "details": "",
+    "category": "Inzynieria oprogramowania "
+  },
+  {
+    "question": "Opisz różnice między rzutowaniem równoległym a perspektywicznym ",
+    "answer": "Przepisanie współrzędnych z układu świata 3D na płaską powierzchnię 2D. Rzutowanie równoległe: Zachowuje równoległość linii i proporcje. Np: rysunek techniczny. Rzutowanie perspektywiczne: Linie projekcji schodzą się w środku projekcji (punkt widzenia). Realistycznie odwzorowują głębię i oddalenie. Np: fotografia.",
+    "details": "",
+    "category": "Grafika komputerowa"
+  },
+  {
+    "question": "Opisz idee Ray tracingu",
+    "answer": "Symulacja przebiegu promienia światła z kamery przez piksel w głąb sceny.",
+    "details": "",
+    "category": "Grafika komputerowa"
+  },
+  {
+    "question": "Różnica między strukturą a materiałem w 3D",
+    "answer": "Struktura (geometria) - „szkielet” obiektu, który definiuje jego kształt i budowę. Materiał - „skóra” obiektu, która określa jak on wygląda.",
+    "details": "",
+    "category": "Grafika komputerowa"
+  },
+  {
+    "question": "Co to if(b)",
+    "answer": "Jest to instrukcja warunkowa sprawdzająca, czy wyrażenie logiczne b ma wartość prawda.",
+    "details": "Jeśli warunek b jest spełniony (true), wykonywany jest blok instrukcji wewnątrz if. if musi byc bool. W C++ moze byc tez int, gdzie 0 = false, a inne wartości = true.",
+    "category": "Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Czym jest maszyna Turinga i teoria Turinga?",
+    "answer": "Maszyna Turinga to abstrakcyjny model obliczeń opisujący sposób wykonywania algorytmów. Teoria Turinga bada granice obliczalności, czyli jakie problemy da się rozwiązać algorytmicznie, a jakie są nierozwiązywalne.",
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Emulacja sesji w HTTP",
+    "answer": "Emulacja sesji w HTTP polega na utrzymywaniu stanu użytkownika mimo że protokół HTTP jest bezstanowy.",
+    "details": "Realizowana jest najczęściej za pomocą ciasteczek (cookies), identyfikatorów sesji, tokenów lub mechanizmów takich jak localStorage.",
+    "category": "Aplikacje internetowe"
+  },
+  {
+    "question": "Zamiana z binarnego na dziesiętny",
+    "answer": "Polega na obliczeniu sumy kolejnych bitów pomnożonych przez odpowiednie potęgi liczby 2.",
+    "details": "Każdy bit odpowiada potędze 2, licząc od prawej strony od 2⁰.",
+    "category": "Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Zamiana z binarnego na szesnastkowy",
+    "answer": "Polega na podziale liczby binarnej na grupy po 4 bity i zamianie każdej grupy na cyfrę szesnastkową.",
+    "details": "Każda grupa 4 bitów odpowiada jednej cyfrze w systemie szesnastkowym.",
+    "category": "Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Zamiana z dziesiętnego na binarny",
+    "answer": "Polega na wielokrotnym dzieleniu liczby przez 2 i zapisywaniu reszt z dzielenia.",
+    "details": "Reszty zapisane od końca tworzą liczbę binarną.",
+    "category": "Wprowadzenie do informatyki"
+  },
+  {
+    "question": "Co to interpolacja i wielomian interpolacyjny",
+    "answer": "Interpolacja polega na wyznaczeniu funkcji, która przechodzi przez dane punkty, a wielomian interpolacyjny jest taką funkcją w postaci wielomianu.",
+    "details": "",
+    "category": "Wprowadzenie do informatyki"
   }
 ]
