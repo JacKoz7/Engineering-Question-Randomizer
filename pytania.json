@@ -168,7 +168,7 @@
     "category": "Bezpieczeństwo informacji"
   },
   {
-    "question": "Przekształcenia bezkontekstowe grafiki rastrowej",
+    "question": "Przekształcenia bezkontekstowe i kontekstowe grafiki rastrowej",
     "answer": "Przekształcenia bezkontekstowe (punktowe): Zmieniają wartość piksela niezależnie od jego sąsiadów.",
     "details": "Przekształcenia kontekstowe (filtry): Zmieniają wartość piksela, uwzględniając sąsiadów. Używają masek filtrów (najczęściej 3×3)",
     "category": "Grafika komputerowa"
@@ -217,8 +217,8 @@
   },
   {
     "question": "Co to vpn?",
-    "answer": "Virtual Private Network - Wirtualna sieć prywatna. tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy.",
-    "details": "Budowa bezpiecznych połączeń na bazie publicznej infrastruktury, takiej jak Internet. ",
+    "answer": "Virtual Private Network - Wirtualna sieć prywatna. tworzy bezpieczny, zaszyfrowany „tunel” komunikacyjny przez sieć publiczną, łącząc np. oddalone biura firmy. Umożliwia łączenie się z siecią pobliczną tak jakbyśmy byli w sieci prywatnej",
+    "details": "",
     "category": "Bezpieczeństwo informacji, komisja 4"
   },
   {
@@ -607,7 +607,7 @@
   },
   {
     "question": "Czym jest rozdzielczość w obrazie rastrowym?",
-    "answer": "Określa szczegółowość obrazu rastrowego. Składa się z dwóch pojęć: PPI (Pixels Per Inch - pikseli na cal): Gęstość punktów obrazu —> zdolność zapisywania szczegółów. Rozmiar obrazu: Ilość pikseli w poziomie × pionie (1920×1080) lub całkowita liczba (5Mpix).",
+    "answer": "Określa szczegółowość obrazu rastrowego. Składa się z dwóch pojęć: PPI (Pixels Per Inch - pikseli na cal): Gęstość punktów obrazu —> zdolność zapisywania szczegółów i z rozmiaru obrazu: Ilość pikseli w poziomie × pionie (1920×1080).",
     "details": "",
     "category": "Grafika komputerowa"
   },
@@ -888,11 +888,11 @@
     "category": "Aplikacje internetowe"
   },
   {
-    "question": "Czym jest całkowanie numeryczne?",
-    "answer": "Jest to przybliżone obliczanie całek oznaczonych za pomocą skończonej sumy (zwanej kwadraturą), będącej kombinacją liniową wartości funkcji (i ewentualnie jej pochodnych) w określonych punktach zwanych węzłami",
-    "details": "",
-    "category": "Algorytmy analizy numerycznej "
-  },
+    "question": "Czym jest całkowanie numeryczne? podaj metody",
+    "answer": "Całkowanie numeryczne polega na przybliżonym obliczaniu wartości całki, gdy nie da się jej policzyć analitycznie.",
+    "details": "Stosuje się m.in. kwadratury interpolacyjne (np. metoda trapezów, Simpsona), które aproksymują funkcję wielomianem, oraz kwadratury Gaussa, wykorzystujące optymalnie dobrane węzły i wagi w celu uzyskania jak największej dokładności.",
+    "category": "Algorytmy analizy numerycznej"
+  },  
   {
     "question": "Co to stos i jakie są jego funkcje/operacje?",
     "answer": "Stos to struktura typu LIFO (Last In First Out). Funkcje (operacje): push – połóż element na wierzchołek. pop – zdejmij element z wierzchołka. top – sprawdź wartość na wierzchołku. empty – sprawdź, czy stos jest pusty.",
@@ -1193,7 +1193,7 @@
   {
     "question": "Co to schemat hornera?",
     "answer": "Algorytm pozwalający na obliczenie wartości wielomianu przy minimalnej liczbie mnożeń. Złożoność obliczeniowa wynosi O(n).",
-    "details": "To algorytm pozwalający na efektywne obliczanie wartości wielomianu przy zminimalizowanej liczbie mnożeń. Jest również stosowany przy interpolacji z użyciem bazy Newtona. Jest również wykorzystywany do efektywnego dzielenia wielomianu przez dwumian (x−c).",
+    "details": "Uogólniony scheamt hornera pozwala jeszcze obliczyć dodatkowe informacje takie jak na przykład pochodne",
     "category": "Algorytmy analizy numerycznej, komisja 4"
   },
   {
@@ -1227,7 +1227,7 @@
   },
   {
     "question": "Co to algorytm numeryczny stabilny i poprawny?",
-    "answer": "Algorytm stabilny: Gwarantuje uzyskanie rozwiązania z błędem tego samego rzędu, co optymalny poziom błędu dla danej klasy zadań. Niestabilność oznacza gwałtowne narastanie małych błędów w trakcie obliczeń Algorytm numerycznie poprawny: Daje wynik będący dokładnym rozwiązaniem zadania dla nieco zaburzonych danych wejściowych (na poziomie błędu reprezentacji)",
+    "answer": "Algorytm numeryczny poprawny daje wynik bliski dokładnemu rozwiązaniu, a stabilny pokazuję że niewielkie zaburzenia danych nie powodują dużych odchyleń w wyniku ",
     "details": "",
     "category": "Algorytmy analizy numerycznej "
   },
@@ -1448,12 +1448,12 @@
   {
     "question": "Co to licznik odwołań ARC w Swift?",
     "answer": "Automatic Reference Counting to mechanizm automatycznego zarządzania pamięcią w języku Swift. Każdy obiekt ma licznik, który śledzi ile zmiennych/właściwości wskazuje na ten obiekt. Gdy tworzysz nową referencję, licznik rośnie. Gdy referencja przestaje istnieć, licznik maleje. Kiedy licznik spadnie do zera, obiekt jest automatycznie usuwany z pamięci.",
-    "details": "Problem: cykle referencji (A wskazuje na B, B na A) - rozwiązanie przez weak/unowned references.",
+    "details": "",
     "category": "swift/ios"
   },
   {
     "question": "Na czym polega metoda najmniejszych kwadratów?",
-    "answer": "Polega na znalezieniu takiej funkcji aproksymującej (lub wektora współczynników), dla której suma kwadratów różnic między danymi wartościami a wartościami tej funkcji jest najmniejsza. Stosuje się ją m.in. do rozwiązywania nadokreślonych układów równań (więcej równań niż niewiadomych)",
+    "answer": "Metoda najmniejszych kwadratów polega na wyznaczeniu funkcji najlepiej dopasowanej do danych punktów poprzez minimalizację sumy kwadratów błędów.",
     "details": "",
     "category": "Algorytmy analizy numerycznej"
   },
@@ -1547,7 +1547,7 @@
   },
   {
     "question": "Wymień sposoby przekazywania danych w aplikacji mobilnych (android)",
-    "answer": "1. Intencje (Intent) - Proste dane (klucz-wartość) przez Bundle (metoda putExtra). 2. LiveData - Dane w czasie rzeczywistym, uwzględnia cykl życia. 3. Interfejs Parcelable - Przesyłanie całych obiektów klas, przez opakowanie ich stanu do intencji.",
+    "answer": "1. Intencje (Intent) - Proste dane (klucz-wartość) przez Bundle. 2. LiveData - Dane w czasie rzeczywistym, uwzględnia cykl życia. 3. Interfejs Parcelable - Przesyłanie całych obiektów klas, przez opakowanie ich stanu do intencji.",
     "details": "",
     "category": "Android "
   },
@@ -1613,7 +1613,7 @@
   {
     "question": "Jak się łączy zbiory danych? (SQL)",
     "answer": "„Łączenie” oznacza zwykle JOIN – powiązanie tabel według jakiegoś klucza: INNER JOIN – Łączymy tylko te rekordy, które mają pasujący klucz w obu tabelach. LEFT JOIN – wszystkie rekordy z lewej tabeli + dopasowane z prawej (lub NULL jeśli brak). RIGHT JOIN – analogicznie dla prawej tabeli",
-    "details": "FULL OUTER JOIN – wszystkie rekordy z obu tabel, brakujące wartości jako NULL",
+    "details": "  CROSS JOIN - iloczyn kartezjańsi",
     "category": "Bazy danych"
   },
   {
@@ -2117,7 +2117,7 @@
     "question": "Elementy grafiki w android",
     "answer": "Canvas (Płótno): Klasa zawierająca metody rysowania (linie, koła, bitmapy), Paint (Farba): Określa styl, kolor i grubość rysowania, SurfaceView: Specjalny widok do rysowania w osobnym wątku (wydajniejszy, np. do gier)",
     "details": "",
-    "category": ""
+    "category": "Android"
   },
   {
     "question": "Modyfikacja wyglądu komponentów w android",
@@ -2163,13 +2163,13 @@
   },
   {
     "question": "Co to diagram komponentów",
-    "answer": "Diagram UML przedstawiający fizyczną strukturę systemu - komponenty i ich zależności.",
+    "answer": "Diagram UML przedstawiający zaleności i interakcje między komponentami systemu.",
     "details": "",
     "category": "Inzynieria oprogramowania "
   },
   {
     "question": "Co to diagram wdrożenia",
-    "answer": "Diagram UML pokazujący fizyczne rozmieszczenie komponentów na węzłach sprzętowych.",
+    "answer": "Diagram wdrożenia w UML pokazuje rozmieszczenie komponentów systemu na fizycznych węzłach (np. serwery, urządzenia).",
     "details": "",
     "category": "Inzynieria oprogramowania "
   },
@@ -2231,6 +2231,6 @@
     "question": "Co to interpolacja i wielomian interpolacyjny",
     "answer": "Interpolacja polega na wyznaczeniu funkcji, która przechodzi przez dane punkty, a wielomian interpolacyjny jest taką funkcją w postaci wielomianu.",
     "details": "",
-    "category": "Wprowadzenie do informatyki"
+    "category": "Algorytmy analizy numerycznej"
   }
 ]
