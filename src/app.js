@@ -104,7 +104,7 @@ function toggleEmptyState() {
 
 async function loadQuestionsFromFile() {
   try {
-    const response = await fetch("pytania.json");
+    const response = await fetch("data/pytania.json");
     allQuestions = await response.json();
 
     renderCategories();
