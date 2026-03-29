@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "obrona-inzynierka",
+      "title": "Obrona inżynierka 2026",
+      "emoji": "🎓",
+      "type": "direct",
+      "dataPath": "obrona-inzynierka"
+    },
+    {
+      "id": "sem1",
+      "title": "Semestr 1",
+      "emoji": "📘",
+      "type": "subjects",
+      "subjects": [
+        {
+          "id": "bezpieczenstwo-sieci",
+          "title": "Bezpieczeństwo w sieciach komputerowych"
+        }
+      ]
+    },
+    {
+      "id": "sem2",
+      "title": "Semestr 2",
+      "emoji": "📗",
+      "type": "subjects",
+      "subjects": []
+    },
+    {
+      "id": "sem3",
+      "title": "Semestr 3",
+      "emoji": "📙",
+      "type": "subjects",
+      "subjects": []
+    },
+    {
+      "id": "obrona-magisterka",
+      "title": "Obrona magisterka 2027",
+      "emoji": "🏆",
+      "type": "direct",
+      "dataPath": "obrona-magisterka",
+      "comingSoon": true
+    }
+  ]
+}

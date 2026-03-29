@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Obrona simulator</title>
+    <title>StudyHub</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,111 +17,102 @@
     <div class="bg-shape shape-2"></div>
     <div class="bg-overlay"></div>
 
-    <div class="container">
-      <header class="glass-panel header">
-        <div class="header-top">
+    <!-- ═══════════════════════════════════════════════════ MENU VIEW -->
+    <div id="menu-view" class="view-container hidden">
+      <div class="container">
+        <header class="menu-header-bar">
           <div class="brand">
             <span class="brand-icon">🤓</span>
-            <h1>Obrona<span class="highlight">2026</span></h1>
+            <h1>Study<span class="highlight">Hub</span></h1>
           </div>
-          <div class="header-controls">
-            <button id="learnModeBtn" class="mode-toggle">
-              <span class="icon">📚</span>
-              <span class="text">Tryb nauki</span>
-            </button>
-            <div class="version-tag">v2.0</div>
-          </div>
-        </div>
-
-        <div class="stats-grid">
-          <div class="stat-item">
-            <span class="stat-label">Baza pytań</span>
-            <span id="questionCount" class="stat-value">0</span>
-          </div>
-          <div class="stat-item danger">
-            <span class="stat-label">Bez odpowiedzi</span>
-            <span id="unansweredCount" class="stat-value">0</span>
-          </div>
-          <div class="stat-item info">
-            <span class="stat-label">Do nauki</span>
-            <span id="toLearnCount" class="stat-value">0</span>
-          </div>
-          <div
-            class="stat-item success"
-            id="remainingCounter"
-            style="display: none"
-          >
-            <span class="stat-label">Pozostało</span>
-            <span id="remainingCount" class="stat-value">0</span>
-          </div>
-        </div>
-      </header>
-
-      <div class="filters-wrapper glass-panel">
-        <button id="categoryToggleBtn" class="filter-toggle-btn">
-          <div class="filter-info">
-            <span class="icon">🏷️</span>
-            <span class="label">Kategorie</span>
-            <span id="filterSummary" class="filter-summary">Wszystkie</span>
-          </div>
-          <svg
-            class="chevron-icon"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
-
-        <div class="categories-list">
-          <div class="categories-scroll-wrapper">
-            <div
-              id="categoriesContainer"
-              class="categories-inner-content"
-            ></div>
-          </div>
-        </div>
+          <div class="version-tag">v3.0</div>
+        </header>
+        <p class="menu-subtitle">Wybierz zestaw pytań</p>
+        <div id="sections-container" class="sections-grid"></div>
       </div>
+    </div>
 
-      <main id="questionsContainer" class="cards-grid"></main>
+    <!-- ═══════════════════════════════════════════════════ QUIZ VIEW -->
+    <div id="quiz-view" class="view-container hidden">
+      <div class="container">
 
-      <div class="controls-area">
-        <button id="drawButton" class="cta-button" disabled>
-          <span>Losuj pytania</span>
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
+        <header class="glass-panel header">
+          <div class="header-top">
+            <div class="header-left">
+              <button id="backBtn" class="back-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                Menu
+              </button>
+              <span id="quizTitle" class="quiz-title"></span>
+            </div>
+            <div class="header-controls">
+              <button id="learnModeBtn" class="mode-toggle">
+                <span class="icon">📚</span>
+                <span class="text">Tryb nauki</span>
+              </button>
+            </div>
+          </div>
 
-        <label class="custom-checkbox">
-          <input type="checkbox" id="noRepeatCheckbox" />
-          <span class="checkmark">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="3"
-            >
-              <polyline points="20 6 9 17 4 12"></polyline>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Baza pytań</span>
+              <span id="questionCount" class="stat-value">0</span>
+            </div>
+            <div class="stat-item danger">
+              <span class="stat-label">Bez odpowiedzi</span>
+              <span id="unansweredCount" class="stat-value">0</span>
+            </div>
+            <div class="stat-item info">
+              <span class="stat-label">Do nauki</span>
+              <span id="toLearnCount" class="stat-value">0</span>
+            </div>
+            <div class="stat-item success" id="remainingCounter" style="display: none">
+              <span class="stat-label">Pozostało</span>
+              <span id="remainingCount" class="stat-value">0</span>
+            </div>
+          </div>
+        </header>
+
+        <div class="filters-wrapper glass-panel">
+          <button id="categoryToggleBtn" class="filter-toggle-btn">
+            <div class="filter-info">
+              <span class="icon">🏷️</span>
+              <span class="label">Kategorie</span>
+              <span id="filterSummary" class="filter-summary">Wszystkie</span>
+            </div>
+            <svg class="chevron-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
             </svg>
-          </span>
-          <span class="label-text">Bez powtórek</span>
-        </label>
+          </button>
+          <div class="categories-list">
+            <div class="categories-scroll-wrapper">
+              <div id="categoriesContainer" class="categories-inner-content"></div>
+            </div>
+          </div>
+        </div>
+
+        <main id="questionsContainer" class="cards-grid"></main>
+
+        <div class="controls-area">
+          <button id="drawButton" class="cta-button" disabled>
+            <span>Losuj pytania</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <label class="custom-checkbox">
+            <input type="checkbox" id="noRepeatCheckbox" />
+            <span class="checkmark">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </span>
+            <span class="label-text">Bez powtórek</span>
+          </label>
+        </div>
+
       </div>
     </div>
 

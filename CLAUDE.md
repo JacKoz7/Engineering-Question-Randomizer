@@ -19,41 +19,56 @@ Opening `index.html` directly via `file://` will fail because `fetch()` is block
 ## Architecture
 
 ```
-index.html      ← entry point (must stay at root for GitHub Pages)
+index.html                         ← entry point (must stay at root for GitHub Pages)
 src/
-  app.js        ← all application logic
-  styles.css    ← styling and animations
+  app.js                           ← all application logic
+  styles.css                       ← styling and animations
 data/
-  pytania.json  ← question database
-  pytania.txt   ← raw source (tab-separated)
-  categories.txt
+  config.json                      ← menu structure — edit this to add sections/subjects
+  obrona-inzynierka/pytania.json   ← question database for that section
+  sem1/bezpieczenstwo-sieci.json   ← question database for that subject
+  pytania.txt / categories.txt     ← raw source files (reference only)
 tools/
-  converter.py  ← converts pytania.txt → pytania.json template
+  converter.py                     ← converts pytania.txt → pytania.json template
 ```
 
-**src/app.js** — All application logic:
-- `loadQuestionsFromFile()` fetches `pytania.json` on startup
-- `getQuestionPool()` applies active category filters + learn mode
-- `getRandomQuestions()` draws 3 questions from the pool, respecting no-repeat state
-- `displayQuestions()` renders flip-cards and wires up click handlers
-- `renderCategories()` builds the filter UI dynamically from categories in the data
-- `updateStats()` refreshes the header counters
-- `toLearnQuestions` (a `Set`) is persisted to `localStorage` as `toLearnQuestions`
+### Routing
 
-**pytania.json** — Array of question objects:
+Hash-based routing, no framework:
+- `#` (empty) → menu view
+- `#quiz/obrona-inzynierka` → loads `data/obrona-inzynierka/pytania.json`
+- `#quiz/sem1/bezpieczenstwo-sieci` → loads `data/sem1/bezpieczenstwo-sieci.json`
+
+### src/app.js
+
+- `handleRoute()` — reads `location.hash`, calls `showMenu()` or `enterQuiz(path)`
+- `enterQuiz(path)` — resets all state, loads data from `data/{path}/pytania.json`
+- `renderMenu()` — builds the menu from `config.json` (accordion for semesters, direct link for obrona)
+- `getQuestionPool()` — applies category filters + learn mode
+- `toLearnQuestions` — scoped per dataset in localStorage: key `toLearn__{path}`
+
+### data/config.json — Question object format
+
 ```json
 {
   "question": "...",
   "answer": "...",
-  "details": "...",   // optional, extended explanation
-  "category": "Bazy danych"  // can be comma-separated for multi-category
+  "details": "...",   // optional extended explanation
+  "category": "Bazy danych"  // comma-separated for multi-category
 }
 ```
 
-Categories are free-text strings derived from the data itself — `renderCategories()` collects all unique values at runtime.
+## Adding a New Subject
 
-**tools/converter.py** — One-off utility to convert `pytania.txt` (tab-separated) into the JSON template. Run it when importing new questions from the raw text format.
+1. Create `data/semX/<subject-id>.json` with a JSON array of question objects (can be `[]` to start)
+2. Add an entry to `data/config.json` under the appropriate semester's `subjects` array:
+   ```json
+   { "id": "<subject-id>", "title": "Nazwa przedmiotu" }
+   ```
 
-## Adding or Editing Questions
+## Adding a New Section
 
-Edit `pytania.json` directly. Each object requires `question` and `category`. `answer` and `details` are optional but expected by the UI. Multi-category assignment uses comma-separated values in the `category` field (e.g., `"Bezpieczeństwo informacji, komisja 4"`).
+Add to `data/config.json` `sections` array:
+- `type: "direct"` + `dataPath` → single quiz (like Obrona)
+- `type: "subjects"` + `subjects: []` → expandable accordion with subject list
+- `comingSoon: true` → grayed out, non-clickable
