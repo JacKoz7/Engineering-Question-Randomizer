@@ -1,0 +1,146 @@
+[
+  {
+    "question": "Co to Protokół DTP",
+    "answer": "Protokół Cisco do automatycznej negocjacji trunków. Domyślnie włączony na Catalyst 2960/3560.",
+    "details": "",
+    "category": "lab4, lab5"
+  },
+  {
+    "question": "Wymień tryby DTP",
+    "answer": "1. access - port jest zawsze access, nie negocjuje trunku\n2. trunk - port jest zawsze trunk, nie negocjuje trunku\n3. dynamic auto - port stara się zostać trunkiem, ale jeśli druga strona nie jest w trybie trunk lub dynamic auto, to port zostaje access\n4. dynamic desirable - port stara się zostać trunkiem, ale jeśli druga strona nie jest w trybie trunk lub dynamic auto, to port zostaje access\n5. nonegotiate - port jest zawsze trunk, ale nie wysyła DTP",
+    "details": "",
+    "category": "lab4, lab5"
+  },
+  {
+    "question": "Co to EtherChannel",
+    "answer": "Agregacja łączy — łączy kilka fizycznych portów Ethernet w jeden logiczny. Zapewnia większą przepustowość i nadmiarowość. STP traktuje cały Port-Channel jako jeden port (nie blokuje połowy łączy jak przy osobnych połączeniach).",
+    "details": "",
+    "category": "lab6"
+  },
+  {
+    "question": "Co to protokół STP",
+    "answer": "Zadanie STP: zapewnienie tylko jednej logicznej ścieżki w sieci przez blokowanie redundantnych połączeń (zapobieganie pętlom L2).",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Jak się wybiera root bridge w STP",
+    "answer": " przełącznik z najniższym BID (Bridge ID) zostaje root bridge.",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Wymień Protokoły EtherChannel",
+    "answer": "1. LACP (IEEE 802.3ad) active – sam inicjuje połączenie (szuka partnera). \n2. LACP passive – tylko odpowiada, nie zaczyna. \n3. PAgP (Cisco) desirable – aktywnie próbuje zestawić kanał. \n4. PAgP auto – tylko odpowiada na próby. Static (on) – brak negocjacji, działa „na sztywno”.",
+    "details": "",
+    "category": "lab6"
+  },
+  {
+    "question": "Wymień role portów w STP",
+    "answer": "1. Root Port: Najbliższy mostowi głównemu. 2. Designated Port: Przesyła ruch, wybierany na każdym segmencie sieci (most główny ma same porty desygnowane) 3. Alternate port: Znajduje się w stanie blokowania, zapobiegając pętli 4. disabled port: Port wyłączony ręcznie lub z powodu błędu - Administracyjnie wyłączony",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Wymień warianty stp",
+    "answer": "STP (802.1D, jedna instancja), PVST+ (domyślny w Cisco, osobna instancja dla każdego VLANu), RSTP (802.1w, szybsza zbieżność) oraz Rapid PVST+ (jedna instancja, czas zbieności <10s)",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Wymień mechanizmy ochrony STP / Funkcje Bezpieczeństwa STP",
+    "answer": "Portfast, BPDU guard, Root Guard, Loop Guard",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Opisz Portfast",
+    "answer": "Pozwala portom dostępowym natychmiast przejść do stanu przekazywania (pomija stany nasłuchiwania i uczenia), aby urządzenia końcowe mogły szybciej połączyć się z siecią.",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Opis BPDU guard",
+    "answer": " Chroni sieć przed obcymi przełącznikami. Jeśli port z włączonym PortFast odbierze ramkę BPDU, BPDU Guard natychmiast go wyłączy (stan err-disable).",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Opisz Root Guard",
+    "answer": "Chroni przed próbami przejęcia roli mostu głównego (Root Bridge) przez obce lub nowo podłączone przełączniki. Włącza się go głównie na portach brzegowych",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Opisz Loop Guard",
+    "answer": "Zapobiega powstawaniu pętli STP w sytuacji, gdy zablokowany port nagle przestaje otrzymywać ramki BPDU. Zamiast przejść w stan przekazywania, port wchodzi w bezpieczny stan 'niespójności pętli'",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Co to CDP?",
+    "answer": "Protokół odkrywania sieci - CDP (Cisco Discovery Protocol): Protokół własnościowy Cisco. Jest włączony domyślnie na urządzeniach tej firmy",
+    "details": "Informacje CDP: hostname, platforma, wersja IOS, adresy IP, porty połączeń, możliwości urządzenia. Wyłączenie globalnie: no cdp run. Wyłączenie na interfejsie: no cdp enable",
+    "category": "lab6"
+  },
+  {
+    "question": "Co to LLDP?",
+    "answer": "protokół odkrywania sieci - Protokół neutralny dla dostawcy (standard branżowy). W odróżnieniu od CDP, dla LLDP można precyzyjniej kontrolować ruch na interfejsach ustawiając tylko odbieranie (lldp receive) lub tylko wysyłanie (lldp transmit)",
+    "details": "Włączenie: lldp run",
+    "category": "lab6"
+  },
+  {
+    "question": "Co to NTP?",
+    "answer": "Cel: Służy do synchronizowania czasu na urządzeniach w sieci (np. aby logi systemowe miały dokładne znaczniki czasu)",
+    "details": "Działanie: Wykorzystuje protokół UDP i domyślnie posługuje się czasem uniwersalnym UTC. Można konfigurować urządzenia jako serwery (ntp master) rozgłaszające czas oraz jako klientów (ntp server <adres-ip>) pobierających czas",
+    "category": "lab6"
+  },
+  {
+    "question": "Co to LACP?",
+    "answer": "(Link Aggregation Control Protocol): Znormalizowany protokół (IEEE 802.3ad) służący do konfiguracji EtherChannel, niezależny od producenta sprzętu. Maksymalnie można zgrupować 16 portów (8 aktywnych i 8 w trybie gotowości)",
+    "details": "",
+    "category": "lab6"
+  },
+  {
+    "question": "[komenda] podstawowa weryfikacja poprawności agregacji łączy.",
+    "answer": "show etherchannel summary",
+    "details": "Flagi w show etherchannel summary: S = Layer 2 port-channel, U = in use (bundled / aktywny), P = port jest częścią aktywnego channel-group",
+    "category": "lab6"
+  },
+  {
+    "question": "[komenda] zablokowanie ramek DTP (ochrona przed VLAN hopping).",
+    "answer": "switchport nonegotiate",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "[komenda] włączenie zabezpieczeń portu",
+    "answer": "switchport port-security",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "[komendy] uruchomienie PortFast, BPDU Guard, Root Guard i Loop Guard na porcie dostępowym",
+    "answer": "spanning-tree portfast  \n spanning-tree bpduguard enable  \n spanning-tree guard root  \n spanning-tree loopguard default",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "[komenda] w ntp aktualizuje nie tylko zegar programowy (software clock), ale też sprzętowy zegar urządzenia (hardware calendar), który działa niezależnie od IOS.",
+    "answer": "ntp update-calendar",
+    "details": "",
+    "category": "lab6"
+  },
+  {
+    "question": "Opisz budowę BID (Bridge ID) w STP",
+    "answer": "1. Priorytet - 4 bity, Domyślnie 32768; zakres 0–61440, wielokrotność 4096 \n 2. Extended System ID (VLAN ID) - 12 bitów, Identyfikator instancji STP (nr VLAN) \n 3. MAC Address - 48 bitów, adres MAC przełącznika",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Co to port-channel?",
+    "answer": "wirtualny interfejs logiczny (np. Po1), tworzony automatycznie. Dziedziczy konfigurację z pierwszego portu fizycznego w grupie. Maks. 16 portów (LACP: 8 aktywnych + 8 standby).",
+    "details": "",
+    "category": "lab6"
+  }
+]

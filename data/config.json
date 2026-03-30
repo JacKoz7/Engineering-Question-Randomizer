@@ -5,7 +5,8 @@
       "title": "Obrona inżynierka 2026",
       "emoji": "🎓",
       "type": "direct",
-      "dataPath": "obrona-inzynierka"
+      "dataPath": "obrona-inzynierka",
+      "theme": "academic"
     },
     {
       "id": "sem1",
@@ -15,7 +16,8 @@
       "subjects": [
         {
           "id": "bezpieczenstwo-sieci",
-          "title": "Bezpieczeństwo w sieciach komputerowych"
+          "title": "Bezpieczeństwo w sieciach komputerowych",
+          "theme": "cyber"
         }
       ]
     },

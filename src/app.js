@@ -56,6 +56,7 @@ function showMenu() {
     learnMode = false;
     document.body.classList.remove("learn-mode");
   }
+  document.body.removeAttribute("data-theme");
   menuView.classList.remove("hidden");
   quizView.classList.add("hidden");
   renderMenu();
@@ -168,6 +169,9 @@ async function enterQuiz(path) {
   filtersWrapper.classList.remove("open");
 
   quizTitle.textContent = resolveTitle(path);
+  const theme = resolveTheme(path);
+  if (theme) document.body.setAttribute("data-theme", theme);
+  else document.body.removeAttribute("data-theme");
   loadToLearnFromStorage();
 
   menuView.classList.add("hidden");
@@ -188,6 +192,19 @@ function resolveTitle(path) {
     }
   }
   return path;
+}
+
+function resolveTheme(path) {
+  if (!config) return null;
+  for (const section of config.sections) {
+    if (section.type === "direct" && section.dataPath === path) return section.theme || null;
+    if (section.type === "subjects") {
+      for (const sub of section.subjects) {
+        if (`${section.id}/${sub.id}` === path) return sub.theme || null;
+      }
+    }
+  }
+  return null;
 }
 
 backBtn.addEventListener("click", () => {

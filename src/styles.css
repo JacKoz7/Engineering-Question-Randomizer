@@ -879,3 +879,135 @@ body.no-questions .controls-area {
     grid-template-columns: 1fr;
   }
 }
+
+/* ══════════════════════════════════════════════════════════════ THEME: CYBER */
+/* Bezpieczeństwo w sieciach komputerowych — klimat terminal/matrix */
+body[data-theme="cyber"] {
+  --primary: #00d4aa;
+  --primary-dark: #00a884;
+  --secondary: #06b6d4;
+}
+
+body[data-theme="cyber"] .bg-overlay {
+  background: linear-gradient(135deg, #001a12 0%, #002d20 50%, #001520 100%);
+}
+
+body[data-theme="cyber"] .shape-1 {
+  background: #00d4aa;
+}
+
+body[data-theme="cyber"] .shape-2 {
+  background: #06b6d4;
+}
+
+body[data-theme="cyber"] .brand .highlight {
+  color: var(--primary);
+}
+
+body[data-theme="cyber"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(0, 212, 170, 0.4);
+}
+
+body[data-theme="cyber"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(0, 212, 170, 0.5);
+}
+
+body[data-theme="cyber"] .question-card h3 {
+  color: var(--primary);
+}
+
+body[data-theme="cyber"] .filter-summary {
+  color: var(--primary);
+}
+
+body[data-theme="cyber"] .category-badge {
+  background: rgba(0, 212, 170, 0.1);
+  color: var(--primary);
+  border-color: rgba(0, 212, 170, 0.25);
+}
+
+body[data-theme="cyber"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+body[data-theme="cyber"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+body[data-theme="cyber"] .answer {
+  color: var(--primary-dark);
+}
+
+/* Learn mode inside cyber theme */
+body[data-theme="cyber"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #1a0a00 0%, #2d1500 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: ACADEMIC */
+/* Obrona inżynierka — złoto-granatowy klimat dyplomowy */
+body[data-theme="academic"] {
+  --primary: #f59e0b;
+  --primary-dark: #d97706;
+  --secondary: #fbbf24;
+}
+
+body[data-theme="academic"] .bg-overlay {
+  background: linear-gradient(135deg, #0c1222 0%, #1a2540 50%, #0f1b35 100%);
+}
+
+body[data-theme="academic"] .shape-1 {
+  background: #f59e0b;
+}
+
+body[data-theme="academic"] .shape-2 {
+  background: #3b82f6;
+}
+
+body[data-theme="academic"] .brand .highlight {
+  color: var(--primary);
+}
+
+body[data-theme="academic"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+}
+
+body[data-theme="academic"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.5);
+}
+
+body[data-theme="academic"] .question-card h3 {
+  color: var(--primary);
+}
+
+body[data-theme="academic"] .filter-summary {
+  color: var(--primary);
+}
+
+body[data-theme="academic"] .category-badge {
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--primary);
+  border-color: rgba(245, 158, 11, 0.25);
+}
+
+body[data-theme="academic"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+
+body[data-theme="academic"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+body[data-theme="academic"] .answer {
+  color: var(--primary-dark);
+}
+
+/* Learn mode inside academic theme */
+body[data-theme="academic"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
