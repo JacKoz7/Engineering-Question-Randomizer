@@ -1,7 +1,7 @@
 [
   {
     "question": "Co to Protokół DTP",
-    "answer": "Protokół Cisco do automatycznej negocjacji trunków. Domyślnie włączony na Catalyst 2960/3560.",
+    "answer": "Protokół DTP (Dynamic Trunking Protocol) to protokół Cisco do automatycznej negocjacji trunków. Domyślnie włączony na Catalyst 2960/3560.",
     "details": "",
     "category": "lab4, lab5"
   },
@@ -85,13 +85,13 @@
   },
   {
     "question": "Co to LLDP?",
-    "answer": "protokół odkrywania sieci - Protokół neutralny dla dostawcy (standard branżowy). W odróżnieniu od CDP, dla LLDP można precyzyjniej kontrolować ruch na interfejsach ustawiając tylko odbieranie (lldp receive) lub tylko wysyłanie (lldp transmit)",
+    "answer": " LLDP (Link Layer Discovery Protocol) to protokół odkrywania sieci - Protokół neutralny dla dostawcy (standard branżowy). W odróżnieniu od CDP, dla LLDP można precyzyjniej kontrolować ruch na interfejsach ustawiając tylko odbieranie (lldp receive) lub tylko wysyłanie (lldp transmit)",
     "details": "Włączenie: lldp run",
     "category": "lab6"
   },
   {
     "question": "Co to NTP?",
-    "answer": "Cel: Służy do synchronizowania czasu na urządzeniach w sieci (np. aby logi systemowe miały dokładne znaczniki czasu)",
+    "answer": "NTP (Network Time Protocol): Służy do synchronizowania czasu na urządzeniach w sieci (np. aby logi systemowe miały dokładne znaczniki czasu)",
     "details": "Działanie: Wykorzystuje protokół UDP i domyślnie posługuje się czasem uniwersalnym UTC. Można konfigurować urządzenia jako serwery (ntp master) rozgłaszające czas oraz jako klientów (ntp server <adres-ip>) pobierających czas",
     "category": "lab6"
   },
