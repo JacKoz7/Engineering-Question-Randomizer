@@ -142,5 +142,17 @@
     "answer": "wirtualny interfejs logiczny (np. Po1), tworzony automatycznie. Dziedziczy konfigurację z pierwszego portu fizycznego w grupie. Maks. 16 portów (LACP: 8 aktywnych + 8 standby).",
     "details": "",
     "category": "lab6"
+  },
+  {
+    "question": "W procesie wyboru Mostu Głównego (Root Bridge) w protokole STP, który parametr jest decydujący, gdy wszystkie przełączniki mają identyczny priorytet?",
+    "answer": "Najniszy adres MAC przełącznika",
+    "details": "",
+    "category": "lab5"
+  },
+  {
+    "question": "Czym się rózni CDP od LLDP?",
+    "answer": "CDP to protokół własnościowy Cisco, natomiast LLDP jest standardem niezaleznym od dostawcy",
+    "details": "",
+    "category": "lab6"
   }
 ]

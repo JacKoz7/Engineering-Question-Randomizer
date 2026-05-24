@@ -7,6 +7,9 @@ let allQuestions = [];
 let usedQuestions = [];
 let noRepeatMode = false;
 let learnMode = false;
+let quizMode = false;
+let quizQueue = [];
+let quizIndex = 0;
 let toLearnQuestions = new Set();
 let selectedCategories = new Set();
 
@@ -55,6 +58,10 @@ function showMenu() {
   if (learnMode) {
     learnMode = false;
     document.body.classList.remove("learn-mode");
+  }
+  if (quizMode) {
+    quizMode = false;
+    document.body.classList.remove("quiz-mode");
   }
   document.body.removeAttribute("data-theme");
   menuView.classList.remove("hidden");
@@ -157,6 +164,9 @@ async function enterQuiz(path) {
   usedQuestions = [];
   noRepeatMode = false;
   learnMode = false;
+  quizMode = false;
+  quizQueue = [];
+  quizIndex = 0;
   selectedCategories = new Set();
   currentDataPath = path;
 
@@ -259,12 +269,17 @@ drawButton.addEventListener("click", () => {
     return;
   }
 
-  const drawn = getRandomQuestions(available, Math.min(3, available.length));
+  const drawCount = quizMode ? 1 : Math.min(3, available.length);
+  const drawn = getRandomQuestions(available, drawCount);
   if (noRepeatMode) {
     usedQuestions.push(...drawn);
     updateStats();
   }
-  displayQuestions(drawn);
+  if (quizMode) {
+    displayQuizCard(drawn[0]);
+  } else {
+    displayQuestions(drawn);
+  }
 });
 
 // ── Quiz logic ────────────────────────────────────────────────────────────────
@@ -301,9 +316,16 @@ async function loadQuestionsFromFile(filePath) {
   try {
     const response = await fetch(filePath);
     allQuestions = await response.json();
+    quizMode = allQuestions.length > 0 && Array.isArray(allQuestions[0].options);
+    document.body.classList.toggle("quiz-mode", quizMode);
     renderCategories();
     updateStats();
     drawButton.disabled = false;
+    if (quizMode) {
+      quizQueue = [...allQuestions].sort(() => Math.random() - 0.5);
+      quizIndex = 0;
+      showQuizQuestion();
+    }
   } catch (error) {
     console.error("Error:", error);
     alert("Nie można wczytać pliku z pytaniami: " + filePath);
@@ -377,7 +399,9 @@ function updateFilterSummary() {
 function updateStats() {
   const pool = getQuestionPool();
   questionCount.textContent = allQuestions.length;
-  unansweredCount.textContent = allQuestions.filter((q) => !q.answer || q.answer.trim() === "").length;
+  unansweredCount.textContent = quizMode
+    ? "—"
+    : allQuestions.filter((q) => !q.answer || q.answer.trim() === "").length;
   toLearnCount.textContent = toLearnQuestions.size;
 
   if (noRepeatMode) {
@@ -463,5 +487,126 @@ function displayQuestions(questions) {
     questionsContainer.appendChild(card);
   });
 
+  toggleEmptyState();
+}
+
+// ── Quiz card mode ────────────────────────────────────────────────────────────
+function showQuizQuestion() {
+  if (quizIndex >= quizQueue.length) {
+    displayQuizComplete();
+    return;
+  }
+  displayQuizCard(quizQueue[quizIndex]);
+}
+
+function displayQuizComplete() {
+  questionsContainer.innerHTML = "";
+  const total = quizQueue.length;
+  const wrap = document.createElement("div");
+  wrap.className = "quiz-complete";
+  wrap.innerHTML = `
+    <div class="quiz-complete-inner glass-panel">
+      <p class="quiz-complete-emoji">🎓</p>
+      <h2>Koniec quizu!</h2>
+      <p>Przeszedłeś przez wszystkie <strong>${total}</strong> pytania.</p>
+      <div class="quiz-complete-actions">
+        <button class="cta-button" id="quizRestartBtn">Zacznij od nowa</button>
+        <button class="back-btn" onclick="location.hash=''">← Wróć do menu</button>
+      </div>
+    </div>`;
+  questionsContainer.appendChild(wrap);
+  document.getElementById("quizRestartBtn").addEventListener("click", () => {
+    quizQueue = [...allQuestions].sort(() => Math.random() - 0.5);
+    quizIndex = 0;
+    showQuizQuestion();
+  });
+  toggleEmptyState();
+}
+
+function displayQuizCard(q) {
+  questionsContainer.innerHTML = "";
+
+  const card = document.createElement("div");
+  card.className = "question-card quiz-card";
+
+  const isMarked = toLearnQuestions.has(q.question);
+  const badgesHTML = getCategoriesFromQuestion(q)
+    .map((c) => `<span class="category-badge">${escapeHtml(c)}</span>`)
+    .join("");
+
+  const bookmarkSVG = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+
+  const progress = `${quizIndex + 1} / ${quizQueue.length}`;
+  const isLast = quizIndex + 1 === quizQueue.length;
+
+  const optionsHTML = q.options
+    .map(
+      (opt, i) => `
+      <button class="quiz-option" data-index="${i}" data-correct="${opt.correct}">
+        <span class="quiz-option-label">${escapeHtml(opt.label)}.</span>
+        <span class="quiz-option-text">${escapeHtml(opt.text)}</span>
+      </button>`
+    )
+    .join("");
+
+  card.innerHTML = `
+    <div class="quiz-card-inner">
+      <div class="card-header">
+        <div class="quiz-progress-wrap">
+          <h3>Pytanie ${escapeHtml(progress)}</h3>
+          <div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:${((quizIndex + 1) / quizQueue.length) * 100}%"></div></div>
+        </div>
+        <button class="bookmark-btn ${isMarked ? "marked" : ""}" data-question="${escapeHtml(q.question)}">${bookmarkSVG}</button>
+      </div>
+      <div class="quiz-question-body">
+        <div class="badges-wrapper">${badgesHTML}</div>
+        <p class="quiz-question-text">${escapeHtml(q.question)}</p>
+      </div>
+      <div class="quiz-options">${optionsHTML}</div>
+      <div class="quiz-actions">
+        <button class="quiz-check-btn cta-button">Sprawdź odpowiedź</button>
+      </div>
+    </div>`;
+
+  card.querySelectorAll(".quiz-option").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (!btn.classList.contains("revealed")) {
+        btn.classList.toggle("selected");
+      }
+    });
+  });
+
+  const checkBtn = card.querySelector(".quiz-check-btn");
+  checkBtn.addEventListener("click", () => {
+    const options = card.querySelectorAll(".quiz-option");
+    let allCorrect = true;
+    options.forEach((btn) => {
+      const correct = btn.dataset.correct === "true";
+      const selected = btn.classList.contains("selected");
+      btn.classList.add("revealed");
+      if (correct && selected) btn.classList.add("opt-correct");
+      else if (!correct && selected) { btn.classList.add("opt-wrong"); allCorrect = false; }
+      else if (correct && !selected) { btn.classList.add("opt-missed"); allCorrect = false; }
+    });
+
+    const resultEl = document.createElement("p");
+    resultEl.className = "quiz-result " + (allCorrect ? "quiz-result-ok" : "quiz-result-fail");
+    resultEl.textContent = allCorrect ? "Brawo! Wszystkie poprawne odpowiedzi zaznaczone." : "Sprawdź podświetlone odpowiedzi.";
+    card.querySelector(".quiz-actions").prepend(resultEl);
+
+    checkBtn.textContent = isLast ? "Zakończ quiz →" : "Następne pytanie →";
+    checkBtn.onclick = () => { quizIndex++; showQuizQuestion(); };
+  });
+
+  card.querySelector(".bookmark-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    const qt = e.currentTarget.getAttribute("data-question");
+    toggleToLearn(qt);
+    e.currentTarget.classList.toggle("marked", toLearnQuestions.has(qt));
+  });
+
+  questionsContainer.appendChild(card);
   toggleEmptyState();
 }

@@ -18,6 +18,11 @@
           "id": "bezpieczenstwo-sieci",
           "title": "Bezpieczeństwo w sieciach komputerowych",
           "theme": "cyber"
+        },
+        {
+          "id": "bariery-w-przestrzeni-cyfrowej",
+          "title": "Bariery w przestrzeni cyfrowej — quiz",
+          "theme": "academic"
         }
       ]
     },

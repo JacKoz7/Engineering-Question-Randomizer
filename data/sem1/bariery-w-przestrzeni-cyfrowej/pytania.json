@@ -1,0 +1,869 @@
+[
+  {
+    "question": "Wskaż techniki prototypowania:",
+    "options": [
+      { "label": "a", "text": "atrapy", "correct": true },
+      { "label": "b", "text": "makiety", "correct": true },
+      { "label": "c", "text": "szkice", "correct": true },
+      { "label": "d", "text": "ramki", "correct": false },
+      { "label": "e", "text": "matrapy", "correct": false },
+      { "label": "f", "text": "działające (dynamiczne) prototypy", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Czas pozycjonowania kursora graficznego na ekranie zależy od:",
+    "options": [
+      { "label": "a", "text": "kształtu kursora", "correct": false },
+      { "label": "b", "text": "wielkości wskazywanego obiektu", "correct": true },
+      { "label": "c", "text": "odległości od wskazywanego obiektu", "correct": true },
+      { "label": "d", "text": "wielkości kursora", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Co ogranicza dostępność oprogramowania?",
+    "options": [
+      { "label": "a", "text": "otoczenie", "correct": true },
+      { "label": "b", "text": "rodzice", "correct": false },
+      { "label": "c", "text": "pracodawca", "correct": false },
+      { "label": "d", "text": "niepełnosprawności człowieka", "correct": true }
+    ],
+    "category": "Dostępność i WCAG"
+  },
+  {
+    "question": "Wskaż techniki oceny jakości oprogramowania z udziałem użytkownika:",
+    "options": [
+      { "label": "a", "text": "Uczenie", "correct": false },
+      { "label": "b", "text": "Okulografia", "correct": true },
+      { "label": "c", "text": "Myślenie", "correct": false },
+      { "label": "d", "text": "Obserwacja", "correct": true },
+      { "label": "e", "text": "Test kruga", "correct": true },
+      { "label": "f", "text": "Testowanie", "correct": true },
+      { "label": "g", "text": "Myślenie na głos", "correct": true },
+      { "label": "h", "text": "Zbieranie opinii użytkowników", "correct": true },
+      { "label": "i", "text": "Analiza dzienników/zapisów", "correct": false },
+      { "label": "j", "text": "Śledzenie działań w interfejsie (click tracking)", "correct": true },
+      { "label": "k", "text": "Realizacja scenariuszy", "correct": true },
+      { "label": "l", "text": "Metoda A/B testowania", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż metody prezentowania rezultatów badań stosowane w okulografii:",
+    "options": [
+      { "label": "a", "text": "Tabelaryczna", "correct": false },
+      { "label": "b", "text": "Mapa fiksacji", "correct": true },
+      { "label": "c", "text": "Mapa cieplna", "correct": true },
+      { "label": "d", "text": "Opisowa", "correct": false },
+      { "label": "e", "text": "AOI (obszary zainteresowań) - analiza obszarów zainteresowań", "correct": true },
+      { "label": "f", "text": "Klaster", "correct": true },
+      { "label": "g", "text": "Mapa uwagowa", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Model Rasmussena opisuje:",
+    "options": [
+      { "label": "a", "text": "żadne z podanych", "correct": true },
+      { "label": "b", "text": "opis zachowania (reakcję) człowieka na dwóch poziomach", "correct": false },
+      { "label": "c", "text": "opis zachowania (reakcję) człowieka na czterech poziomach", "correct": false },
+      { "label": "d", "text": "opis zachowania (reakcję) człowieka na pięciu poziomach", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż typy interfejsu oprogramowania:",
+    "options": [
+      { "label": "a", "text": "Wiersz poleceń", "correct": true },
+      { "label": "b", "text": "Głosowy", "correct": true },
+      { "label": "c", "text": "WIMP", "correct": true },
+      { "label": "d", "text": "ASCII art.", "correct": false },
+      { "label": "e", "text": "Liniowy", "correct": false },
+      { "label": "f", "text": "Dotykowy", "correct": true }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Wskaż typy pamięci człowieka:",
+    "options": [
+      { "label": "a", "text": "utajniona", "correct": true },
+      { "label": "b", "text": "proceduralna", "correct": true },
+      { "label": "c", "text": "końcowa", "correct": false },
+      { "label": "d", "text": "sensoryczna", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż fazy projektowania ukierunkowanego na użytkownika:",
+    "options": [
+      { "label": "a", "text": "Usuwanie", "correct": false },
+      { "label": "b", "text": "Testowanie użyteczności", "correct": true },
+      { "label": "c", "text": "Projektowanie ukierunkowane na użytkownika", "correct": true },
+      { "label": "d", "text": "Implementacja", "correct": true },
+      { "label": "e", "text": "Wdrażanie", "correct": false },
+      { "label": "f", "text": "Analiza", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wg modelu Rasmussena człowiek najszybciej reaguje na poziomie:",
+    "options": [
+      { "label": "a", "text": "Żadne z podanych", "correct": false },
+      { "label": "b", "text": "Reguły", "correct": false },
+      { "label": "c", "text": "Wiedzy", "correct": false },
+      { "label": "d", "text": "Nawyków/Odruchów", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Ergonomia jako nauka jest związana z następującymi dziedzinami nauki:",
+    "options": [
+      { "label": "a", "text": "BHP", "correct": false },
+      { "label": "b", "text": "Socjologia pracy", "correct": true },
+      { "label": "c", "text": "Fizjologia człowieka", "correct": true },
+      { "label": "d", "text": "Higiena", "correct": true },
+      { "label": "e", "text": "Prakseologia", "correct": true },
+      { "label": "f", "text": "Antropologia", "correct": true },
+      { "label": "g", "text": "Organizacja i zarządzanie", "correct": true },
+      { "label": "h", "text": "Psychologia", "correct": true },
+      { "label": "i", "text": "Ekonomia", "correct": true },
+      { "label": "j", "text": "Antykseologia", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż typy metod oceny jakości oprogramowania:",
+    "options": [
+      { "label": "a", "text": "Wywiad", "correct": true },
+      { "label": "b", "text": "Testowanie", "correct": true },
+      { "label": "c", "text": "Symulacja", "correct": true },
+      { "label": "d", "text": "Inspekcja", "correct": true },
+      { "label": "e", "text": "Modelowanie analityczne", "correct": true },
+      { "label": "f", "text": "Werbalizacja", "correct": true },
+      { "label": "g", "text": "Ankieta", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż techniki oceny jakości oprogramowania bez udziału użytkownika:",
+    "options": [
+      { "label": "a", "text": "Inspekcja standardów", "correct": true },
+      { "label": "b", "text": "Uproszczona wędrówka poznawcza", "correct": true },
+      { "label": "c", "text": "Rozwinięta wędrówka poznawcza", "correct": true },
+      { "label": "d", "text": "Ocena heurystyczna", "correct": true },
+      { "label": "e", "text": "Analiza ekspercka", "correct": true },
+      { "label": "f", "text": "Test kruga", "correct": false },
+      { "label": "g", "text": "Standardowa wędrówka poznawcza", "correct": false },
+      { "label": "h", "text": "Rekomendacje: W3C i WCAG", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wg modelu Rasmussena w interfejsie oprogramowania:",
+    "options": [
+      { "label": "a", "text": "powinno się wspomagać zadania wymagające reguł", "correct": true },
+      { "label": "b", "text": "powinno się wspomagać zadania wymagające wiedzy", "correct": false },
+      { "label": "c", "text": "powinno się unikać zadań wymagających wiedzy użytkownika", "correct": true },
+      { "label": "d", "text": "stosować szeroko zadania na poziomie odruchów", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Czas pozycjonowania kursora graficznego na ekranie zależy:",
+    "options": [
+      { "label": "a", "text": "liniowo od wielkości wskazywanego obiektu", "correct": false },
+      { "label": "b", "text": "odwrotnie proporcjonalnie do wielkości wskazywanego obiektu", "correct": true },
+      { "label": "c", "text": "żadna z podanych", "correct": false },
+      { "label": "d", "text": "logarytmicznie od wielkości wskazywanego obiektu", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż typy prototypów:",
+    "options": [
+      { "label": "a", "text": "Małej dokładności", "correct": true },
+      { "label": "b", "text": "Skalowane", "correct": false },
+      { "label": "c", "text": "Nieskalowane", "correct": false },
+      { "label": "d", "text": "Wysokiej dokładności", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wskaż zakres ocen w skali Likerta:",
+    "options": [
+      { "label": "a", "text": "0..3", "correct": false },
+      { "label": "b", "text": "1..5", "correct": true },
+      { "label": "c", "text": "Żaden z powyższych", "correct": false },
+      { "label": "d", "text": "3..5", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż typy ergonomii:",
+    "options": [
+      { "label": "a", "text": "Korekcyjna", "correct": false },
+      { "label": "b", "text": "Kognitywistyczna", "correct": true },
+      { "label": "c", "text": "Koncepcyjna", "correct": false },
+      { "label": "d", "text": "Fizyczna", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż operatory modelu KLM:",
+    "options": [
+      { "label": "a", "text": "B", "correct": true },
+      { "label": "b", "text": "R", "correct": true },
+      { "label": "c", "text": "M", "correct": true },
+      { "label": "d", "text": "PP", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Model Rasmussena opisuje: (wariant 2)",
+    "options": [
+      { "label": "a", "text": "żadne z podanych", "correct": true },
+      { "label": "b", "text": "opis zachowania (reakcję) człowieka na dwóch poziomach", "correct": false },
+      { "label": "c", "text": "opis zachowania (reakcję) człowieka na czterech poziomach", "correct": false },
+      { "label": "d", "text": "opis zachowania (reakcję) człowieka na pięciu poziomach", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż definicje jakości oprogramowania:",
+    "options": [
+      { "label": "a", "text": "zgodność z wymaganiami użytkownika", "correct": true },
+      { "label": "b", "text": "zdolność zaspokojenia oczekiwań klienta", "correct": false },
+      { "label": "c", "text": "ogół cech i właściwości oprogramowania, które decydują o zdolności wyrobu lub usługi do zaspokojenia stwierdzonych lub przewidywanych potrzeb", "correct": true },
+      { "label": "d", "text": "zdolność zaspokojenia potrzeb klienta", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż cechy grupy badawczej używanej w ocenie jakości interfejsu oprogramowania:",
+    "options": [
+      { "label": "a", "text": "wszyscy w białych fartuchach", "correct": false },
+      { "label": "b", "text": "liczebność 5-8 osób", "correct": true },
+      { "label": "c", "text": "jednorodność", "correct": false },
+      { "label": "d", "text": "tylko osoby o wzroście 150 cm", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wg modelu Human Processor człowiek posiada procesory:",
+    "options": [
+      { "label": "a", "text": "Percepcyjny", "correct": true },
+      { "label": "b", "text": "Permutacyjny", "correct": false },
+      { "label": "c", "text": "Notyczny", "correct": false },
+      { "label": "d", "text": "Motoryczny", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Persona to:",
+    "options": [
+      { "label": "a", "text": "sztuczna osoba, opis której jest spersonalizowany", "correct": true },
+      { "label": "b", "text": "żadna z podanych", "correct": false },
+      { "label": "c", "text": "średni użytkownik", "correct": false },
+      { "label": "d", "text": "średniostatystyczny użytkownik", "correct": false }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wskaż operatory modelu KLM: (wariant 2)",
+    "options": [
+      { "label": "a", "text": "H", "correct": true },
+      { "label": "b", "text": "B", "correct": true },
+      { "label": "c", "text": "M", "correct": true },
+      { "label": "d", "text": "L", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż niepełnosprawności ograniczające dostępność oprogramowania:",
+    "options": [
+      { "label": "a", "text": "niepełnosprawność motoryczna", "correct": true },
+      { "label": "b", "text": "niepełnosprawność kogniwistyczna (poznawcza)", "correct": true },
+      { "label": "c", "text": "niepełnosprawność wzrokowa", "correct": true },
+      { "label": "d", "text": "niepełnosprawność słuchowa", "correct": true }
+    ],
+    "category": "Dostępność i WCAG"
+  },
+  {
+    "question": "Wskaż typy pamięci człowieka: (wariant 2)",
+    "options": [
+      { "label": "a", "text": "Utajniona", "correct": true },
+      { "label": "b", "text": "Proceduralna", "correct": true },
+      { "label": "c", "text": "Końcowa", "correct": false },
+      { "label": "d", "text": "Sensoryczna", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż najniższą potrzebę w piramidzie Masłowa:",
+    "options": [
+      { "label": "a", "text": "potrzeba uznania", "correct": false },
+      { "label": "b", "text": "potrzeba bezpieczeństwa", "correct": false },
+      { "label": "c", "text": "potrzeba samorealizacji", "correct": false },
+      { "label": "d", "text": "potrzeby fizjologiczne", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż pojemność pamięci krótkotrwałej człowieka:",
+    "options": [
+      { "label": "a", "text": "5-9 bajtów", "correct": false },
+      { "label": "b", "text": "5-9 wpisów", "correct": true },
+      { "label": "c", "text": "120-200 bajtów", "correct": false },
+      { "label": "d", "text": "żadna z podanych", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wg modelu Human Processor średni odruchowy czas reakcji człowieka wynosi:",
+    "options": [
+      { "label": "a", "text": "560 ms", "correct": false },
+      { "label": "b", "text": "żaden z podanych", "correct": true },
+      { "label": "c", "text": "2400 ms", "correct": false },
+      { "label": "d", "text": "100 ms", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż tryby interfejsu oprogramowania:",
+    "options": [
+      { "label": "a", "text": "graficzny GUI", "correct": true },
+      { "label": "b", "text": "tekstowy TUI", "correct": true },
+      { "label": "c", "text": "liniowy", "correct": false },
+      { "label": "d", "text": "ASCII art.", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Wskaż elementy interfejsu WIMP:",
+    "options": [
+      { "label": "a", "text": "Obrazek", "correct": false },
+      { "label": "b", "text": "Koło", "correct": false },
+      { "label": "c", "text": "Menu", "correct": true },
+      { "label": "d", "text": "Wskaźnik", "correct": true },
+      { "label": "e", "text": "Ikona", "correct": true },
+      { "label": "f", "text": "Okno", "correct": true }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Wg modelu Rasmussena człowiek najwolniej reaguje na poziomie:",
+    "options": [
+      { "label": "a", "text": "Wiedzy", "correct": true },
+      { "label": "b", "text": "Reguł", "correct": false },
+      { "label": "c", "text": "Żadne z podanych", "correct": false },
+      { "label": "d", "text": "Nawyków", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Z modelu Normana wynika, że interfejs ma wspomagać:",
+    "options": [
+      { "label": "a", "text": "identyfikację celu", "correct": true },
+      { "label": "b", "text": "realizację działań", "correct": true },
+      { "label": "c", "text": "ustalenie sekwencji działań", "correct": true },
+      { "label": "d", "text": "ocenę stanu", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż zasadę rozwoju Maslowa:",
+    "options": [
+      { "label": "a", "text": "Żadna z podanych", "correct": false },
+      { "label": "b", "text": "Zachowanie człowieka jest motywowane przez najniższą w hierarchii zaspokojoną potrzebę", "correct": false },
+      { "label": "c", "text": "Zachowanie człowieka jest motywowane przez najniższą w hierarchii niezaspokojoną potrzebę", "correct": true },
+      { "label": "d", "text": "Zachowanie człowieka jest motywowane przez najwyższą w hierarchii zaspokojoną potrzebę", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Ergonomia to dyscyplina naukowa i praktyczna zajmująca się organizacją pracy człowieka w układzie:",
+    "options": [
+      { "label": "a", "text": "Człowiek", "correct": true },
+      { "label": "b", "text": "Maszyna", "correct": true },
+      { "label": "c", "text": "Zwierzę", "correct": false },
+      { "label": "d", "text": "Warunki otoczenia", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Z ilu pytań/stwierdzeń składa się kwestionariusz SUS?",
+    "options": [
+      { "label": "a", "text": "100", "correct": false },
+      { "label": "b", "text": "10", "correct": true },
+      { "label": "c", "text": "5", "correct": false },
+      { "label": "d", "text": "20", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Dla profilu użytkownika eksperta ważne jest:",
+    "options": [
+      { "label": "a", "text": "Zapobieganie błędom, aby zachęcić do odkrywania funkcjonalności", "correct": false },
+      { "label": "b", "text": "Zapewnienie instrukcji krok po kroku", "correct": false },
+      { "label": "c", "text": "Wiersze poleceń", "correct": true },
+      { "label": "d", "text": "Ograniczenie liczby działań i koncepcji merytorycznych w systemie", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Która zasada (obszar) nie należy do WCAG 2.1?",
+    "options": [
+      { "label": "a", "text": "Kompatybilność", "correct": false },
+      { "label": "b", "text": "Postrzegalność", "correct": false },
+      { "label": "c", "text": "Odporność", "correct": true },
+      { "label": "d", "text": "Zrozumiałość", "correct": false }
+    ],
+    "category": "Dostępność i WCAG"
+  },
+  {
+    "question": "Metryką oceny jakości aplikacji webowej w liście kontrolnej LUT jest:",
+    "options": [
+      { "label": "a", "text": "Punkty WUP", "correct": true },
+      { "label": "b", "text": "Poziom zgodności: A, AA, AAA", "correct": false },
+      { "label": "c", "text": "Wskaźnik SUS", "correct": false },
+      { "label": "d", "text": "Skala Likerta", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Które z poniżej wymienionych to metryki oceny jakości interfejsu bazujące na problemach?",
+    "options": [
+      { "label": "a", "text": "Stopa błędów", "correct": false },
+      { "label": "b", "text": "Przyswajalność", "correct": false },
+      { "label": "c", "text": "Sukces realizacji zadania", "correct": false },
+      { "label": "d", "text": "Częstotliwość występowania problemów na jednego użytkownika", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż, która kategoria treści cyfrowych wg ustawy o dostępności cyfrowej musi być bezwzględnie dostępna:",
+    "options": [
+      { "label": "a", "text": "Strona podmiotowa biuletynu informacji publicznej", "correct": true },
+      { "label": "b", "text": "Strony dla niepełnosprawnych", "correct": false },
+      { "label": "c", "text": "Akty prawne, a w szczególności zarządzenia rektora i senatu", "correct": false },
+      { "label": "d", "text": "Skład władz uczelni", "correct": false }
+    ],
+    "category": "Dostępność i WCAG"
+  },
+  {
+    "question": "Jakie czynniki w rzeczywistości bada metodyka SUS:",
+    "options": [
+      { "label": "a", "text": "Długość fiksacji wzroku w strefach zainteresowania", "correct": false },
+      { "label": "b", "text": "Efektywność", "correct": false },
+      { "label": "c", "text": "Możliwe niespodziewane działania użytkowników", "correct": false },
+      { "label": "d", "text": "Użyteczność i możliwość nauczenia", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Czy ocena specyficznego aspektu oprogramowania (estetyki, czytelności interfejsu czy łatwości nawigacji) należy do metryk jakości interfejsu:",
+    "options": [
+      { "label": "a", "text": "Bazujących na problemach", "correct": false },
+      { "label": "b", "text": "Bazujących na ocenach użytkownika", "correct": true },
+      { "label": "c", "text": "Bazujących na wydajności", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż nieprawidłową odpowiedź dotyczącą okulografii:",
+    "options": [
+      { "label": "a", "text": "Umożliwia śledzenie tego na co patrzy człowiek, jak długo i w jakiej kolejności", "correct": false },
+      { "label": "b", "text": "Dostarcza informacji o zrozumieniu postrzeganej informacji", "correct": true },
+      { "label": "c", "text": "Dostarcza informacji o aktywności wzroku", "correct": false },
+      { "label": "d", "text": "Pozwala zbadać na czym człowiek skupia wzrok, a jakie obszary całkowicie pomija", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "W rozwiniętej wędrówce poznawczej interfejsy pod względem jakości oceniają:",
+    "options": [
+      { "label": "a", "text": "Eksperci", "correct": false },
+      { "label": "b", "text": "Eksperci i użytkownicy", "correct": false },
+      { "label": "c", "text": "Eksperci, użytkownicy, programiści, członkowie zespołu projektowego", "correct": true },
+      { "label": "d", "text": "Użytkownicy", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Która pamięć podlega prawu Millera?",
+    "options": [
+      { "label": "a", "text": "Pamięć długotrwała", "correct": false },
+      { "label": "b", "text": "Pamięć krótkotrwała", "correct": true },
+      { "label": "c", "text": "Pamięć sensoryczna", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Reguła Millera mówi, że pamięć krótkotrwała ma pojemność (znaków/opcji w menu/ikon w pasku narzędziowym):",
+    "options": [
+      { "label": "a", "text": "7 +/- 2", "correct": true },
+      { "label": "b", "text": "5 +/- 2", "correct": false },
+      { "label": "c", "text": "10 +/- 2", "correct": false },
+      { "label": "d", "text": "9 +/- 2", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Zrozumiałość to cecha jakości dotycząca:",
+    "options": [
+      { "label": "a", "text": "Użyteczności", "correct": true },
+      { "label": "b", "text": "Funkcjonalności", "correct": false },
+      { "label": "c", "text": "Niezawodności", "correct": false },
+      { "label": "d", "text": "Konserwowalności", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Makiety są to:",
+    "options": [
+      { "label": "a", "text": "Szkice - przewodniki sugerujące strukturę ekranów i nawigacji pomiędzy nimi, stosowane w celu ujednolicenia interfejsu na wczesnych etapach projektowania", "correct": true },
+      { "label": "b", "text": "Kompletne komputerowe modele interfejsu, które często są interaktywne", "correct": false },
+      { "label": "c", "text": "Wykonane ręcznie na papierze lub tablicy w trakcie sesji projektowania, realizowanej zwykle z udziałem użytkowników", "correct": false },
+      { "label": "d", "text": "Rysunki zawierające zaprojektowane ekrany i związki między nimi", "correct": false }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Styl dialogu i interakcji wykorzystujący wiersz poleceń określa się skrótem:",
+    "options": [
+      { "label": "a", "text": "NUI", "correct": false },
+      { "label": "b", "text": "CLI", "correct": true },
+      { "label": "c", "text": "MUI", "correct": false },
+      { "label": "d", "text": "WIMP", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Użytkownicy, którzy posiadają ogólną wiedzę o systemie, ale mają trudność w przypominaniu sobie różnych funkcji systemu i ich lokalizacji to:",
+    "options": [
+      { "label": "a", "text": "Użytkownicy zaawansowani", "correct": false },
+      { "label": "b", "text": "Nowicjusze", "correct": false },
+      { "label": "c", "text": "Eksperci", "correct": false },
+      { "label": "d", "text": "Użytkownicy okazjonalni", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wskaż, które z poniższych to prawo Hicka:",
+    "options": [
+      { "label": "a", "text": "Czas osiągnięcia celu jest funkcją odległości od celu i jego wielkości", "correct": false },
+      { "label": "b", "text": "Czas potrzebny na podjęcie decyzji rośnie wraz z liczbą i złożonością wyborów", "correct": true },
+      { "label": "c", "text": "Jeśli strona wygląda podobnie do innych, to wtedy użytkownicy będą z łatwością umieli się po niej poruszać", "correct": false },
+      { "label": "d", "text": "Przy uczeniu się listy bezsensownych słów łatwiej zapamiętuje się te, które w jakiś sposób wyróżniają się spośród innych", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Jaka liczebność użytkowników wg Jakoba Nielsena wykrywa praktycznie wszystkie problemy?",
+    "options": [
+      { "label": "a", "text": "8 osób", "correct": false },
+      { "label": "b", "text": "30 osób", "correct": false },
+      { "label": "c", "text": "20 osób", "correct": true },
+      { "label": "d", "text": "5 osób", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż metodę symulacji interfejsu, w której użytkownicy odgrywają role w jednym pomieszczeniu, a odpowiedzi systemu generuje operator z innego pomieszczenia:",
+    "options": [
+      { "label": "a", "text": "Storyboards", "correct": false },
+      { "label": "b", "text": "Metoda Czarnoksiężnik z Oz", "correct": true },
+      { "label": "c", "text": "Modelowanie przy pomocy formalnych języków opisu interfejsu", "correct": false },
+      { "label": "d", "text": "Prototypowanie", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Która z poniższych technik wymaga udziału użytkowników do oceny jakości interfejsów:",
+    "options": [
+      { "label": "a", "text": "Inspekcja standardów", "correct": false },
+      { "label": "b", "text": "Metoda A/B", "correct": true },
+      { "label": "c", "text": "Rozwinięta wędrówka poznawcza", "correct": false },
+      { "label": "d", "text": "Ocena heurystyczna", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż nieprawidłowe stwierdzenie dotyczące KLM:",
+    "options": [
+      { "label": "a", "text": "KLM mierzy efektywność czasową", "correct": false },
+      { "label": "b", "text": "W KLM średnie czasy przypisane operatorom mają zastosowanie również dla użytkowników początkujących", "correct": true },
+      { "label": "c", "text": "KLM nie bierze pod uwagę czasu potrzebnego na zaplanowanie działań", "correct": false },
+      { "label": "d", "text": "KLM nie bierze pod uwagę jednoczesnego wciśnięcia klawisza klawiatury i przycisku myszy", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "\"Oferuj informacje zwrotne\", \"Zapewnij prosty mechanizm wycofania\" i \"Stwórz wrażenie, że użytkownik ma kontrolę nad systemem\" są zasadami stworzonymi przez:",
+    "options": [
+      { "label": "a", "text": "Jakoba Nielsena", "correct": false },
+      { "label": "b", "text": "Steva Kruga", "correct": false },
+      { "label": "c", "text": "Bena Schneidermana", "correct": true },
+      { "label": "d", "text": "Donema Normana", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Wg metodyki SUS oprogramowanie uważa się za użyteczne gdy wartość wskaźnika SUS jest większa niż:",
+    "options": [
+      { "label": "a", "text": "50", "correct": false },
+      { "label": "b", "text": "80", "correct": false },
+      { "label": "c", "text": "51", "correct": false },
+      { "label": "d", "text": "68", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Sakady to:",
+    "options": [
+      { "label": "a", "text": "Skupienie wzroku w jednym miejscu", "correct": false },
+      { "label": "b", "text": "Zatrzymanie wzroku", "correct": false },
+      { "label": "c", "text": "Ruch podążający za poruszającym się obiektem (ruch śledzenia, gładkie wodzenie)", "correct": false },
+      { "label": "d", "text": "Przeskoki do innego miejsca fiksacji", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Heurystyki Nielsena-Molicha to lista składająca się z:",
+    "options": [
+      { "label": "a", "text": "20 zaleceń", "correct": false },
+      { "label": "b", "text": "12 zaleceń", "correct": false },
+      { "label": "c", "text": "5 zaleceń", "correct": false },
+      { "label": "d", "text": "10 zaleceń", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Która metoda oceny jakości interfejsów odbywa się bez udziału użytkowników:",
+    "options": [
+      { "label": "a", "text": "Analiza dzienników/zapisów", "correct": false },
+      { "label": "b", "text": "Metoda A/B", "correct": false },
+      { "label": "c", "text": "Uproszczona wędrówka poznawcza", "correct": true },
+      { "label": "d", "text": "Okulografia (ang. Eye Tracking)", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Która z poniżej wymienionych to wydajnościowa metryka oceny jakości interfejsu?",
+    "options": [
+      { "label": "a", "text": "Liczba błędów w zagregowanych grupach/kategoriach", "correct": false },
+      { "label": "b", "text": "Procent uczestników doświadczających błędów", "correct": false },
+      { "label": "c", "text": "Sukces realizacji zadania", "correct": true },
+      { "label": "d", "text": "Częstotliwość występowania problemów", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Odporność jako cecha jakości dotyczy:",
+    "options": [
+      { "label": "a", "text": "Funkcjonalności", "correct": false },
+      { "label": "b", "text": "Efektywności", "correct": false },
+      { "label": "c", "text": "Niezawodności", "correct": true },
+      { "label": "d", "text": "Użyteczności", "correct": false }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Kognitywistyka — wskaż nauki, na pograniczu których się znajduje:",
+    "options": [
+      { "label": "a", "text": "Neurobiologia", "correct": true },
+      { "label": "b", "text": "Filozofia (umysłu)", "correct": true },
+      { "label": "c", "text": "Psychologia", "correct": true },
+      { "label": "d", "text": "Sztuczna inteligencja", "correct": true },
+      { "label": "e", "text": "Fizyka", "correct": false },
+      { "label": "f", "text": "Logika", "correct": false },
+      { "label": "g", "text": "Lingwistyka", "correct": true },
+      { "label": "h", "text": "Antropologia", "correct": true },
+      { "label": "i", "text": "Nauki o poznaniu", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż metryki oceny jakości interfejsu:",
+    "options": [
+      { "label": "a", "text": "Bazujące na problemach", "correct": true },
+      { "label": "b", "text": "Żadna z podanych", "correct": false },
+      { "label": "c", "text": "Wydajnościowe", "correct": true },
+      { "label": "d", "text": "Ilościowe bazujące na płci użytkownika", "correct": false },
+      { "label": "e", "text": "Behawioralne i fizjologiczne", "correct": true },
+      { "label": "f", "text": "Bazujące na ocenach użytkownika", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Wskaż cechy użyteczności interfejsu:",
+    "options": [
+      { "label": "a", "text": "Satysfakcja", "correct": true },
+      { "label": "b", "text": "Stopa błędów", "correct": true },
+      { "label": "c", "text": "Zapamiętywalność", "correct": true },
+      { "label": "d", "text": "Efektywność", "correct": true },
+      { "label": "e", "text": "Łatwość nauki", "correct": true }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Persona posiada:",
+    "options": [
+      { "label": "a", "text": "Wiek", "correct": true },
+      { "label": "b", "text": "Nazwisko", "correct": true },
+      { "label": "c", "text": "Płeć", "correct": true },
+      { "label": "d", "text": "Zawód", "correct": true },
+      { "label": "e", "text": "Żadne z podanych", "correct": false },
+      { "label": "f", "text": "Wygląd zewnętrzny", "correct": true },
+      { "label": "g", "text": "Imię", "correct": true },
+      { "label": "h", "text": "Zdjęcie", "correct": true },
+      { "label": "i", "text": "Pozycja socjalna", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wskaż typy użytkowników w analizie UX:",
+    "options": [
+      { "label": "a", "text": "Najważniejszy", "correct": false },
+      { "label": "b", "text": "Ekspert", "correct": true },
+      { "label": "c", "text": "Nieistotny", "correct": false },
+      { "label": "d", "text": "Okazjonalny", "correct": true },
+      { "label": "e", "text": "Nowicjusz", "correct": true }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Wskaż modele teoretyczne zachowań człowieka:",
+    "options": [
+      { "label": "a", "text": "Hicka", "correct": false },
+      { "label": "b", "text": "ICS", "correct": true },
+      { "label": "c", "text": "Normana", "correct": true },
+      { "label": "d", "text": "Rasmussena", "correct": true },
+      { "label": "e", "text": "żaden z podanych", "correct": false },
+      { "label": "f", "text": "MHP", "correct": true },
+      { "label": "g", "text": "Fittsa", "correct": false },
+      { "label": "h", "text": "KLM", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Model Rasmussena opisuje reakcje człowieka na bodźce zewnętrzne na poziomach:",
+    "options": [
+      { "label": "a", "text": "Wiedzy", "correct": true },
+      { "label": "b", "text": "Reguł, Przepisów", "correct": true },
+      { "label": "c", "text": "Działania", "correct": false },
+      { "label": "d", "text": "Odruchów, Umiejętności, Nawyków", "correct": true },
+      { "label": "e", "text": "Domysłów", "correct": false },
+      { "label": "f", "text": "Pomysłów", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Metody oceny jakości interfejsu mogą być:",
+    "options": [
+      { "label": "a", "text": "Bez udziału użytkownika", "correct": true },
+      { "label": "b", "text": "Z udziałem użytkownika", "correct": true },
+      { "label": "c", "text": "Automatyczne", "correct": true },
+      { "label": "d", "text": "Manualne", "correct": true }
+    ],
+    "category": "Ocena jakości i metodyki"
+  },
+  {
+    "question": "Scenorys to:",
+    "options": [
+      { "label": "a", "text": "Żadne z podanych", "correct": false },
+      { "label": "b", "text": "Graficzny szkic nawigacji", "correct": true },
+      { "label": "c", "text": "Opis słowny nawigacji pomiędzy ekranami", "correct": false }
+    ],
+    "category": "Prototypowanie i projektowanie"
+  },
+  {
+    "question": "Ograniczenie dostępności interfejsu może wynikać z:",
+    "options": [
+      { "label": "a", "text": "Właściwości sprzętu i oprogramowania", "correct": true },
+      { "label": "b", "text": "Ograniczeń poznawczych", "correct": true },
+      { "label": "c", "text": "Braku słuchu u człowieka", "correct": true },
+      { "label": "d", "text": "Bycia niewidomym", "correct": true }
+    ],
+    "category": "Dostępność i WCAG"
+  },
+  {
+    "question": "Wskaż typy interfejsu oprogramowania: (pełny zestaw)",
+    "options": [
+      { "label": "a", "text": "MUI", "correct": false },
+      { "label": "b", "text": "TCLI", "correct": false },
+      { "label": "c", "text": "TUI", "correct": true },
+      { "label": "d", "text": "GUI", "correct": true },
+      { "label": "e", "text": "WIMP", "correct": true },
+      { "label": "f", "text": "NUI", "correct": true },
+      { "label": "g", "text": "CLI", "correct": true },
+      { "label": "h", "text": "TCU", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  },
+  {
+    "question": "Wskaż rodzaje pamięci człowieka:",
+    "options": [
+      { "label": "a", "text": "Krótkotrwała", "correct": true },
+      { "label": "b", "text": "Sensoryczna", "correct": true },
+      { "label": "c", "text": "Długotrwała", "correct": true },
+      { "label": "d", "text": "Stała", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Ergonomia to dyscyplina nauki o:",
+    "options": [
+      { "label": "a", "text": "Układzie człowiek-maszyna-inne aspekty", "correct": false },
+      { "label": "b", "text": "Układzie człowiek-maszyna-otoczenie", "correct": true },
+      { "label": "c", "text": "Układzie człowiek-maszyna", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż elementy modelu Normana zachowania człowieka:",
+    "options": [
+      { "label": "a", "text": "Żaden z podanych", "correct": false },
+      { "label": "b", "text": "Interpretacja", "correct": true },
+      { "label": "c", "text": "Definiowanie celu", "correct": true },
+      { "label": "d", "text": "Realizacja", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Wskaż operatory modelu KLM: (pełny zestaw)",
+    "options": [
+      { "label": "a", "text": "S", "correct": false },
+      { "label": "b", "text": "V, T, TT, L — tylko dla urządzeń mobilnych", "correct": true },
+      { "label": "c", "text": "R", "correct": true },
+      { "label": "d", "text": "M", "correct": true },
+      { "label": "e", "text": "P", "correct": true },
+      { "label": "f", "text": "BB", "correct": false },
+      { "label": "g", "text": "B", "correct": true },
+      { "label": "h", "text": "K", "correct": true },
+      { "label": "i", "text": "H", "correct": true }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Czas pozycjonowania kursora graficznego na ekranie zależy: (odległość)",
+    "options": [
+      { "label": "a", "text": "Logarytmicznie od odległości do wskazywanego obiektu", "correct": true },
+      { "label": "b", "text": "Liniowo od odległości do wskazywanego obiektu", "correct": false },
+      { "label": "c", "text": "Odwrotnie proporcjonalnie od odległości do wskazywanego obiektu", "correct": false },
+      { "label": "d", "text": "Żadna z podanych", "correct": false }
+    ],
+    "category": "Ergonomia i modele człowieka"
+  },
+  {
+    "question": "Użyteczność oprogramowania to:",
+    "options": [
+      { "label": "a", "text": "Zapamiętywalność", "correct": true },
+      { "label": "b", "text": "Satysfakcja", "correct": true },
+      { "label": "c", "text": "Szybka reakcja", "correct": false },
+      { "label": "d", "text": "Zdolność zaspokojenia oczekiwań klienta", "correct": false }
+    ],
+    "category": "Interfejsy i użyteczność"
+  }
+]
