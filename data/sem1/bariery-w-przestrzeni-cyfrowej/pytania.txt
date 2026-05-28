@@ -58,7 +58,7 @@
         "text": "Zbieranie opinii użytkowników",
         "correct": true
       },
-      { "label": "i", "text": "Analiza dzienników/zapisów", "correct": true },
+      { "label": "i", "text": "Analiza dzienników/zapisów", "correct": false },
       {
         "label": "j",
         "text": "Śledzenie działań w interfejsie (click tracking)",
@@ -72,7 +72,7 @@
   {
     "question": "Wskaż metody prezentowania rezultatów badań stosowane w okulografii:",
     "options": [
-      { "label": "a", "text": "Tabelaryczna", "correct": true },
+      { "label": "a", "text": "Tabelaryczna", "correct": false },
       { "label": "b", "text": "Mapa fiksacji", "correct": true },
       { "label": "c", "text": "Mapa cieplna", "correct": true },
       { "label": "d", "text": "Opisowa", "correct": false },
@@ -180,8 +180,8 @@
       { "label": "c", "text": "Symulacja", "correct": true },
       { "label": "d", "text": "Inspekcja", "correct": true },
       { "label": "e", "text": "Modelowanie analityczne", "correct": true },
-      { "label": "f", "text": "Werbalizacja", "correct": false },
-      { "label": "g", "text": "Ankieta", "correct": false }
+      { "label": "f", "text": "Werbalizacja", "correct": true },
+      { "label": "g", "text": "Ankieta", "correct": true }
     ],
     "category": "Ocena jakości i metodyki"
   },
@@ -222,7 +222,7 @@
       {
         "label": "b",
         "text": "powinno się wspomagać zadania wymagające wiedzy",
-        "correct": true
+        "correct": false
       },
       {
         "label": "c",
@@ -232,7 +232,7 @@
       {
         "label": "d",
         "text": "stosować szeroko zadania na poziomie odruchów",
-        "correct": false
+        "correct": true
       }
     ],
     "category": "Ergonomia i modele człowieka"
@@ -282,10 +282,10 @@
   {
     "question": "Wskaż typy ergonomii:",
     "options": [
-      { "label": "a", "text": "Korekcyjna", "correct": true },
-      { "label": "b", "text": "Kognitywistyczna", "correct": false },
-      { "label": "c", "text": "Koncepcyjna", "correct": true },
-      { "label": "d", "text": "Fizyczna", "correct": false }
+      { "label": "a", "text": "Korekcyjna", "correct": false },
+      { "label": "b", "text": "Kognitywistyczna", "correct": true },
+      { "label": "c", "text": "Koncepcyjna", "correct": false },
+      { "label": "d", "text": "Fizyczna", "correct": true }
     ],
     "category": "Ergonomia i modele człowieka"
   },
@@ -976,7 +976,7 @@
       { "label": "f", "text": "Logika", "correct": false },
       { "label": "g", "text": "Lingwistyka", "correct": true },
       { "label": "h", "text": "Antropologia", "correct": true },
-      { "label": "i", "text": "Nauki o poznaniu", "correct": true }
+      { "label": "i", "text": "Nauki o poznaniu", "correct": false }
     ],
     "category": "Ergonomia i modele człowieka"
   },
@@ -1040,14 +1040,14 @@
   {
     "question": "Wskaż modele teoretyczne zachowań człowieka:",
     "options": [
-      { "label": "a", "text": "Hicka", "correct": true },
+      { "label": "a", "text": "Hicka", "correct": false },
       { "label": "b", "text": "ICS", "correct": true },
       { "label": "c", "text": "Normana", "correct": true },
       { "label": "d", "text": "Rasmussena", "correct": true },
       { "label": "e", "text": "żaden z podanych", "correct": false },
       { "label": "f", "text": "MHP", "correct": true },
-      { "label": "g", "text": "Fittsa", "correct": true },
-      { "label": "h", "text": "KLM", "correct": false }
+      { "label": "g", "text": "Fittsa", "correct": false },
+      { "label": "h", "text": "KLM", "correct": true }
     ],
     "category": "Ergonomia i modele człowieka"
   },
