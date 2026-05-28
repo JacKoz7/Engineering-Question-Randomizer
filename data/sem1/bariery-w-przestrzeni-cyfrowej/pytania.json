@@ -1107,7 +1107,7 @@
   {
     "question": "Wskaż typy interfejsu oprogramowania: (pełny zestaw)",
     "options": [
-      { "label": "a", "text": "MUI", "correct": false },
+      { "label": "a", "text": "MUI", "correct": true },
       { "label": "b", "text": "TCLI", "correct": false },
       { "label": "c", "text": "TUI", "correct": true },
       { "label": "d", "text": "GUI", "correct": true },
@@ -1156,16 +1156,16 @@
     "category": "Ergonomia i modele człowieka"
   },
   {
-    "question": "Wskaż operatory modelu KLM: (pełny zestaw)",
+    "question": "W modelu KLM występują następujące operatory: Wskaż operatory modelu KLM:",
     "options": [
       { "label": "a", "text": "S", "correct": false },
       {
         "label": "b",
         "text": "V, T, TT, L — tylko dla urządzeń mobilnych",
-        "correct": true
+        "correct": false
       },
       { "label": "c", "text": "R", "correct": true },
-      { "label": "d", "text": "M", "correct": true },
+      { "label": "d", "text": "M", "correct": false },
       { "label": "e", "text": "P", "correct": true },
       { "label": "f", "text": "BB", "correct": false },
       { "label": "g", "text": "B", "correct": true },
