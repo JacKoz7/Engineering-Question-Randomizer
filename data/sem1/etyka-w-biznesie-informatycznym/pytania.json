@@ -1,0 +1,206 @@
+[
+  {
+    "question": "Opracowanie kodeksu etycznego przedsiębiorstwa jest mechanizmem CSR o charakterze uczestniczącym.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (powinno być o charakterze formalizującym)", "correct": true }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "CV jest znacznie dłuższe i bardziej kompleksowe niż:",
+    "options": [
+      { "label": "a", "text": "resume", "correct": true },
+      { "label": "b", "text": "list motywacyjny", "correct": false },
+      { "label": "c", "text": "portfolio", "correct": false },
+      { "label": "d", "text": "referencje", "correct": false }
+    ],
+    "category": "CV i kariera"
+  },
+  {
+    "question": "Narzędzia CSR umożliwiające przedsiębiorstwom wpływanie na postawy społeczeństwa za pośrednictwem mediów to:",
+    "options": [
+      { "label": "a", "text": "kampanie społeczne", "correct": true },
+      { "label": "b", "text": "sponsoring", "correct": false },
+      { "label": "c", "text": "lobbing", "correct": false },
+      { "label": "d", "text": "wolontariat pracowniczy", "correct": false }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "Rerum novarum to (1 lub więcej):",
+    "options": [
+      { "label": "a", "text": "Dokument opracowany przez Parlament Europejski", "correct": false },
+      { "label": "b", "text": "Dokument opracowany przez Komisję Europejską", "correct": false },
+      { "label": "c", "text": "Encyklika papieża Leona XIII", "correct": true },
+      { "label": "d", "text": "Dokument poświęcony tzw. kwestii robotniczej", "correct": true }
+    ],
+    "category": "Nauka społeczna Kościoła"
+  },
+  {
+    "question": "Społeczna odpowiedzialność biznesu ma swe podłoże w koncepcji (1 lub więcej):",
+    "options": [
+      { "label": "a", "text": "Historii biznesu", "correct": false },
+      { "label": "b", "text": "Żadna odpowiedź nie jest prawidłowa", "correct": false },
+      { "label": "c", "text": "Etykiety biznesu", "correct": false },
+      { "label": "d", "text": "Etyki biznesu", "correct": true }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "Amnesty International to światowa organizacja do walki z korupcją.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (organizacja do ochrony praw człowieka)", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Negatywnym skutkiem realizacji idei CSR może być lepszy obraz marki.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (lepszy obraz marki jest skutkiem pozytywnym)", "correct": true }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "Do grona interesariuszy firmy należą (1 lub więcej):",
+    "options": [
+      { "label": "a", "text": "Menedżerowie", "correct": true },
+      { "label": "b", "text": "Tylko i wyłącznie akcjonariusze", "correct": false },
+      { "label": "c", "text": "Klienci", "correct": true },
+      { "label": "d", "text": "Pracownicy", "correct": true }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "Które stwierdzenia są prawdziwe? (CSR i kodeks etyczny):",
+    "options": [
+      { "label": "a", "text": "Edukacja i nauka są jednym z obszarów CSR", "correct": true },
+      { "label": "b", "text": "Referencje nigdy nie znajdują się w CV", "correct": false },
+      { "label": "c", "text": "Program etyczny stanowi element kodeksu etycznego", "correct": false },
+      { "label": "d", "text": "Kodeks etyczny stanowi element programu etycznego", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Badaniem moralności praktykowanej przez przedstawicieli konkretnych zawodów lub profesji bezpośrednio lub pośrednio związanych z gospodarką rynkową (np. doradca podatkowy, informatyk, makler) zajmuje się:",
+    "options": [
+      { "label": "a", "text": "etyka zawodowa", "correct": true },
+      { "label": "b", "text": "etyka biznesu", "correct": false },
+      { "label": "c", "text": "metaetyka", "correct": false },
+      { "label": "d", "text": "etyka normatywna", "correct": false }
+    ],
+    "category": "Etyka zawodowa"
+  },
+  {
+    "question": "Zgodnie z ideą społecznej odpowiedzialności biznesu działania gospodarcze powinny być: ....... odpowiedzialne, ekologicznie przyjazne i ekonomicznie wartościowe.",
+    "options": [
+      { "label": "a", "text": "społecznie", "correct": true },
+      { "label": "b", "text": "prawnie", "correct": false },
+      { "label": "c", "text": "politycznie", "correct": false },
+      { "label": "d", "text": "kulturowo", "correct": false }
+    ],
+    "category": "CSR"
+  },
+  {
+    "question": "Kodeks Zawodowy Informatyków PTI:",
+    "options": [
+      { "label": "a", "text": "został uchwalony w 1990 r.", "correct": false },
+      { "label": "b", "text": "przeznaczony jest tylko i wyłącznie dla członków PTI", "correct": false },
+      { "label": "c", "text": "został uchwalony przez Polskie Towarzystwo Informatyków", "correct": false },
+      { "label": "d", "text": "obowiązuje we wszystkich sferach aktywności informatycznej zachowań", "correct": true }
+    ],
+    "category": "Etyka zawodowa"
+  },
+  {
+    "question": "CV chronologiczne przedstawia doświadczenie zawodowe kandydata w odwrotnej kolejności chronologicznej.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": true },
+      { "label": "b", "text": "Fałsz", "correct": false }
+    ],
+    "category": "CV i kariera"
+  },
+  {
+    "question": "Które stwierdzenia są prawdziwe? (etyka biznesu):",
+    "options": [
+      { "label": "a", "text": "mikroetyka bada aspekty etyczne w skali gospodarki narodowej oraz społeczeństwa", "correct": false },
+      { "label": "b", "text": "etyka biznesu ma charakter wyłącznie teoretyczny", "correct": false },
+      { "label": "c", "text": "społeczna odpowiedzialność przedsiębiorstw jest jednym ze sposobów realizacji etyki biznesu", "correct": true },
+      { "label": "d", "text": "kodeks etyczny stanowi element programu etycznego", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Etyka gospodarcza ma charakter wartościujący.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": true },
+      { "label": "b", "text": "Fałsz", "correct": false }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Program etyczny to element kodeksu etycznego.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (to kodeks etyczny jest elementem programu etycznego)", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Specyfika wykonywanego zawodu może być uregulowana odrębnymi zestawami norm, czyli:",
+    "options": [
+      { "label": "a", "text": "kodeksem cywilnym", "correct": false },
+      { "label": "b", "text": "kodeksem administracyjnym", "correct": false },
+      { "label": "c", "text": "kodeksem zawodowym", "correct": true },
+      { "label": "d", "text": "kodeksem karnym", "correct": false }
+    ],
+    "category": "Etyka zawodowa"
+  },
+  {
+    "question": "Whistleblowing to praktyka polegająca na kopiowaniu rozwiązań dotyczących etycznych sposobów prowadzenia biznesu przez inne firmy.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (to ujawnianie nieprawidłowości/nadużyć w organizacji)", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Chociaż encyklika Rerum Novarum poświęcona była problematyce pracy robotników, to nie uznawała prawa do tworzenia pracowniczych związków zawodowych.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz (uznawała prawo do zrzeszania się)", "correct": true }
+    ],
+    "category": "Nauka społeczna Kościoła"
+  },
+  {
+    "question": "Etyka gospodarcza obejmuje (1 lub więcej):",
+    "options": [
+      { "label": "a", "text": "tylko etykę zawodową i etykę zarządzania", "correct": false },
+      { "label": "b", "text": "etykę globalną", "correct": true },
+      { "label": "c", "text": "etykę zarządzania", "correct": true },
+      { "label": "d", "text": "etykę zawodową", "correct": true }
+    ],
+    "category": "Etyka biznesu"
+  },
+  {
+    "question": "Rozwój zrównoważony (1 lub więcej):",
+    "options": [
+      { "label": "a", "text": "pozwala osiągnąć efekty synergiczne pomiędzy sferą ekonomiczną, społeczną i środowiskiem", "correct": true },
+      { "label": "b", "text": "obejmuje wyzwania i zobowiązania, które podejmowane są na rzecz ochrony środowiska, społeczności i gospodarki", "correct": true },
+      { "label": "c", "text": "stanowi sposób gospodarowania, w którym zaspokojenie potrzeb obecnego pokolenia nie zmniejszy szans zaspokojenia potrzeb przyszłych pokoleń", "correct": true },
+      { "label": "d", "text": "traktuje czynniki ekonomiczne, polityczne, społeczne i ekologiczne jako niezależne od siebie", "correct": false }
+    ],
+    "category": "Rozwój zrównoważony"
+  },
+  {
+    "question": "Pierwsza książka dotycząca etyki biznesu pochodzi z:",
+    "options": [
+      { "label": "a", "text": "1885 r.", "correct": false },
+      { "label": "b", "text": "1994 r.", "correct": false },
+      { "label": "c", "text": "1926 r.", "correct": true },
+      { "label": "d", "text": "1960 r.", "correct": false }
+    ],
+    "category": "Etyka biznesu"
+  }
+]

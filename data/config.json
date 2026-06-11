@@ -28,6 +28,11 @@
           "id": "systemy-sztucznej-inteligencji",
           "title": "Systemy sztucznej inteligencji — quiz",
           "theme": "academic"
+        },
+        {
+          "id": "etyka-w-biznesie-informatycznym",
+          "title": "Etyka w biznesie informatycznym — quiz",
+          "theme": "academic"
         }
       ]
     },

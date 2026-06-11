@@ -541,11 +541,13 @@ function displayQuizCard(q) {
   const progress = `${quizIndex + 1} / ${quizQueue.length}`;
   const isLast = quizIndex + 1 === quizQueue.length;
 
-  const optionsHTML = q.options
+  const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+  const optionLabels = "abcdefghijklmnopqrstuvwxyz";
+  const optionsHTML = shuffledOptions
     .map(
       (opt, i) => `
       <button class="quiz-option" data-index="${i}" data-correct="${opt.correct}">
-        <span class="quiz-option-label">${escapeHtml(opt.label)}.</span>
+        <span class="quiz-option-label">${optionLabels[i] || "•"}.</span>
         <span class="quiz-option-text">${escapeHtml(opt.text)}</span>
       </button>`
     )
