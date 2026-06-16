@@ -62,7 +62,7 @@
     "category": "Teoria AI i Agenty"
   },
   {
-    "question": "Jaki jest sens eksperymentu myślowego „chiński pokój\" (Searle'a) w dyskusji o definicji SI?",
+    "question": "Jaki jest sens eksperymentu myślowego „chiński pokój” (Searle’a) w dyskusji o definicji SI?",
     "options": [
       {
         "label": "a",
@@ -71,7 +71,7 @@
       },
       {
         "label": "b",
-        "text": "Ma pokazać, że czysta manipulacja symbolami może wystarczyć do zadań „inteligentnych\" na zewnątrz, ale nie implikuje rozumienia.",
+        "text": "Ma pokazać, że czysta manipulacja symbolami może wystarczyć do zdań „inteligentnych” na zewnątrz, ale nie implikuje rozumienia.",
         "correct": true
       },
       {
@@ -128,27 +128,27 @@
     "options": [
       {
         "label": "a",
-        "text": "Policy gradient / Q-learning → uczenie ze wzmocnieniem (RL).",
+        "text": "Policy gradient / Q-learning →uczenie ze wzmocnieniem (RL).",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Maskowane modelowanie języka (MLM) → uczenie samonadzorowane.",
+        "text": "Maskowane modelowanie języka (MLM) →uczenie samonadzorowane.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "K-means / klasteryzacja cech → uczenie nienadzorowane.",
+        "text": "K-means / klasteryzacja cech →uczenie nienadzorowane.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Klasyfikacja obrazów z etykietami → uczenie nadzorowane.",
+        "text": "Klasyfikacja obrazów z etykietami →uczenie nadzorowane.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "Autoenkoder rekonstrukcyjny → uczenie nienadzorowane/samonadzorowane.",
+        "text": "Autoenkoder rekonstrukcyjny →uczenie nienadzorowane/samonadzorowane.",
         "correct": true
       }
     ],
@@ -1214,7 +1214,7 @@
       {
         "label": "a",
         "text": "numpy.sum(a) / len(a)",
-        "correct": false
+        "correct": true
       },
       {
         "label": "b",
@@ -1281,7 +1281,7 @@
       {
         "label": "b",
         "text": "df = pandas.read_csv(\"people.csv\"); df.info()",
-        "correct": true
+        "correct": false
       },
       {
         "label": "c",
@@ -1333,7 +1333,7 @@
     "category": "Python / NumPy / pandas"
   },
   {
-    "question": "(Python/pandas) Jak policzyć liczność grup pandas.DataFrame df według Age?",
+    "question": "(Python/pandas) Jak policzyć liczność grup pandas.DataFrame df według Age (ile osób w każdym wieku)?",
     "options": [
       {
         "label": "a",
@@ -1395,7 +1395,7 @@
     "category": "Python / NumPy / pandas"
   },
   {
-    "question": "(Python/NumPy) Który zapis poprawnie tworzy macierz 2x3 z liczb 0,...,5?",
+    "question": "(Python/NumPy) Który zapis poprawnie tworzy macierz 2 × 3 z liczb 0, . . . , 5?",
     "options": [
       {
         "label": "a",
@@ -1488,7 +1488,7 @@
     "category": "Python / NumPy / pandas"
   },
   {
-    "question": "(Python) Które narzędzia stanowią alternatywy lub uzupełnienia dla venv?",
+    "question": "(Python) Które narzędzia stanowią alternatywy lub uzupełnienia dla venv w zarządzaniu środowiskami/zależnościami?",
     "options": [
       {
         "label": "a",
@@ -1519,21 +1519,21 @@
     "category": "Python / NumPy / pandas"
   },
   {
-    "question": "(Python/NumPy) Jak wylosować 3 liczby z rozkładu N(0,1)?",
+    "question": "(Python/NumPy) Jak wylosować 3 liczby z rozkładu N(0, 1) (rozkład normalny)?",
     "options": [
       {
         "label": "a",
-        "text": "x = numpy.random.default_rng().standard_normal(3)",
+        "text": "x = numpy.random.default rng().standard normal(3)",
         "correct": true
       },
       {
         "label": "b",
-        "text": "x = numpy.random.default_rng().uniform(0, 1, 3)",
+        "text": "x = numpy.random.default rng().uniform(0, 1, 3)",
         "correct": false
       },
       {
         "label": "c",
-        "text": "x = numpy.random.default_rng().normal(loc=0.0, scale=1.0, size=3)",
+        "text": "x = numpy.random.default rng().normal(loc=0.0, scale=1.0, size=3)",
         "correct": true
       },
       {
@@ -1543,7 +1543,7 @@
       },
       {
         "label": "e",
-        "text": "x = numpy.standarization().draw_normal(3)",
+        "text": "x = numpy.standarization().draw normal(3)",
         "correct": false
       }
     ],
@@ -1569,7 +1569,7 @@
       },
       {
         "label": "d",
-        "text": "df = pandas.Series({\"Name\": names, \"Age\": ages})",
+        "text": "df = pandas.Series(\"Name\": names, \"Age\": ages)",
         "correct": false
       },
       {
@@ -1585,22 +1585,22 @@
     "options": [
       {
         "label": "a",
-        "text": "Cechy kategoryczne: one-hot encoding.",
+        "text": "Cechy kategoryczne: one–hot encoding.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Braki: numeryczne → mediana/średnia; kategoryczne → moda albo specjalna kategoria.",
+        "text": "Braki: numeryczne →mediana/średnia; kategoryczne →moda albo specjalna kategoria.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "Cechy numeryczne: standaryzacja lub skalowanie min-max.",
+        "text": "Cechy numeryczne: standaryzacja lub skalowanie min–max.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Cechy kategoryczne należy zawsze skalować min-max przed one-hot encodingiem.",
+        "text": "Cechy kategoryczne należy zawsze skalować min–max przed one–hot encodingiem.",
         "correct": false
       },
       {
@@ -1616,7 +1616,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Zawsze dla danych symetrycznych o rozkładzie N(0,1).",
+        "text": "Zawsze dla danych symetrycznych o rozkładzie N(0, 1).",
         "correct": false
       },
       {
@@ -1705,7 +1705,7 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "Które sytuacje wskazują na braki danych wymagające uzupełnienia lub usunięcia rekordów?",
+    "question": "Które sytuacje wskazują na braki danych, wymagające uzupełnienia lub usunięcia rekordów?",
     "options": [
       {
         "label": "a",
@@ -1714,7 +1714,7 @@
       },
       {
         "label": "b",
-        "text": "Wartości w temperature_C są liczbami zmiennoprzecinkowymi bez braków.",
+        "text": "Wartości w temperature C są liczbami zmiennoprzecinkowymi bez braków.",
         "correct": false
       },
       {
@@ -1755,19 +1755,19 @@
       },
       {
         "label": "d",
-        "text": "W tabeli występują dwie różne pozycje o tym samym order_id, ale innym timestamp.",
+        "text": "W tabeli występują dwie różne pozycje o tym samym order id, ale innym timestamp.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "W tabeli zamówień rekordy mają ten sam order_id i jednakowy timestamp.",
+        "text": "W tabeli zamówień rekordy mają ten sam order id i jednakowy timestamp.",
         "correct": true
       }
     ],
     "category": "Preprocessing danych"
   },
   {
-    "question": "Które techniki służą do selekcji cech?",
+    "question": "Które techniki to służą do selekcji cech?",
     "options": [
       {
         "label": "a",
@@ -1848,7 +1848,7 @@
       },
       {
         "label": "d",
-        "text": "Standaryzacja z = (x - mu)/sigma jest naturalna dla cech numerycznych.",
+        "text": "Standaryzacja z = (x − µ)/σ jest naturalna dla cech numerycznych.",
         "correct": true
       },
       {
@@ -1931,12 +1931,12 @@
       },
       {
         "label": "b",
-        "text": "Usuwanie wartości odstających powyżej 3sigma.",
+        "text": "Usuwanie wartości odstających powyżej 3σ.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Przekształcenie do zakresu [0, 1] przez min-max.",
+        "text": "Przekształcenie do zakresu [0, 1] przez min–max.",
         "correct": false
       },
       {
@@ -1946,7 +1946,7 @@
       },
       {
         "label": "e",
-        "text": "Przekształcenie x → (x-mu)/sigma.",
+        "text": "Przekształcenie x ↦ (x − µ)/σ.",
         "correct": true
       }
     ],
@@ -1977,7 +1977,7 @@
       },
       {
         "label": "e",
-        "text": "Przypisuje każdej kategorii liczbę całkowitą {0, 1, 2, ...}.",
+        "text": "Przypisuje każdej kategorii liczbę całkowitą {0, 1, 2, . . . }.",
         "correct": true
       }
     ],
@@ -2015,7 +2015,7 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "Transformacja Yeo-Johnson względem Box-Coxa:",
+    "question": "Transformacja Yeo–Johnson względem Box–Coxa:",
     "options": [
       {
         "label": "a",
@@ -2029,7 +2029,7 @@
       },
       {
         "label": "c",
-        "text": "Nie posiada parametru lambda.",
+        "text": "Nie posiada parametru λ.",
         "correct": false
       },
       {
@@ -2039,7 +2039,7 @@
       },
       {
         "label": "e",
-        "text": "Wymaga x > 0 jak Box-Cox.",
+        "text": "Wymaga x > 0 jak Box–Cox.",
         "correct": false
       }
     ],
@@ -2065,7 +2065,7 @@
       },
       {
         "label": "d",
-        "text": "Założyć, że drop_duplicates jest zawsze bezbłędny.",
+        "text": "Założyć, że drop duplicates jest zawsze bezbłędny.",
         "correct": false
       },
       {
@@ -2170,7 +2170,7 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "Które stwierdzenia dotyczące winsoryzacji (zastąpienia skrajnych wartości progiem) są poprawne?",
+    "question": "Które stwierdzenia dotyczące zastąpienie skrajnie dużych (lub małych) wartości ustalonym progiem są poprawne?",
     "options": [
       {
         "label": "a",
@@ -2201,11 +2201,11 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "PowerTransformer (Box-Cox / Yeo-Johnson) — które zdania są prawdziwe?",
+    "question": "PowerTransformer (Box–Cox / Yeo–Johnson) — które zdania są prawdziwe?",
     "options": [
       {
         "label": "a",
-        "text": "Yeo-Johnson obsługuje wartości <= 0, Box-Cox wymaga x > 0.",
+        "text": "Yeo–Johnson obsługuje wartości ¬ 0, Box–Cox wymaga x > 0.",
         "correct": true
       },
       {
@@ -2215,17 +2215,17 @@
       },
       {
         "label": "c",
-        "text": "Box-Cox działa najlepiej dla danych kategorycznych.",
+        "text": "Box–Cox działa najlepiej dla danych kategorycznych.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "Yeo-Johnson to to samo co log(x + 1).",
+        "text": "Yeo–Johnson to to samo co log(x + 1).",
         "correct": false
       },
       {
         "label": "e",
-        "text": "Obie metody dopasowują parametr lambda w celu unormalnienia rozkładu.",
+        "text": "Obie metody dopasowują parametr λ w celu „unormalnienia” rozkładu.",
         "correct": true
       }
     ],
@@ -2272,7 +2272,7 @@
       },
       {
         "label": "b",
-        "text": "Mnożenie NaN przez 0, aby \"zniknęły\".",
+        "text": "Mnożenie NaN przez 0, aby „zniknęły”.",
         "correct": false
       },
       {
@@ -2387,11 +2387,11 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "Po wdrożeniu modelu, które praktyki związane z danymi są kluczowe?",
+    "question": "Po wdrożeniu modelu, które praktyki związane z danymi są kluczowe, aby utrzymać jakość rozwiązania?",
     "options": [
       {
         "label": "a",
-        "text": "Trwałe łączenie zbiorów train i test w jeden plik, żeby \"uśrednić\" rozkłady.",
+        "text": "Trwałe łączenie zbiorów train i test w jeden plik, żeby „uśrednić” rozkłady.",
         "correct": false
       },
       {
@@ -2484,7 +2484,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Reguła IQR: obserwacje poza [Q1 - 1.5*IQR, Q3 + 1.5*IQR].",
+        "text": "Reguła IQR: obserwacje poza [Q1 − 1.5 · IQR, Q3 + 1.5 · IQR].",
         "correct": true
       },
       {
@@ -2542,7 +2542,7 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "(Python/sklearn) Które praktyki pomagają uniknąć wycieku i błędów w preprocessingu?",
+    "question": "(Python/sklearn) Które praktyki pomagają uniknąć wycieku i błędów w preprocessing’u?",
     "options": [
       {
         "label": "a",
@@ -2577,7 +2577,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Odejmuje medianę i dzieli przez IQR (Q3 - Q1).",
+        "text": "Odejmuje medianę i dzieli przez IQR (Q3 −Q1).",
         "correct": true
       },
       {
@@ -2592,7 +2592,7 @@
       },
       {
         "label": "d",
-        "text": "Stosuje kodowanie one-hot dla cech kategorycznych.",
+        "text": "Stosuje kodowanie one–hot dla cech kategorycznych.",
         "correct": false
       },
       {
@@ -2618,7 +2618,7 @@
       },
       {
         "label": "c",
-        "text": "Zastąpienie skrajnie dużych wartości progiem w oparciu o wartości docelowe y.",
+        "text": "Zastąpienie skrajnie dużych (lub małych) wartości ustalonym progiem w oparciu o wartości docelowe y.",
         "correct": false
       },
       {
@@ -2644,7 +2644,7 @@
       },
       {
         "label": "b",
-        "text": "Gdy rozkłady są ciężkoogonowe i średnia/sigma są niestabilne.",
+        "text": "Gdy rozkłady są ciężkoogonowe i średnia/σ są niestabilne.",
         "correct": true
       },
       {
@@ -2697,7 +2697,7 @@
     "category": "Preprocessing danych"
   },
   {
-    "question": "(Python/pandas) Jak interpolować brakujące wartości w szeregu czasowym df[\"temp\"]?",
+    "question": "(Python/pandas) Jak interpolować brakujące wartości w szeregu czasowym df[\"temp\"] (pandas.DataFrame)?",
     "options": [
       {
         "label": "a",
@@ -2825,7 +2825,7 @@
     "options": [
       {
         "label": "a",
-        "text": "W tradycyjnym podejściu: reguły + dane → wyniki; w ML: dane + wyniki (etykiety) → reguły/model.",
+        "text": "W tradycyjnym podejściu: reguły + dane →wyniki; w ML: dane + wyniki (etykiety) →reguły/model.",
         "correct": true
       },
       {
@@ -2918,7 +2918,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Nadpisaniu wszystkich warstw stałymi zerami, by \"wyczyścić\" wiedzę.",
+        "text": "Nadpisaniu wszystkich warstw stałymi zerami, by „wyczyścić” wiedzę.",
         "correct": false
       },
       {
@@ -3042,27 +3042,27 @@
     "options": [
       {
         "label": "a",
-        "text": "Self-Supervised → wymaga ręcznych etykiet dla wszystkich próbek.",
+        "text": "Self-Supervised →wymaga ręcznych etykiet dla wszystkich próbek.",
         "correct": false
       },
       {
         "label": "b",
-        "text": "Semi-Supervised → mieszanka etykietowanych i nieetykietowanych przykładów.",
+        "text": "Semi-Supervised →mieszanka etykietowanych i nieetykietowanych przykładów.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "Weakly Supervised → etykiety nieprecyzyjne/szumne/słabe.",
+        "text": "Weakly Supervised →etykiety nieprecyzyjne/szumne/słabe.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Supervised → pełne, wiarygodne etykiety dla próbek.",
+        "text": "Supervised →pełne, wiarygodne etykiety dla próbek.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "Reinforcement Learning → etykiety klas dla każdego kroku, brak nagród.",
+        "text": "Reinforcement Learning →etykiety klas dla każdego kroku, brak nagród.",
         "correct": false
       }
     ],
@@ -3078,17 +3078,17 @@
       },
       {
         "label": "b",
-        "text": "Dokładność/Accuracy, F1, AUC-ROC → klasyfikacja.",
+        "text": "Dokładność/Accuracy, F1, AUC-ROC →klasyfikacja.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "Log-loss (cross-entropy) → wyłącznie regresja liniowa.",
+        "text": "Log-loss (cross-entropy) →wyłącznie regresja liniowa.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "MAE, MSE/RMSE, R2 → regresja.",
+        "text": "MAE, MSE/RMSE, R2 →regresja.",
         "correct": true
       },
       {
@@ -3388,7 +3388,7 @@
       },
       {
         "label": "b",
-        "text": "Ryzykiem jest \"negative transfer\", gdy domeny są zbyt różne.",
+        "text": "Ryzykiem jest „negative transfer”, gdy domeny są zbyt różne.",
         "correct": true
       },
       {
@@ -3600,7 +3600,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Uczenie \"kompilacyjne\", w którym poprawa wynika wyłącznie z optymalizacji kodu asemblera.",
+        "text": "Uczenie „kompilacyjne”, w którym poprawa wynika wyłącznie z optymalizacji kodu asemblera.",
         "correct": false
       },
       {
@@ -3610,7 +3610,7 @@
       },
       {
         "label": "c",
-        "text": "Uczenie \"bez danych\", w którym model nie potrzebuje żadnych przykładów.",
+        "text": "Uczenie „bez danych”, w którym model nie potrzebuje żadnych przykładów.",
         "correct": false
       },
       {
@@ -3631,7 +3631,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Odległości między punktami ulegają \"spłaszczeniu\", co szkodzi metodom opartym na sąsiadach/metrykach.",
+        "text": "Odległości między punktami ulegają „spłaszczeniu”, co szkodzi metodom opartym na sąsiadach/metrykach.",
         "correct": true
       },
       {
@@ -3689,16 +3689,16 @@
     "category": "Paradygmaty ML / sklearn"
   },
   {
-    "question": "(Python/sklearn) Co oznacza hiperparametr alpha w Ridge i Lasso?",
+    "question": "(Python/sklearn) Co oznacza hiperparametr α w Ridge i Lasso?",
     "options": [
       {
         "label": "a",
-        "text": "Siłę regularyzacji: większe alpha silniej karze duże wagi.",
+        "text": "Siłę regularyzacji: większe α silniej karze duże wagi.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Współczynnik uczenia learning rate jak w boostingu.",
+        "text": "Współczynnik uczenia learning_rate jak w boostingu.",
         "correct": false
       },
       {
@@ -3708,7 +3708,7 @@
       },
       {
         "label": "d",
-        "text": "Liczbę epok gradientu — większe alpha to dłuższy trening.",
+        "text": "Liczbę epok gradientu — większe α to dłuższy trening.",
         "correct": false
       },
       {
@@ -3724,27 +3724,27 @@
     "options": [
       {
         "label": "a",
-        "text": "GaussianNB → cechy ciągłe o (przybliżonym) rozkładzie normalnym.",
+        "text": "GaussianNB →cechy ciągłe o (przybliżonym) rozkładzie normalnym.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "GaussianNB → wyłącznie dane binarne 0/1.",
+        "text": "GaussianNB →wyłącznie dane binarne 0/1.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "CategoricalNB → surowe piksele RGB bez kategoryzacji jako wartości ciągłe.",
+        "text": "CategoricalNB →surowe piksele RGB bez kategoryzacji jako wartości ciągłe.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "MultinomialNB → zliczenia/słownictwo.",
+        "text": "MultinomialNB →zliczenia/słownictwo.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "BernoulliNB → cechy binarne (0/1).",
+        "text": "BernoulliNB →cechy binarne (0/1).",
         "correct": true
       }
     ],
@@ -3796,12 +3796,12 @@
       },
       {
         "label": "c",
-        "text": "feature_importances_ szacuje ważności cech.",
+        "text": "feature importances szacuje ważności cech.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "oob_score=True umożliwia ocenę out-of-bag.",
+        "text": "oob score=True umożliwia ocenę out-of-bag.",
         "correct": true
       },
       {
@@ -3832,12 +3832,12 @@
       },
       {
         "label": "d",
-        "text": "LinearSVC udostępnia predict_proba dla OvR.",
+        "text": "LinearSVC udostępnia predict proba dla OvR.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "LogisticRegression wspiera multi_class=\"multinomial\" (softmax) dla solverów lbfgs/newton-cg/saga.",
+        "text": "LogisticRegression wspiera multi class=\"multinomial\" (softmax) dla solverów lbfgs/newton-cg/saga.",
         "correct": true
       }
     ],
@@ -3848,27 +3848,27 @@
     "options": [
       {
         "label": "a",
-        "text": "AUC-ROC/AUC-PR → standardowe metryki regresji bez progów.",
+        "text": "AUC-ROC/AUC-PR →standardowe metryki regresji bez progów.",
         "correct": false
       },
       {
         "label": "b",
-        "text": "Accuracy → podstawowa metryka regresji ciągłej.",
+        "text": "Accuracy →podstawowa metryka regresji ciągłej.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Log-loss (cross-entropy) → typowa metryka regresji.",
+        "text": "Log-loss (cross-entropy) →typowa metryka regresji.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "mean_pinball_loss → regresja kwantylowa.",
+        "text": "mean pinball loss →regresja kwantylowa.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "MAE/MSE/RMSE/R2 → regresja.",
+        "text": "MAE/MSE/RMSE/R2 →regresja.",
         "correct": true
       }
     ],
@@ -3879,7 +3879,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Aby losowo mieszać etykiety i sprawdzić, czy model jest \"kreatywny\".",
+        "text": "Aby losowo mieszać etykiety i sprawdzić, czy model jest „kreatywny”.",
         "correct": false
       },
       {
@@ -3941,7 +3941,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Wymaga skalowania cech; podatny na \"curse of dimensionality\".",
+        "text": "Wymaga skalowania cech; podatny na „curse of dimensionality”.",
         "correct": true
       },
       {
@@ -4034,27 +4034,27 @@
     "options": [
       {
         "label": "a",
-        "text": "Optuna → automatyczna optymalizacja hiperparametrów z integracją sklearn i callbackami.",
+        "text": "Optuna →automatyczna optymalizacja hiperparametrów z integracją sklearn i callbackami.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "imbalanced-learn (imblearn) → techniki radzenia sobie z niezbalansowanymi klasami i integracja z sklearn.Pipeline.",
+        "text": "imbalanced-learn (imblearn) →techniki radzenia sobie z niezbalansowanymi klasami i integracja z sklearn.Pipeline.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "MLflow → śledzenie eksperymentów, artefaktów i rejestr modeli.",
+        "text": "MLflow →śledzenie eksperymentów, artefaktów i rejestr modeli.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "skorch → adapter ujednolicający modele PyTorch do interfejsu sklearn.",
+        "text": "skorch →adapter ujednolicający modele PyTorch do interfejsu sklearn.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "XGBoost/LightGBM/CatBoost → gradient boosting z wrapperami API kompatybilnymi z sklearn i opcjonalnym wsparciem GPU.",
+        "text": "XGBoost/LightGBM/CatBoost →gradient boosting z wrapperami API kompatybilnymi z sklearn i opcjonalnym wsparciem GPU.",
         "correct": true
       }
     ],
@@ -4070,7 +4070,7 @@
       },
       {
         "label": "b",
-        "text": "Zawsze użyć RandomForestRegressor — to \"wielomian z natury\".",
+        "text": "Zawsze użyć RandomForestRegressor — to „wielomian z natury”.",
         "correct": false
       },
       {
@@ -4132,7 +4132,7 @@
       },
       {
         "label": "b",
-        "text": "Ma charakter \"zdroworozsądkowych wskazówek\" lub funkcji oceny przybliżającej, upraszczających przeszukiwanie.",
+        "text": "Ma charakter „zdroworozsądkowych wskazówek” lub funkcji oceny przybliżającej, upraszczających przeszukiwanie.",
         "correct": true
       },
       {
@@ -4173,7 +4173,7 @@
       },
       {
         "label": "d",
-        "text": "Każda krawędź musi wskazywać na węzeł liczbowy \"bias\".",
+        "text": "Każda krawędź musi wskazywać na węzeł liczbowy „bias”.",
         "correct": true
       },
       {
@@ -4230,7 +4230,7 @@
       },
       {
         "label": "c",
-        "text": "To procedury i kroki \"jak coś zrobić\" zakodowane w algorytmie.",
+        "text": "To procedury i kroki „jak coś zrobić” zakodowane w algorytmie.",
         "correct": false
       },
       {
@@ -4318,7 +4318,7 @@
       },
       {
         "label": "b",
-        "text": "Grafy semantyczne modelują pojęcia jako węzły i relacje jako krawędzie; ramy to ustrukturyzowane \"rekordy\" (klasy) z atrybutami (slotami) i domyślnymi wartościami.",
+        "text": "Grafy semantyczne modelują pojęcia jako węzły i relacje jako krawędzie; ramy to ustrukturyzowane „rekordy” (klasy) z atrybutami (slotami) i domyśl- nymi wartościami.",
         "correct": true
       },
       {
@@ -4364,14 +4364,14 @@
       },
       {
         "label": "e",
-        "text": "Postac: A ← B1 i ... i Bn (konkluzja i koniunkcja przesłanek).",
+        "text": "Postać: A ← B₁ ∧ ⋯ ∧ Bₙ (konkluzja i koniunkcja przesłanek).",
         "correct": true
       }
     ],
     "category": "Logika i Reguły Horna"
   },
   {
-    "question": "Ramy (frames) Minsky'ego: które stwierdzenia są prawdziwe?",
+    "question": "Ramy (frames) Minsky’ego: które stwierdzenia są prawdziwe?",
     "options": [
       {
         "label": "a",
@@ -4385,7 +4385,7 @@
       },
       {
         "label": "c",
-        "text": "Są wygodne do modelowania stereotypowych sytuacji (schematy/\"scripts\").",
+        "text": "Są wygodne do modelowania stereotypowych sytuacji (schematy/„scripts”).",
         "correct": true
       },
       {
@@ -4473,7 +4473,7 @@
       },
       {
         "label": "b",
-        "text": "Substytucja zawiera ?x: \"anna\", a fakt wymaga ?x == \"eva\".",
+        "text": "Substytucja zawiera ?x: 'anna', a fakt wymaga ?x == 'eva'.",
         "correct": true
       },
       {
@@ -4495,7 +4495,7 @@
     "category": "Logika i Reguły Horna"
   },
   {
-    "question": "(Python) Kiedy dopasowanie ciała reguły do faktów musi się nie powieść?",
+    "question": "(Python) Kiedy dopasowanie ciała reguły ((A 1,. . . ,A k)) do faktów musi się nie powieść?",
     "options": [
       {
         "label": "a",
@@ -4504,12 +4504,12 @@
       },
       {
         "label": "b",
-        "text": "Jeśli istnieje choć jeden fakt zgodny z A1.",
+        "text": "Jeśli istnieje choć jeden fakt zgodny z (A 1).",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Jeśli dla któregoś Ai brak jest jakiegokolwiek zgodnego faktu pod już zgromadzonymi wiązaniami.",
+        "text": "Jeśli dla któregoś (A i) brak jest jakiegokolwiek zgodnego faktu pod już zgromadzonymi wiązaniami.",
         "correct": true
       },
       {
@@ -4519,23 +4519,23 @@
       },
       {
         "label": "e",
-        "text": "Jeśli arność któregoś Ai różni się od arności faktów o tej nazwie predykatu.",
+        "text": "Jeśli arność któregoś (A i) różni się od arności faktów o tej nazwie predykatu.",
         "correct": true
       }
     ],
     "category": "Logika i Reguły Horna"
   },
   {
-    "question": "(Python) Kiedy unifikacja parent(\"?x\",\"ola\") ze zmienną \"?x\" z parent(\"eva\",\"ola\") powiedzie się i jaką da substytucję?",
+    "question": "(Python) Kiedy unifikacja parent(’?x’,’ola’) ze zmienną ’?x’ z parent(’eva’,’ola’) powiedzie się i jaką da substytucję?",
     "options": [
       {
         "label": "a",
-        "text": "Powiedzie się z substytucją: ?x -> \"eva\".",
+        "text": "Powiedzie się z substytucją: ?x -> ’eva’ .",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Powiedzie się z substytucją: ?x -> \"ola\".",
+        "text": "Powiedzie się z substytucją: ?x -> ’ola’ .",
         "correct": false
       },
       {
@@ -4623,27 +4623,27 @@
     "options": [
       {
         "label": "a",
-        "text": "(parent(X,\"ola\")).",
+        "text": "(parent(X,’ola’)).",
         "correct": false
       },
       {
         "label": "b",
-        "text": "(grandparent(\"ola\",\"X\")).",
+        "text": "(grandparent(’ola’,’X’)).",
         "correct": false
       },
       {
         "label": "c",
-        "text": "(grandparent(None,\"ola\")) w implementacji z wildcardem None.",
+        "text": "(grandparent(None,’ola’)) w implementacji z wildcardem None.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "(grandparent(\"ola\",X)).",
+        "text": "(grandparent(’ola’,X)).",
         "correct": false
       },
       {
         "label": "e",
-        "text": "(grandparent(X,\"ola\")).",
+        "text": "(grandparent(X,’ola’)).",
         "correct": true
       }
     ],
@@ -4767,7 +4767,7 @@
       },
       {
         "label": "e",
-        "text": "Zastosowaniem predykatu do uporządkowanej listy termów, np. parent(\"anna\",\"eva\").",
+        "text": "Zastosowaniem predykatu do uporządkowanej listy termów, np. parent('anna','eva').",
         "correct": true
       }
     ],
@@ -4934,27 +4934,27 @@
       {
         "label": "a",
         "text": "Zazwyczaj definiuje się funkcję kosztu ścieżki.",
-        "correct": true
+        "correct": false
       },
       {
         "label": "b",
         "text": "Mogą być rozwiązywane metodami informowanymi lub nieinformowanymi.",
-        "correct": true
+        "correct": false
       },
       {
         "label": "c",
         "text": "Wymagają specyfikacji stanu początkowego i testu celu.",
-        "correct": true
+        "correct": false
       },
       {
         "label": "d",
         "text": "Mogą wymagać pamiętania stanów odwiedzonych, by uniknąć pętli.",
-        "correct": true
+        "correct": false
       },
       {
         "label": "e",
         "text": "Często operują na przestrzeni stanów o dużym czynniku rozgałęzienia.",
-        "correct": true
+        "correct": false
       }
     ],
     "category": "Algorytmy przeszukiwania"
@@ -5170,7 +5170,7 @@
       },
       {
         "label": "e",
-        "text": "Efekty usuwane w STRIPS oznaczają \"odłóż wykonanie akcji do końca planu\".",
+        "text": "Efekty usuwane w STRIPS oznaczają „odłóż wykonanie akcji do końca planu”.",
         "correct": false
       }
     ],
@@ -5181,27 +5181,27 @@
     "options": [
       {
         "label": "a",
-        "text": "Mapa o równych kosztach przejść i cel na małej głębokości → Przeszukiwanie wszerz.",
+        "text": "Mapa o równych kosztach przejść i cel na małej głębokości →Przeszukiwanie wszerz.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Różne, dodatnie koszty krawędzi, szukamy najtańszego rozwiązania → Przeszukiwanie wszerz.",
+        "text": "Różne, dodatnie koszty krawędzi, szukamy najtańszego rozwiązania →Przeszukiwanie wszerz.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Głęboka przestrzeń z rzadkimi rozwiązaniami, ograniczona pamięć → Przeszukiwanie w głąb lub z ograniczeniem głębokości.",
+        "text": "Głęboka przestrzeń z rzadkimi rozwiązaniami, ograniczona pamięć →Przeszukiwanie w głąb lub z ograniczeniem głębokości.",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Wysokie, zróżnicowane koszty i cykle → Przeszukiwanie iteracyjne w głąb bez zmian.",
+        "text": "Wysokie, zróżnicowane koszty i cykle →Przeszukiwanie iteracyjne w głąb bez zmian.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "Nieznana głębokość, brak heurystyki, chcemy najpłytsze rozwiązanie przy małej pamięci → Czyste przeszukiwanie w głąb.",
+        "text": "Nieznana głębokość, brak heurystyki, chcemy najpłytsze rozwiązanie przy małej pamięci →Czyste przeszukiwanie w głąb.",
         "correct": false
       }
     ],
@@ -5363,31 +5363,31 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Planowanie probabilistyczne vs. niedeterministyczne — dopasuj cele.",
+    "question": "Planowanie probabilistyczne vs. niedeterministyczne – dopasuj cele.",
     "options": [
       {
         "label": "a",
-        "text": "Probabilistyczne → polityka zależna od stanu i rozkładów przejść.",
+        "text": "Probabilistyczne →polityka zależna od stanu i rozkładów przejść.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Probabilistyczne → maksymalizacja oczekiwanej użyteczności / prawdopodobieństwa sukcesu.",
+        "text": "Probabilistyczne →maksymalizacja oczekiwanej użyteczności / prawdopodobieństwa sukcesu.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "Niedeterministyczne → istnienie strategii osiągającej cel dla wszystkich możliwych wyników akcji (plan warunkowy).",
+        "text": "Niedeterministyczne →istnienie strategii osiągającej cel dla wszystkich możliwych wyników akcji (plan warunkowy).",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Niedeterministyczne → plan w postaci drzewa z gałęziami na wyniki akcji.",
+        "text": "Niedeterministyczne →plan w postaci drzewa z gałęziami na wyniki akcji.",
         "correct": true
       },
       {
         "label": "e",
-        "text": "Probabilistyczne → możliwość kompromisu ryzyko-nagroda przez funkcję użyteczności.",
+        "text": "Probabilistyczne →możliwość kompromisu ryzyko–nagroda przez funkcję użyteczności.",
         "correct": true
       }
     ],
@@ -5549,7 +5549,7 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Jakie warunki muszą zachodzić, aby przeszukiwanie wszerz było zupełne i optymalne?",
+    "question": "Jakie warunki muszą zachodzić, aby przeszukiwanie wszerz było zupełne i optymalne w problemie deterministycznym?",
     "options": [
       {
         "label": "a",
@@ -5580,16 +5580,16 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Jakie role pełnią koszt ścieżki g(n), heurystyka h(n) i funkcja oceny f(n) w wyszukiwaniu informowanym?",
+    "question": "Jakie role pełnią koszt ścieżki (g(n)), heurystyka (h(n)) i funkcja oceny (f(n)) w wyszukiwaniu informowanym?",
     "options": [
       {
         "label": "a",
-        "text": "Admisyjność heurystyki oznacza, że h(n) nigdy nie przeszacowuje rzeczywistego kosztu do celu.",
+        "text": "Admisyjność heurystyki oznacza, że (h(n)) nigdy nie przeszacowuje rzeczywistego kosztu do celu.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "f(n) łączy g(n) i h(n) do porządkowania rozwijanych węzłów.",
+        "text": "(f(n)) łączy (g(n)) i (h(n)) do porządkowania rozwijanych węzłów.",
         "correct": true
       },
       {
@@ -5599,23 +5599,23 @@
       },
       {
         "label": "d",
-        "text": "h(n) szacuje koszt od n do celu (na podstawie wiedzy domenowej).",
+        "text": "(h(n)) szacuje koszt od (n) do celu (na podstawie wiedzy domenowej).",
         "correct": true
       },
       {
         "label": "e",
-        "text": "g(n) sumuje koszty kroków od startu do węzła n.",
+        "text": "(g(n)) sumuje koszty kroków od startu do węzła (n).",
         "correct": true
       }
     ],
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Planowanie hierarchiczne (HTN) — wskaż trafne stwierdzenia.",
+    "question": "Planowanie hierarchiczne (Hierarchical Task Networks, HTN) – wskaż trafne stwierdzenia.",
     "options": [
       {
         "label": "a",
-        "text": "HTN nie dopuszcza żadnej hierarchii — wszystkie zadania są równorzędne.",
+        "text": "HTN nie dopuszcza żadnej hierarchii – wszystkie zadania są równorzędne.",
         "correct": false
       },
       {
@@ -5656,7 +5656,7 @@
       },
       {
         "label": "c",
-        "text": "Operator jako funkcja/przejście: stan → nowy stan, opcjonalnie z kosztem.",
+        "text": "Operator jako funkcja/przejście: stan →nowy stan, opcjonalnie z kosztem.",
         "correct": true
       },
       {
@@ -5666,7 +5666,7 @@
       },
       {
         "label": "e",
-        "text": "Graf stanów jawny (predefiniowany) lub generowany \"na żądanie\" przez funkcję sukcesorów.",
+        "text": "Graf stanów jawny (predefiniowany) lub generowany „na żądanie” przez funkcję sukcesorów.",
         "correct": true
       }
     ],
@@ -5682,7 +5682,7 @@
       },
       {
         "label": "b",
-        "text": "Definicja przestrzeni stanów i funkcji sukcesorów.",
+        "text": "Definicja przestrzeni stanów i funkcji sukcesorów (różniąca się charakterem wyniku).",
         "correct": true
       },
       {
@@ -5754,12 +5754,12 @@
       },
       {
         "label": "d",
-        "text": "Informowane nie eksploruje w ogóle gałęzi nieoptymalnych.",
+        "text": "Informowane nie eksploruje w ogóle gałęzi nieoptymalnych — nie rozwija żadnych węzłów pobocznych.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "Informowane (np. A*) wykorzystuje heurystykę szacującą \"odległość\" do celu.",
+        "text": "Informowane (np. A*) wykorzystuje heurystykę szacującą „odległość” do celu.",
         "correct": true
       }
     ],
@@ -5925,38 +5925,38 @@
     "options": [
       {
         "label": "a",
-        "text": "Szukamy najtańszej ścieżki przy silnie zróżnicowanych kosztach → użycie przeszukiwania w głąb, bo \"zużywa mniej pamięci\".",
+        "text": "Szukamy najtańszej ścieżki przy silnie zróżnicowanych kosztach →użycie przeszukiwania w głąb, bo „zużywa mniej pamięci”.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Nieznana głębokość celu, brak ograniczeń pamięci → przeszukiwanie wszerz zamiast przeszukiwania iteracyjnego w głąb.",
+        "text": "Nieznana głębokość celu, ograniczona pamięć →przeszukiwanie wszerz zamiast przeszukiwania iteracyjnego w głąb.",
         "correct": true
       },
       {
         "label": "c",
-        "text": "Dodatnie wagi krawędzi i potrzeba optymalności → użycie przeszukiwania z kosztami.",
+        "text": "Dodatnie wagi krawędzi i potrzeba optymalności →użycie przeszukiwania z kosztami.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "Ustalony limit zasobów pamięci → rozważenie przeszukiwania w głąb lub przeszukiwania z ograniczeniem głębokości zamiast przeszukiwania wszerz.",
+        "text": "Ustalony limit zasobów pamięci →rozważenie przeszukiwania w głąb lub przeszukiwania z ograniczeniem głębokości zamiast przeszukiwania wszerz.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "Równe koszty i płytki cel → użycie przeszukiwania wszerz.",
+        "text": "Równe koszty i płytki cel →użycie przeszukiwania wszerz.",
         "correct": false
       }
     ],
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Algorytm IDA* — wskaż poprawny opis.",
+    "question": "Algorytm iteracyjnego przeszukiwania z heurystyką (IDA*), gdzie g(n) to koszt ścieżki od startu, a h(n) to heurystyka do celu – wskaż poprawny opis.",
     "options": [
       {
         "label": "a",
-        "text": "Nie wymaga funkcji g(n) — używa wyłącznie h(n).",
+        "text": "Nie wymaga funkcji g(n) – używa wyłącznie h(n).",
         "correct": false
       },
       {
@@ -5971,7 +5971,7 @@
       },
       {
         "label": "d",
-        "text": "Stosuje jedynie limit na liczbę odwiedzonych węzłów, nie na f(n).",
+        "text": "Stosuje jedynie limit na liczbę odwiedzonych węzłów, nie na f(n) = g(n) + h(n).",
         "correct": false
       },
       {
@@ -5987,7 +5987,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Spójność (monotoniczność) heurystyki oznacza, że dla każdego przejścia n → n' zachodzi h(n) ≤ c(n,n') + h(n').",
+        "text": "Spójność (monotoniczność) heurystyki oznacza, że dla każdego przejścia n →n′ zachodzi h(n) ¬ c(n, n′) + h(n′).",
         "correct": true
       },
       {
@@ -6045,7 +6045,7 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Kiedy warto wybrać IDA* zamiast A*?",
+    "question": "Kiedy warto wybrać algorytm iteracyjnego przeszukiwania z heurystyką zamiast algorytmu A*?",
     "options": [
       {
         "label": "a",
@@ -6107,31 +6107,31 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Checklista: ograniczenia zasobów a wybór techniki.",
+    "question": "Checklista: ograniczenia zasobów a wybór techniki – wskaż sensowne pary.",
     "options": [
       {
         "label": "a",
-        "text": "Bardzo ograniczona pamięć, plan liniowy, deterministyczny → algorytmy o małym śladzie pamięci.",
+        "text": "Bardzo ograniczona pamięć, plan liniowy, deterministyczny →algorytmy o małym śladzie pamięci.",
         "correct": true
       },
       {
         "label": "b",
-        "text": "Silny niedeterminizm i potrzeba planu warunkowego → czysty STRIPS bez rozszerzeń.",
+        "text": "Silny niedeterminizm i potrzeba planu warunkowego →czysty STRIPS bez rozszerzeń.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Wysoka równoległość akcji i konflikty → ignorowanie mutex, bo spowalniają.",
+        "text": "Wysoka równoległość akcji i konflikty →ignorowanie mutex, bo spowalniają.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "Bogata wiedza proceduralna o domenie → planowanie hierarchiczne (HTN).",
+        "text": "Bogata wiedza proceduralna o domenie →planowanie hierarchiczne (HTN).",
         "correct": true
       },
       {
         "label": "e",
-        "text": "Duże grafy i potrzeba planów równoległych → unikanie GraphPlan, bo nie obsługuje równoległości.",
+        "text": "Duże grafy i potrzeba planów równoległych →unikanie GraphPlan, bo nie obsługuje równoległości.",
         "correct": false
       }
     ],
@@ -6169,7 +6169,7 @@
     "category": "Algorytmy przeszukiwania"
   },
   {
-    "question": "Dla którego typu problemu klasyczne A* jest naturalnym wyborem bez modyfikacji?",
+    "question": "Dla którego typu problemu deterministyczny, wieloetapowy czy niedeterministyczny, wieloetapowy klasyczne A* (f=g+h) jest naturalnym wyborem bez modyfikacji?",
     "options": [
       {
         "label": "a",
@@ -6209,7 +6209,7 @@
       },
       {
         "label": "b",
-        "text": "Odporność na zmiany (np. alternatywne gałęzie, jeśli krawędź się \"psuje\").",
+        "text": "Odporność na zmiany (np. alternatywne gałęzie, jeśli krawędź się „psuje”).",
         "correct": true
       },
       {
@@ -6286,7 +6286,7 @@
       },
       {
         "label": "e",
-        "text": "Pojedyncza liczba całkowita jako \"graf\".",
+        "text": "Pojedyncza liczba całkowita jako „graf”.",
         "correct": false
       }
     ],
@@ -6324,7 +6324,7 @@
     "category": "Graf / Ścieżki w Pythonie"
   },
   {
-    "question": "(Python) Wskaż fałszywe zdania o rekonstrukcji ścieżki po zakończeniu algorytmu Dijkstry.",
+    "question": "(Python) Wskaż fałszywe zdania o rekonstrukcji ścieżki po zakończeniu wyszukiwania algorytmu Dijkstry.",
     "options": [
       {
         "label": "a",
@@ -6390,7 +6390,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Wartość heurystyki powinna być >= rzeczywistego kosztu, by przyspieszyć A*.",
+        "text": "Wartość heurystyki powinna być ­ rzeczywistego kosztu, by przyspieszyć A*.",
         "correct": true
       },
       {
@@ -6410,7 +6410,7 @@
       },
       {
         "label": "e",
-        "text": "Odległość euklidesowa jest zawsze <= odległości Manhattan, dlatego jest zawsze lepszą heurystyką.",
+        "text": "Odległość euklidesowa jest zawsze ¬ odległości Manhattan, dlatego jest zawsze lepszą heurystyką.",
         "correct": true
       }
     ],
@@ -6479,7 +6479,7 @@
     "category": "Graf / Ścieżki w Pythonie"
   },
   {
-    "question": "(Python) Softmax i entropia krzyżowa. Logity z = (1, 0, 0); prawdopodobieństwa Softmax; prawdziwa etykieta y = (1, 0, 0). Podaj przybliżony gradient dL/dz.",
+    "question": "(Python) Softmax i entropia krzyżowa. Logity z = (1, 0, 0); prawdopodobieństwa Softmax pᵢ = e^(zᵢ) / Σⱼ e^(zⱼ); ∂L/∂zᵢ = pᵢ − yᵢ; prawdziwa etykieta to pierwsza klasa y = (1, 0, 0). Podaj przybliżony gradient dL/dz.",
     "options": [
       {
         "label": "a",
@@ -6488,22 +6488,22 @@
       },
       {
         "label": "b",
-        "text": "(-0.5, 0.5, 0).",
+        "text": "(−0.5, 0.5, 0).",
         "correct": false
       },
       {
         "label": "c",
-        "text": "Około (-0.424, 0.212, 0.212).",
+        "text": "Około (−0.424, 0.212, 0.212).",
         "correct": true
       },
       {
         "label": "d",
-        "text": "Około (0.424, -0.212, -0.212).",
+        "text": "Około (0.424, −0.212, −0.212).",
         "correct": false
       },
       {
         "label": "e",
-        "text": "(-1, 1, 0).",
+        "text": "(−1, 1, 0).",
         "correct": false
       }
     ],
@@ -6603,7 +6603,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Dwuwarstwowy model liniowy: y_hat = W2*(W1*x). Dla x=2, W1=3, W2=4, y=10 oblicz dL/dW1 i dL/dW2.",
+    "question": "(Python) Dwuwarstwowy model liniowy bez nieliniowości: y_hat = W2 * (W1 * x) (skalary). Strata: L = 0.5*(y_hat − y)**2. Dla x=2, W1=3, W2=4, y=10 oblicz dL/dW1 i dL/dW2.",
     "options": [
       {
         "label": "a",
@@ -6622,7 +6622,7 @@
       },
       {
         "label": "d",
-        "text": "dL/dW1 = -112, dL/dW2 = -84.",
+        "text": "dL/dW1 = −112, dL/dW2 = −84.",
         "correct": false
       },
       {
@@ -6715,7 +6715,7 @@
       },
       {
         "label": "d",
-        "text": "Standaryzacja wymusza, aby każda aktywacja była identyczna w całej sieci.",
+        "text": "Standaryzacja wymusza, aby każda aktywacja była identyczna w całej sieci, co zastępuje proces uczenia.",
         "correct": false
       },
       {
@@ -6727,7 +6727,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Do czego służy funkcja Softmax w warstwie wyjściowej?",
+    "question": "Do czego służy funkcja miękka maksymalizacja (Softmax) w warstwie wyjściowej?",
     "options": [
       {
         "label": "a",
@@ -6820,7 +6820,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Generatywne sieci przeciwstawne (GAN) — wybierz prawdziwe stwierdzenia.",
+    "question": "Generatywne sieci przeciwstawne (Generative Adversarial Networks) — wybierz prawdziwe stwierdzenia.",
     "options": [
       {
         "label": "a",
@@ -7161,7 +7161,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Które stwierdzenia o SGD są prawdziwe?",
+    "question": "Które stwierdzenia o spadku gradientowym stochastycznym (SGD) są prawdziwe?",
     "options": [
       {
         "label": "a",
@@ -7285,7 +7285,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron z LeakyReLU: x=5, w=-0.2, b=0, y=1, alpha=0.1. Oblicz dL/dw i dL/db.",
+    "question": "Neuron z wyciekającą funkcją prostującą: z = w*x + b, y_hat = LeakyReLU(z) z alpha = 0.1, L = 0.5*(y_hat − y)**2. Dla x=5, w=−0.2, b=0, y=1 oblicz dL/dw i dL/db.",
     "options": [
       {
         "label": "a",
@@ -7294,12 +7294,12 @@
       },
       {
         "label": "b",
-        "text": "dL/dw = -1.1, dL/db = -0.22.",
+        "text": "dL/dw = −1.1, dL/db = −0.22.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "dL/dw = -0.55, dL/db = -0.11.",
+        "text": "dL/dw = −0.55, dL/db = −0.11.",
         "correct": true
       },
       {
@@ -7309,14 +7309,14 @@
       },
       {
         "label": "e",
-        "text": "dL/dw = -0.11, dL/db = -0.55.",
+        "text": "dL/dw = −0.11, dL/db = −0.55.",
         "correct": false
       }
     ],
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron z sigmoidą i MSE: x=2, w=-1, b=0, y=0.5. sigmoid(-2)=0.1192, pochodna=0.105. Oblicz dL/dw i dL/db.",
+    "question": "Neuron z sigmoidą i MSE: z = w*x + b, y_hat = sigmoid(z), L = 0.5*(y_hat − y)**2. Dla x=2, w=−1, b=0, y=0.5 oblicz dL/dw i dL/db. (Użyj: sigmoid(−2) = 0.1192, pochodna w tym punkcie 0.105.)",
     "options": [
       {
         "label": "a",
@@ -7330,17 +7330,17 @@
       },
       {
         "label": "c",
-        "text": "dL/dw = -0.40, dL/db = -0.20.",
+        "text": "dL/dw = −0.40, dL/db = −0.20.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "dL/dw = -0.16, dL/db = -0.08.",
+        "text": "dL/dw = −0.16, dL/db = −0.08.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "dL/dw = -0.08, dL/db = -0.04.",
+        "text": "dL/dw = −0.08, dL/db = −0.04.",
         "correct": true
       }
     ],
@@ -7440,7 +7440,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron liniowy: x=3, w=2, b=1, y=5. Oblicz dL/dw i dL/db.",
+    "question": "Dany jest neuron liniowy: y_hat = w*x + b. Funkcja straty: L = 0.5*(y_hat − y)**2. Dla x=3, w=2, b=1, y=5 oblicz dL/dw i dL/db.",
     "options": [
       {
         "label": "a",
@@ -7464,14 +7464,14 @@
       },
       {
         "label": "e",
-        "text": "dL/dw = -6, dL/db = -2.",
+        "text": "dL/dw = −6, dL/db = −2.",
         "correct": false
       }
     ],
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron z ReLU: x=5, w=-1, y=1. Oblicz dL/dw.",
+    "question": "Neuron z funkcją prostującą: y_hat = ReLU(z), z = w*x. Strata: L = 0.5*(y_hat − y)**2. Dla x=5, w=−1, y=1 oblicz dL/dw.",
     "options": [
       {
         "label": "a",
@@ -7490,12 +7490,12 @@
       },
       {
         "label": "d",
-        "text": "dL/dw = -5.",
+        "text": "dL/dw = −5.",
         "correct": false
       },
       {
         "label": "e",
-        "text": "dL/dw = -2.",
+        "text": "dL/dw = −2.",
         "correct": false
       }
     ],
@@ -7564,7 +7564,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Kiedy Leaky ReLU bywa lepsza niż ReLU?",
+    "question": "Kiedy funkcja wyciekająca prostująca (Leaky ReLU) bywa lepsza niż funkcja prostująca (ReLU)?",
     "options": [
       {
         "label": "a",
@@ -7595,7 +7595,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron z sigmoidą: x=1, w=0, b=0, y=1. sigmoid(0)=0.5, pochodna=0.25. Oblicz dL/dw i dL/db.",
+    "question": "Neuron z sigmoidą: z = w*x + b, y_hat = sigmoid(z). Strata: L = 0.5*(y_hat − y)**2. Dla x=1, w=0, b=0, y=1 oblicz dL/dw oraz dL/db. (Użyj faktu: sigmoid(0)=0.5, pochodna sigmoidy w 0 to 0.25.)",
     "options": [
       {
         "label": "a",
@@ -7604,17 +7604,17 @@
       },
       {
         "label": "b",
-        "text": "dL/dw = -0.5, dL/db = -0.5.",
+        "text": "dL/dw = −0.5, dL/db = −0.5.",
         "correct": false
       },
       {
         "label": "c",
-        "text": "dL/dw = -0.25, dL/db = -0.25.",
+        "text": "dL/dw = −0.25, dL/db = −0.25.",
         "correct": false
       },
       {
         "label": "d",
-        "text": "dL/dw = -0.125, dL/db = -0.125.",
+        "text": "dL/dw = −0.125, dL/db = −0.125.",
         "correct": true
       },
       {
@@ -7812,7 +7812,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Kiedy MSE jest naturalnym wyborem funkcji straty?",
+    "question": "Kiedy MSE (Mean Squared Error) jest naturalnym wyborem funkcji straty?",
     "options": [
       {
         "label": "a",
@@ -7843,7 +7843,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Neuron liniowy: x=4, w=1.5, b=-2, y=3. Oblicz dL/dw i dL/db.",
+    "question": "Oblicz pochodne dla neuronu liniowego: y_hat = w*x + b, L = 0.5*(y_hat − y)**2. Dla x=4, w=1.5, b=−2, y=3 podaj dL/dw i dL/db.",
     "options": [
       {
         "label": "a",
@@ -7862,7 +7862,7 @@
       },
       {
         "label": "d",
-        "text": "dL/dw = -4, dL/db = -1.",
+        "text": "dL/dw = −4, dL/db = −1.",
         "correct": false
       },
       {
@@ -7874,7 +7874,7 @@
     "category": "Sieci neuronowe"
   },
   {
-    "question": "Aktualizacja biasu: b := b - eta * dL/db. Dla b=0.5, dL/db=-0.2, eta=0.1 oblicz nowe b.",
+    "question": "Aktualizacja biasu metodą spadku gradientowego: b := b − eta * dL/db. Dla b=0.5, dL/db = −0.2, eta=0.1 oblicz nowe b.",
     "options": [
       {
         "label": "a",
@@ -7909,7 +7909,7 @@
     "options": [
       {
         "label": "a",
-        "text": "Wybór funkcji aktywacji nie ma żadnego wpływu na zbieżność ani na głębokość.",
+        "text": "Wybór funkcji aktywacji nie ma żadnego wpływu na zbieżność ani na głębokość, bo decyduje wyłącznie rozmiar partii danych.",
         "correct": false
       },
       {

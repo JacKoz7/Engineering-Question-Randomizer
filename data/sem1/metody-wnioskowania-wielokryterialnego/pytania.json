@@ -1,0 +1,287 @@
+[
+  {
+    "question": "Dodatnie stożki dominacji zastosowane w ocenie wielokryterialnej:",
+    "options": [
+      { "label": "a", "text": "umożliwiają częściowe uporządkowanie ocen rozwiązań dopuszczalnych", "correct": true },
+      { "label": "b", "text": "pozwalają znaleźć tylko jedno rozwiązanie dopuszczalne", "correct": false },
+      { "label": "c", "text": "umożliwiają całkowite uporządkowanie ocen rozwiązań dopuszczalnych", "correct": false },
+      { "label": "d", "text": "nie mają zastosowania do poszukiwania rozwiązań niezdominowanych", "correct": false }
+    ],
+    "category": "Stożki dominacji i Pareto"
+  },
+  {
+    "question": "Punkty referencyjne przy ocenie wielokryterialnej są:",
+    "options": [
+      { "label": "a", "text": "tworzone w przestrzeni celów", "correct": true },
+      { "label": "b", "text": "żadna odpowiedź nie jest prawdziwa", "correct": false },
+      { "label": "c", "text": "punktami, które wynikają z wewnętrznych własności ocen niezdominowanych", "correct": false },
+      { "label": "d", "text": "tworzone w przestrzeni zmiennych decyzyjnych", "correct": false }
+    ],
+    "category": "Punkty charakterystyczne"
+  },
+  {
+    "question": "Rozwiązanie niezdominowane to:",
+    "options": [
+      { "label": "a", "text": "rozwiązanie jednoznacznie określone matematycznie", "correct": true },
+      { "label": "b", "text": "rozwiązanie niejednoznaczne matematycznie", "correct": false },
+      { "label": "c", "text": "żadna odpowiedź nie jest poprawna", "correct": false },
+      { "label": "d", "text": "zawsze jest tylko jedno", "correct": false }
+    ],
+    "category": "Stożki dominacji i Pareto"
+  },
+  {
+    "question": "Metoda ograniczonych kryteriów inaczej nazywana jest:",
+    "options": [
+      { "label": "a", "text": "Trade-Off Method", "correct": true },
+      { "label": "b", "text": "Hold-On Method", "correct": false },
+      { "label": "c", "text": "Be-Safe Method", "correct": false },
+      { "label": "d", "text": "Go-Ahead Method", "correct": false }
+    ],
+    "category": "Skalaryzacja"
+  },
+  {
+    "question": "Czym jest metoda AHP?",
+    "options": [
+      { "label": "a", "text": "Analytic Hierarchy Process", "correct": true },
+      { "label": "b", "text": "Auto Hold Process", "correct": false },
+      { "label": "c", "text": "Anti-Hype Prediction", "correct": false },
+      { "label": "d", "text": "Analytic Horn Pass", "correct": false }
+    ],
+    "category": "Metoda AHP"
+  },
+  {
+    "question": "Czym jest propozycja Blina?",
+    "options": [
+      { "label": "a", "text": "podejściem wykorzystującym teorię zbiorów rozmytych", "correct": true },
+      { "label": "b", "text": "techniką z dziedziny kryminologii", "correct": false },
+      { "label": "c", "text": "metodą szacowania wielkości wszechświata", "correct": false },
+      { "label": "d", "text": "żadna odpowiedź nie jest poprawna", "correct": false }
+    ],
+    "category": "Metoda Blina"
+  },
+  {
+    "question": "Metody z relacją przewyższania to na przykład:",
+    "options": [
+      { "label": "a", "text": "Electre, Oreste, Mappac", "correct": true },
+      { "label": "b", "text": "R2D2, Jabba, Jar-Jar", "correct": false },
+      { "label": "c", "text": "Saturn, Uran, Jowisz", "correct": false },
+      { "label": "d", "text": "SpaceX, Tesla, StarLink", "correct": false }
+    ],
+    "category": "Relacje przewyższania"
+  },
+  {
+    "question": "W metodach skalaryzacji występują kodowania:",
+    "options": [
+      { "label": "a", "text": "wg Neumanna-Morgensterna oraz metodą Pattern", "correct": true },
+      { "label": "b", "text": "metodą Karnaugh", "correct": false },
+      { "label": "c", "text": "wg Eddy-Marscha oraz metodą Random", "correct": false },
+      { "label": "d", "text": "metodą l'Hôpitala", "correct": false }
+    ],
+    "category": "Skalaryzacja"
+  },
+  {
+    "question": "Jedną ze strategii w metodach skalaryzacji jest:",
+    "options": [
+      { "label": "a", "text": "strategia liniowa", "correct": true },
+      { "label": "b", "text": "strategia krzywej", "correct": false },
+      { "label": "c", "text": "strategia Harrison-Cooke", "correct": false },
+      { "label": "d", "text": "strategia automatyczna", "correct": false }
+    ],
+    "category": "Skalaryzacja"
+  },
+  {
+    "question": "Kryterium skalarne jest sposobem ilościowego określenia jakości za pomocą jednej liczby poprzez przyjęcie:",
+    "options": [
+      { "label": "a", "text": "wspólnej skali dla wszystkich kryteriów oceny", "correct": true },
+      { "label": "b", "text": "różnej skali dla wszystkich kryteriów", "correct": false },
+      { "label": "c", "text": "wspólnej skali dla poszczególnych kryteriów", "correct": false },
+      { "label": "d", "text": "różnej skali dla poszczególnych kryteriów", "correct": false }
+    ],
+    "category": "Skalaryzacja"
+  },
+  {
+    "question": "Punktem charakterystycznym w przestrzeni kryterialnej NIE JEST:",
+    "options": [
+      { "label": "a", "text": "punkt przesunięty", "correct": true },
+      { "label": "b", "text": "punkt idealny", "correct": false },
+      { "label": "c", "text": "punkt nadir", "correct": false },
+      { "label": "d", "text": "punkt antyidealny", "correct": false }
+    ],
+    "category": "Punkty charakterystyczne"
+  },
+  {
+    "question": "Metoda AHP to metoda pozwalająca na:",
+    "options": [
+      { "label": "a", "text": "wyznaczenie rankingu wariantów", "correct": true },
+      { "label": "b", "text": "wyznaczanie uporządkowania społecznego", "correct": false },
+      { "label": "c", "text": "wyznaczanie wariantów niedominowanych", "correct": false }
+    ],
+    "category": "Metoda AHP"
+  },
+  {
+    "question": "W metodzie Blina poszczególni eksperci:",
+    "options": [
+      { "label": "a", "text": "wyznaczają hierarchię kryteriów opisujących warianty", "correct": false },
+      { "label": "b", "text": "wyznaczają własne uporządkowanie wariantów", "correct": true },
+      { "label": "c", "text": "budują własne stożki dominacji i wyznaczają podzbiór wariantów niezdominowanych", "correct": false }
+    ],
+    "category": "Metoda Blina"
+  },
+  {
+    "question": "Zmodyfikowana metoda leksykograficzna pozwala na:",
+    "options": [
+      { "label": "a", "text": "wskazanie najlepszego wariantu lub podzbioru najlepszych rozwiązań", "correct": false },
+      { "label": "b", "text": "wyznaczenie rozwiązań optymalnych w sensie Pareto", "correct": false },
+      { "label": "c", "text": "wyznaczenie rankingu analizowanych wariantów", "correct": true }
+    ],
+    "category": "Metoda leksykograficzna"
+  },
+  {
+    "question": "Kodowanie metodą Pattern polega na:",
+    "options": [
+      { "label": "a", "text": "dzieleniu bieżącej wartości kryterium przez wartość ekstremalną tego kryterium", "correct": false },
+      { "label": "b", "text": "dzieleniu wartości odniesionej do minimum przez wartość ekstremalną", "correct": false },
+      { "label": "c", "text": "dzieleniu bieżącej wartości kryterium przez sumę miar wszystkich wariantów tego kryterium", "correct": true }
+    ],
+    "category": "Kodowanie / normalizacja"
+  },
+  {
+    "question": "Francuski naukowiec Roy opracował rodzinę metod do oceny wielokryterialnej:",
+    "options": [
+      { "label": "a", "text": "EXPROM", "correct": false },
+      { "label": "b", "text": "ELECTRE", "correct": true },
+      { "label": "c", "text": "MAPPAC", "correct": false }
+    ],
+    "category": "Relacje przewyższania"
+  },
+  {
+    "question": "Punkty satysfakcjonujące to punkty, które:",
+    "options": [
+      { "label": "a", "text": "są wewnętrznymi właściwościami rozpatrywanego zbioru wariantów", "correct": false },
+      { "label": "b", "text": "są definiowane przez eksperta, a ich składowe są dodatkowymi ograniczeniami, które muszą spełniać analizowane warianty", "correct": true },
+      { "label": "c", "text": "są punktami referencyjnymi służącymi do metod bazujących na funkcji dystansowej", "correct": false }
+    ],
+    "category": "Punkty charakterystyczne"
+  },
+  {
+    "question": "Metody bazujące na relacjach przewyższania pozwalają na:",
+    "options": [
+      { "label": "a", "text": "wyznaczenie wariantów niezdominowanych", "correct": false },
+      { "label": "b", "text": "zbudowanie rankingu wariantów", "correct": true },
+      { "label": "c", "text": "przydzielenie poszczególnych wariantów do zdefiniowanych klas", "correct": false }
+    ],
+    "category": "Relacje przewyższania"
+  },
+  {
+    "question": "Stożki dodatnie służą do:",
+    "options": [
+      { "label": "a", "text": "wyznaczenia rankingu wariantów", "correct": false },
+      { "label": "b", "text": "wyznaczenia rozwiązań optymalnych w sensie Pareto", "correct": true },
+      { "label": "c", "text": "określenia przynależności do zidentyfikowanych klas wariantów", "correct": false }
+    ],
+    "category": "Stożki dominacji i Pareto"
+  },
+  {
+    "question": "Jeśli kryterium ma charakter stymulanty, to oznacza, że:",
+    "options": [
+      { "label": "a", "text": "wzrost jego wartości świadczy o spadku poziomu zjawiska złożonego", "correct": false },
+      { "label": "b", "text": "nie ma wpływu na poziom zjawiska złożonego", "correct": false },
+      { "label": "c", "text": "wzrost jego wartości świadczy o wzroście poziomu zjawiska złożonego", "correct": true }
+    ],
+    "category": "Kodowanie / normalizacja"
+  },
+  {
+    "question": "Na czym polega skalaryzacja?",
+    "options": [
+      { "label": "a", "text": "wybór jednego kryterium, a pozostałe przesuwane do ograniczeń", "correct": false },
+      { "label": "b", "text": "ustawienie kryteriów w hierarchię i poszukiwanie najlepszego wariantu", "correct": false },
+      { "label": "c", "text": "agregacja istniejących kryteriów do jednego kryterium", "correct": true }
+    ],
+    "category": "Skalaryzacja"
+  },
+  {
+    "question": "Punkt nadir, dla zadania minimalizacji, to:",
+    "options": [
+      { "label": "a", "text": "punkt przedstawiający najmniej preferowany poziom realizacji wszystkich celów z rozwiązań dopuszczalnych", "correct": false },
+      { "label": "b", "text": "punkt przedstawiający najmniej preferowany poziom realizacji wszystkich celów jednocześnie z rozwiązań niezdominowanych", "correct": true },
+      { "label": "c", "text": "punkt składający się z minimalnych wartości ocen funkcji celu", "correct": false }
+    ],
+    "category": "Punkty charakterystyczne"
+  },
+  {
+    "question": "Kodowanie Neumana-Morgensterna polega na:",
+    "options": [
+      { "label": "a", "text": "dzieleniu bieżącej wartości kryterium przez wartość rozstępu", "correct": false },
+      { "label": "b", "text": "dzieleniu wartości odniesionej do minimum przez wartość ekstremalną", "correct": false },
+      { "label": "c", "text": "dzieleniu bieżącej wartości kryterium odniesionej do wartości minimalnej przez wartość rozstępu", "correct": true }
+    ],
+    "category": "Kodowanie / normalizacja"
+  },
+  {
+    "question": "Metoda PROMETHEE należy do metod polegających na zastosowaniu:",
+    "options": [
+      { "label": "a", "text": "funkcji dystansowej", "correct": false },
+      { "label": "b", "text": "skalaryzacji po normalizacji wartości kryteriów", "correct": false },
+      { "label": "c", "text": "relacji przewyższania", "correct": true }
+    ],
+    "category": "Relacje przewyższania"
+  },
+  {
+    "question": "W metodzie AHP, aby uszeregować warianty od najlepszego do najgorszego:",
+    "options": [
+      { "label": "a", "text": "porównujemy parami tylko warianty", "correct": false },
+      { "label": "b", "text": "porównujemy parami kryteria, wyznaczamy ich ważność, a potem porównujemy parami warianty", "correct": true },
+      { "label": "c", "text": "porównujemy parami warianty i podajemy wagi ważności kryteriów", "correct": false },
+      { "label": "d", "text": "skalaryzujemy kryteria i dopiero potem porównujemy parami warianty", "correct": false }
+    ],
+    "category": "Metoda AHP"
+  },
+  {
+    "question": "Przy metodzie Blina potrzebujemy:",
+    "options": [
+      { "label": "a", "text": "zbioru wariantów i zbioru decydentów", "correct": true },
+      { "label": "b", "text": "zbioru kryteriów i zbioru wariantów", "correct": false },
+      { "label": "c", "text": "zbioru kryteriów i wag", "correct": false },
+      { "label": "d", "text": "zbioru kryteriów i ich wartości dla wszystkich wariantów", "correct": false }
+    ],
+    "category": "Metoda Blina"
+  },
+  {
+    "question": "Jaką wartość przyjmuje parametr r dla normy Czebyszewa? (wzór: p[F(x)] = [ Σⱼ [ξⱼ(Fⱼ(x) − yⱼ)]ʳ ]^(1/r), 1 ≤ r ≤ +∞)",
+    "options": [
+      { "label": "a", "text": "r = 1 (metryka Manhattan)", "correct": false },
+      { "label": "b", "text": "r = 2 (metryka euklidesowa)", "correct": false },
+      { "label": "c", "text": "r → ∞", "correct": true }
+    ],
+    "category": "Funkcje dystansowe"
+  },
+  {
+    "question": "Kryterium k2 minimalizowane, k1 maksymalizowane — które rozwiązania są niezdominowane (z wykresu na slajdzie)?",
+    "options": [
+      { "label": "a", "text": "X2, X8", "correct": true },
+      { "label": "b", "text": "X1, X5", "correct": false },
+      { "label": "c", "text": "X3, X6, X7", "correct": false },
+      { "label": "d", "text": "Wszystkie rozwiązania są niezdominowane", "correct": false }
+    ],
+    "category": "Stożki dominacji i Pareto"
+  },
+  {
+    "question": "Wybierz rozwiązanie optymalne w sensie porządku leksykograficznego. Wszystkie kryteria minimalizowane, hierarchia: F1, F3, F2 (zadanie obliczeniowe):",
+    "options": [
+      { "label": "a", "text": "Rozwiązanie nr 9", "correct": true },
+      { "label": "b", "text": "Rozwiązanie nr 2", "correct": false },
+      { "label": "c", "text": "Rozwiązanie nr 13", "correct": false },
+      { "label": "d", "text": "Rozwiązanie nr 19", "correct": false }
+    ],
+    "category": "Metoda leksykograficzna"
+  },
+  {
+    "question": "Punkt idealny, dla zadania minimalizacji, to:",
+    "options": [
+      { "label": "a", "text": "punkt przedstawiający najmniej preferowany poziom z rozwiązań dopuszczalnych", "correct": false },
+      { "label": "b", "text": "punkt przedstawiający najbardziej preferowany poziom z rozwiązań niezdominowanych", "correct": false },
+      { "label": "c", "text": "punkt składający się z minimalnych wartości rozpatrywanych ocen funkcji celu", "correct": true }
+    ],
+    "category": "Punkty charakterystyczne"
+  }
+]

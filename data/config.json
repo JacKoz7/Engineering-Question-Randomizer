@@ -22,17 +22,32 @@
         {
           "id": "bariery-w-przestrzeni-cyfrowej",
           "title": "Bariery w przestrzeni cyfrowej — quiz",
-          "theme": "academic"
+          "theme": "aurora"
         },
         {
           "id": "systemy-sztucznej-inteligencji",
           "title": "Systemy sztucznej inteligencji — quiz",
-          "theme": "academic"
+          "theme": "neon"
         },
         {
           "id": "etyka-w-biznesie-informatycznym",
           "title": "Etyka w biznesie informatycznym — quiz",
-          "theme": "academic"
+          "theme": "ruby"
+        },
+        {
+          "id": "internet-rzeczy",
+          "title": "Internet Rzeczy (IoT) — quiz",
+          "theme": "circuit"
+        },
+        {
+          "id": "wykład-monograficzny",
+          "title": "Wykład monograficzny (Grafika 3D / VR / Druk 3D) — quiz",
+          "theme": "lava"
+        },
+        {
+          "id": "metody-wnioskowania-wielokryterialnego",
+          "title": "Metody wnioskowania wielokryterialnego — quiz",
+          "theme": "galaxy"
         }
       ]
     },

@@ -37,7 +37,7 @@ const filtersWrapper = document.querySelector(".filters-wrapper");
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 window.addEventListener("DOMContentLoaded", async () => {
-  config = await fetch("data/config.json").then((r) => r.json());
+  config = await fetch("data/config.json", { cache: "no-store" }).then((r) => r.json());
   handleRoute();
 });
 
@@ -314,7 +314,7 @@ function toggleEmptyState() {
 
 async function loadQuestionsFromFile(filePath) {
   try {
-    const response = await fetch(filePath);
+    const response = await fetch(filePath, { cache: "no-store" });
     allQuestions = await response.json();
     quizMode = allQuestions.length > 0 && Array.isArray(allQuestions[0].options);
     document.body.classList.toggle("quiz-mode", quizMode);

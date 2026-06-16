@@ -1,0 +1,692 @@
+[
+  {
+    "question": "Jakie są podstawowe cechy interfejsu I2C?",
+    "options": [
+      { "label": "a", "text": "Transmisja szeregowa, synchroniczna, dwukierunkowa", "correct": true },
+      { "label": "b", "text": "Transmisja równoległa, asynchroniczna, jednokierunkowa", "correct": false },
+      { "label": "c", "text": "Transmisja szeregowa, asynchroniczna, pełny dupleks", "correct": false },
+      { "label": "d", "text": "Transmisja równoległa, synchroniczna, dwukierunkowa", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Jakie rejestry służą do sterowania interfejsem SPI?",
+    "options": [
+      { "label": "a", "text": "SPCR, SPSR, SPDR", "correct": true },
+      { "label": "b", "text": "TWCR, TWSR, TWDR", "correct": false },
+      { "label": "c", "text": "UCSRA, UCSRB, UCSRC", "correct": false },
+      { "label": "d", "text": "ADCSRA, ADMUX, ADCH", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "Funkcja setup() uruchomi się tyle razy ile zechce użytkownik, a funkcja loop() będzie działała powtarzalnie dopóki układ będzie zasilony.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz — setup() uruchamia się raz, a loop() działa powtarzalnie", "correct": true }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Środowisko Arduino IDE nie dostarcza gotowych rozwiązań w postaci bibliotek.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz — Arduino IDE dostarcza wiele gotowych bibliotek", "correct": true }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Cyfrowy czujnik temperatury DS18B20 — wybierz wszystkie poprawne cechy:",
+    "options": [
+      { "label": "a", "text": "Posiada unikalny 64-bitowy adres", "correct": true },
+      { "label": "b", "text": "Ma określony zakres temperatur <-55, 125> °C", "correct": true },
+      { "label": "c", "text": "Komunikuje się przez interfejs SPI", "correct": false },
+      { "label": "d", "text": "Wymaga trzech osobnych linii danych", "correct": false }
+    ],
+    "category": "DS18B20"
+  },
+  {
+    "question": "Cyfrowy czujnik temperatury DS18B20 — wybierz wszystkie poprawne cechy:",
+    "options": [
+      { "label": "a", "text": "Może mieć programowo zmienianą rozdzielczość", "correct": true },
+      { "label": "b", "text": "Ma jedną linię danych (DQ) i dwie zasilające (GND i VCC)", "correct": true },
+      { "label": "c", "text": "Mierzy jednocześnie temperaturę i wilgotność", "correct": false },
+      { "label": "d", "text": "Działa wyłącznie w logice napięciowej 5 V", "correct": false }
+    ],
+    "category": "DS18B20"
+  },
+  {
+    "question": "Za pomocą jakich linii odbywa się komunikacja w interfejsie SPI?",
+    "options": [
+      { "label": "a", "text": "MOSI, MISO, SCLK, CS", "correct": true },
+      { "label": "b", "text": "SDA, SCL", "correct": false },
+      { "label": "c", "text": "TX, RX, GND", "correct": false },
+      { "label": "d", "text": "DQ, VCC, GND", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "Co oznacza termin „rozdzielczość” w kontekście przetwornika ADC?",
+    "options": [
+      { "label": "a", "text": "Maksymalną liczbę różnych wartości wyjściowych, jaką może dostarczyć przetwornik", "correct": true },
+      { "label": "b", "text": "Maksymalne napięcie wejściowe przetwornika", "correct": false },
+      { "label": "c", "text": "Częstotliwość próbkowania sygnału", "correct": false },
+      { "label": "d", "text": "Czas potrzebny na konwersję jednej próbki", "correct": false }
+    ],
+    "category": "ADC"
+  },
+  {
+    "question": "Co oznacza stan bezczynny (spoczynkowy) magistrali 1-Wire?",
+    "options": [
+      { "label": "a", "text": "Stan wysoki na linii danych", "correct": true },
+      { "label": "b", "text": "Stan niski na linii danych", "correct": false },
+      { "label": "c", "text": "Stan wysokiej impedancji", "correct": false },
+      { "label": "d", "text": "Naprzemienne stany wysoki/niski", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Funkcja setup() po włączeniu zasilania uruchomi się:",
+    "options": [
+      { "label": "a", "text": "1 raz", "correct": true },
+      { "label": "b", "text": "2 razy", "correct": false },
+      { "label": "c", "text": "W nieskończonej pętli", "correct": false },
+      { "label": "d", "text": "Tylko po naciśnięciu przycisku reset", "correct": false }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Jaki jest stan na pinie D8, jeżeli oba przyciski są wciśnięte (układ z rezystorem podciągającym)?",
+    "options": [
+      { "label": "a", "text": "Niski", "correct": true },
+      { "label": "b", "text": "Wysoki", "correct": false },
+      { "label": "c", "text": "Wysokiej impedancji", "correct": false },
+      { "label": "d", "text": "Nieokreślony", "correct": false }
+    ],
+    "category": "Piny i sygnały"
+  },
+  {
+    "question": "Jakie są możliwe stany dla pinów cyfrowych na mikrokontrolerze?",
+    "options": [
+      { "label": "a", "text": "Wysoki i niski", "correct": true },
+      { "label": "b", "text": "Tylko wysoki", "correct": false },
+      { "label": "c", "text": "Dowolna wartość napięcia z zakresu zasilania", "correct": false },
+      { "label": "d", "text": "Wysoki, niski i pośredni", "correct": false }
+    ],
+    "category": "Piny i sygnały"
+  },
+  {
+    "question": "Jaka jest gwarantowana prędkość transmisji w interfejsie SPI (wg materiałów kursu)?",
+    "options": [
+      { "label": "a", "text": "2,1 Mb/s", "correct": true },
+      { "label": "b", "text": "400 kb/s", "correct": false },
+      { "label": "c", "text": "100 kb/s", "correct": false },
+      { "label": "d", "text": "12 Mb/s", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "W którym miejscu należy zastosować rezystor podciągający (układ z przyciskiem)?",
+    "options": [
+      { "label": "a", "text": "Pomiędzy przyciskiem a pinem (np. D3)", "correct": true },
+      { "label": "b", "text": "Równolegle do źródła zasilania", "correct": false },
+      { "label": "c", "text": "Szeregowo z masą (GND)", "correct": false },
+      { "label": "d", "text": "Pomiędzy dwoma pinami analogowymi", "correct": false }
+    ],
+    "category": "Piny i sygnały"
+  },
+  {
+    "question": "Jakie są podstawowe elementy ramki w protokole I2C?",
+    "options": [
+      { "label": "a", "text": "Adres i dane", "correct": true },
+      { "label": "b", "text": "Preambuła i suma kontrolna", "correct": false },
+      { "label": "c", "text": "Bit startu i bit parzystości", "correct": false },
+      { "label": "d", "text": "Nagłówek IP i payload", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Rozwinięciem skrótu PWM jest:",
+    "options": [
+      { "label": "a", "text": "Pulse Width Modulation", "correct": true },
+      { "label": "b", "text": "Power Wave Management", "correct": false },
+      { "label": "c", "text": "Phase Width Multiplexing", "correct": false },
+      { "label": "d", "text": "Pulse Wave Measurement", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Funkcja pinMode() służy do:",
+    "options": [
+      { "label": "a", "text": "Konfiguracji pinu cyfrowego jako wejście lub wyjście", "correct": true },
+      { "label": "b", "text": "Odczytu napięcia na pinie analogowym", "correct": false },
+      { "label": "c", "text": "Ustawienia stanu wysokiego na pinie", "correct": false },
+      { "label": "d", "text": "Generowania sygnału PWM na pinie", "correct": false }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Użycie funkcji analogWrite(PIN, VALUE) dla pinu cyfrowego, który NIE obsługuje PWM, może spowodować:",
+    "options": [
+      { "label": "a", "text": "Nadpisanie stanu 0 (dla VALUE 0–127) i 1 (dla VALUE 128–255)", "correct": true },
+      { "label": "b", "text": "Ustawienie stanu wysokiego dla każdej wartości VALUE", "correct": false },
+      { "label": "c", "text": "Błąd kompilacji programu", "correct": false },
+      { "label": "d", "text": "Krytyczne uszkodzenie mikrokontrolera", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Co to jest Master i Slave w kontekście interfejsu I2C?",
+    "options": [
+      { "label": "a", "text": "Master to urządzenie kontrolujące transmisję, a Slave to urządzenie podporządkowane", "correct": true },
+      { "label": "b", "text": "Master tylko odbiera dane, a Slave zawsze je nadaje", "correct": false },
+      { "label": "c", "text": "Oba urządzenia są równorzędne i wymieniają role", "correct": false },
+      { "label": "d", "text": "Master generuje dane, a Slave generuje sygnał zegarowy", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Jaki stan jest na pinie D8, jeżeli wciśnięty jest tylko przycisk_1 (układ z rezystorem podciągającym)?",
+    "options": [
+      { "label": "a", "text": "Wysoki", "correct": true },
+      { "label": "b", "text": "Niski", "correct": false },
+      { "label": "c", "text": "Wysokiej impedancji", "correct": false },
+      { "label": "d", "text": "Nieokreślony", "correct": false }
+    ],
+    "category": "Piny i sygnały"
+  },
+  {
+    "question": "Do czego służy rezystor podciągający w kontekście magistrali 1-Wire?",
+    "options": [
+      { "label": "a", "text": "Do podtrzymania stanu wysokiego na linii danych 1-Wire", "correct": true },
+      { "label": "b", "text": "Do ograniczenia prądu płynącego przez diodę", "correct": false },
+      { "label": "c", "text": "Do generowania sygnału zegarowego", "correct": false },
+      { "label": "d", "text": "Do obniżenia napięcia magistrali do 3,3 V", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Jaki jest cel używania sekwencji Start i Stop w protokole I2C?",
+    "options": [
+      { "label": "a", "text": "Rozpoczęcie i zakończenie transmisji danych", "correct": true },
+      { "label": "b", "text": "Synchronizacja zegara z danymi", "correct": false },
+      { "label": "c", "text": "Korekcja błędów transmisji", "correct": false },
+      { "label": "d", "text": "Wybór prędkości pracy magistrali", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Co to jest wypełnienie (współczynnik wypełnienia) sygnału PWM?",
+    "options": [
+      { "label": "a", "text": "Stosunek czasu, gdy sygnał jest aktywny, do całkowitego okresu sygnału", "correct": true },
+      { "label": "b", "text": "Liczba impulsów generowanych w ciągu sekundy", "correct": false },
+      { "label": "c", "text": "Amplituda sygnału", "correct": false },
+      { "label": "d", "text": "Różnica między napięciem maksymalnym a minimalnym", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Czym różni się tryb multi-master od trybu single-master w I2C?",
+    "options": [
+      { "label": "a", "text": "Tryb multi-master umożliwia obecność wielu Masterów, a single-master tylko jednego", "correct": true },
+      { "label": "b", "text": "Tryb multi-master wykorzystuje dwie linie zegarowe", "correct": false },
+      { "label": "c", "text": "Tryb single-master działa wyłącznie w trybie odczytu", "correct": false },
+      { "label": "d", "text": "Tryb multi-master nie wymaga adresowania urządzeń", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Co robi funkcja digitalWrite(Pin, Stan)?",
+    "options": [
+      { "label": "a", "text": "Ustawia stan pinu cyfrowego na wartość wysoką lub niską", "correct": true },
+      { "label": "b", "text": "Odczytuje aktualny stan pinu cyfrowego", "correct": false },
+      { "label": "c", "text": "Konfiguruje pin jako wejście", "correct": false },
+      { "label": "d", "text": "Ustawia analogową wartość napięcia na pinie", "correct": false }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Jakie trzy parametry sygnału PWM należy zidentyfikować/zdefiniować w programie mikrokontrolera ESP32?",
+    "options": [
+      { "label": "a", "text": "Częstotliwość, rozdzielczość, kanał", "correct": true },
+      { "label": "b", "text": "Częstotliwość, amplituda, czas", "correct": false },
+      { "label": "c", "text": "Amplituda, kanał, czas", "correct": false },
+      { "label": "d", "text": "Napięcie, prąd, rezystancja", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Jakie informacje zawiera 64-bitowy kod identyfikacji w protokole 1-Wire?",
+    "options": [
+      { "label": "a", "text": "Numer seryjny, kod rodziny i sumę CRC", "correct": true },
+      { "label": "b", "text": "Adres MAC i maskę podsieci", "correct": false },
+      { "label": "c", "text": "Wyłącznie numer seryjny urządzenia", "correct": false },
+      { "label": "d", "text": "Datę produkcji i napięcie pracy", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Jakie są główne różnice między pinem cyfrowym a pinem analogowym?",
+    "options": [
+      { "label": "a", "text": "Pin cyfrowy przyjmuje 0 lub 1, a pin analogowy może mieć wiele różnych wartości napięcia", "correct": true },
+      { "label": "b", "text": "Pin cyfrowy obsługuje wyższe napięcia niż analogowy", "correct": false },
+      { "label": "c", "text": "Pin analogowy przyjmuje tylko wartości 0 lub 1", "correct": false },
+      { "label": "d", "text": "Nie ma między nimi różnicy — to nazwy umowne", "correct": false }
+    ],
+    "category": "Piny i sygnały"
+  },
+  {
+    "question": "Analiza kodu (a=5; pętla 100× {delay(10); a++}; delay(1000); b=a-5). Wybierz wszystkie poprawne stwierdzenia:",
+    "options": [
+      { "label": "a", "text": "Funkcja będzie trwała 2 sekundy (100 × 10 ms + 1000 ms)", "correct": true },
+      { "label": "b", "text": "Zmienna b będzie miała na końcu wartość 100", "correct": true },
+      { "label": "c", "text": "Pętla for wykona się 100 razy", "correct": true },
+      { "label": "d", "text": "Zmienna a na zakończenie funkcji będzie miała wartość 5", "correct": false }
+    ],
+    "category": "Arduino / funkcje"
+  },
+  {
+    "question": "Jakie są podstawowe sygnały w interfejsie SPI do przesyłania danych z Master do Slave?",
+    "options": [
+      { "label": "a", "text": "MOSI i SCLK", "correct": true },
+      { "label": "b", "text": "MISO i SCLK", "correct": false },
+      { "label": "c", "text": "SDA i SCL", "correct": false },
+      { "label": "d", "text": "CS i MISO", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "W jaki sposób magistrala 1-Wire obsługuje zasilanie pasożytnicze?",
+    "options": [
+      { "label": "a", "text": "Wykorzystuje kondensator wbudowany w urządzenia peryferyjne", "correct": true },
+      { "label": "b", "text": "Pobiera energię z osobnej linii VCC", "correct": false },
+      { "label": "c", "text": "Korzysta z wbudowanej baterii w czujniku", "correct": false },
+      { "label": "d", "text": "Pozyskuje energię z indukcji elektromagnetycznej", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Jakie są rodzaje połączeń układów SPI?",
+    "options": [
+      { "label": "a", "text": "Szeregowe (kaskadowe) i równoległe (niezależne)", "correct": true },
+      { "label": "b", "text": "Gwiazda i pierścień", "correct": false },
+      { "label": "c", "text": "Wyłącznie magistralowe", "correct": false },
+      { "label": "d", "text": "Pełne i częściowe", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "Cyfrowe czujniki DS18B20 mogą wysyłać pomiar temperatury jedną linią danych do urządzenia nadrzędnego.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": true },
+      { "label": "b", "text": "Fałsz", "correct": false }
+    ],
+    "category": "DS18B20"
+  },
+  {
+    "question": "Czy w architekturze von Neumanna magistrala dla danych i programu jest wspólna?",
+    "options": [
+      { "label": "a", "text": "Tak — jest jedna wspólna magistrala", "correct": true },
+      { "label": "b", "text": "Nie — danych i programu używają osobne magistrale", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Co oznacza skrót CISC?",
+    "options": [
+      { "label": "a", "text": "Complex Instruction Set Computer", "correct": true },
+      { "label": "b", "text": "Compact Integrated System Chip", "correct": false },
+      { "label": "c", "text": "Central Instruction Sequence Controller", "correct": false },
+      { "label": "d", "text": "Common Internal Serial Communication", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Protokół i interfejs to to samo określenie.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz — interfejs dotyczy połączenia/sprzętu, a protokół to zasady komunikacji", "correct": true }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Zgodnie z jaką architekturą zbudowany jest komputer typu RISC?",
+    "options": [
+      { "label": "a", "text": "Harwardzką", "correct": true },
+      { "label": "b", "text": "von Neumanna", "correct": false },
+      { "label": "c", "text": "Princeton", "correct": false },
+      { "label": "d", "text": "CISC", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy interfejs komunikacyjny 1-Wire jest interfejsem szeregowym?",
+    "options": [
+      { "label": "a", "text": "Tak — jest interfejsem szeregowym", "correct": true },
+      { "label": "b", "text": "Nie — jest interfejsem równoległym", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Co oznacza skrót EPROM?",
+    "options": [
+      { "label": "a", "text": "Erasable Programmable ROM", "correct": true },
+      { "label": "b", "text": "Electrically Programmed RAM", "correct": false },
+      { "label": "c", "text": "Extended Program ROM", "correct": false },
+      { "label": "d", "text": "External Peripheral ROM", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy zawartość pamięci ROM znika po zaniku zasilania?",
+    "options": [
+      { "label": "a", "text": "Nie — ROM jest pamięcią nieulotną", "correct": true },
+      { "label": "b", "text": "Tak — ROM traci dane po odłączeniu zasilania", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czym jest fotorezystor?",
+    "options": [
+      { "label": "a", "text": "Elementem, który zmienia rezystancję przy zmianie oświetlenia", "correct": true },
+      { "label": "b", "text": "Elementem, który generuje napięcie pod wpływem światła", "correct": false },
+      { "label": "c", "text": "Elementem, który zmienia rezystancję pod wpływem temperatury", "correct": false },
+      { "label": "d", "text": "Elementem emitującym światło po przyłożeniu napięcia", "correct": false }
+    ],
+    "category": "Czujniki i aktuatory"
+  },
+  {
+    "question": "Kto wprowadził na rynek mikrokontrolery AVR?",
+    "options": [
+      { "label": "a", "text": "Atmel", "correct": true },
+      { "label": "b", "text": "Espressif", "correct": false },
+      { "label": "c", "text": "Intel", "correct": false },
+      { "label": "d", "text": "ARM Holdings", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Jaką architekturą charakteryzują się mikrokontrolery ARM?",
+    "options": [
+      { "label": "a", "text": "RISC", "correct": true },
+      { "label": "b", "text": "CISC", "correct": false },
+      { "label": "c", "text": "von Neumanna z mikrokodem", "correct": false },
+      { "label": "d", "text": "Wektorową", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Czy popularny mikrokontroler firmy Espressif (ESP32) można zaprogramować w języku LUA?",
+    "options": [
+      { "label": "a", "text": "Tak", "correct": true },
+      { "label": "b", "text": "Nie", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Co oznacza skrót ROM?",
+    "options": [
+      { "label": "a", "text": "Read Only Memory", "correct": true },
+      { "label": "b", "text": "Random Operation Memory", "correct": false },
+      { "label": "c", "text": "Rewritable Optical Memory", "correct": false },
+      { "label": "d", "text": "Run-time Object Memory", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Jaka logika napięciowa obowiązuje w popularnym ESP32?",
+    "options": [
+      { "label": "a", "text": "3,3 V", "correct": true },
+      { "label": "b", "text": "5 V", "correct": false },
+      { "label": "c", "text": "1,8 V", "correct": false },
+      { "label": "d", "text": "12 V", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Czy interfejs komunikacyjny SPI jest interfejsem szeregowym?",
+    "options": [
+      { "label": "a", "text": "Tak — jest interfejsem szeregowym", "correct": true },
+      { "label": "b", "text": "Nie — jest interfejsem równoległym", "correct": false }
+    ],
+    "category": "SPI"
+  },
+  {
+    "question": "Jakim typem transmisji jest stosowana w mikrokontrolerach transmisja szeregowa UART?",
+    "options": [
+      { "label": "a", "text": "Asynchroniczna", "correct": true },
+      { "label": "b", "text": "Synchroniczna", "correct": false },
+      { "label": "c", "text": "Równoległa", "correct": false },
+      { "label": "d", "text": "Pół-synchroniczna z osobnym zegarem", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Magistrala i interfejs to to samo określenie.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz — magistrala to fizyczny zbiór linii, a interfejs to sposób komunikacji", "correct": true }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy w topologii sieci typu siatka wszystkie węzły muszą być połączone do jednego urządzenia centralnego?",
+    "options": [
+      { "label": "a", "text": "Nie — w siatce węzły łączą się bezpośrednio między sobą", "correct": true },
+      { "label": "b", "text": "Tak — wszystkie węzły łączą się z węzłem centralnym", "correct": false }
+    ],
+    "category": "Sieci / topologie"
+  },
+  {
+    "question": "Co oznacza skrót RISC?",
+    "options": [
+      { "label": "a", "text": "Reduced Instruction Set Computer", "correct": true },
+      { "label": "b", "text": "Rapid Internal Signal Controller", "correct": false },
+      { "label": "c", "text": "Random Instruction Sequence Computer", "correct": false },
+      { "label": "d", "text": "Reusable Integrated System Core", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy zawartość pamięci DRAM znika po zaniku zasilania?",
+    "options": [
+      { "label": "a", "text": "Tak — DRAM jest pamięcią ulotną", "correct": true },
+      { "label": "b", "text": "Nie — DRAM przechowuje dane bez zasilania", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czym jest termistor?",
+    "options": [
+      { "label": "a", "text": "Elementem, który zmienia rezystancję pod wpływem zmiany temperatury", "correct": true },
+      { "label": "b", "text": "Elementem, który zmienia rezystancję pod wpływem światła", "correct": false },
+      { "label": "c", "text": "Elementem, który generuje napięcie pod wpływem ciepła", "correct": false },
+      { "label": "d", "text": "Elementem mierzącym wilgotność powietrza", "correct": false }
+    ],
+    "category": "Czujniki i aktuatory"
+  },
+  {
+    "question": "Czy interfejs komunikacyjny I2C jest interfejsem szeregowym?",
+    "options": [
+      { "label": "a", "text": "Tak — jest interfejsem szeregowym", "correct": true },
+      { "label": "b", "text": "Nie — jest interfejsem równoległym", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Jaka logika napięciowa obowiązuje w popularnym Arduino UNO?",
+    "options": [
+      { "label": "a", "text": "5 V", "correct": true },
+      { "label": "b", "text": "3,3 V", "correct": false },
+      { "label": "c", "text": "1,8 V", "correct": false },
+      { "label": "d", "text": "9 V", "correct": false }
+    ],
+    "category": "Mikrokontrolery"
+  },
+  {
+    "question": "Czy w architekturze harwardzkiej magistrala dla danych i programu jest wspólna?",
+    "options": [
+      { "label": "a", "text": "Nie — danych i programu używają osobne magistrale", "correct": true },
+      { "label": "b", "text": "Tak — jest jedna wspólna magistrala", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy w topologii sieci typu gwiazda wszystkie węzły muszą być połączone do jednego urządzenia centralnego?",
+    "options": [
+      { "label": "a", "text": "Tak — wszystkie węzły łączą się z węzłem centralnym", "correct": true },
+      { "label": "b", "text": "Nie — węzły łączą się bezpośrednio między sobą", "correct": false }
+    ],
+    "category": "Sieci / topologie"
+  },
+  {
+    "question": "Magistrala i protokół to to samo określenie.",
+    "options": [
+      { "label": "a", "text": "Prawda", "correct": false },
+      { "label": "b", "text": "Fałsz — magistrala to fizyczne linie, a protokół to zasady wymiany danych", "correct": true }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy czujniki generacyjne pod wpływem działania wielkości mierzonej wytwarzają na swym wyjściu sygnał elektryczny?",
+    "options": [
+      { "label": "a", "text": "Tak — same generują sygnał elektryczny", "correct": true },
+      { "label": "b", "text": "Nie — jedynie zmieniają swój parametr (np. rezystancję)", "correct": false }
+    ],
+    "category": "Czujniki i aktuatory"
+  },
+  {
+    "question": "Czy czujniki parametryczne pod wpływem działania wielkości mierzonej wytwarzają na swym wyjściu sygnał elektryczny?",
+    "options": [
+      { "label": "a", "text": "Nie — zmieniają swój parametr (np. rezystancję), nie generują sygnału", "correct": true },
+      { "label": "b", "text": "Tak — same generują sygnał elektryczny", "correct": false }
+    ],
+    "category": "Czujniki i aktuatory"
+  },
+  {
+    "question": "Czym jest przekaźnik?",
+    "options": [
+      { "label": "a", "text": "Aktuatorem", "correct": true },
+      { "label": "b", "text": "Czujnikiem", "correct": false },
+      { "label": "c", "text": "Przetwornikiem ADC", "correct": false },
+      { "label": "d", "text": "Elementem pamięci", "correct": false }
+    ],
+    "category": "Czujniki i aktuatory"
+  },
+  {
+    "question": "Czy EEPROM i EPROM to te same układy?",
+    "options": [
+      { "label": "a", "text": "Nie — EEPROM kasuje się elektrycznie, a EPROM światłem UV", "correct": true },
+      { "label": "b", "text": "Tak — to identyczne układy o różnych nazwach", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Czy w modelu komunikacji typu Master-Slave może występować wiele urządzeń typu Master?",
+    "options": [
+      { "label": "a", "text": "Tak — możliwy jest tryb multi-master", "correct": true },
+      { "label": "b", "text": "Nie — zawsze jest dokładnie jeden Master", "correct": false }
+    ],
+    "category": "Architektura i pamięci"
+  },
+  {
+    "question": "Ile linii (danych i zegara) używa interfejs I2C?",
+    "options": [
+      { "label": "a", "text": "Dwie — SDA (dane) i SCL (zegar)", "correct": true },
+      { "label": "b", "text": "Jedną — wspólną linię DATA", "correct": false },
+      { "label": "c", "text": "Cztery — MOSI, MISO, SCLK, CS", "correct": false },
+      { "label": "d", "text": "Trzy — TX, RX, GND", "correct": false }
+    ],
+    "category": "I2C"
+  },
+  {
+    "question": "Jaki jest efekt zwiększania rozdzielczości pomiaru temperatury czujnika DS18B20 w kontekście czasu odczytu?",
+    "options": [
+      { "label": "a", "text": "Zwiększenie rozdzielczości wydłuża czas odczytu", "correct": true },
+      { "label": "b", "text": "Zwiększenie rozdzielczości skraca czas odczytu", "correct": false },
+      { "label": "c", "text": "Rozdzielczość nie wpływa na czas odczytu", "correct": false },
+      { "label": "d", "text": "Zwiększenie rozdzielczości powoduje błąd pomiaru", "correct": false }
+    ],
+    "category": "DS18B20"
+  },
+  {
+    "question": "Użycie funkcji analogWrite(PIN, VALUE) dla pinu cyfrowego, który OBSŁUGUJE PWM, może spowodować:",
+    "options": [
+      { "label": "a", "text": "Nadpisanie stanu od 0 do 255 zgodnie z wartością zmiennej VALUE", "correct": true },
+      { "label": "b", "text": "Błąd kompilacji programu", "correct": false },
+      { "label": "c", "text": "Ustawienie stanu HIGH dla wszystkich wartości VALUE", "correct": false },
+      { "label": "d", "text": "Błąd krytyczny i uszkodzenie układu", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Co jest cechą charakterystyczną urządzeń posługujących się protokołem 1-Wire?",
+    "options": [
+      { "label": "a", "text": "Unikalny adres (identyfikator) urządzenia", "correct": true },
+      { "label": "b", "text": "Mały rozmiar obudowy", "correct": false },
+      { "label": "c", "text": "Czarny kolor obudowy", "correct": false },
+      { "label": "d", "text": "Brak cech charakterystycznych", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Jak programowo zmienić jasność świecenia diody?",
+    "options": [
+      { "label": "a", "text": "Za pomocą modulacji szerokości impulsu (PWM)", "correct": true },
+      { "label": "b", "text": "Zmieniając częstotliwość zegara CPU", "correct": false },
+      { "label": "c", "text": "Funkcją digitalWrite(pin, HIGH)", "correct": false },
+      { "label": "d", "text": "Zmieniając rezystancję wewnętrzną pinu", "correct": false }
+    ],
+    "category": "PWM"
+  },
+  {
+    "question": "Interfejs 1-Wire pozwala na komunikację wielu urządzeń podrzędnych, o ile każde z nich posiada:",
+    "options": [
+      { "label": "a", "text": "Indywidualny (unikalny) adres", "correct": true },
+      { "label": "b", "text": "Własną linię zegara", "correct": false },
+      { "label": "c", "text": "Osobne źródło zasilania", "correct": false },
+      { "label": "d", "text": "Rezystor podciągający o wartości 4,7 kΩ", "correct": false }
+    ],
+    "category": "1-Wire"
+  },
+  {
+    "question": "Ile różnych wartości wyjściowych daje przetwornik ADC o rozdzielczości 8-bitowej?",
+    "options": [
+      { "label": "a", "text": "256", "correct": true },
+      { "label": "b", "text": "8", "correct": false },
+      { "label": "c", "text": "1024", "correct": false },
+      { "label": "d", "text": "128", "correct": false }
+    ],
+    "category": "ADC"
+  },
+  {
+    "question": "Które stwierdzenie o trybie dupleksu interfejsów jest poprawne?",
+    "options": [
+      { "label": "a", "text": "SPI — full-duplex, I2C — half-duplex, 1-Wire — half-duplex", "correct": true },
+      { "label": "b", "text": "SPI — half-duplex, I2C — full-duplex, 1-Wire — full-duplex", "correct": false },
+      { "label": "c", "text": "Wszystkie trzy są full-duplex", "correct": false },
+      { "label": "d", "text": "Wszystkie trzy są half-duplex", "correct": false }
+    ],
+    "category": "Porównanie interfejsów"
+  },
+  {
+    "question": "Które stwierdzenie o synchronizacji interfejsów jest poprawne?",
+    "options": [
+      { "label": "a", "text": "SPI i I2C są synchroniczne, a 1-Wire asynchroniczny", "correct": true },
+      { "label": "b", "text": "Wszystkie trzy są synchroniczne", "correct": false },
+      { "label": "c", "text": "SPI jest asynchroniczny, a I2C i 1-Wire synchroniczne", "correct": false },
+      { "label": "d", "text": "Wszystkie trzy są asynchroniczne", "correct": false }
+    ],
+    "category": "Porównanie interfejsów"
+  },
+  {
+    "question": "Jaką linię zegara wykorzystują kolejno SPI, I2C i 1-Wire?",
+    "options": [
+      { "label": "a", "text": "SCLK / SCL / brak (1-Wire nie ma osobnej linii zegara)", "correct": true },
+      { "label": "b", "text": "SCL / SCLK / DATA", "correct": false },
+      { "label": "c", "text": "brak / SCLK / SCL", "correct": false },
+      { "label": "d", "text": "SCLK / DATA / SCL", "correct": false }
+    ],
+    "category": "Porównanie interfejsów"
+  }
+]

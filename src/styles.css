@@ -1012,6 +1012,246 @@ body[data-theme="academic"].learn-mode .bg-overlay {
   background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
 }
 
+/* ══════════════════════════════════════════════════════════════ THEME: NEON */
+/* Systemy sztucznej inteligencji — synthwave fiolet/róż */
+body[data-theme="neon"] {
+  --primary: #a855f7;
+  --primary-dark: #7c3aed;
+  --secondary: #ec4899;
+}
+body[data-theme="neon"] .bg-overlay {
+  background: linear-gradient(135deg, #1a0b2e 0%, #2d1b4e 50%, #0f0524 100%);
+}
+body[data-theme="neon"] .shape-1 { background: #a855f7; }
+body[data-theme="neon"] .shape-2 { background: #ec4899; }
+body[data-theme="neon"] .brand .highlight { color: var(--primary); }
+body[data-theme="neon"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+}
+body[data-theme="neon"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(168, 85, 247, 0.5);
+}
+body[data-theme="neon"] .question-card h3 { color: var(--primary); }
+body[data-theme="neon"] .filter-summary { color: var(--primary); }
+body[data-theme="neon"] .category-badge {
+  background: rgba(168, 85, 247, 0.1);
+  color: var(--primary);
+  border-color: rgba(168, 85, 247, 0.25);
+}
+body[data-theme="neon"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="neon"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="neon"] .answer { color: var(--secondary); }
+body[data-theme="neon"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: CIRCUIT */
+/* Internet Rzeczy (IoT) — płytka PCB: limonka + bursztyn */
+body[data-theme="circuit"] {
+  --primary: #84cc16;
+  --primary-dark: #65a30d;
+  --secondary: #f59e0b;
+}
+body[data-theme="circuit"] .bg-overlay {
+  background: linear-gradient(135deg, #0a1f1a 0%, #14281f 50%, #0d1f12 100%);
+}
+body[data-theme="circuit"] .shape-1 { background: #84cc16; }
+body[data-theme="circuit"] .shape-2 { background: #f59e0b; }
+body[data-theme="circuit"] .brand .highlight { color: var(--primary); }
+body[data-theme="circuit"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(132, 204, 22, 0.4);
+}
+body[data-theme="circuit"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(132, 204, 22, 0.5);
+}
+body[data-theme="circuit"] .question-card h3 { color: var(--primary); }
+body[data-theme="circuit"] .filter-summary { color: var(--primary); }
+body[data-theme="circuit"] .category-badge {
+  background: rgba(132, 204, 22, 0.1);
+  color: var(--primary);
+  border-color: rgba(132, 204, 22, 0.25);
+}
+body[data-theme="circuit"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="circuit"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="circuit"] .answer { color: var(--primary-dark); }
+body[data-theme="circuit"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #1a0a00 0%, #2d1500 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: AURORA */
+/* Bariery w przestrzeni cyfrowej — spokojna zorza: turkus + błękit */
+body[data-theme="aurora"] {
+  --primary: #2dd4bf;
+  --primary-dark: #0d9488;
+  --secondary: #38bdf8;
+}
+body[data-theme="aurora"] .bg-overlay {
+  background: linear-gradient(135deg, #042f2e 0%, #0c2d48 50%, #052e2b 100%);
+}
+body[data-theme="aurora"] .shape-1 { background: #2dd4bf; }
+body[data-theme="aurora"] .shape-2 { background: #38bdf8; }
+body[data-theme="aurora"] .brand .highlight { color: var(--primary); }
+body[data-theme="aurora"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(45, 212, 191, 0.4);
+}
+body[data-theme="aurora"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(45, 212, 191, 0.5);
+}
+body[data-theme="aurora"] .question-card h3 { color: var(--primary); }
+body[data-theme="aurora"] .filter-summary { color: var(--primary); }
+body[data-theme="aurora"] .category-badge {
+  background: rgba(45, 212, 191, 0.1);
+  color: var(--primary);
+  border-color: rgba(45, 212, 191, 0.25);
+}
+body[data-theme="aurora"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="aurora"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="aurora"] .answer { color: var(--primary-dark); }
+body[data-theme="aurora"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: RUBY */
+/* Etyka w biznesie informatycznym — dostojny rubin/róż */
+body[data-theme="ruby"] {
+  --primary: #f43f5e;
+  --primary-dark: #e11d48;
+  --secondary: #fb7185;
+}
+body[data-theme="ruby"] .bg-overlay {
+  background: linear-gradient(135deg, #2a0a14 0%, #4c0519 50%, #1f0710 100%);
+}
+body[data-theme="ruby"] .shape-1 { background: #f43f5e; }
+body[data-theme="ruby"] .shape-2 { background: #fb7185; }
+body[data-theme="ruby"] .brand .highlight { color: var(--primary); }
+body[data-theme="ruby"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(244, 63, 94, 0.4);
+}
+body[data-theme="ruby"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(244, 63, 94, 0.5);
+}
+body[data-theme="ruby"] .question-card h3 { color: var(--primary); }
+body[data-theme="ruby"] .filter-summary { color: var(--primary); }
+body[data-theme="ruby"] .category-badge {
+  background: rgba(244, 63, 94, 0.1);
+  color: var(--primary);
+  border-color: rgba(244, 63, 94, 0.25);
+}
+body[data-theme="ruby"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="ruby"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="ruby"] .answer { color: var(--primary-dark); }
+body[data-theme="ruby"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: LAVA */
+/* Wykład monograficzny (Grafika 3D/VR) — kreatywna lawa: pomarańcz + fuksja */
+body[data-theme="lava"] {
+  --primary: #f97316;
+  --primary-dark: #ea580c;
+  --secondary: #d946ef;
+}
+body[data-theme="lava"] .bg-overlay {
+  background: linear-gradient(135deg, #2a0e02 0%, #3b0a2e 50%, #1f0a02 100%);
+}
+body[data-theme="lava"] .shape-1 { background: #f97316; }
+body[data-theme="lava"] .shape-2 { background: #d946ef; }
+body[data-theme="lava"] .brand .highlight { color: var(--primary); }
+body[data-theme="lava"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.4);
+}
+body[data-theme="lava"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(249, 115, 22, 0.5);
+}
+body[data-theme="lava"] .question-card h3 { color: var(--primary); }
+body[data-theme="lava"] .filter-summary { color: var(--primary); }
+body[data-theme="lava"] .category-badge {
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--primary);
+  border-color: rgba(249, 115, 22, 0.25);
+}
+body[data-theme="lava"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="lava"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="lava"] .answer { color: var(--secondary); }
+body[data-theme="lava"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
+
+/* ══════════════════════════════════════════════════════════════ THEME: GALAXY */
+/* Metody wnioskowania wielokryterialnego — kosmiczny indygo/fiolet */
+body[data-theme="galaxy"] {
+  --primary: #818cf8;
+  --primary-dark: #6366f1;
+  --secondary: #c084fc;
+}
+body[data-theme="galaxy"] .bg-overlay {
+  background: linear-gradient(135deg, #0b1026 0%, #1e1b4b 50%, #0a0a1f 100%);
+}
+body[data-theme="galaxy"] .shape-1 { background: #818cf8; }
+body[data-theme="galaxy"] .shape-2 { background: #c084fc; }
+body[data-theme="galaxy"] .brand .highlight { color: var(--primary); }
+body[data-theme="galaxy"] .cta-button {
+  background: var(--primary);
+  box-shadow: 0 4px 15px rgba(129, 140, 248, 0.4);
+}
+body[data-theme="galaxy"] .cta-button:hover:not(:disabled) {
+  box-shadow: 0 10px 25px rgba(129, 140, 248, 0.5);
+}
+body[data-theme="galaxy"] .question-card h3 { color: var(--primary); }
+body[data-theme="galaxy"] .filter-summary { color: var(--primary); }
+body[data-theme="galaxy"] .category-badge {
+  background: rgba(129, 140, 248, 0.1);
+  color: var(--primary);
+  border-color: rgba(129, 140, 248, 0.25);
+}
+body[data-theme="galaxy"] .category-checkbox:checked + .category-label {
+  background: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="galaxy"] .custom-checkbox input:checked ~ .checkmark {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+body[data-theme="galaxy"] .answer { color: var(--secondary); }
+body[data-theme="galaxy"].learn-mode .bg-overlay {
+  background: linear-gradient(135deg, #431407 0%, #7c2d12 100%);
+}
+
 /* ══════════════════════════════════════════════════════════════ QUIZ CARD MODE */
 body.quiz-mode .cards-grid {
   grid-template-columns: 1fr;

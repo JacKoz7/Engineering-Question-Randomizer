@@ -1,0 +1,218 @@
+[
+  {
+    "question": "Program Artec Studio Professional służy do:",
+    "options": [
+      { "label": "a", "text": "obróbki danych pozyskanych w procesie skanowania", "correct": true },
+      { "label": "b", "text": "modelowania parametrycznego", "correct": false },
+      { "label": "c", "text": "tworzenia i edycji grafiki rastrowej", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Grafika wektorowa to grafika, gdzie:",
+    "options": [
+      { "label": "a", "text": "obiekty mogą być realizowane jako 2D i 3D", "correct": true },
+      { "label": "b", "text": "cały obraz w pierwotnej wersji jest jednym obiektem", "correct": false },
+      { "label": "c", "text": "zbyt duże powiększanie powoduje rozmywanie granic", "correct": false }
+    ],
+    "category": "Grafika 2D/3D"
+  },
+  {
+    "question": "Do skanowania dużych obiektów architektonicznych służy skaner:",
+    "options": [
+      { "label": "a", "text": "Faro Focus 3D", "correct": true },
+      { "label": "b", "text": "Artec Eva", "correct": false },
+      { "label": "c", "text": "RangeVision NEO", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Skanery dalekiego zasięgu są skanerami:",
+    "options": [
+      { "label": "a", "text": "na światło strukturalne", "correct": false },
+      { "label": "b", "text": "laserowymi", "correct": true },
+      { "label": "c", "text": "kontaktowymi", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Modele siatkowe to:",
+    "options": [
+      { "label": "a", "text": "inna nazwa modeli powierzchniowych", "correct": false },
+      { "label": "b", "text": "modele, w których powierzchnia jest reprezentowana przez siatkę wielokątów połączonych krawędziami", "correct": true },
+      { "label": "c", "text": "modele składające się jedynie z krawędzi, jak sieć rybacka", "correct": false }
+    ],
+    "category": "Modelowanie 3D"
+  },
+  {
+    "question": "Interakcja to:",
+    "options": [
+      { "label": "a", "text": "możliwość poruszania się w VR i oddziaływanie na obiekty tego świata", "correct": true },
+      { "label": "b", "text": "system łączący świat rzeczywisty z generowanym komputerowo", "correct": false },
+      { "label": "c", "text": "proces zanurzenia się w świat wirtualny", "correct": false }
+    ],
+    "category": "VR / AR / MR"
+  },
+  {
+    "question": "Modelowanie to:",
+    "options": [
+      { "label": "a", "text": "nanoszenie materiałów na modele 3D", "correct": false },
+      { "label": "b", "text": "proces tworzenia i modyfikacji obiektów trójwymiarowych za pomocą specjalnego programu komputerowego", "correct": true },
+      { "label": "c", "text": "nadanie realizmu tworzonym obiektom w scenie", "correct": false }
+    ],
+    "category": "Modelowanie 3D"
+  },
+  {
+    "question": "Proces skanowania 3D prowadzi do:",
+    "options": [
+      { "label": "a", "text": "bezpośredniego uzyskania obiektu powierzchniowego", "correct": false },
+      { "label": "b", "text": "bezpośredniego otrzymania obiektu bryłowego", "correct": false },
+      { "label": "c", "text": "uzyskania chmury punktów reprezentujących powierzchnię obiektu", "correct": true }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Technologia druku 3D FDM/FFF polega na:",
+    "options": [
+      { "label": "a", "text": "laserowym utwardzaniu warstwy żelu", "correct": false },
+      { "label": "b", "text": "termicznym nakładaniu warstw tworzywa termoplastycznego", "correct": true },
+      { "label": "c", "text": "utwardzaniu warstwy proszku przez promieniowanie UV", "correct": false }
+    ],
+    "category": "Druk 3D"
+  },
+  {
+    "question": "Za pomocą oprogramowania CAD tworzone są trójwymiarowe modele:",
+    "options": [
+      { "label": "a", "text": "warstwicowe", "correct": false },
+      { "label": "b", "text": "punktowe", "correct": false },
+      { "label": "c", "text": "parametryczne", "correct": true }
+    ],
+    "category": "Modelowanie 3D"
+  },
+  {
+    "question": "Technologia addytywna to proces:",
+    "options": [
+      { "label": "a", "text": "przybliżonego renderowania bez rzutowania cieni", "correct": false },
+      { "label": "b", "text": "modelowania 3D przy wykorzystaniu voxeli", "correct": false },
+      { "label": "c", "text": "szybkiego wytwarzania fizycznej repliki modelu komputerowego przy zastosowaniu drukarek 3D", "correct": true }
+    ],
+    "category": "Druk 3D"
+  },
+  {
+    "question": "Grafika bitmapowa to grafika, gdzie:",
+    "options": [
+      { "label": "a", "text": "piksel jest najmniejszym elementem zawierającym informacje o obrazie", "correct": true },
+      { "label": "b", "text": "każdy element jest osobnym obiektem", "correct": false },
+      { "label": "c", "text": "obiekty mogą odzwierciedlać skomplikowane kształty z przyrody", "correct": false }
+    ],
+    "category": "Grafika 2D/3D"
+  },
+  {
+    "question": "Immersja to:",
+    "options": [
+      { "label": "a", "text": "system łączący świat rzeczywisty z generowanym komputerowo", "correct": false },
+      { "label": "b", "text": "proces zanurzenia się w świat wirtualny, czyli złudzenie, że obiekty graficzne nas otaczają", "correct": true },
+      { "label": "c", "text": "możliwość poruszania się w VR i oddziaływanie na obiekty", "correct": false }
+    ],
+    "category": "VR / AR / MR"
+  },
+  {
+    "question": "Do podstawowych elementów siatki (mesh) można zaliczyć:",
+    "options": [
+      { "label": "a", "text": "piksel", "correct": false },
+      { "label": "b", "text": "primitives", "correct": false },
+      { "label": "c", "text": "faces (ściany)", "correct": true }
+    ],
+    "category": "Modelowanie 3D"
+  },
+  {
+    "question": "VR to:",
+    "options": [
+      { "label": "a", "text": "wirtualna rzeczywistość", "correct": true },
+      { "label": "b", "text": "rozszerzona rzeczywistość", "correct": false },
+      { "label": "c", "text": "mieszana rzeczywistość", "correct": false }
+    ],
+    "category": "VR / AR / MR"
+  },
+  {
+    "question": "Proces teksturowania to:",
+    "options": [
+      { "label": "a", "text": "sklejanie prymitywów, aby zbudować złożony obiekt", "correct": false },
+      { "label": "b", "text": "nakładanie obrazów 2D na trójwymiarowe modele", "correct": true },
+      { "label": "c", "text": "generowanie wyglądu fotorealistycznego", "correct": false }
+    ],
+    "category": "Teksturowanie i rendering"
+  },
+  {
+    "question": "Zapis modelu 3D w postaci przeznaczonej do wydruku 3D określany jest nazwą:",
+    "options": [
+      { "label": "a", "text": "FF-Code", "correct": false },
+      { "label": "b", "text": "G-Spot", "correct": false },
+      { "label": "c", "text": "G-Code", "correct": true }
+    ],
+    "category": "Druk 3D"
+  },
+  {
+    "question": "Uniwersalny format do przenoszenia modeli 3D wraz z teksturą to:",
+    "options": [
+      { "label": "a", "text": ".obj", "correct": true },
+      { "label": "b", "text": ".sti", "correct": false },
+      { "label": "c", "text": ".jpg", "correct": false }
+    ],
+    "category": "Formaty plików"
+  },
+  {
+    "question": "Modele 3D do prezentacji online lub wydruku zapisywane są w postaci:",
+    "options": [
+      { "label": "a", "text": "chmur kolorowanych punktów", "correct": false },
+      { "label": "b", "text": "siatek wielokątów z nałożoną teksturą", "correct": true },
+      { "label": "c", "text": "modeli warstwicowych", "correct": false }
+    ],
+    "category": "Formaty plików"
+  },
+  {
+    "question": "Skanery bezkontaktowe aktywne:",
+    "options": [
+      { "label": "a", "text": "badają obiekt przez przemieszczanie głowicy po obiekcie", "correct": false },
+      { "label": "b", "text": "emitują pewien rodzaj promieniowania i wykrywają jego refleksje lub promieniowanie przechodzące przez obiekt", "correct": true },
+      { "label": "c", "text": "nie emitują światła, polegają na detekcji odbitego światła otoczenia", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Triangulacja to proces:",
+    "options": [
+      { "label": "a", "text": "redukcji liczby punktów (za 3 punkty 1 punkt)", "correct": false },
+      { "label": "b", "text": "zamiany tekstury bitmapowej na parametryczną", "correct": false },
+      { "label": "c", "text": "łączenia punktów w trójkąty, które wyznaczają powierzchnię", "correct": true }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Chmury punktów ze skanu 3D na początku przekształcamy na model:",
+    "options": [
+      { "label": "a", "text": "siatkowy", "correct": true },
+      { "label": "b", "text": "bryłowy", "correct": false },
+      { "label": "c", "text": "parametryczny", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Skanery 3D pracujące w technologii światła strukturalnego:",
+    "options": [
+      { "label": "a", "text": "odczytują strukturę powierzchni za pomocą lasera", "correct": false },
+      { "label": "b", "text": "wykorzystują projekcję obrazu na skanowany obiekt", "correct": true },
+      { "label": "c", "text": "muszą pracować w warunkach „ciemni”", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  },
+  {
+    "question": "Inżynieria odwrotna to proces:",
+    "options": [
+      { "label": "a", "text": "zamiany modelu wirtualnego na obiekt rzeczywisty", "correct": false },
+      { "label": "b", "text": "przeniesienia fizycznie istniejącego obiektu do środowiska wirtualnego 3D", "correct": true },
+      { "label": "c", "text": "przekształcenia obiektów 2D na obiekty 3D", "correct": false }
+    ],
+    "category": "Skanowanie 3D"
+  }
+]
