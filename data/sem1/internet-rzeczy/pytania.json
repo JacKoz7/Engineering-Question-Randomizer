@@ -23,7 +23,7 @@
     "question": "Funkcja setup() uruchomi się tyle razy ile zechce użytkownik, a funkcja loop() będzie działała powtarzalnie dopóki układ będzie zasilony.",
     "options": [
       { "label": "a", "text": "Prawda", "correct": false },
-      { "label": "b", "text": "Fałsz — setup() uruchamia się raz, a loop() działa powtarzalnie", "correct": true }
+      { "label": "b", "text": "Fałsz", "correct": true }
     ],
     "category": "Arduino / funkcje"
   },
@@ -31,7 +31,7 @@
     "question": "Środowisko Arduino IDE nie dostarcza gotowych rozwiązań w postaci bibliotek.",
     "options": [
       { "label": "a", "text": "Prawda", "correct": false },
-      { "label": "b", "text": "Fałsz — Arduino IDE dostarcza wiele gotowych bibliotek", "correct": true }
+      { "label": "b", "text": "Fałsz", "correct": true }
     ],
     "category": "Arduino / funkcje"
   },
@@ -345,7 +345,7 @@
     "question": "Protokół i interfejs to to samo określenie.",
     "options": [
       { "label": "a", "text": "Prawda", "correct": false },
-      { "label": "b", "text": "Fałsz — interfejs dotyczy połączenia/sprzętu, a protokół to zasady komunikacji", "correct": true }
+      { "label": "b", "text": "Fałsz", "correct": true }
     ],
     "category": "Architektura i pamięci"
   },
@@ -465,7 +465,7 @@
     "question": "Magistrala i interfejs to to samo określenie.",
     "options": [
       { "label": "a", "text": "Prawda", "correct": false },
-      { "label": "b", "text": "Fałsz — magistrala to fizyczny zbiór linii, a interfejs to sposób komunikacji", "correct": true }
+      { "label": "b", "text": "Fałsz", "correct": true }
     ],
     "category": "Architektura i pamięci"
   },
@@ -543,7 +543,7 @@
     "question": "Magistrala i protokół to to samo określenie.",
     "options": [
       { "label": "a", "text": "Prawda", "correct": false },
-      { "label": "b", "text": "Fałsz — magistrala to fizyczne linie, a protokół to zasady wymiany danych", "correct": true }
+      { "label": "b", "text": "Fałsz", "correct": true }
     ],
     "category": "Architektura i pamięci"
   },
@@ -682,7 +682,7 @@
   {
     "question": "Jaką linię zegara wykorzystują kolejno SPI, I2C i 1-Wire?",
     "options": [
-      { "label": "a", "text": "SCLK / SCL / brak (1-Wire nie ma osobnej linii zegara)", "correct": true },
+      { "label": "a", "text": "SCLK / SCL / brak ", "correct": true },
       { "label": "b", "text": "SCL / SCLK / DATA", "correct": false },
       { "label": "c", "text": "brak / SCLK / SCL", "correct": false },
       { "label": "d", "text": "SCLK / DATA / SCL", "correct": false }
