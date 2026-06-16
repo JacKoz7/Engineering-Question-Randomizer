@@ -622,7 +622,7 @@
   {
     "question": "Co jest cechą charakterystyczną urządzeń posługujących się protokołem 1-Wire?",
     "options": [
-      { "label": "a", "text": "Unikalny adres (identyfikator) urządzenia", "correct": true },
+      { "label": "a", "text": "Unikalny adres urządzenia", "correct": true },
       { "label": "b", "text": "Mały rozmiar obudowy", "correct": false },
       { "label": "c", "text": "Czarny kolor obudowy", "correct": false },
       { "label": "d", "text": "Brak cech charakterystycznych", "correct": false }
@@ -642,7 +642,7 @@
   {
     "question": "Interfejs 1-Wire pozwala na komunikację wielu urządzeń podrzędnych, o ile każde z nich posiada:",
     "options": [
-      { "label": "a", "text": "Indywidualny (unikalny) adres", "correct": true },
+      { "label": "a", "text": "Indywidualny adres", "correct": true },
       { "label": "b", "text": "Własną linię zegara", "correct": false },
       { "label": "c", "text": "Osobne źródło zasilania", "correct": false },
       { "label": "d", "text": "Rezystor podciągający o wartości 4,7 kΩ", "correct": false }

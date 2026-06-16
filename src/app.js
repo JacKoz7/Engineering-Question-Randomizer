@@ -10,6 +10,7 @@ let learnMode = false;
 let quizMode = false;
 let quizQueue = [];
 let quizIndex = 0;
+let quizResults = [];
 let toLearnQuestions = new Set();
 let selectedCategories = new Set();
 
@@ -30,6 +31,7 @@ const drawButton = document.getElementById("drawButton");
 const questionsContainer = document.getElementById("questionsContainer");
 const noRepeatCheckbox = document.getElementById("noRepeatCheckbox");
 const learnModeBtn = document.getElementById("learnModeBtn");
+const manageLearnBtn = document.getElementById("manageLearnBtn");
 const categoriesContainer = document.getElementById("categoriesContainer");
 const categoryToggleBtn = document.getElementById("categoryToggleBtn");
 const filterSummary = document.getElementById("filterSummary");
@@ -167,6 +169,7 @@ async function enterQuiz(path) {
   quizMode = false;
   quizQueue = [];
   quizIndex = 0;
+  quizResults = [];
   selectedCategories = new Set();
   currentDataPath = path;
 
@@ -226,6 +229,8 @@ categoryToggleBtn.addEventListener("click", () => {
   filtersWrapper.classList.toggle("open");
 });
 
+manageLearnBtn.addEventListener("click", openLearnManager);
+
 noRepeatCheckbox.addEventListener("change", (e) => {
   noRepeatMode = e.target.checked;
   if (!noRepeatMode) usedQuestions = [];
@@ -244,12 +249,15 @@ learnModeBtn.addEventListener("click", () => {
 
   if (learnMode) {
     learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki ✓</span>';
-    updateStats();
-    drawButton.click();
   } else {
     learnModeBtn.innerHTML = '<span class="icon">📚</span><span class="text">Tryb nauki</span>';
     usedQuestions = [];
-    updateStats();
+  }
+  updateStats();
+
+  if (quizMode) {
+    startQuizRun();
+  } else {
     drawButton.click();
   }
 });
@@ -308,6 +316,93 @@ function toggleToLearn(questionText) {
   updateStats();
 }
 
+// Sync every visible bookmark star with the current toLearn set
+function refreshBookmarks() {
+  document.querySelectorAll(".bookmark-btn").forEach((b) => {
+    const qt = b.getAttribute("data-question");
+    b.classList.toggle("marked", toLearnQuestions.has(qt));
+  });
+}
+
+// ── Learn manager (osobny ekran do zarządzania pytaniami do nauki) ──────────────
+function openLearnManager() {
+  const existing = document.getElementById("learnManager");
+  if (existing) existing.remove();
+
+  const items = [...toLearnQuestions];
+  const catBadges = (qt) => {
+    const q = allQuestions.find((x) => x.question === qt);
+    return q
+      ? getCategoriesFromQuestion(q)
+          .map((c) => `<span class="category-badge">${escapeHtml(c)}</span>`)
+          .join("")
+      : "";
+  };
+
+  const listHTML = items.length
+    ? items
+        .map(
+          (qt) => `
+        <li class="lm-item">
+          <div class="lm-item-main">
+            <div class="badges-wrapper">${catBadges(qt)}</div>
+            <p class="lm-q">${escapeHtml(qt)}</p>
+          </div>
+          <button class="lm-remove" title="Usuń z nauki (już to umiem)" data-q="${escapeHtml(qt)}">✕</button>
+        </li>`
+        )
+        .join("")
+    : `<li class="lm-empty">Brak pytań w trybie nauki. Dodaj je gwiazdką na karcie albo przyciskiem „Dodaj błędne do nauki” na ekranie wyniku.</li>`;
+
+  const overlay = document.createElement("div");
+  overlay.id = "learnManager";
+  overlay.className = "learn-manager-overlay";
+  overlay.innerHTML = `
+    <div class="learn-manager glass-panel">
+      <div class="lm-head">
+        <h2>📚 Pytania do nauki <span class="lm-count">${items.length}</span></h2>
+        <button class="lm-close" title="Zamknij">✕</button>
+      </div>
+      <p class="lm-hint">Usuń pojedyncze pytania, które już umiesz, albo wyczyść całą listę.</p>
+      <ul class="lm-list">${listHTML}</ul>
+      <div class="lm-actions">
+        <button class="lm-clear" ${items.length ? "" : "disabled"}>🗑 Wyczyść wszystko</button>
+        <button class="lm-done cta-button">Gotowe</button>
+      </div>
+    </div>`;
+  document.body.appendChild(overlay);
+
+  const close = () => overlay.remove();
+  overlay.querySelector(".lm-close").addEventListener("click", close);
+  overlay.querySelector(".lm-done").addEventListener("click", close);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) close();
+  });
+
+  overlay.querySelectorAll(".lm-remove").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      toLearnQuestions.delete(btn.getAttribute("data-q"));
+      saveToLearnToStorage();
+      updateStats();
+      refreshBookmarks();
+      openLearnManager();
+    });
+  });
+
+  const clearBtn = overlay.querySelector(".lm-clear");
+  if (clearBtn) {
+    clearBtn.addEventListener("click", () => {
+      if (!toLearnQuestions.size) return;
+      if (!confirm("Usunąć wszystkie pytania z trybu nauki?")) return;
+      toLearnQuestions.clear();
+      saveToLearnToStorage();
+      updateStats();
+      refreshBookmarks();
+      openLearnManager();
+    });
+  }
+}
+
 function toggleEmptyState() {
   document.body.classList.toggle("no-questions", questionsContainer.children.length === 0);
 }
@@ -322,9 +417,7 @@ async function loadQuestionsFromFile(filePath) {
     updateStats();
     drawButton.disabled = false;
     if (quizMode) {
-      quizQueue = [...allQuestions].sort(() => Math.random() - 0.5);
-      quizIndex = 0;
-      showQuizQuestion();
+      startQuizRun();
     }
   } catch (error) {
     console.error("Error:", error);
@@ -491,6 +584,14 @@ function displayQuestions(questions) {
 }
 
 // ── Quiz card mode ────────────────────────────────────────────────────────────
+function startQuizRun() {
+  const pool = getQuestionPool();
+  quizQueue = [...pool].sort(() => Math.random() - 0.5);
+  quizIndex = 0;
+  quizResults = [];
+  showQuizQuestion();
+}
+
 function showQuizQuestion() {
   if (quizIndex >= quizQueue.length) {
     displayQuizComplete();
@@ -499,27 +600,103 @@ function showQuizQuestion() {
   displayQuizCard(quizQueue[quizIndex]);
 }
 
+function getResultTier(percent) {
+  if (percent === 100) return { emoji: "🏆", title: "Perfekcyjnie!", msg: "Komplet punktów — mistrzostwo!" };
+  if (percent >= 90) return { emoji: "🌟", title: "Świetny wynik!", msg: "Materiał masz opanowany niemal w całości." };
+  if (percent >= 75) return { emoji: "💪", title: "Bardzo dobrze!", msg: "Solidny wynik — jeszcze kilka szczegółów do dopracowania." };
+  if (percent >= 50) return { emoji: "📈", title: "Nieźle!", msg: "Połowa za Tobą — powtórz błędne pytania i będzie super." };
+  if (percent >= 25) return { emoji: "📚", title: "Trzeba poćwiczyć", msg: "Przejrzyj błędne odpowiedzi i spróbuj ponownie." };
+  return { emoji: "🔁", title: "Nie poddawaj się!", msg: "Powtórz materiał i podejdź jeszcze raz — dasz radę." };
+}
+
 function displayQuizComplete() {
   questionsContainer.innerHTML = "";
-  const total = quizQueue.length;
+  const total = quizResults.length || quizQueue.length;
+  const correct = quizResults.filter((r) => r.correct).length;
+  const percent = total ? Math.round((correct / total) * 100) : 0;
+  const tier = getResultTier(percent);
+  const wrong = quizResults.filter((r) => !r.correct);
+
+  // circular progress ring geometry
+  const R = 80, C = 2 * Math.PI * R;
+  const offset = C * (1 - percent / 100);
+
+  const wrongHTML = wrong.length
+    ? `
+      <div class="quiz-wrong-list">
+        <div class="quiz-wrong-head">
+          <h3>Pytania do powtórki <span class="quiz-wrong-count">${wrong.length}</span></h3>
+          <button class="quiz-addlearn-btn" id="quizAddLearnBtn"><span class="icon">📚</span> Dodaj błędne do nauki</button>
+        </div>
+        <ol class="quiz-wrong-items">
+          ${wrong
+            .map((r) => {
+              const cats = getCategoriesFromQuestion(r.q)
+                .map((c) => `<span class="category-badge">${escapeHtml(c)}</span>`)
+                .join("");
+              const goodAns = r.q.options
+                .filter((o) => o.correct)
+                .map((o) => `<li>${escapeHtml(o.text)}</li>`)
+                .join("");
+              return `
+                <li class="quiz-wrong-item">
+                  <div class="badges-wrapper">${cats}</div>
+                  <p class="quiz-wrong-q">${escapeHtml(r.q.question)}</p>
+                  <p class="quiz-wrong-label">Poprawna odpowiedź:</p>
+                  <ul class="quiz-wrong-answers">${goodAns}</ul>
+                </li>`;
+            })
+            .join("")}
+        </ol>
+      </div>`
+    : `<p class="quiz-perfect-note">Wszystkie odpowiedzi poprawne — nic do powtórki! 🎉</p>`;
+
   const wrap = document.createElement("div");
   wrap.className = "quiz-complete";
   wrap.innerHTML = `
     <div class="quiz-complete-inner glass-panel">
-      <p class="quiz-complete-emoji">🎓</p>
-      <h2>Koniec quizu!</h2>
-      <p>Przeszedłeś przez wszystkie <strong>${total}</strong> pytania.</p>
+      <p class="quiz-complete-emoji">${tier.emoji}</p>
+      <h2>${tier.title}</h2>
+      <div class="quiz-score-ring">
+        <svg width="200" height="200" viewBox="0 0 200 200">
+          <circle class="ring-track" cx="100" cy="100" r="${R}" fill="none" stroke-width="16"/>
+          <circle class="ring-fill" cx="100" cy="100" r="${R}" fill="none" stroke-width="16"
+            stroke-linecap="round" transform="rotate(-90 100 100)"
+            stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${C.toFixed(1)}"/>
+        </svg>
+        <div class="quiz-score-center">
+          <span class="quiz-score-percent">${percent}%</span>
+          <span class="quiz-score-frac">${correct} / ${total}</span>
+        </div>
+      </div>
+      <p class="quiz-complete-msg">${tier.msg}</p>
+      ${wrongHTML}
       <div class="quiz-complete-actions">
         <button class="cta-button" id="quizRestartBtn">Zacznij od nowa</button>
         <button class="back-btn" onclick="location.hash=''">← Wróć do menu</button>
       </div>
     </div>`;
   questionsContainer.appendChild(wrap);
-  document.getElementById("quizRestartBtn").addEventListener("click", () => {
-    quizQueue = [...allQuestions].sort(() => Math.random() - 0.5);
-    quizIndex = 0;
-    showQuizQuestion();
+
+  // animate ring fill
+  requestAnimationFrame(() => {
+    const fill = wrap.querySelector(".ring-fill");
+    if (fill) fill.style.strokeDashoffset = offset.toFixed(1);
   });
+
+  document.getElementById("quizRestartBtn").addEventListener("click", startQuizRun);
+
+  const addLearnBtn = document.getElementById("quizAddLearnBtn");
+  if (addLearnBtn) {
+    addLearnBtn.addEventListener("click", () => {
+      wrong.forEach((r) => toLearnQuestions.add(r.q.question));
+      saveToLearnToStorage();
+      updateStats();
+      addLearnBtn.disabled = true;
+      addLearnBtn.innerHTML = '<span class="icon">✓</span> Dodano do nauki';
+    });
+  }
+
   toggleEmptyState();
 }
 
@@ -581,7 +758,15 @@ function displayQuizCard(q) {
   });
 
   const checkBtn = card.querySelector(".quiz-check-btn");
+  let answered = false;
   checkBtn.addEventListener("click", () => {
+    if (answered) {
+      quizIndex++;
+      showQuizQuestion();
+      return;
+    }
+    answered = true;
+
     const options = card.querySelectorAll(".quiz-option");
     let allCorrect = true;
     options.forEach((btn) => {
@@ -593,13 +778,14 @@ function displayQuizCard(q) {
       else if (correct && !selected) { btn.classList.add("opt-missed"); allCorrect = false; }
     });
 
+    quizResults.push({ q, correct: allCorrect });
+
     const resultEl = document.createElement("p");
     resultEl.className = "quiz-result " + (allCorrect ? "quiz-result-ok" : "quiz-result-fail");
     resultEl.textContent = allCorrect ? "Brawo! Wszystkie poprawne odpowiedzi zaznaczone." : "Sprawdź podświetlone odpowiedzi.";
     card.querySelector(".quiz-actions").prepend(resultEl);
 
     checkBtn.textContent = isLast ? "Zakończ quiz →" : "Następne pytanie →";
-    checkBtn.onclick = () => { quizIndex++; showQuizQuestion(); };
   });
 
   card.querySelector(".bookmark-btn").addEventListener("click", (e) => {
