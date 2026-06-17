@@ -36,6 +36,8 @@ const categoriesContainer = document.getElementById("categoriesContainer");
 const categoryToggleBtn = document.getElementById("categoryToggleBtn");
 const filterSummary = document.getElementById("filterSummary");
 const filtersWrapper = document.querySelector(".filters-wrapper");
+const fullscreenBtn = document.getElementById("fullscreenBtn");
+const fullscreenExitBtn = document.getElementById("fullscreenExitBtn");
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 window.addEventListener("DOMContentLoaded", async () => {
@@ -64,6 +66,10 @@ function showMenu() {
   if (quizMode) {
     quizMode = false;
     document.body.classList.remove("quiz-mode");
+  }
+  if (document.body.classList.contains("quiz-fullscreen")) {
+    document.body.classList.remove("quiz-fullscreen");
+    if (document.fullscreenElement) document.exitFullscreen?.().catch(() => {});
   }
   document.body.removeAttribute("data-theme");
   menuView.classList.remove("hidden");
@@ -230,6 +236,26 @@ categoryToggleBtn.addEventListener("click", () => {
 });
 
 manageLearnBtn.addEventListener("click", openLearnManager);
+
+// ── Fullscreen quiz mode ────────────────────────────────────────────────────────
+function setFullscreen(on) {
+  document.body.classList.toggle("quiz-fullscreen", on);
+  if (on && !document.fullscreenElement) {
+    document.documentElement.requestFullscreen?.().catch(() => {});
+  } else if (!on && document.fullscreenElement) {
+    document.exitFullscreen?.().catch(() => {});
+  }
+}
+
+fullscreenBtn.addEventListener("click", () => {
+  setFullscreen(!document.body.classList.contains("quiz-fullscreen"));
+});
+fullscreenExitBtn.addEventListener("click", () => setFullscreen(false));
+
+// Sync our class when the browser leaves fullscreen (np. klawisz Esc).
+document.addEventListener("fullscreenchange", () => {
+  if (!document.fullscreenElement) document.body.classList.remove("quiz-fullscreen");
+});
 
 noRepeatCheckbox.addEventListener("change", (e) => {
   noRepeatMode = e.target.checked;
@@ -505,6 +531,7 @@ function renderCategories() {
         if (noRepeatMode) usedQuestions = [];
         updateFilterSummary();
         updateStats();
+        if (quizMode) startQuizRun();
       });
 
       const span = document.createElement("span");
