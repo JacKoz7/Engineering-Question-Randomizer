@@ -1,4 +1,10 @@
 // ── Config & routing ─────────────────────────────────────────────────────────
+// Kategorie oznaczające liczbę poprawnych odpowiedzi — działają jako filtr,
+// ale nie pokazujemy ich jako pill na karcie quizu (byłby to spoiler).
+const CORRECTNESS_CATEGORIES = new Set([
+  "Wszystkie poprawne", "4 poprawne", "3 poprawne", "2 poprawne", "1 poprawna", "0 poprawnych",
+]);
+
 let config = null;
 let currentDataPath = null;
 
@@ -777,7 +783,9 @@ function displayQuizCard(q) {
   card.className = "question-card quiz-card";
 
   const isMarked = toLearnQuestions.has(q.question);
+  // Ukrywamy etykiety liczby poprawnych odpowiedzi na karcie (spoiler), ale zostają jako filtr.
   const badgesHTML = getCategoriesFromQuestion(q)
+    .filter((c) => !CORRECTNESS_CATEGORIES.has(c))
     .map((c) => `<span class="category-badge">${escapeHtml(c)}</span>`)
     .join("");
 
