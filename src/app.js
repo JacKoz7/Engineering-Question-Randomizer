@@ -290,6 +290,49 @@ drawButton.addEventListener("click", () => {
   }
 });
 
+// ── Keyboard controls for quiz cards ───────────────────────────────────────────
+// 1–9 toggle the matching answer, Enter sprawdza odpowiedź / przechodzi dalej.
+document.addEventListener("keydown", (e) => {
+  if (!quizMode) return;
+  // Ignore when a modal (np. learn manager) jest otwarty albo gdy piszemy w polu.
+  if (document.getElementById("learnManager")) return;
+  const tag = (e.target.tagName || "").toLowerCase();
+  if (tag === "input" || tag === "textarea" || e.target.isContentEditable) return;
+
+  const card = questionsContainer.querySelector(".quiz-card");
+  if (!card) return;
+
+  // Enter → klika „Sprawdź odpowiedź" lub „Następne pytanie".
+  if (e.key === "Enter") {
+    const checkBtn = card.querySelector(".quiz-check-btn");
+    if (checkBtn) {
+      e.preventDefault();
+      checkBtn.click();
+    }
+    return;
+  }
+
+  // Backspace → czyści wszystkie zaznaczone odpowiedzi naraz.
+  if (e.key === "Backspace") {
+    const selected = card.querySelectorAll(".quiz-option.selected:not(.revealed)");
+    if (selected.length) {
+      e.preventDefault();
+      selected.forEach((opt) => opt.classList.remove("selected"));
+    }
+    return;
+  }
+
+  // Cyfra 1–9 → zaznacza/odznacza odpowiedź o tym numerze.
+  if (e.key >= "1" && e.key <= "9") {
+    const idx = Number(e.key) - 1;
+    const opt = card.querySelector(`.quiz-option[data-index="${idx}"]`);
+    if (opt && !opt.classList.contains("revealed")) {
+      e.preventDefault();
+      opt.classList.toggle("selected");
+    }
+  }
+});
+
 // ── Quiz logic ────────────────────────────────────────────────────────────────
 function escapeHtml(text) {
   const div = document.createElement("div");
@@ -719,12 +762,11 @@ function displayQuizCard(q) {
   const isLast = quizIndex + 1 === quizQueue.length;
 
   const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
-  const optionLabels = "abcdefghijklmnopqrstuvwxyz";
   const optionsHTML = shuffledOptions
     .map(
       (opt, i) => `
       <button class="quiz-option" data-index="${i}" data-correct="${opt.correct}">
-        <span class="quiz-option-label">${optionLabels[i] || "•"}.</span>
+        <span class="quiz-option-label">${i + 1}.</span>
         <span class="quiz-option-text">${escapeHtml(opt.text)}</span>
       </button>`
     )
@@ -746,6 +788,7 @@ function displayQuizCard(q) {
       <div class="quiz-options">${optionsHTML}</div>
       <div class="quiz-actions">
         <button class="quiz-check-btn cta-button">Sprawdź odpowiedź</button>
+        <span class="quiz-kbd-hint">Skróty: <kbd>1</kbd>–<kbd>9</kbd> zaznacz · <kbd>Backspace</kbd> wyczyść · <kbd>Enter</kbd> sprawdź / dalej</span>
       </div>
     </div>`;
 

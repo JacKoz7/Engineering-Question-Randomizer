@@ -6410,7 +6410,7 @@
       },
       {
         "label": "e",
-        "text": "Odległość euklidesowa jest zawsze ¬ odległości Manhattan, dlatego jest zawsze lepszą heurystyką.",
+        "text": "Odległość euklidesowa jest zawsze <= odległości Manhattan, dlatego jest zawsze lepszą heurystyką.",
         "correct": true
       }
     ],
