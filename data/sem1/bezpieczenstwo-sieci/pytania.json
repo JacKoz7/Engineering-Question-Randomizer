@@ -552,8 +552,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: Prevention (Intrusion Prevention System — IPS)",
+        "text": "Detection (to byłby IDS — tylko wykrywa, nie blokuje)",
+        "correct": false
+      },
+      {
+        "label": "b",
+        "text": "Prevention (Intrusion Prevention System — IPS)",
         "correct": true
+      },
+      {
+        "label": "c",
+        "text": "Protection",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "Recovery",
+        "correct": false
       }
     ],
     "category": "Wykład 1: Wstęp i współczesne zagrożenia bezpieczeństwa",
@@ -4603,8 +4618,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: snooping",
+        "text": "snooping (DHCP snooping)",
         "correct": true
+      },
+      {
+        "label": "b",
+        "text": "spoofing",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "relay",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "filtering",
+        "correct": false
       }
     ],
     "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
@@ -6198,8 +6228,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: stateful (stanowy)",
+        "text": "stateful (stanowy)",
         "correct": true
+      },
+      {
+        "label": "b",
+        "text": "stateless (bezstanowy)",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "proxy (pośredniczący)",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "pakietowy (packet-filtering)",
+        "correct": false
       }
     ],
     "category": "Wykłady 7–10: Listy ACL i zapory sieciowe",
@@ -6210,8 +6255,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: pass",
+        "text": "pass",
         "correct": true
+      },
+      {
+        "label": "b",
+        "text": "inspect",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "drop",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "log",
+        "correct": false
       }
     ],
     "category": "Wykłady 7–10: Listy ACL i zapory sieciowe",
@@ -7587,8 +7647,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: symetrycznym (symmetric)",
+        "text": "symetrycznym (symmetric)",
         "correct": true
+      },
+      {
+        "label": "b",
+        "text": "asymetrycznym (asymmetric)",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "haszującym (hashing)",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "z kluczem publicznym (public-key)",
+        "correct": false
       }
     ],
     "category": "Wykład 11: Kryptografia i VPN",
@@ -8110,8 +8185,23 @@
     "options": [
       {
         "label": "a",
-        "text": "Odpowiedź: algorytm haszujący (Hashing algorithm)",
+        "text": "algorytm haszujący (hashing algorithm)",
         "correct": true
+      },
+      {
+        "label": "b",
+        "text": "algorytm symetryczny",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "algorytm asymetryczny",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "algorytm kompresji",
+        "correct": false
       }
     ],
     "category": "Wykład 11: Kryptografia i VPN",

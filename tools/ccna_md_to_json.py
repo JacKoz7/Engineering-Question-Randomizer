@@ -5,11 +5,14 @@ options-based JSON format. Category = the `## ` section title (== spis treści).
 Usage:
   python3 tools/ccna_md_to_json.py
 """
+import glob
 import json
 import re
 import sys
 
-SRC = "data/sem1/bezpieczeństwo-sieci/pytania.md"
+# resolve via glob — the source folder name contains "ń", whose on-disk Unicode
+# normalization (NFD on macOS) does not byte-match a hardcoded NFC string
+SRC = glob.glob("data/sem1/*/pytania.md")[0]
 OUT = "data/sem1/bezpieczenstwo-sieci/pytania.json"
 # images live next to the JSON; store paths relative to the site root so the
 # app can use them directly as <img src> from index.html
