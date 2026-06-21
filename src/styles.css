@@ -1348,6 +1348,37 @@ body.quiz-fullscreen .quiz-complete { width: 100%; }
   font-style: italic;
 }
 
+.quiz-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 4px;
+}
+
+.quiz-image-link {
+  display: inline-block;
+  line-height: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+  background: #fff;
+}
+
+.quiz-image {
+  display: block;
+  max-width: 100%;
+  max-height: 360px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  cursor: zoom-in;
+  transition: transform 0.15s ease;
+}
+
+.quiz-image-link:hover .quiz-image {
+  transform: scale(1.01);
+}
+
 .quiz-options {
   display: flex;
   flex-direction: column;

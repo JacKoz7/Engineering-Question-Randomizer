@@ -796,6 +796,17 @@ function displayQuizCard(q) {
   const progress = `${quizIndex + 1} / ${quizQueue.length}`;
   const isLast = quizIndex + 1 === quizQueue.length;
 
+  const imagesHTML = Array.isArray(q.images)
+    ? q.images
+        .map(
+          (src) =>
+            `<a class="quiz-image-link" href="${encodeURI(src)}" target="_blank" rel="noopener">
+               <img class="quiz-image" src="${encodeURI(src)}" alt="Załącznik do pytania" loading="lazy" />
+             </a>`
+        )
+        .join("")
+    : "";
+
   const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
   const optionsHTML = shuffledOptions
     .map(
@@ -819,6 +830,7 @@ function displayQuizCard(q) {
       <div class="quiz-question-body">
         <div class="badges-wrapper">${badgesHTML}</div>
         <p class="quiz-question-text">${escapeHtml(q.question)}</p>
+        ${imagesHTML ? `<div class="quiz-images">${imagesHTML}</div>` : ""}
       </div>
       <div class="quiz-options">${optionsHTML}</div>
       <div class="quiz-actions">
