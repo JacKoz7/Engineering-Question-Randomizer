@@ -1,6 +1,6 @@
 # CCNA Security - pytania, na które odpowiedzi SĄ w wykładach (PL + EN)
 
-W tym pliku zebrano 386 pytań egzaminacyjnych CCNA Security v2.0 (z testów, z których wykładowca czerpie pytania na egzamin), przetłumaczonych na polski wraz z oryginalnym brzmieniem angielskim. Są to **pytania, na które odpowiedzi znajdują się w materiale z wykładów**, uporządkowane według wykładów (W1–W13). Każde pytanie ma zaznaczoną poprawną odpowiedź, a pytania z exhibitami mają osadzone obrazy.
+W tym pliku zebrano 269 pytań egzaminacyjnych CCNA Security v2.0 (z testów, z których wykładowca czerpie pytania na egzamin), przetłumaczonych na polski wraz z oryginalnym brzmieniem angielskim. Są to **pytania, na które odpowiedzi znajdują się w materiale z wykładów**, uporządkowane według wykładów (W1–W13). Każde pytanie ma zaznaczoną poprawną odpowiedź, a pytania z exhibitami mają osadzone obrazy.
 
 **Legenda:** ✅ = poprawna · ❌ = błędna · 🖼️ = pytanie ze zdjęciem · *EN:* = oryginał angielski.
 
@@ -8,14 +8,14 @@ W tym pliku zebrano 386 pytań egzaminacyjnych CCNA Security v2.0 (z testów, z 
 
 ## Spis treści
 
-- [Wykład 1: Wstęp i współczesne zagrożenia bezpieczeństwa](#wykład-1-wstęp-i-współczesne-zagrożenia-bezpieczeństwa) — 31 pyt.
-- [Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA](#wykład-2-polityka-bezpieczeństwa-kontrola-dostępu-i-aaa) — 65 pyt.
-- [Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych](#wykłady-3-i-6-zabezpieczanie-urządzeń-sieciowych) — 46 pyt.
-- [Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)](#wykłady-45-bezpieczeństwo-sieci-lan-warstwa-2) — 49 pyt.
-- [Wykłady 7–10: Listy ACL i zapory sieciowe](#wykłady-710-listy-acl-i-zapory-sieciowe) — 52 pyt.
-- [Wykład 11: Kryptografia i VPN](#wykład-11-kryptografia-i-vpn) — 75 pyt.
-- [Wykłady 12–13: Cisco ASA](#wykłady-1213-cisco-asa) — 56 pyt.
-- [Różne: pytania ogólnosieciowe (z egzaminów zbiorczych)](#różne-pytania-ogólnosieciowe-z-egzaminów-zbiorczych) — 12 pyt.
+- [Wykład 1: Wstęp i współczesne zagrożenia bezpieczeństwa](#wykład-1-wstęp-i-współczesne-zagrożenia-bezpieczeństwa) — 18 pyt.
+- [Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA](#wykład-2-polityka-bezpieczeństwa-kontrola-dostępu-i-aaa) — 13 pyt.
+- [Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych](#wykłady-3-i-6-zabezpieczanie-urządzeń-sieciowych) — 15 pyt.
+- [Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)](#wykłady-45-bezpieczeństwo-sieci-lan-warstwa-2) — 47 pyt.
+- [Wykłady 7–10: Listy ACL i zapory sieciowe](#wykłady-710-listy-acl-i-zapory-sieciowe) — 49 pyt.
+- [Wykład 11: Kryptografia i VPN](#wykład-11-kryptografia-i-vpn) — 67 pyt.
+- [Wykłady 12–13: Cisco ASA](#wykłady-1213-cisco-asa) — 54 pyt.
+- [Różne: pytania ogólnosieciowe (z egzaminów zbiorczych)](#różne-pytania-ogólnosieciowe-z-egzaminów-zbiorczych) — 6 pyt.
 
 ## Wykład 1: Wstęp i współczesne zagrożenia bezpieczeństwa
 
@@ -28,16 +28,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ✅ **blokowanie pakietów ICMP echo i echo-reply na brzegu sieci**
 
 *EN:* What method can be used to mitigate ping sweeps? → *blocking ICMP echo and echo-replies at the network edge*
-
-### 1.2 Jakie są trzy główne komponenty ataku robaka (worm)? *(wybierz 3)*
-- ❌ mechanizm penetracji
-- ❌ podatność infekująca
-- ✅ **ładunek (payload)**
-- ✅ **podatność umożliwiająca (enabling vulnerability)**
-- ❌ mechanizm sondujący
-- ✅ **mechanizm propagacji**
-
-*EN:* What are the three major components of a worm attack? → *a payload; an enabling vulnerability; a propagation mechanism*
 
 ### 1.3 Które stwierdzenie trafnie opisuje ewolucję zagrożeń bezpieczeństwa sieci?
 - ✅ **Zagrożenia wewnętrzne mogą wyrządzić nawet większe szkody niż zewnętrzne.**
@@ -54,15 +44,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ powody polityczne
 
 *EN:* What commonly motivates cybercriminals…? → *financial gain*
-
-### 1.6 Które dwa rozwiązania bezpieczeństwa sieci mogą ograniczyć ataki DoS? *(wybierz 2)*
-- ❌ skanowanie antywirusowe
-- ✅ **systemy zapobiegania włamaniom (IPS)**
-- ❌ stosowanie uwierzytelniania użytkowników
-- ✅ **technologie antyspoofingowe**
-- ❌ szyfrowanie danych
-
-*EN:* Which two network security solutions can mitigate DoS attacks? → *intrusion protection systems; antispoofing technologies*
 
 ### 1.8 Napastnik używa laptopa jako fałszywego punktu dostępowego (rogue AP), by przechwycić cały ruch sieciowy wybranego użytkownika. Jaki to typ ataku?
 - ❌ wykorzystanie zaufania (trust exploitation)
@@ -98,23 +79,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* What is the primary method for mitigating malware? → *installing antivirus software on all hosts*
 
-### 1.12 Jaki jest cel ataku sponsorowanego przez państwo (state-sponsored)?
-- ❌ uzyskanie korzyści finansowych
-- ❌ sprzedaż podatności systemu operacyjnego innym hakerom
-- ❌ zdobycie uwagi
-- ✅ **naprawienie postrzeganej krzywdy / realizacja celów państwa**
-- ❌ szpiegowanie obywateli, destabilizacja obcego rządu
-
-*EN:* What is an objective of a state-sponsored attack? → *to right a perceived wrong*
-
-### 1.13 Jaką rolę pełni Security Intelligence Operations (SIO) w architekturze Cisco SecureX?
-- ✅ **identyfikowanie i blokowanie złośliwego ruchu**
-- ❌ uwierzytelnianie użytkowników
-- ❌ egzekwowanie polityki
-- ❌ identyfikowanie aplikacji
-
-*EN:* What role does the SIO play in the Cisco SecureX architecture? → *identifying and stopping malicious traffic*
-
 ### 1.15 Jak przeprowadzany jest atak smurf?
 - ❌ przez wysłanie wielu pakietów, by przepełnić bufor pamięci celu
 - ✅ **przez wysłanie wielu żądań ICMP na adresy rozgłoszeniowe (directed broadcast) ze sfałszowanego adresu źródłowego w tej samej sieci**
@@ -123,14 +87,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* How is a smurf attack conducted? → *by sending a large number of ICMP requests to directed broadcast addresses from a spoofed source address*
 
-### 1.16 Co charakteryzuje konia trojańskiego w kontekście bezpieczeństwa sieci?
-- ✅ **Szkodliwy kod jest zawarty w pozornie legalnym programie wykonywalnym.**
-- ❌ Ekstremalne ilości danych są wysyłane do konkretnego interfejsu urządzenia.
-- ❌ Słownik elektroniczny służy do zdobycia hasła do kluczowego urządzenia.
-- ❌ Zbyt wiele informacji trafia do konkretnego bloku pamięci.
-
-*EN:* What is a characteristic of a Trojan horse…? → *Malware is contained in a seemingly legitimate executable program.*
-
 ### 1.17 Jaki jest pierwszy krok w procesie zarządzania ryzykiem wg ISO/IEC?
 - ❌ Stwórz politykę bezpieczeństwa.
 - ✅ **Przeprowadź ocenę ryzyka (risk assessment).**
@@ -138,14 +94,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ Stwórz model zarządzania bezpieczeństwem (governance).
 
 *EN:* What is the first step in the risk management process specified by ISO/IEC? → *Conduct a risk assessment.*
-
-### 1.18 Jaka jest znacząca cecha robaka (worm)?
-- ✅ **Robak może wykonywać się niezależnie od systemu hosta.**
-- ❌ Robak musi zostać wyzwolony zdarzeniem w systemie hosta.
-- ❌ Robak udaje legalne oprogramowanie.
-- ❌ Po instalacji robak się nie replikuje.
-
-*EN:* What is the significant characteristic of worm malware? → *A worm can execute independently of the host system.*
 
 ### 1.21 Niezadowolony pracownik używa Wiresharka, by odkryć nazwy użytkowników i hasła administracyjne Telnet. Jaki to typ ataku sieciowego?
 - ❌ wykorzystanie zaufania
@@ -162,15 +110,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ filtrowanie szkodliwych stron WWW
 
 *EN:* What is the role of an IPS? → *detecting and blocking of attacks in real time*
-
-### 1.23 Które dwa stwierdzenia opisują ataki dostępu (access attacks)? *(wybierz 2)*
-- ❌ Ataki wykorzystania zaufania często używają laptopa jako rogue AP do przechwytywania ruchu w miejscu publicznym (hotspot).
-- ❌ Aby wykryć usługi nasłuchujące, ataki skanowania portów skanują zakres portów TCP/UDP hosta.
-- ✅ **Ataki przepełnienia bufora zapisują dane poza przydzielonym buforem, nadpisując poprawne dane lub wykonując złośliwy kod.**
-- ✅ **Ataki na hasła można realizować metodą brute-force, koniem trojańskim lub snifferem pakietów.**
-- ❌ Ataki przekierowania portów używają karty sieciowej w trybie promiscuous do przechwytywania pakietów w LAN.
-
-*EN:* Which two statements describe access attacks? → *Buffer overflow attacks write data beyond the allocated buffer…; Password attacks can be implemented by brute-force, Trojan horse, or packet sniffers*
 
 ### 1.24 Czym jest ping sweep (skanowanie pingiem)?
 - ❌ technika skanowania badająca zakres portów TCP/UDP hosta w celu wykrycia usług nasłuchujących
@@ -195,28 +134,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ gdy segmenty muszą docierać w ściśle określonej kolejności
 
 *EN:* When is UDP preferred to TCP? → *when an application can tolerate some loss of data during transmission*
-
-### 1.28 🖼️ Jakie dwie informacje można odczytać z wygenerowanego komunikatu? *(wybierz 2)*
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/i229316v1n1_28098.jpg)
-
-- ✅ **To komunikat powiadomienia poziomu 5 (level five notification).**
-- ✅ **Wskazuje, że globalnie włączono znaczniki czasu usług (service timestamps).**
-- ❌ Wskazuje, że na portach vty skonfigurowano zwiększone bezpieczeństwo.
-- ❌ Pojawił się z powodu poważnego błędu wymagającego natychmiastowego działania.
-- ❌ Pojawił się z powodu drobnego błędu wymagającego dalszego zbadania.
-
-*EN:* Refer to the exhibit. What two pieces of information can be gathered…? → *level five notification message; service timestamps have been globally enabled* (log routera = znacznik czasu + komunikat i poziom ważności + tekst)
-
-### 1.29 Które dwie cechy opisują wirusa? *(wybierz 2)*
-- ✅ **Złośliwy kod, który może pozostawać uśpiony przed wykonaniem niepożądanej akcji.**
-- ❌ Samoreplikujący się atak uruchamiany niezależnie.
-- ✅ **Malware, który do aktywacji wymaga działania użytkownika lub programu.**
-- ❌ Malware wykonujący dowolny kod i instalujący swoje kopie w pamięci.
-- ❌ Kod zaprojektowany do uszkadzania pamięci w urządzeniach sieciowych.
-
-*EN:* Which two characteristics describe a virus? → *Malicious code that can remain dormant before executing; Malware that relies on the action of a user or a program to activate* (w odróżnieniu od robaka, który replikuje się sam)
 
 ### 1.31 Która technologia antyspoofingowa ogranicza ataki DoS?
 - ❌ szyfrowanie
@@ -252,75 +169,11 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* A security awareness session is best suited for which topic? → *how to install and maintain virus protection*
 
-### 1.39 Co jest cechą większości współczesnych wirusów?
-- ❌ Zwykle są dołączone do gier online.
-- ✅ **Wirusy e-mailowe są ich najczęstszym typem.**
-- ❌ Replikują się i samodzielnie znajdują nowe cele.
-- ❌ Odpowiadają za jedne z najbardziej niszczycielskich ataków internetowych.
-
-*EN:* What is a characteristic of most modern viruses? → *Email viruses are the most common type of them.*
-
-### 1.40 Które oprogramowanie antywirusowe potrafi rozpoznać różne cechy znanych plików złośliwego oprogramowania i wykryć zagrożenie?
-- ✅ **oparte na sygnaturach (signature-based)**
-- ❌ oparte na zachowaniu (behavior-based)
-- ❌ oparte na heurystyce (heuristic-based)
-- ❌ oparte na routingu
-
-*EN:* Which antivirus software is able to recognize various characteristics of known malware files to detect a threat? → *signature-based*
-
-### 1.41 Która strategia zarządzania ryzykiem pozwala zaakceptować ryzyko i jego konsekwencje w przypadku ryzyka o niewielkim potencjalnym oddziaływaniu i stosunkowo wysokich kosztach jego łagodzenia lub redukcji?
-- ❌ unikanie ryzyka (risk avoidance)
-- ✅ **retencja ryzyka (risk retention)**
-- ❌ redukcja ryzyka (risk reduction)
-- ❌ dzielenie się ryzykiem (risk sharing)
-
-*EN:* Which risk management strategy will accept the risk and its consequences for a risk with a low potential impact and relatively high cost of mitigation or reduction? → *risk retention*
-
-### 1.42 Jaką funkcję udostępnia CVSS?
-- ❌ ocena podatności
-- ✅ **ocena ryzyka (risk assessment)**
-- ❌ usługa centralnego zarządzania bezpieczeństwem
-- ❌ testowanie penetracyjne
-
-*EN:* Which function does CVSS provide? → *risk assessment* (CVSS to narzędzie oceny ryzyka opisujące wspólne atrybuty i wagę podatności sprzętu oraz oprogramowania)
-
 ---
 
 ## Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA
 
 Łączy rozdziały 3 (AAA, TACACS+/RADIUS, autoryzacja) i 11 (polityka bezpieczeństwa, zarządzanie, narzędzia testowe) CCNA — wykład 2 obejmował kontrolę dostępu (DAC/MAC/RBAC), autoryzację i politykę bezpieczeństwa.
-
-### 2.1 Użytkownik nie może uzyskać dostępu do urządzenia z AAA. Jak administrator sprawdzi, czy dostęp logowania dla konta jest wyłączony?
-- ✅ **Użyć polecenia `show aaa local user lockout`.**
-- ❌ Użyć `show running-configuration`.
-- ❌ Użyć `show aaa sessions`.
-- ❌ Użyć `show aaa user`.
-
-*EN:* …How would the administrator determine if login access for the user account is disabled? → *show aaa local user lockout* (lista zablokowanych kont z datą blokady)
-
-### 2.2 Jaki jest efekt słowa kluczowego `local` przy konfiguracji listy metod uwierzytelniania AAA?
-- ❌ Logowanie się udaje, nawet jeśli wszystkie metody zwrócą błąd.
-- ❌ Używa hasła enable do uwierzytelniania.
-- ✅ **Akceptuje lokalnie skonfigurowaną nazwę użytkownika niezależnie od wielkości liter.**
-- ❌ Domyślnie używa hasła linii vty.
-
-*EN:* …what is the effect of the keyword local? → *It accepts a locally configured username, regardless of case* (`local-case` rozróżnia wielkość liter)
-
-### 2.3 Które rozwiązanie wspiera AAA zarówno dla serwerów RADIUS, jak i TACACS+?
-- ✅ **Wdrożenie Cisco Secure Access Control System (ACS).**
-- ❌ RADIUS i TACACS+ nie mogą być obsłużone przez jedno rozwiązanie.
-- ❌ Wdrożenie lokalnej bazy danych.
-- ❌ Wdrożenie lokalnej bazy i Cisco Secure ACS.
-
-*EN:* Which solution supports AAA for both RADIUS and TACACS+ servers? → *Implement Cisco Secure ACS only*
-
-### 2.4 Jaka różnica występuje przy użyciu Windows Server jako serwera AAA zamiast Cisco Secure ACS?
-- ❌ Windows Server wymaga więcej poleceń Cisco IOS do konfiguracji.
-- ❌ Windows Server obsługuje AAA tylko przez TACACS.
-- ✅ **Windows Server używa własnego kontrolera Active Directory (AD) do uwierzytelniania i autoryzacji.**
-- ❌ Windows Server nie może być serwerem AAA.
-
-*EN:* What difference exists when using Windows Server as an AAA server…? → *Windows Server uses its own Active Directory controller* (konfiguracja IOS jest taka sama jak dla każdego serwera RADIUS)
 
 ### 2.6 Dzięki wdrożonym zabezpieczeniom użytkownik może uzyskać dostęp do serwera tylko przez FTP. Który komponent AAA to realizuje?
 - ❌ rozliczanie (accounting)
@@ -331,51 +184,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* Which AAA component accomplishes this? → *authorization* (określa, do jakich zasobów użytkownik ma dostęp)
 
-### 2.7 Dlaczego uwierzytelnianie przez AAA jest preferowane nad metodą lokalnej bazy danych?
-- ✅ **Zapewnia zapasową metodę uwierzytelniania, gdy administrator zapomni loginu lub hasła.**
-- ❌ Zużywa mniej pasma sieci.
-- ❌ Określa inne hasło dla każdej linii lub portu.
-- ❌ Wymaga loginu i hasła na konsoli, vty i aux.
-
-*EN:* Why is authentication with AAA preferred over a local database method? → *It provides a fallback authentication method*
-
-### 2.8 Co jest cechą TACACS+?
-- ❌ TACACS+ używa portów UDP 1645/1812 do uwierzytelniania i 1646/1813 do rozliczania.
-- ❌ TACACS+ jest wstecznie zgodny z TACACS i XTACACS.
-- ❌ TACACS+ jest otwartym standardem IETF.
-- ✅ **TACACS+ zapewnia autoryzację poleceń routera per użytkownik lub per grupa.**
-
-*EN:* What is a characteristic of TACACS+? → *TACACS+ provides authorization of router commands on a per-user or per-group basis*
-
-### 2.9 🖼️ Router R1 skonfigurowano jak pokazano, z wynikowym komunikatem logu. Które dwa stwierdzenia opisują wynik operacji uwierzytelniania AAA? *(wybierz 2)*
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/CCNA-Security-Chapter-3-Exam-Answer-v2-001.jpg)
-
-- ✅ **Zablokowany użytkownik pozostaje zablokowany do wydania polecenia `clear aaa local user lockout username Admin`.**
-- ❌ Zablokowany użytkownik pozostaje zablokowany do wyłączenia i ponownego włączenia interfejsu.
-- ❌ Użytkownik jest zablokowany domyślnie na 10 minut.
-- ❌ Użytkownik powinien użyć username admin i hasła Str0ngPa55w0rd.
-- ✅ **Zablokowany użytkownik nie przeszedł uwierzytelnienia.**
-
-*EN:* …which two statements describe the result of AAA authentication? → *user stays locked out until `clear aaa local user lockout username Admin`; the locked-out user failed authentication*
-
-### 2.10 Użytkownik został zablokowany po zbyt wielu nieudanych próbach AAA. Co administrator może zastosować, by zapewnić bezpieczne logowanie bez blokowania użytkownika?
-- ✅ **Użyć polecenia `login delay` dla prób uwierzytelniania.**
-- ❌ Użyć `login local` do uwierzytelniania dostępu.
-- ❌ Użyć `aaa local authentication attempts max-fail` z większą liczbą dopuszczalnych niepowodzeń.
-- ❌ Użyć słowa kluczowego `none` w liście metod.
-
-*EN:* …without locking a user out? → *Use the login delay command* (opóźnienie między próbami bez blokady konta)
-
-### 2.11 Które polecenie debug skupia się na statusie połączenia TCP przy używaniu TACACS+ do uwierzytelniania?
-- ✅ **`debug tacacs events`**
-- ❌ `debug tacacs`
-- ❌ `debug tacacs accounting`
-- ❌ `debug aaa authentication`
-
-*EN:* Which debug command is used to focus on the status of a TCP connection when using TACACS+? → *debug tacacs events*
-
 ### 2.12 Która cecha jest ważnym aspektem autoryzacji w urządzeniu z AAA?
 - ❌ Funkcja autoryzacji zwiększa wydajność sieci.
 - ✅ **Dostęp użytkownika jest ograniczony do określonych usług.**
@@ -384,22 +192,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* Which characteristic is an important aspect of authorization? → *User access is restricted to certain services*
 
-### 2.13 Jaki jest efekt wpisania polecenia `aaa accounting network` na routerze?
-- ✅ **Router zbiera i raportuje dane użycia dla żądań usług sieciowych.**
-- ❌ Router wyprowadza dane rozliczeniowe dla wszystkich sesji EXEC.
-- ❌ Router dostarcza dane tylko dla wewnętrznych żądań usług.
-- ❌ Router wyprowadza dane dla wszystkich połączeń wychodzących (SSH, Telnet).
-
-*EN:* What is the result of entering the aaa accounting network command? → *collects and reports usage data related to network-related service requests* (network/exec/connection)
-
-### 2.14 Co jest cechą rozliczania AAA (accounting)?
-- ✅ **Możliwe wyzwalacze polecenia `aaa accounting exec default` to start-stop i stop-only.**
-- ❌ Rozliczanie można włączyć tylko dla połączeń sieciowych.
-- ❌ Rozliczanie zajmuje się zezwalaniem/blokowaniem dostępu do obszarów i programów.
-- ❌ Użytkownicy nie muszą być uwierzytelnieni przed rozliczaniem ich aktywności.
-
-*EN:* What is a characteristic of AAA accounting? → *triggers for aaa accounting exec default include start-stop and stop-only*
-
 ### 2.16 Który komponent AAA pozwala administratorowi śledzić osoby uzyskujące dostęp do zasobów i zmiany w tych zasobach?
 - ✅ **rozliczanie (accounting)**
 - ❌ dostępność
@@ -407,53 +199,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ autoryzacja
 
 *EN:* Which component of AAA allows tracking individuals and changes…? → *accounting*
-
-### 2.17 Które dwie funkcje są wspólne dla protokołów TACACS+ i RADIUS? *(wybierz 2)*
-- ❌ wsparcie 802.1X
-- ❌ osobne procesy uwierzytelniania i autoryzacji
-- ❌ wsparcie SIP
-- ✅ **szyfrowanie haseł**
-- ✅ **wykorzystanie protokołów warstwy transportowej**
-
-*EN:* Which two features are included by both TACACS+ and RADIUS? → *password encryption; utilization of transport layer protocols* (TACACS+ używa TCP, RADIUS UDP)
-
-### 2.18 Który serwerowy protokół uwierzytelniania jest najlepszy dla organizacji chcącej stosować polityki autoryzacji per grupa?
-- ❌ SSH
-- ❌ RADIUS
-- ❌ ACS
-- ✅ **TACACS+**
-
-*EN:* Which server-based authentication protocol would be best for applying authorization policies on a per-group basis? → *TACACS+* (cały ruch szyfrowany, autoryzacja per grupa)
-
-### 2.19 🖼️ Które stwierdzenie opisuje konfigurację portów dla Server1?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/CCNA-Security-Chapter-3-Exam-Answer-v2-002.jpg)
-
-- ❌ Konfiguracja używa domyślnych portów routera Cisco.
-- ❌ Konfiguracja wymaga portu 1812 do uwierzytelniania i autoryzacji.
-- ❌ Konfiguracja nie będzie aktywna, dopóki nie zostanie zapisana i Rtr1 zrestartowany.
-- ✅ **Porty skonfigurowane dla Server1 na routerze muszą być identyczne jak na serwerze RADIUS.**
-
-*EN:* Which statement describes the configuration of the ports for Server1? → *The ports configured for Server1 on the router must be identical to those on the RADIUS server* (domyślnie 1645/1646)
-
-### 2.21 Dlaczego administrator dodaje lokalną konfigurację username, gdy router z AAA uwierzytelnia też przez kilka serwerów ACS?
-- ❌ ACS obsługują tylko dostęp zdalny, więc lokalni użytkownicy mogą uwierzytelniać się tylko lokalnie.
-- ❌ Lokalna baza username jest wymagana przy konfiguracji ACS.
-- ✅ **Lokalna baza zapewni zapasowe uwierzytelnianie, gdy serwery ACS staną się nieosiągalne.**
-- ❌ Bez lokalnej bazy router wymagałby udanego uwierzytelnienia z każdym serwerem ACS.
-
-*EN:* Why include a local username configuration…? → *backup for authentication if the ACS servers become unreachable*
-
-### 2.22 Która metoda uwierzytelniania przechowuje loginy i hasła w routerze i jest idealna dla małych sieci?
-- ✅ **lokalne AAA (local AAA)**
-- ❌ serwerowe AAA
-- ❌ serwerowe AAA przez TACACS+
-- ❌ lokalne AAA przez TACACS+
-- ❌ lokalne AAA przez RADIUS
-- ❌ serwerowe AAA przez RADIUS
-
-*EN:* Which authentication method stores usernames and passwords in the router and is ideal for small networks? → *local AAA*
 
 ### 2.24 Kiedy w procesie AAA realizowana jest autoryzacja?
 - ❌ natychmiast po wysłaniu informacji uwierzytelniających do serwera centralnego
@@ -471,94 +216,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* What is the purpose of AAA accounting? → *to collect and report data usage*
 
-### 2.27 Jaka jest jedna główna różnica między lokalnym uwierzytelnianiem AAA a poleceniem `login local`?
-- ❌ Lokalne AAA pozwala skonfigurować więcej niż jedno konto, a `login local` nie.
-- ❌ `login local` używa lokalnych loginów/haseł na routerze, a lokalne AAA nie.
-- ✅ **Lokalne AAA pozwala skonfigurować zapasowe metody uwierzytelniania, a `login local` nie.**
-- ❌ `login local` wymaga ręcznej konfiguracji loginów/haseł, a lokalne AAA nie.
-
-*EN:* …one major difference between local AAA authentication and login local? → *Local AAA provides a way to configure backup methods of authentication*
-
-### 2.29 Jakie są dwa atrybuty uwierzytelniania TACACS+? *(wybierz 2)*
-- ❌ port UDP 1645
-- ❌ szyfrowanie tylko hasła użytkownika
-- ✅ **szyfrowanie całej komunikacji**
-- ❌ port TCP 40
-- ❌ jeden proces uwierzytelniania i autoryzacji
-- ✅ **osobne procesy uwierzytelniania i autoryzacji**
-
-*EN:* What are two attributes of TACACS+ authentication? → *encryption for all communication; separate processes for authentication and authorization* (port TCP 49)
-
-### 2.30 Które dwa protokoły są używane przez AAA do uwierzytelniania względem centralnej bazy loginów i haseł? *(wybierz 2)*
-- ❌ NTP
-- ✅ **TACACS+**
-- ❌ SSH
-- ❌ HTTPS
-- ✅ **RADIUS**
-- ❌ CHAP
-
-*EN:* What are two protocols used by AAA to authenticate users against a central database…? → *TACACS+; RADIUS*
-
-### 2.32 🖼️ Które polacenie AAA loguje użycie poleceń sesji EXEC?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/Q22.jpg)
-
-- ❌ `aaa accounting network start-stop group tacacs+`
-- ❌ `aaa accounting network start-stop group radius`
-- ❌ `aaa accounting connection start-stop group radius`
-- ❌ `aaa accounting exec start-stop group radius`
-- ❌ `aaa accounting connection start-stop group tacacs+`
-- ✅ **`aaa accounting exec start-stop group tacacs+`**
-
-*EN:* …which AAA command logs the use of EXEC session commands? → *aaa accounting exec start-stop group tacacs+*
-
-### 2.34 Które dwie funkcje są zawarte w uwierzytelnianiu RADIUS? *(wybierz 2)*
-- ✅ **jeden proces uwierzytelniania i autoryzacji**
-- ✅ **ukrywanie haseł podczas transmisji**
-- ❌ szyfrowanie tylko danych
-- ❌ szyfrowanie całej komunikacji
-- ❌ osobne procesy uwierzytelniania i autoryzacji
-
-*EN:* Which two features are included in RADIUS authentication? → *single process for authentication and authorization; hidden passwords during transmission* (UDP)
-
-### 2.35 Która metoda AAA jest serwerowa i uważana za najbezpieczniejszą?
-- ❌ enable
-- ❌ RADIUS
-- ❌ local-case
-- ✅ **TACACS+**
-
-*EN:* Which AAA method is server-based and considered the most secure? → *TACACS+* (szyfruje całą wymianę, nie tylko hasło)
-
-### 2.36 🖼️ Administrator pinguje S0/0/1 RouterB, ale nie może uzyskać dostępu Telnet hasłem `cisco123`. Możliwa przyczyna?
-🖼️ **Pytanie ze zdjęciem** — obraz: brak (exhibit tekstowy w teście) — dostępne na: https://itexamanswers.net/ccna-security-v2-0-final-exam-answers.html (pyt. 34)
-- ❌ Skonfigurowano złe linie vty.
-- ✅ **Administrator użył złego hasła.**
-- ❌ Nie skonfigurowano autoryzacji AAA.
-- ❌ Administrator nie ma wystarczających uprawnień na używanym PC.
-
-*EN:* …What is a possible cause of the problem? → *The administrator has used the wrong password* (`local-case` rozróżnia wielkość liter — wymaga `Cisco123`)
-
-### 2.37 Użytkownik nie może uzyskać dostępu do sieci. Które polecenie ustali, której listy metod AAA użyto dla tego użytkownika podczas logowania?
-- ❌ `debug aaa accounting`
-- ❌ `debug aaa authorization`
-- ✅ **`debug aaa authentication`**
-- ❌ `debug aaa protocol`
-
-*EN:* What command would determine which AAA method list is being used…? → *debug aaa authentication* (wskazują na to komunikaty GETUSER i GETPASS)
-
-### 2.38 🖼️ Administrator konfiguruje AAA na R1, serwery ACS działają. Co się stanie, gdy spróbuje uwierzytelnić się przez serwer RADIUS błędnymi danymi?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/ezgif.com-gif-maker.jpg)
-
-- ✅ **Proces uwierzytelniania zatrzymuje się.**
-- ❌ W kolejnej próbie można użyć hasła enable secret.
-- ❌ W kolejnej próbie można użyć hasła enable secret i losowej nazwy użytkownika.
-- ❌ W kolejnej próbie można użyć loginu/hasła z lokalnej bazy.
-
-*EN:* …What will happen if the administrator authenticates with incorrect credentials? → *The authentication process stops* (metody zapasowe uruchamiają się tylko, gdy serwer jest nieosiągalny, nie przy błędnych danych)
-
 ### 2.39 W sieci z AAA użytkownik wydaje `configure terminal` z trybu uprzywilejowanego. Jaka funkcja AAA działa, jeśli polecenie zostanie odrzucone?
 - ✅ **autoryzacja (authorization)**
 - ❌ uwierzytelnianie
@@ -566,71 +223,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ rozliczanie
 
 *EN:* What AAA function is at work if this command is rejected? → *authorization* (użytkownik nie jest uprawniony do wykonania polecenia)
-
-### 2.40 Co zapewnia protokół TACACS+ we wdrożeniu AAA?
-- ❌ zgodność z wcześniejszymi protokołami TACACS
-- ❌ szyfrowanie hasła bez szyfrowania pakietu
-- ❌ łączność AAA przez UDP
-- ✅ **autoryzację per użytkownik lub per grupa**
-
-*EN:* What does the TACACS+ protocol provide…? → *authorization on a per-user or per-group basis* (TCP 49, szyfruje cały pakiet)
-
-### 2.41 Które dwa numery portów UDP mogą być użyte do serwerowego uwierzytelniania AAA RADIUS? *(wybierz 2)*
-- ✅ **1812**
-- ✅ **1645**
-- ❌ 1813
-- ❌ 1646
-- ❌ 49
-
-*EN:* Which two UDP port numbers may be used for RADIUS authentication? → *1812; 1645* (rozliczanie: 1646/1813; TACACS+: TCP 49)
-
-### 2.42 Jaką funkcję zapewnia protokół RADIUS?
-- ❌ RADIUS szyfruje cały pakiet podczas transferu.
-- ❌ RADIUS zapewnia osobne usługi AAA.
-- ✅ **RADIUS zapewnia osobne porty dla autoryzacji i rozliczania.**
-- ❌ RADIUS zapewnia bezpieczną komunikację przez TCP 49.
-
-*EN:* What function is provided by the RADIUS protocol? → *RADIUS provides separate ports for authorization and accounting* (1645/1812 uwierz., 1646/1813 rozlicz.)
-
-### 2.43 Co jest cechą protokołu TACACS+?
-- ❌ Używa UDP dla efektywniejszego transferu pakietów.
-- ❌ Łączy uwierzytelnianie i autoryzację w jeden proces.
-- ✅ **Szyfruje całą treść pakietu dla bezpieczniejszej komunikacji.**
-- ❌ Ukrywa hasła używając PAP, a resztę pakietu wysyła otwartym tekstem.
-
-*EN:* What is a feature of the TACACS+ protocol? → *It encrypts the entire body of the packet* (rozdziela uwierzytelnianie i autoryzację, TCP 49)
-
-### 2.44 Jeśli administrator chce śledzić użycie usług FTP, które słowo kluczowe dodać do `aaa accounting`?
-- ❌ `exec default`
-- ❌ `connection`
-- ✅ **`exec`**
-- ❌ `network`
-
-*EN:* …which keyword should be added to the aaa accounting command? → *exec*
-
-### 2.45 Co oznacza użycie słowa kluczowego `local-case` w sekwencji konfiguracji lokalnego uwierzytelniania AAA?
-- ❌ że dostęp użytkownika jest ograniczony do linii terminala vty
-- ✅ **że hasła i nazwy użytkowników rozróżniają wielkość liter (case-sensitive)**
-- ❌ że AAA jest włączone globalnie na routerze
-- ❌ że domyślne uwierzytelnianie z lokalnej bazy jest stosowane do wszystkich linii
-
-*EN:* What is indicated by the local-case keyword…? → *that passwords and usernames are case-sensitive*
-
-### 2.46 Jaki jest cel lokalnej bazy username, jeśli skonfigurowano wiele serwerów ACS?
-- ❌ Klienci usług internetowych są uwierzytelniani przez ACS, a lokalni przez bazę lokalną.
-- ❌ Każdy serwer ACS musi mieć lokalną bazę username.
-- ❌ Lokalna baza jest wymagana przy tworzeniu listy metod dla domyślnego logowania.
-- ✅ **Lokalna baza zapewnia redundancję, gdy serwery ACS staną się nieosiągalne.**
-
-*EN:* What is the purpose of a local username database if multiple ACS servers are configured? → *provides redundancy if ACS servers become unreachable*
-
-### 2.47 W serwerowej implementacji AAA który protokół pozwoli routerowi pomyślnie komunikować się z serwerem AAA?
-- ✅ **RADIUS**
-- ❌ 802.1x
-- ❌ SSH
-- ❌ TACACS
-
-*EN:* …which protocol will allow the router to communicate with the AAA server? → *RADIUS* (uwaga: „TACACS" bez „+" to przestarzały protokół; RADIUS lub TACACS+ są poprawne)
 
 ### 2.48 Użytkownik loguje się do sieci firmowej przez VPN. Która część procesu AAA rejestruje, że dany użytkownik wykonał konkretną operację o określonej dacie i godzinie?
 - ❌ uwierzytelnianie
@@ -640,22 +232,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* Which part of the AAA process records that a user performed a specific operation at a particular date and time? → *accounting*
 
-### 2.49 Zastosowano konfigurację: `aaa authentication login default tacacs+ local enable none`. Po kilku dniach serwer TACACS+ wyłącza się. Która metoda zostanie użyta do uwierzytelnienia?
-- ✅ **none (brak — dostęp bez uwierzytelniania)**
-- ❌ ręcznie skonfigurowane hasło linii vty
-- ❌ lokalna baza login/hasło
-- ❌ default
-
-*EN:* …Which method will be used to authenticate users? → *none* (gdy serwer TACACS+ jest offline, metody próbowane po kolei; tu po `tacacs+` następne to `local`, `enable`, a `none` = ostatnia; przy nieosiągalnym serwerze i braku lokalnych kont kończy na `none`)
-
-### 2.50 Który test bezpieczeństwa wykrywa słabości systemu jak błędna konfiguracja, domyślne hasła i potencjalne cele DoS?
-- ✅ **skanowanie podatności (vulnerability scanning)**
-- ❌ skanowanie sieci
-- ❌ kontrolery integralności
-- ❌ testy penetracyjne
-
-*EN:* Which security test is appropriate for detecting misconfiguration, default passwords, and potential DoS targets? → *vulnerability scanning*
-
 ### 2.51 Jak skanowanie sieci (network scanning) pomaga ocenić operations security?
 - ❌ Może symulować ataki ze złośliwych źródeł.
 - ❌ Może logować nietypową aktywność.
@@ -663,22 +239,6 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 - ❌ Może wykrywać słabe lub puste hasła.
 
 *EN:* How does network scanning help assess operations security? → *It can detect open TCP ports on network systems*
-
-### 2.52 Jaki jest cel polityki nadrzędnej (governing policy) w hierarchii polityki bezpieczeństwa?
-- ❌ Obejmuje wszystkie reguły bezpieczeństwa informacji, które użytkownicy końcowi powinni znać.
-- ✅ **Określa ogólne cele bezpieczeństwa firmy dla kierownictwa i personelu technicznego.**
-- ❌ Zapewnia ogólne polityki, jak personel techniczny ma wykonywać funkcje bezpieczeństwa.
-- ❌ Definiuje polityki specyficzne dla systemów i zagadnień.
-
-*EN:* What is the objective of the governing policy…? → *It outlines the company's overall security goals for managers and technical staff*
-
-### 2.53 Który typ dokumentu polityki bezpieczeństwa zawiera szczegóły implementacji, zwykle instrukcje krok po kroku i grafiki?
-- ❌ dokument best practices
-- ✅ **dokument procedury (procedure document)**
-- ❌ dokument standardów
-- ❌ dokument wytycznych
-
-*EN:* Which type of security policy document includes implementation details with step-by-step instructions and graphics? → *procedure document*
 
 ### 2.54 Jaki jest cel kampanii świadomości bezpieczeństwa (security awareness campaign)?
 - ❌ nauczyć umiejętności, by pracownicy mogli wykonywać zadania bezpieczeństwa
@@ -721,167 +281,11 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 *EN:* What are two major components of a security awareness program? → *awareness campaigns; education and training*
 
-### 2.66 Który typ dokumentów zawiera szczegóły implementacji, zwykle instrukcje krok po kroku i grafiki?
-- ❌ dokumenty standardów
-- ✅ **dokumenty procedur**
-- ❌ dokumenty wytycznych
-- ❌ dokumenty polityki użytkownika
-
-*EN:* Which type of documents include implementation details with step-by-step instructions and graphics? → *procedure documents*
-
-### 2.67 Który typ dokumentów pomaga organizacji ustanowić spójność działania sieci, określając kryteria, których trzeba przestrzegać?
-- ❌ wytyczne (guidelines)
-- ✅ **standardy (standards)**
-- ❌ procedury
-- ❌ polityki użytkownika
-
-*EN:* Which type of documents help…establish consistency…by specifying criteria that must be followed? → *standards*
-
-### 2.68 Która polityka określa ogólne cele bezpieczeństwa dla kierownictwa i personelu technicznego firmy?
-- ❌ polityka dopuszczalnego użytkowania (acceptable use)
-- ❌ polityka techniczna
-- ✅ **polityka nadrzędna (governing policy)**
-- ❌ polityka użytkownika końcowego
-
-*EN:* Which policy outlines the overall security goals for managers and technical staff? → *governing policy*
-
-### 2.69 Który typ polityki bezpieczeństwa obejmuje standardy dostępu do sieci i polityki bezpieczeństwa serwerów?
-- ❌ polityka użytkownika końcowego
-- ✅ **polityka techniczna (technical policy)**
-- ❌ polityka nadrzędna
-- ❌ polityka dopuszczalnego użytkowania
-
-*EN:* Which type of security policy includes network access standards and server security policies? → *technical policy*
-
-### 2.70 Który typ polityki bezpieczeństwa obejmuje dopuszczalne metody szyfrowania?
-- ❌ polityka nadrzędna
-- ❌ polityka dopuszczalnego użytkowania
-- ✅ **polityka techniczna (technical policy)**
-- ❌ polityka użytkownika końcowego
-
-*EN:* Which type of security policy includes acceptable encryption methods? → *technical policy*
-
-### 2.71 Co decyduje o treści polityki bezpieczeństwa w organizacji?
-- ❌ personel bezpieczeństwa
-- ✅ **odbiorcy (audience)**
-- ❌ dyrektor generalny (CEO)
-- ❌ najlepsze praktyki
-
-*EN:* What is the determining factor in the content of a security policy? → *the audience*
-
-### 2.72 Które stanowisko kierownicze ostatecznie odpowiada za sukces organizacji?
-- ❌ Chief Technology Officer
-- ✅ **Chief Executive Officer (CEO)**
-- ❌ Chief Security Officer
-- ❌ Chief Information Officer
-
-*EN:* Which executive position is ultimately responsible for the success of an organization? → *Chief Executive Officer*
-
-### 2.73 🖼️ Dopasuj narzędzie testowania bezpieczeństwa do funkcji. *(pytanie typu dopasowanie)*
-🖼️ **Pytanie ze zdjęciem (dopasowanie):**
-
-![exhibit](obrazy_ccna/Q24-1024x297-1024x297.jpg)
-![exhibit](obrazy_ccna/ccnav61.png)
-
-- Podpowiedź (z innych pytań): **SIEM** = raportowanie w czasie rzeczywistym; **Nmap/Zenmap** = skanowanie portów; **Tripwire** = zgodność z polityką; **L0phtcrack** = audyt haseł; **Nessus** = skanowanie podatności.
-
-*EN:* Match the network security testing tool with the correct function. *(matching — na obrazie)*
-
-### 2.75 🖼️ Dopasuj technikę testowania bezpieczeństwa do jej zastosowania. *(pytanie typu dopasowanie)*
-🖼️ **Pytanie ze zdjęciem (dopasowanie):**
-
-![exhibit](obrazy_ccna/2020-10-24_235223.jpg)
-
-- ✅ **Testy penetracyjne** = określenie możliwych konsekwencji udanych ataków
-- ✅ **Skanowanie podatności** = znajdowanie słabości i błędnych konfiguracji
-- ✅ **Skanowanie sieci** = wykrywanie dostępnych zasobów w sieci
-
-*EN:* Match the network security testing technique with how it is used. → *Penetration testing = consequences of successful attacks; Vulnerability scanning = weaknesses/misconfigurations; Network scanning = available resources*
-
-### 2.78 Który dokument bezpieczeństwa zawiera szczegóły implementacji, zwykle instrukcje krok po kroku i grafiki?
-- ❌ dokument przeglądowy
-- ✅ **dokument procedury**
-- ❌ dokument wytycznych
-- ❌ dokument standardu
-
-*EN:* Which security document includes implementation details…? → *procedure document*
-
-### 2.80 Jaka jest zaleta używania testów bezpieczeństwa sieci do oceny nowej propozycji operations security ograniczającej dostęp do serwerów?
-- ❌ Testy są zaprojektowane do oceny zadań administracyjnych dot. dostępu do serwerów.
-- ❌ Testy są proste, bo wymagają tylko jednego testu.
-- ❌ Testy są najskuteczniejsze przy wdrażaniu nowych propozycji.
-- ✅ **Testy proaktywnie oceniają skuteczność propozycji, zanim wystąpi realne zagrożenie.**
-
-*EN:* What is an advantage of using network security testing to evaluate the new proposal? → *Network security testing proactively evaluates the effectiveness…before any real threat occurs*
-
-### 2.84 Jakie są trzy komponenty polityki technicznej (technical security policy)? *(wybierz 3)*
-- ❌ polityka kadrowa (HR)
-- ✅ **polityka dopuszczalnego użytkowania (acceptable use)**
-- ✅ **polityka dostępu zdalnego (remote access)**
-- ❌ polityka tożsamości
-- ✅ **polityka dostępu do sieci (network access)**
-- ❌ polityka użytkownika końcowego
-
-*EN:* What are three components of a technical security policy? → *acceptable use policy; remote access policy; network access policy*
-
-### 2.85 Która polityka określa ogólne cele bezpieczeństwa dla kierownictwa i personelu technicznego oraz zawiera konsekwencje niezgodności?
-- ❌ polityka użytkownika końcowego
-- ❌ polityka aplikacji
-- ✅ **polityka nadrzędna (governing policy)**
-- ❌ polityka techniczna
-
-*EN:* Which security policy outlines the overall security goals…and includes the consequences of noncompliance? → *governing policy*
-
-### 2.86 Które urządzenie jest uznawane za suplikanta (supplicant) w procesie 802.1X?
-- ✅ **klient żądający uwierzytelnienia**
-- ❌ przełącznik kontrolujący dostęp do sieci
-- ❌ router pełniący rolę bramy domyślnej
-- ❌ serwer uwierzytelniania wykonujący uwierzytelnianie klienta
-
-*EN:* What device is considered a supplicant during the 802.1X authentication process? → *the client that is requesting authentication*
-
-### 2.87 Który początkowy krok należy wykonać po wykryciu naruszenia bezpieczeństwa w systemie firmowym?
-- ❌ Utworzyć obraz dysku systemu.
-- ✅ **Odizolować zainfekowany system.**
-- ❌ Ustanowić łańcuch dowodowy (chain of custody).
-- ❌ Sfotografować system.
-
-*EN:* Which initial step should be followed when a security breach is found? → *Isolate the infected system*
-
 ---
 
 ## Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych
 
 Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostęp, sieci bezprzewodowe; Wykład 6 = hardening routera, poziomy bezpieczeństwa, uwierzytelnianie OSPF (MD5/SHA). Pytania CCNA dotyczą głównie hardeningu CLI (SSH, privilege levels, syslog, AutoSecure) i uwierzytelniania routingu.
-
-### 3-6.1 Które dwie cechy dotyczą superwidoków (superviews) w dostępie CLI opartym na rolach? *(wybierz 2)*
-- ✅ **Do konkretnego superwidoku nie można dodawać poleceń bezpośrednio.**
-- ❌ Widoki CLI mają hasła, ale superwidoki nie.
-- ❌ Jeden superwidok może być współdzielony przez wiele widoków CLI.
-- ❌ Usunięcie superwidoku usuwa wszystkie powiązane widoki CLI.
-- ✅ **Użytkownik zalogowany do superwidoku ma dostęp do wszystkich poleceń zdefiniowanych w powiązanych widokach CLI.**
-
-*EN:* Which two characteristics apply to role-based CLI access superviews? → *A specific superview cannot have commands added to it directly; Users logged in to a superview can access all commands specified within the associated CLI views*
-
-### 3-6.2 Które trzy typy widoków są dostępne przy konfiguracji dostępu CLI opartego na rolach? *(wybierz 3)*
-- ✅ **superwidok (superview)**
-- ❌ widok admin
-- ✅ **widok root (root view)**
-- ❌ widok superuser
-- ✅ **widok CLI (CLI view)**
-- ❌ widok config
-
-*EN:* Which three types of views are available…? → *superview; root view; CLI view*
-
-### 3-6.3 Jeśli AAA jest już włączone, które trzy kroki CLI są wymagane do skonfigurowania routera z określonym widokiem? *(wybierz 3)*
-- ❌ Utwórz superwidok poleceniem `parser view view-name`.
-- ❌ Powiąż widok z widokiem root.
-- ❌ Przypisz użytkowników mogących używać widoku.
-- ✅ **Utwórz widok poleceniem `parser view view-name`.**
-- ✅ **Przypisz hasło secret do widoku.**
-- ✅ **Przypisz polecenia do widoku.**
-
-*EN:* …which three CLI steps are required to configure a router with a specific view? → *Create a view; Assign a secret password; Assign commands to the view*
 
 ### 3-6.4 Co dzieje się po wygenerowaniu kluczy RSA na routerze Cisco w ramach przygotowania do bezpiecznego zarządzania?
 - ❌ Klucze trzeba wyzerować (zeroize), by zresetować SSH przed konfiguracją innych parametrów.
@@ -890,24 +294,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 - ✅ **Wygenerowane klucze mogą być użyte przez SSH (SSH włącza się automatycznie).**
 
 *EN:* What occurs after RSA keys are generated…? → *The generated keys can be used by SSH*
-
-### 3-6.5 Które trzy stwierdzenia opisują ograniczenia używania poziomów uprawnień (privilege levels) do autoryzacji poleceń? *(wybierz 3)*
-- ✅ **Utworzenie konta potrzebującego dostępu do większości, ale nie wszystkich poleceń, bywa żmudne.**
-- ❌ Do zdefiniowania poleceń CLI dla każdego użytkownika wymagane są widoki.
-- ✅ **Polecenia ustawione na wyższym poziomie uprawnień są niedostępne dla użytkowników niższego poziomu.**
-- ❌ Wymagane jest zdefiniowanie wszystkich 16 poziomów, używanych czy nie.
-- ✅ **Brak kontroli dostępu do konkretnych interfejsów routera.**
-- ❌ Użytkownik root musi być przypisany do każdego zdefiniowanego poziomu.
-
-*EN:* Which three statements describe limitations in using privilege levels…? → *tedious to create account needing most but not all commands; higher-level commands unavailable to lower users; no access control to specific interfaces*
-
-### 3-6.6 Jakie polecenie trzeba wydać, by włączyć ulepszenia logowania (login enhancements) na routerze Cisco?
-- ❌ `privilege exec level`
-- ❌ `login delay`
-- ✅ **`login block-for`**
-- ❌ `banner motd`
-
-*EN:* What command must be issued to enable login enhancements? → *login block-for* (wszystkie ulepszenia są wyłączone, dopóki nie skonfiguruje się `login block-for`)
 
 ### 3-6.7 Administrator zdefiniował lokalne konto z hasłem secret na R1 do SSH. Które trzy dodatkowe kroki są wymagane, by R1 akceptował tylko szyfrowane połączenia SSH? *(wybierz 3)*
 - ✅ **Włącz przychodzące sesje SSH na vty.**
@@ -928,27 +314,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 
 *EN:* …Which set of commands…? → *username admin **secret** … + line con 0 + login local* (`secret` = hasło haszowane, `login local` = baza lokalna)
 
-### 3-6.9 🖼️ Które stwierdzenie o koncie JR-Admin jest prawdziwe?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/CCNA-Security-Chapter-2-Exam-Answer-v2-001.jpg)
-
-- ❌ JR-Admin może wydawać tylko polecenia ping.
-- ❌ JR-Admin może wydawać polecenia show, ping i reload.
-- ❌ JR-Admin nie może wydać żadnego polecenia, bo poziom uprawnień nie pasuje.
-- ❌ JR-Admin może wydawać polecenia debug i reload.
-- ✅ **JR-Admin może wydawać polecenia ping i reload.**
-
-*EN:* …Which statement about the JR-Admin account is true? → *JR-Admin can issue ping and reload commands* (`privilege 10` daje dostęp do poleceń poziomu 0–10)
-
-### 3-6.10 Jaki jest domyślny poziom uprawnień kont użytkowników tworzonych na routerach Cisco?
-- ❌ 0
-- ❌ 15
-- ✅ **1**
-- ❌ 16
-
-*EN:* What is the default privilege level of user accounts…? → *1* (poziomy 0–15; domyślnie 1)
-
 ### 3-6.11 Które trzy obszary bezpieczeństwa routera trzeba utrzymywać, by zabezpieczyć router brzegowy na obrzeżu sieci? *(wybierz 3)*
 - ❌ bezpieczeństwo dostępu zdalnego
 - ❌ izolacja stref
@@ -968,34 +333,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 
 *EN:* Which recommended security practice prevents password recovery…? → *Locate the router in a secure locked room* (procedura password recovery wymaga dostępu fizycznego)
 
-### 3-6.13 🖼️ Na podstawie wyniku `show running-config` — jakim typem widoku jest SUPPORT?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/CCNA-Security-Chapter-2-Exam-Answer-v2-002.jpg)
-
-- ❌ widok CLI zawierający polecenia SHOWVIEW i VERIFYVIEW
-- ✅ **superwidok zawierający widoki SHOWVIEW i VERIFYVIEW**
-- ❌ widok secret z hasłem szyfrowanym poziomu 5
-- ❌ widok root z hasłem secret szyfrowanym poziomu 5
-
-*EN:* …which type of view is SUPPORT? → *superview, containing SHOWVIEW and VERIFYVIEW views*
-
-### 3-6.14 Administrator zauważa, że nieudane próby logowania wprowadziły router w tryb quiet mode. Jak utrzymać dostęp zdalny nawet w trybie quiet?
-- ❌ Quiet mode można włączyć poleceniem `ip access-group` na interfejsie fizycznym.
-- ❌ Quiet mode blokuje tylko konkretne konta przed próbą uwierzytelnienia.
-- ✅ **Zachowanie quiet mode można obejść dla wybranych sieci za pomocą listy ACL.**
-- ❌ Quiet mode można wyłączyć łącząc się przez SSH.
-
-*EN:* …How can the administrator maintain remote access even during quiet mode? → *Quiet mode behavior can be overridden for specific networks by using an ACL*
-
-### 3-6.15 Co jest cechą funkcji Cisco IOS Resilient Configuration?
-- ❌ Utrzymuje bezpieczną kopię roboczą programu startowego bootstrap.
-- ❌ Polecenie `secure boot-config` automatycznie aktualizuje archiwum konfiguracji.
-- ✅ **Można zrobić migawkę bieżącej konfiguracji routera i bezpiecznie zarchiwizować ją w pamięci trwałej.**
-- ❌ Polecenie `secure boot-image` działa, gdy system uruchamia obraz z serwera TFTP.
-
-*EN:* What is a characteristic of the Cisco IOS Resilient Configuration feature? → *A snapshot of the router running configuration can be securely archived in persistent storage*
-
 ### 3-6.16 Jakie są dwa powody włączania uwierzytelniania protokołu routingu OSPF? *(wybierz 2)*
 - ❌ zapewnienie bezpieczeństwa danych przez szyfrowanie
 - ❌ szybsza zbieżność (convergence) sieci
@@ -1004,15 +341,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 - ✅ **zapobieganie przekierowaniu ruchu do niezabezpieczonego łącza**
 
 *EN:* What are two reasons to enable OSPF routing protocol authentication? → *to prevent data traffic from being redirected and then discarded; to prevent redirection of data traffic to an insecure link*
-
-### 3-6.17 Które dwie opcje może skonfigurować Cisco AutoSecure? *(wybierz 2)*
-- ✅ **hasło enable secret**
-- ❌ adres IP interfejsu
-- ❌ SNMP
-- ✅ **baner bezpieczeństwa**
-- ❌ syslog
-
-*EN:* Which two options can be configured by Cisco AutoSecure? → *enable secret password; security banner*
 
 ### 3-6.18 Które trzy funkcje zapewnia usługa logowania syslog? *(wybierz 3)*
 - ❌ ustawianie rozmiaru bufora logowania
@@ -1023,40 +351,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 - ❌ zachowywanie komunikatów po restarcie routera
 
 *EN:* Which three functions are provided by the syslog logging service? → *specifying where captured information is stored; gathering logging information; distinguishing between info to capture and ignore*
-
-### 3-6.19 Co ma realizować funkcja Control Plane Policing (CoPP)?
-- ❌ wyłączać usługi płaszczyzny sterowania, by zmniejszyć ruch
-- ✅ **zapobiegać przeciążeniu procesora routingu przez zbędny ruch**
-- ❌ kierować cały nadmiarowy ruch poza procesor routingu
-- ❌ zarządzać usługami płaszczyzny sterowania
-
-*EN:* What is the Control Plane Policing (CoPP) feature designed to accomplish? → *prevent unnecessary traffic from overwhelming the route processor*
-
-### 3-6.20 Jaki jest wymóg użycia funkcji Secure Copy Protocol (SCP)?
-- ❌ Trzeba skonfigurować co najmniej jednego użytkownika z poziomem uprawnień 1 do uwierzytelniania lokalnego.
-- ✅ **Trzeba wydać polecenie włączające funkcjonalność serwera SCP.**
-- ❌ Transfer może pochodzić tylko od klientów SCP będących routerami.
-- ❌ Po stronie serwera SCP musi być skonfigurowany Telnet.
-
-*EN:* What is a requirement to use the Secure Copy Protocol feature? → *A command must be issued to enable the SCP server side functionality* (SCP opiera się na SSH i AAA; lokalnie wymaga użytkownika poziomu 15)
-
-### 3-6.21 Co jest cechą MIB?
-- ✅ **Identyfikatory OID są zorganizowane w strukturę hierarchiczną.**
-- ❌ Informacji w MIB nie można zmieniać.
-- ❌ Dla każdego urządzenia istnieje osobne drzewo MIB.
-- ❌ Informacje są zorganizowane płasko, by SNMP miał szybki dostęp.
-
-*EN:* What is a characteristic of the MIB? → *The OIDs are organized in a hierarchical structure*
-
-### 3-6.22 O które trzy rzeczy pyta użytkownika interaktywny kreator AutoSecure? *(wybierz 3)*
-- ❌ adresy IP interfejsów
-- ✅ **treść banera bezpieczeństwa**
-- ✅ **hasło enable secret**
-- ❌ usługi do wyłączenia
-- ✅ **hasło enable password**
-- ❌ interfejsy do włączenia
-
-*EN:* Which three items are prompted for a user response during interactive AutoSecure setup? → *content of a security banner; enable secret password; enable password*
 
 ### 3-6.23 Które dwa polecenia wymuszają uwierzytelnianie hasłem `1A2b3C` na wszystkich interfejsach OSPF w obszarze szkieletowym (backbone)? *(wybierz 2)*
 - ✅ **`area 0 authentication message-digest`**
@@ -1075,16 +369,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 
 *EN:* What is the purpose of using the ip ospf message-digest-key … and the area … authentication message-digest commands? → *to configure OSPF MD5 authentication globally on the router*
 
-### 3-6.25 Które trzy działania wynikają z dodania ulepszeń logowania Cisco IOS do procesu logowania routera? *(wybierz 3)*
-- ❌ zezwalanie tylko na bezpieczny dostęp przez konsolę
-- ❌ tworzenie uwierzytelniania hasłem
-- ❌ automatyczne zapewnienie uwierzytelniania AAA
-- ✅ **tworzenie komunikatów syslog**
-- ✅ **spowolnienie trwającego ataku**
-- ✅ **blokowanie logowań z określonych hostów**
-
-*EN:* Which three actions are produced by adding Cisco IOS login enhancements? → *create syslog messages; slow down an active attack; disable logins from specified hosts*
-
 ### 3-6.26 Która implementacja zabezpieczeń zapewni ochronę płaszczyzny sterowania (control plane) urządzenia sieciowego?
 - ❌ szyfrowanie połączeń dostępu zdalnego
 - ❌ AAA do uwierzytelniania dostępu zarządzania
@@ -1092,42 +376,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 - ❌ NTP dla spójnych znaczników czasu w logach
 
 *EN:* Which security implementation will provide control plane protection? → *routing protocol authentication*
-
-### 3-6.27 Na jakiej usłudze/protokole opiera się Secure Copy Protocol, by transfery pochodziły od upoważnionych użytkowników?
-- ❌ RADIUS
-- ❌ SNMP
-- ✅ **AAA**
-- ❌ IPsec
-
-*EN:* What service or protocol does the Secure Copy Protocol rely on…? → *AAA* (SCP używa połączeń SSH od użytkowników uwierzytelnionych przez AAA)
-
-### 3-6.28 🖼️ Administrator konfiguruje uwierzytelnianie AAA na R1 i testuje je przez Telnet. Serwery ACS działają. Co się stanie, jeśli uwierzytelnianie zawiedzie?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/Q3-1-1024x349.png)
-
-- ❌ W kolejnej próbie można użyć hasła enable secret.
-- ✅ **Proces uwierzytelniania zatrzymuje się.**
-- ❌ W kolejnej próbie można użyć loginu/hasła z lokalnej bazy.
-- ❌ W kolejnej próbie można użyć hasła enable secret i losowej nazwy użytkownika.
-
-*EN:* …What will happen if the authentication fails? → *The authentication process stops* (brak metody zapasowej w konfiguracji)
-
-### 3-6.29 Co jest cechą widoku CLI opartego na rolach (role-based CLI view)?
-- ❌ Widok CLI ma hierarchię poleceń (wyższe i niższe widoki).
-- ❌ Usunięcie superwidoku usuwa powiązane widoki CLI.
-- ✅ **Jeden widok CLI może być współdzielony przez wiele superwidoków.**
-- ❌ Tylko użytkownik superwidoku może konfigurować nowy widok i dodawać/usuwać polecenia.
-
-*EN:* What is a characteristic of a role-based CLI view? → *A single CLI view can be shared within multiple superviews* (tylko użytkownik root view tworzy nowe widoki)
-
-### 3-6.30 Jaki jest efekt zabezpieczenia obrazu IOS funkcją Cisco IOS Resilient Configuration?
-- ✅ **Plik obrazu IOS nie jest widoczny w wyniku polecenia `show flash`.**
-- ❌ Obraz IOS jest szyfrowany i automatycznie kopiowany na serwer TFTP.
-- ❌ Obraz IOS jest szyfrowany i automatycznie kopiowany do NVRAM.
-- ❌ Przy starcie router ładuje obraz IOS z zabezpieczonej lokalizacji FTP.
-
-*EN:* What is a result of securing the Cisco IOS image using Resilient Configuration? → *The Cisco IOS image file is not visible in the output of the show flash command* (bezpieczna kopia ukryta we flash)
 
 ### 3-6.31 Przy bezpiecznym zarządzaniu siecią — które dwie usługi/funkcje płaszczyzny zarządzania routera Cisco należy skonfigurować? *(wybierz 2)*
 - ✅ **bezpieczne loginy i hasła**
@@ -1157,14 +405,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 
 *EN:* Which two practices are associated with securing the features and performance of router operating systems? → *Keep a secure copy of router OS images; Configure the router with the maximum amount of memory* (uwaga: dwie pozostałe to praktyki bezpieczeństwa, ale nie dot. „funkcji i wydajności OS")
 
-### 3-6.34 Syslog otrzymał komunikat: `%SYS-5-CONFIG_I: Configured from console by vty0 (172.16.45.1)`. Co z niego wynika?
-- ❌ To zwykłe powiadomienie, nie trzeba go przeglądać.
-- ✅ **Informuje, że użytkownik o adresie 172.16.45.1 skonfigurował to urządzenie zdalnie.**
-- ❌ To komunikat poziomu Log_Alert.
-- ❌ Opis wskazuje, że linia konsoli była użyta lokalnie.
-
-*EN:* What can be determined from the syslog message? → *a user with IP 172.16.45.1 configured this device remotely* (poziom 5 = Log_Notice, vty = zdalnie)
-
 ### 3-6.35 Które dwie opcje zapewniają bezpieczny dostęp zdalny do routera? *(wybierz 2)*
 - ❌ HTTP
 - ✅ **HTTPS**
@@ -1173,95 +413,6 @@ Odpowiada rozdziałowi 2 CCNA. Wykład 3 = zabezpieczenia fizyczne, VoIP, dostę
 - ✅ **SSH**
 
 *EN:* Which two options provide secure remote access to a router? → *HTTPS; SSH*
-
-### 3-6.36 Które polecenie zastosowane na routerze pomoże ograniczyć ataki brute-force na hasła?
-- ❌ `exec-timeout 30`
-- ❌ `service password-encryption`
-- ❌ `banner motd $Max failed logins = 5$`
-- ✅ **`login block-for 60 attempts 5 within 60`**
-
-*EN:* …which command would help mitigate brute-force password attacks? → *login block-for 60 attempts 5 within 60* (blokuje logowania po przekroczeniu limitu prób)
-
-### 3-6.37 Które trzy usługi/funkcje płaszczyzny forwardingu włącza Cisco AutoSecure? *(wybierz 3)*
-- ❌ bezpieczny dostęp SSH
-- ✅ **inspekcja firewalla Cisco IOS**
-- ✅ **Cisco Express Forwarding (CEF)**
-- ✅ **filtrowanie ruchu listami ACL**
-- ❌ bezpieczne hasła i funkcje logowania
-- ❌ powiadomienie prawne baner
-
-*EN:* Which three forwarding plane services and functions are enabled by AutoSecure? → *Cisco IOS firewall inspection; CEF; traffic filtering with ACLs*
-
-### 3-6.38 Administrator nadał poziom dostępu użytkownikowi ADMIN poleceniami: `privilege exec level 14 show ip route`, `enable algorithm-type scrypt secret level 14 …`, `username ADMIN privilege 14 …`. Które dwie akcje są dozwolone dla ADMIN? *(wybierz 2)*
-- ❌ Może wydawać wszystkie polecenia, bo ten poziom wykonuje wszystkie polecenia IOS.
-- ❌ Może wykonać tylko podpolecenia `show ip route`.
-- ✅ **Może wydać polecenie `show version`.**
-- ✅ **Może wykonać wszystkie podpolecenia `show ip interfaces`.**
-- ❌ Może wydać polecenie `ip route`.
-
-*EN:* …Which two actions are permitted to the user ADMIN? → *show version; all subcommands under show ip interfaces* (przypisanie `show ip route` automatycznie nadaje `show` i `show ip`)
-
-### 3-6.39 Jaką funkcję zapewnia Cisco IOS Resilient Configuration?
-- ❌ Blokuje płaszczyznę zarządzania i forwardingu routera.
-- ❌ Pozwala tworzyć różne widoki konfiguracji dla różnych użytkowników.
-- ✅ **Utrzymuje bezpieczną kopię obrazu IOS i bieżącej konfiguracji do szybkiego odzyskania, gdy flash lub NVRAM zostaną skasowane.**
-- ❌ Identyfikuje ataki i naruszenia polityki w sieci.
-
-*EN:* What function is provided by the Cisco IOS Resilient Configuration feature? → *maintains a secure copy of the IOS image and running config for fast recovery*
-
-### 3-6.40 Jaki jest efekt włączenia funkcji Cisco IOS image resilience?
-- ❌ Zabezpieczone pliki widać w wyniku polecenia CLI.
-- ❌ Dostępnych jest wiele plików primary bootset.
-- ✅ **Funkcję można wyłączyć tylko przez sesję konsolową.**
-- ❌ Można zabezpieczyć obrazy na serwerze TFTP.
-
-*EN:* What is a result of enabling the Cisco IOS image resilience feature? → *The feature can only be disabled through a console session*
-
-### 3-6.41 Co oznacza słowo kluczowe `default` użyte z poleceniem `aaa authentication login`?
-- ❌ Uwierzytelnianie trzeba ustawić osobno dla wszystkich linii, inaczej dostęp jest blokowany.
-- ❌ Uwierzytelnianie jest automatycznie włączane dla vty z użyciem enable password.
-- ❌ Do uwierzytelniania używana jest lokalna baza login/hasło.
-- ✅ **Uwierzytelnianie jest automatycznie stosowane do linii con 0, aux i vty.**
-
-*EN:* What does the keyword default specify…? → *Authentication is automatically applied to the con 0, aux, and vty lines*
-
-### 3-6.42 Jaki poziom syslog jest powiązany z Log_Alert?
-- ✅ **1**
-- ❌ 2
-- ❌ 4
-- ❌ 0
-- ❌ 3
-
-*EN:* What level of syslog is associated with Log_Alert? → *1* (0=Emerg, 1=Alert, 2=Crit, 3=Err, 4=Warning, 5=Notice, 6=Info, 7=Debug)
-
-### 3-6.43 🖼️ Administrator wydaje polecenia ulepszeń logowania IOS. Co można o nich wywnioskować?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/ccnasec2.gif)
-
-- ❌ Ulepszenia te dotyczą wszystkich typów połączeń logowania.
-- ✅ **Hosty wskazane w ACL będą miały dostęp do urządzenia (nawet w quiet mode).**
-- ❌ `login block-for` pozwala napastnikowi na 150 prób, zanim zostanie zatrzymany.
-- ❌ Skoro nie użyto `login delay`, zakłada się minutowe opóźnienie między próbami.
-
-*EN:* …What can be concluded about them? → *The hosts identified in the ACL will have access to the device* (`login block-for` daje domyślnie 1 s opóźnienia)
-
-### 3-6.44 Jakie są dwie wady nadawania poziomów uprawnień użytkownikom na routerze Cisco? *(wybierz 2)*
-- ❌ Tylko użytkownik root może dodawać/usuwać polecenia.
-- ❌ Poziomy uprawnień trzeba ustawić, by zezwolić na kontrolę dostępu do interfejsów/portów/slotów.
-- ✅ **Przypisanie polecenia z wieloma słowami kluczowymi daje dostęp do wszystkich poleceń z tymi słowami.**
-- ✅ **Polecenia z niższego poziomu zawsze są wykonywalne na wyższym poziomie.**
-- ❌ AAA musi być włączone.
-
-*EN:* What are two drawbacks in assigning user privilege levels? → *assigning a command with multiple keywords allows access to all those commands; lower-level commands are always executable at a higher level*
-
-### 3-6.46 Jaka jest zaleta logowania pakietów widzianych przez urządzenie IPS?
-- ❌ Pakiety z adresu IP, który wyzwolił logowanie, są blokowane od początku logowania.
-- ✅ **Administratorzy mogą zdecydować, jakie działania podjąć w przyszłości.**
-- ❌ Administratorzy mogą użyć skróconego podsumowania, by szybko zdecydować, jak obsłużyć pakiety.
-- ❌ Pakiety napastnika można natychmiast zatrzymać.
-
-*EN:* What is an advantage of logging packets that are seen by an IPS device? → *Administrators can decide what actions can be taken in the future*
 
 ### 3-6.47 Jaka jest bezpieczna opcja konfiguracji dostępu zdalnego do urządzenia sieciowego?
 - ❌ Skonfiguruj 802.1x.
@@ -1557,14 +708,6 @@ Odpowiada rozdziałowi 6 CCNA. Wykład 4a = podstawy warstwy 2 (MAC, przełączn
 
 *EN:* What can help mitigate a rogue switch becoming the root bridge? → *root guard*
 
-### 4-5.40 Którą opcję interfejsu można ustawić przez ASDM dla Cisco ASA?
-- ❌ trasa domyślna
-- ❌ lista dostępu
-- ✅ **VLAN ID**
-- ❌ NAT/PAT
-
-*EN:* Which interface option could be set through ASDM for a Cisco ASA? → *VLAN ID*
-
 ### 4-5.41 Które dwie najlepsze praktyki warstwy 2 pomogą zapobiec atakom VLAN hopping? *(wybierz 2)*
 - ✅ **Zmień numer native VLAN na inny niż wszystkie VLAN użytkowników i inny niż VLAN 1.**
 - ❌ Zmień VLAN zarządzania na osobny, niedostępny dla zwykłych użytkowników.
@@ -1573,14 +716,6 @@ Odpowiada rozdziałowi 6 CCNA. Wykład 4a = podstawy warstwy 2 (MAC, przełączn
 - ❌ Używaj SSH do całego zdalnego zarządzania.
 
 *EN:* Which two Layer 2 security best practices would help prevent VLAN hopping…? → *Change the native VLAN to a distinct unused VLAN (not VLAN 1); Disable DTP autonegotiation on end-user ports*
-
-### 4-5.42 Co można skonfigurować jako część obiektu sieciowego (network object)?
-- ❌ typ interfejsu
-- ✅ **adres IP i maska**
-- ❌ protokół wyższej warstwy
-- ❌ źródłowy i docelowy MAC adres
-
-*EN:* What can be configured as part of a network object? → *IP address and mask*
 
 ### 4-5.43 Jakie działanie ogranicza zagrożenie atakami VLAN hopping?
 - ✅ **Wyłączenie automatycznej negocjacji trunkingu.**
@@ -2031,22 +1166,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* What is a characteristic of a DMZ zone? → *Traffic originating from the outside network going to the DMZ network is selectively permitted* (wewnątrz→DMZ dozwolony; DMZ→wewnątrz blokowany)
 
-### 7-10.36 Firma wdraża ASA z włączonym konektorem Cisco CWS jako firewall brzegowy. Co pracownik wewnątrz sieci musi zrobić, by ruch WWW był chroniony przez Cisco CWS?
-- ❌ Zarejestrować docelową stronę na ASA.
-- ❌ Najpierw użyć Cisco AnyConnect Secure Mobility Client.
-- ✅ **Użyć przeglądarki do odwiedzenia docelowej strony.**
-- ❌ Najpierw odwiedzić stronę na serwerze w infrastrukturze Cisco CWS.
-
-*EN:* What should the employee do to make sure the web traffic is protected by the Cisco CWS? → *Use a web browser to visit the destination website* (CWS działa transparentnie jako proxy)
-
-### 7-10.37 Która funkcja frameworka Cisco NFP zapobiega przeciążeniu procesora routingu zbędnym ruchem?
-- ✅ **Control Plane Policing**
-- ❌ IP Source Guard
-- ❌ port security
-- ❌ listy kontroli dostępu (ACL)
-
-*EN:* Which feature…prevents a route processor from being overwhelmed…? → *Control Plane Policing*
-
 ### 7-10.38 Jaki mechanizm pozwala ASA 5505 na powrót zinspekowanego ruchu wychodzącego do nadawcy w sieci wewnętrznej?
 - ❌ NAT
 - ❌ listy kontroli dostępu
@@ -2070,14 +1189,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ❌ stanowa inspekcja pakietów
 
 *EN:* Which feature is specific to the Security Plus upgrade license of an ASA 5505 and provides increased availability? → *redundant ISP connections*
-
-### 7-10.41 Którą usługę wyłączyć na routerze, by złośliwy host nie odpowiadał fałszywie na zapytania ARP (przekierowanie ramek)?
-- ❌ LLDP
-- ❌ reverse ARP
-- ✅ **proxy ARP**
-- ❌ CDP
-
-*EN:* Which service should be disabled on a router to prevent a malicious host from falsely responding to ARP requests? → *proxy ARP*
 
 ### 7-10.42 W których dwóch przypadkach ruch zostanie zablokowany na ASA 5505? *(wybierz 2)*
 - ❌ ruch z sieci wewnętrznej do DMZ
@@ -2250,14 +1361,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* What is the most common use of the Diffie-Hellman algorithm? → *to secure the exchange of keys used to encrypt data* (DH nie szyfruje danych — wymienia klucze)
 
-### 11.9 Na czym skupia się kryptoanaliza (cryptanalysis)?
-- ❌ ukrywaniu tajnych kodów
-- ❌ tworzeniu tajnych kodów
-- ✅ **łamaniu zaszyfrowanych kodów**
-- ❌ wdrażaniu zaszyfrowanych kodów
-
-*EN:* What is the focus of cryptanalysis? → *breaking encrypted codes* (kryptografia = tworzenie, kryptoanaliza = łamanie)
-
 ### 11.10 Ilu bitów używa Data Encryption Standard (DES) do szyfrowania danych?
 - ❌ 40 bitów
 - ✅ **56 bitów**
@@ -2381,14 +1484,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* Which two statements describe the use of asymmetric algorithms? → *private key encrypts → public key decrypts; public key encrypts → private key decrypts*
 
-### 11.27 Dlaczego klucze DES są uważane za słabe (weak keys)?
-- ❌ Są bardziej zasobożerne.
-- ❌ Słabe klucze DES używają bardzo długich rozmiarów.
-- ✅ **Produkują identyczne podklucze (subkeys).**
-- ❌ Słabe klucze DES są trudne w zarządzaniu.
-
-*EN:* Why are DES keys considered weak keys? → *They produce identical subkeys* (DES ma 4 klucze, gdzie szyfrowanie = deszyfrowanie)
-
 ### 11.28 Jaki typ algorytmów wymaga, by nadawca i odbiorca wymienili tajny klucz zapewniający poufność wiadomości?
 - ❌ algorytmy haszujące
 - ❌ algorytmy klucza publicznego
@@ -2471,22 +1566,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* Why is Diffie-Hellman typically avoided for encrypting data? → *The large numbers used by DH make it too slow for bulk data transfers* (DH generuje klucze dla algorytmów symetrycznych)
 
-### 11.38 Jaki typ danych skanuje funkcja DLP w Cisco Email Security Appliance, by zapobiec wyciekowi danych klientów?
-- ❌ wiadomości na urządzeniu klienta
-- ❌ wiadomości na serwerze e-mail
-- ✅ **wiadomości wychodzące (outbound)**
-- ❌ wiadomości przychodzące
-
-*EN:* What type of data does the DLP feature scan…? → *outbound messages*
-
-### 11.39 Które stwierdzenie opisuje użycie klas certyfikatów w PKI?
-- ✅ **Certyfikat klasy 5 jest bardziej godny zaufania niż klasy 4.**
-- ❌ Bezpieczeństwo e-mail zapewnia producent, nie certyfikat.
-- ❌ Im niższy numer klasy, tym bardziej zaufany certyfikat.
-- ❌ Producent jako CA może wydawać tylko jedną klasę certyfikatów.
-
-*EN:* Which statement describes the use of certificate classes in the PKI? → *A class 5 certificate is more trustworthy than a class 4 certificate* (wyższy numer = bardziej zaufany)
-
 ### 11.40 Które dwa algorytmy mogą być częścią polityki IPsec, by zapewnić szyfrowanie i haszowanie ruchu? *(wybierz 2)*
 - ❌ PSK
 - ❌ DH
@@ -2528,14 +1607,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ✅ **podczas Fazy 1 i Fazy 2**
 
 *EN:* When is a security association (SA) created…? → *during both Phase 1 and 2* (IKE SA w Fazie 1, IPsec SA w Fazie 2)
-
-### 11.45 W której sytuacji należy wyłączyć Cisco Discovery Protocol (CDP)?
-- ❌ gdy telefon VoIP Cisco podłącza się do przełącznika Cisco
-- ❌ gdy przełącznik Cisco łączy się z innym przełącznikiem Cisco
-- ❌ gdy przełącznik Cisco łączy się z routerem Cisco
-- ✅ **gdy PC z zainstalowanym Cisco IP Communicator podłącza się do przełącznika Cisco**
-
-*EN:* In which situation would CDP be disabled? → *when a PC with Cisco IP Communicator connects to a Cisco switch* (CDP wyłączać na portach niełączących się z urządzeniami Cisco)
 
 ### 11.46 Które dwa stwierdzenia trafnie opisują cechy IPsec? *(wybierz 2)*
 - ❌ IPsec działa w warstwie transportowej i chroni dane w warstwie sieciowej.
@@ -2717,15 +1788,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* What is the next step after IKE Phase 1 is complete? → *negotiation of the IPsec SA policy* (Faza 2)
 
-### 11.74 Które dwa stwierdzenia opisują trasy statyczne? *(wybierz 2)*
-- ❌ Tworzone są w trybie konfiguracji interfejsu.
-- ✅ **Wymagają ręcznej rekonfiguracji przy zmianach w sieci.**
-- ❌ Automatycznie stają się bramą domyślną routera.
-- ✅ **Są oznaczone w tablicy routingu prefiksem S.**
-- ❌ Są automatycznie aktualizowane przy rekonfiguracji interfejsu.
-
-*EN:* Which two statements describe static routes? → *require manual reconfiguration; identified in the routing table with the prefix S*
-
 ### 11.75 🖼️ Jaki wniosek z wyniku `show crypto map` na R1?
 🖼️ **Pytanie ze zdjęciem:**
 
@@ -2758,14 +1820,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ❌ 192.168.1.1
 
 *EN:* …which IP address would the administrator use for the peer IP address…? → *209.165.201.1* (zewnętrzny adres R3)
-
-### 11.79 Jakie jest ograniczenie używania zarządzania OOB (out-of-band) w dużej sieci korporacyjnej?
-- ❌ Ruch produkcyjny dzieli sieć z ruchem zarządzania.
-- ❌ Serwery terminalowe mogą mieć bezpośrednie połączenia konsolowe do urządzeń.
-- ❌ OOB wymaga tworzenia VPN.
-- ✅ **Wszystkie urządzenia wydają się podłączone do jednej sieci zarządzania.**
-
-*EN:* What is a limitation to using OOB management on a large enterprise network? → *All devices appear to be attached to a single management network*
 
 ### 11.80 Które dwa protokoły można wybrać w Cisco AnyConnect VPN Wizard, by chronić ruch wewnątrz tunelu VPN? *(wybierz 2)*
 - ❌ Telnet
@@ -2817,14 +1871,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* What type of ACL is designed for use in the configuration of an ASA to support clientless SSL VPNs? → *Webtype*
 
-### 11.89 Jaki jest cel podpisywania kodu (code signing)?
-- ❌ tajność tożsamości źródła
-- ✅ **integralność źródłowych plików .EXE**
-- ❌ niezawodny transfer danych
-- ❌ szyfrowanie danych
-
-*EN:* What is the purpose of code signing? → *integrity of source .EXE files*
-
 ---
 
 ## Wykłady 12–13: Cisco ASA
@@ -2851,14 +1897,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ❌ ACL ASA używają forward/drop, a IOS permit/deny.
 
 *EN:* What is a difference between ASA IPv4 ACLs and IOS IPv4 ACLs? → *ASA ACLs use the subnet mask…whereas IOS ACLs use the wildcard mask*
-
-### 12-13.3 Jaka jest jedna z wad trybu transparentnego (transparent mode) na ASA?
-- ❌ brak wsparcia adresowania IP
-- ❌ brak wsparcia zarządzania
-- ❌ brak wsparcia używania ASA jako przełącznika warstwy 2
-- ✅ **brak wsparcia QoS**
-
-*EN:* What is one of the drawbacks to using transparent mode on an ASA? → *no support for QoS* (też brak: routing dynamiczny, VPN, DHCP Relay)
 
 ### 12-13.4 Które polecenie definiuje pulę DHCP używającą maksymalnej liczby adresów klientów na ASA 5505 z licencją Base?
 - ❌ `dhcpd address 192.168.1.20-192.168.1.50 inside`
@@ -3314,14 +2352,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* Which item is required in the NAT configuration? → *the ip nat inside source command to link the inside local and inside global addresses* (statyczny NAT dla serwera dostępnego z Internetu)
 
-### 12-13.58 Które stwierdzenie opisuje cechę narzędzia traceroute?
-- ❌ Wysyła cztery komunikaty Echo Request.
-- ❌ Wykorzystuje komunikaty ICMP Source Quench.
-- ❌ Służy głównie do testowania łączności między dwoma hostami.
-- ✅ **Identyfikuje routery na ścieżce od hosta źródłowego do docelowego.**
-
-*EN:* Which statement describes a characteristic of the traceroute utility? → *It identifies the routers in the path from a source host to a destination host*
-
 ### 12-13.59 🖼️ Co trzeba zrobić, by dokończyć konfigurację statycznego NAT na R1?
 🖼️ **Pytanie ze zdjęciem:**
 
@@ -3357,19 +2387,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* Which two wildcard masks are required…? → *0.0.0.63 (/26); 0.0.0.15 (/28)*
 
-### R.2 🖼️ Jaki byłby poprawny adres sieci dla nowej podsieci na RTA?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/i245272v1n1_i135107n1v1.jpg)
-
-- ✅ **10.16.10.16/28**
-- ❌ 10.16.10.24/28
-- ❌ 10.16.10.30/28
-- ❌ 10.16.10.56/28
-- ❌ 10.16.10.72/28
-
-*EN:* What would be a valid network address for the new subnet on RTA? → *10.16.10.16/28*
-
 ### R.3 Jaki jest skutek ataku DHCP starvation?
 - ✅ **Legalni klienci nie mogą wydzierżawić adresów IP.**
 - ❌ Adresy IP przypisane legalnym klientom są przejmowane.
@@ -3377,18 +2394,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ❌ Klienci otrzymują adresy od fałszywego serwera DHCP.
 
 *EN:* What is the result of a DHCP starvation attack? → *Legitimate clients are unable to lease IP addresses*
-
-### R.4 🖼️ R1 ma trasę `ip route 209.165.200.224 255.255.255.224 S0/0/0`, przez co użytkownicy 172.16.0.0/16 nie docierają do Internetu. Jak zmienić tę trasę statyczną?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/i261460v1n1_210867.jpg)
-
-- ❌ Dodać adres next-hop 209.165.200.226.
-- ❌ Zmienić interfejs wyjściowy na S0/0/1.
-- ✅ **Zmienić sieć docelową i maskę na `0.0.0.0 0.0.0.0` (trasa domyślna).**
-- ❌ Dodać dystans administracyjny 254.
-
-*EN:* How should this static route be changed…? → *Change the destination network and mask to 0.0.0.0 0.0.0.0*
 
 ### R.5 🖼️ Interfejs szeregowy R1 jest „administratively down". Jakie polecenie go włączy?
 🖼️ **Pytanie ze zdjęciem:**
@@ -3402,34 +2407,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 
 *EN:* What additional command must be entered…to bring the interface up? → *no shutdown*
 
-### R.6 🖼️ Które polecenie skonfiguruje trasę statyczną IPv6 na R1, by ruch z obu LAN docierał do 2001:db8:1:4::/64?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/i209413v1n2_209413-1.jpg)
-
-- ❌ `ipv6 route ::/0 serial0/0/0`
-- ❌ `ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::1`
-- ✅ **`ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::2`**
-- ❌ `ipv6 route 2001:db8:1::/65 2001:db8:1:3::1`
-
-*EN:* What command would configure a static route…? → *ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::2*
-
-### R.7 Ile sieci klasowych podsumowuje trasa `ip route 192.168.32.0 255.255.248.0 S0/0/0`?
-- ❌ 2
-- ❌ 4
-- ✅ **8**
-- ❌ 16
-
-*EN:* How many classful networks are summarized…? → *8* (/21, czyli 3 bity w lewo od /24 = 8 sieci: 192.168.32.0–39.0)
-
-### R.8 Trasa w tablicy routingu oznaczona kodem D. Jaki to typ wpisu?
-- ❌ trasa statyczna
-- ❌ trasa używana jako brama domyślna
-- ❌ sieć bezpośrednio podłączona do interfejsu
-- ✅ **trasa nauczona dynamicznie przez protokół EIGRP**
-
-*EN:* A destination route…indicated with a code D. Which kind of route entry is this? → *a route dynamically learned through EIGRP*
-
 ### R.9 🖼️ Host na Fa0/0 nie może uzyskać adresu IP z serwera DHCP. `debug ip dhcp server` pokazuje „there is no address pool for 192.168.1.1". Problem?
 🖼️ **Pytanie ze zdjęciem:**
 
@@ -3441,19 +2418,6 @@ Odpowiada rozdziałowi 4 CCNA. Wykłady 7–9 = listy ACL (standardowe, rozszerz
 - ❌ Adres 192.168.1.1 jest już skonfigurowany na Fa0/0.
 
 *EN:* What is the problem? → *The pool of addresses for the 192Network pool is incorrect*
-
-### R.10 🖼️ Która sekwencja poleceń skonfiguruje router A dla OSPF?
-🖼️ **Pytanie ze zdjęciem:**
-
-![exhibit](obrazy_ccna/i133455n1v1.jpg)
-
-- ❌ `router ospf 0` / `network 192.168.10.0` / `network 192.168.10.192`
-- ❌ `router ospf 0` / `network 192.168.10.0`
-- ✅ **`router ospf 1` / `network 192.168.10.64 0.0.0.63 area 0` / `network 192.168.10.192 0.0.0.3 area 0`**
-- ❌ `router ospf 1` / `network … 255.255.255.192 …`
-- ❌ `router ospf 1` / `network 192.168.10.0 area 0`
-
-*EN:* Which sequence of commands will configure router A for OSPF? → *router ospf 1 + network …0.0.0.63 area 0 + network …0.0.0.3 area 0* (OSPF używa maski blankietowej i area)
 
 ### R.12 Jaka jest najlepsza praktyka dotycząca protokołów odkrywania (CDP, LLDP) na urządzeniach sieciowych?
 - ❌ Włączyć CDP na urządzeniach brzegowych, a LLDP na wewnętrznych.
