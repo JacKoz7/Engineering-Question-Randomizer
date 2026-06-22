@@ -534,7 +534,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA), Potwierdzone",
     "details": "EN: Which AAA component accomplishes this? → authorization (określa, do jakich zasobów użytkownik ma dostęp)"
   },
   {
@@ -561,7 +561,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: Which characteristic is an important aspect of authorization? → User access is restricted to certain services"
   },
   {
@@ -588,7 +588,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: Which component of AAA allows tracking individuals and changes…? → accounting"
   },
   {
@@ -615,7 +615,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: During the AAA process, when will authorization be implemented? → immediately after successful authentication against an AAA data source"
   },
   {
@@ -642,7 +642,7 @@
         "correct": true
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: What is the purpose of AAA accounting? → to collect and report data usage"
   },
   {
@@ -669,7 +669,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: What AAA function is at work if this command is rejected? → authorization (użytkownik nie jest uprawniony do wykonania polecenia)"
   },
   {
@@ -696,7 +696,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: Which part of the AAA process records that a user performed a specific operation at a particular date and time? → accounting"
   },
   {
@@ -723,7 +723,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: How does network scanning help assess operations security? → It can detect open TCP ports on network systems"
   },
   {
@@ -750,7 +750,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: What is the purpose of a security awareness campaign? → to focus the attention of employees on security issues"
   },
   {
@@ -777,7 +777,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA), Potwierdzone",
     "details": "EN: What is the goal of network penetration testing? → determining the feasibility and the potential consequences of a successful attack"
   },
   {
@@ -804,7 +804,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: Which security program is aimed at all levels of an organization…? → awareness campaigns"
   },
   {
@@ -831,7 +831,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: What is implemented…to instruct end users in how to effectively conduct business safely…? → security awareness program"
   },
   {
@@ -863,7 +863,7 @@
         "correct": true
       }
     ],
-    "category": "Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA",
+    "category": "Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)",
     "details": "EN: What are two major components of a security awareness program? → awareness campaigns; education and training"
   },
   {
@@ -1284,7 +1284,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych",
+    "category": "Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych, Potwierdzone",
     "details": "EN: Which two practices are associated with securing the features and performance of router operating systems? → Keep a secure copy of router OS images; Configure the router with the maximum amount of memory (uwaga: dwie pozostałe to praktyki bezpieczeństwa, ale nie dot. „funkcji i wydajności OS\")"
   },
   {
@@ -1370,7 +1370,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
+    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2), Potwierdzone",
     "details": "EN: Which type of VLAN-hopping attack may be prevented by designating an unused VLAN as the native VLAN? → VLAN double-tagging"
   },
   {
@@ -1739,7 +1739,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
+    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2), Potwierdzone",
     "details": "EN: What are three techniques for mitigating VLAN hopping attacks? → Set the native VLAN to an unused VLAN; Disable DTP; Enable trunking manually"
   },
   {
@@ -1825,7 +1825,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
+    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2), Potwierdzone",
     "details": "EN: What security benefit is gained from enabling BPDU guard on PortFast enabled interfaces? → preventing rogue switches from being added to the network"
   },
   {
@@ -1971,7 +1971,7 @@
         "correct": true
       }
     ],
-    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
+    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2), Potwierdzone",
     "details": "EN: On what switch ports should PortFast be enabled? → all end-user ports"
   },
   {
@@ -2378,7 +2378,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)",
+    "category": "Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2), Potwierdzone",
     "details": "EN: What mitigation plan is best for thwarting a DoS attack that is creating a switch buffer overflow? → Enable port security"
   },
   {
@@ -5348,7 +5348,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 11: Kryptografia i VPN",
+    "category": "Wykład 11: Kryptografia i VPN, Potwierdzone",
     "details": "EN: Which transform set provides the best protection? → esp-aes-256… (AES-256 = najsilniejszy)"
   },
   {
@@ -5523,7 +5523,7 @@
         "correct": false
       }
     ],
-    "category": "Wykład 11: Kryptografia i VPN",
+    "category": "Wykład 11: Kryptografia i VPN, Potwierdzone",
     "details": "EN: Which three statements describe the IPsec protocol framework? → AH provides integrity and authentication; ESP provides encryption, authentication, and integrity; AH uses IP protocol 51 (ESP = protokół 50)"
   },
   {
@@ -6207,7 +6207,7 @@
         "correct": true
       }
     ],
-    "category": "Wykłady 12–13: Cisco ASA",
+    "category": "Wykłady 12–13: Cisco ASA, Potwierdzone",
     "details": "EN: Which two statements are true about ASA standard ACLs? → typically only used for OSPF routes; identify only the destination IP address"
   },
   {
@@ -7180,7 +7180,7 @@
         "correct": false
       }
     ],
-    "category": "Wykłady 12–13: Cisco ASA",
+    "category": "Wykłady 12–13: Cisco ASA, Potwierdzone",
     "details": "EN: Which remote-access VPN connection allows the user to connect by using a web browser? → clientless SSL VPN"
   },
   {
@@ -7800,5 +7800,1336 @@
     ],
     "category": "Różne: pytania ogólnosieciowe (z egzaminów zbiorczych)",
     "details": "EN: Which command verifies that addresses are being translated on the ASA? → show xlate (na ASA; na routerze IOS byłoby show ip nat translations)"
+  },
+  {
+    "question": "Użytkownicy wprowadzają poświadczenia (nazwa użytkownika i hasło), które weryfikuje serwer. Który serwer zapewni taką usługę?",
+    "options": [
+      {
+        "label": "a",
+        "text": "AAA",
+        "correct": false
+      },
+      {
+        "label": "b",
+        "text": "NAT",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "SNMP",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "TACACS+",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "802.1X",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "RADIUS",
+        "correct": true
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: tylko pojęciowo, W6 wymienia RADIUS/TACACS+ jako serwery AAA"
+  },
+  {
+    "question": "Użytkownik nie może uzyskać dostępu do urządzenia z AAA. Jakie polecenie ustali, czy dostęp logowania dla konta jest wyłączony (zablokowany)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "show aaa local user lockout",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "show running-config",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "show aaa sessions",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "show aaa user",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - szczegół AAA z CCNA"
+  },
+  {
+    "question": "Które trzy typy widoków są dostępne podczas konfigurowania dostępu CLI opartego na rolach? (wybierz 3)",
+    "options": [
+      {
+        "label": "a",
+        "text": "superview",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "root view",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "CLI view",
+        "correct": true
+      },
+      {
+        "label": "d",
+        "text": "admin view",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "superuser view",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "config view",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: tylko wzmianka „RBAC CLI\" w W6, bez nazw widoków - de facto z CCNA"
+  },
+  {
+    "question": "Student używa show parser view all. Exhibit: Views/SuperViews: SHOWVIEW, VERIFYVIEW, REBOOTVIEW oraz JR-ADMIN . Co oznacza obok JR-ADMIN?",
+    "options": [
+      {
+        "label": "a",
+        "text": "To jest root view",
+        "correct": false
+      },
+      {
+        "label": "b",
+        "text": "widok CLI bez poleceń",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "To jest CLI view",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "To jest superview",
+        "correct": true
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - z CCNA. Gwiazdka = superview"
+  },
+  {
+    "question": "Które trzy stwierdzenia opisują ograniczenia w korzystaniu z poziomów uprawnień do autoryzacji poleceń? (wybierz 3)",
+    "options": [
+      {
+        "label": "a",
+        "text": "Utworzenie konta wymagającego dostępu do większości, ale nie wszystkich poleceń, bywa żmudne.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "Polecenia na wyższym poziomie uprawnień nie są dostępne dla użytkowników o niższych uprawnieniach.",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "Nie ma kontroli dostępu do konkretnych interfejsów na routerze.",
+        "correct": true
+      },
+      {
+        "label": "d",
+        "text": "Widoki są niezbędne do zdefiniowania poleceń CLI...",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "Wymagane 16 poziomów...",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "Użytkownikowi root przypisać każdy poziom",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - poziomy uprawnień z CCNA"
+  },
+  {
+    "question": "Jaki jest domyślny poziom uprawnień kont użytkowników tworzonych na routerach Cisco?",
+    "options": [
+      {
+        "label": "a",
+        "text": "1",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "0",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "2",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "4",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "5",
+        "correct": false
+      },
+      {
+        "label": "g",
+        "text": "10",
+        "correct": false
+      },
+      {
+        "label": "h",
+        "text": "15",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - z CCNA"
+  },
+  {
+    "question": "Jakie trzy kroki konfiguracyjne muszą być wykonane, aby wdrożyć dostęp SSH do routera? (wybierz 3)",
+    "options": [
+      {
+        "label": "a",
+        "text": "ustawić unikalną nazwę hosta",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "ustawić nazwę domeny IP",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "dodać konto użytkownika",
+        "correct": true
+      },
+      {
+        "label": "d",
+        "text": "ustawić unikalne hasło",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "hasło trybu uprzywilejowanego",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "hasło na linii konsoli",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W6/W12 - SSH wymaga nazwy hosta, domeny IP, konta i kluczy RSA"
+  },
+  {
+    "question": "Jaki jest cel używania baneru informacyjnego na urządzeniu sieciowym Cisco?",
+    "options": [
+      {
+        "label": "a",
+        "text": "większe bezpieczeństwo przez spowolnienie ataków",
+        "correct": false
+      },
+      {
+        "label": "b",
+        "text": "okres ciszy",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "uniemożliwia atakującym dostęp",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "Może chronić organizację z prawnego punktu widzenia.",
+        "correct": true
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - z CCNA"
+  },
+  {
+    "question": "Które polecenie zablokuje próby logowania na RouterA na 30 sekund, jeśli w ciągu 10 sekund wystąpią 2 nieudane próby?",
+    "options": [
+      {
+        "label": "a",
+        "text": "RouterA(config)# login block-for 30 attempts 2 within 10",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "login block-for 10 attempts 2 within 30",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "... 2 attempts 30 within 10",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "... 30 attempts 10 within 2",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: NIE - z CCNA. Składnia: block-for SEKUNDY attempts PRÓBY within OKNO"
+  },
+  {
+    "question": "Administrator konfiguruje port security. Polityka: w razie naruszenia odrzucać pakiety o nieznanych adresach źródłowych i nie wysyłać żadnych powiadomień. Który tryb naruszenia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "off",
+        "correct": false
+      },
+      {
+        "label": "b",
+        "text": "restrict",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "shutdown",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "protect",
+        "correct": true
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5 - protect odrzuca cicho (bez syslog), restrict odrzuca + syslog, shutdown wyłącza port"
+  },
+  {
+    "question": "Exhibit (Fa0/2: telefon IP + PC). Która konfiguracja portu spełni: nikt nie odłączy/podłączy innych urządzeń, port wyłączony przy obcym urządzeniu, MAC telefonu i PC wykryte automatycznie?",
+    "options": [
+      {
+        "label": "a",
+        "text": "switchport port-security + switchport port-security maximum 2 + switchport port-security mac-address sticky + switchport port-security violation restrict",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "warianty bez maximum 2 / bez sticky",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5 - maximum, sticky, violation"
+  },
+  {
+    "question": "Exhibit (S1 Fa0/12, port-security maximum 1, skonfigurowany MAC 000d.bd1b.0245, PC1 ma 000d.bd1b.05ae). Co nastąpi, gdy podłączony jest PC1?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Ramki z PC1 spowodują natychmiastowe wyłączenie interfejsu i wpis dziennika. (domyślny tryb shutdown)",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "odrzucone bez dziennika",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "przekazane",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "przesłane dalej",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5 - domyślny tryb naruszenia = shutdown (err-disabled)"
+  },
+  {
+    "question": "Który atak warstwy 2 spowoduje, że uprawnieni użytkownicy nie otrzymają prawidłowych adresów IP?",
+    "options": [
+      {
+        "label": "a",
+        "text": "zagłodzenie DHCP (DHCP starvation)",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "fałszowanie IP/ARP/MAC",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "zalewanie adresami MAC",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5"
+  },
+  {
+    "question": "Które dwa rozwiązania Cisco pomagają zapobiegać atakom zagłodzenia DHCP? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "Zabezpieczenie portu",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "DHCP Snooping",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "IP Source Guard",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "Web Security",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "Dynamiczna inspekcja ARP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5"
+  },
+  {
+    "question": "Administrator konfiguruje DAI poleceniem ip arp inspection validate src-mac. Jaki jest cel?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Sprawdza źródłowy adres MAC w nagłówku Ethernet z adresem MAC nadawcy w treści ARP.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "z tablicą MAC",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "z ACL dla ARP",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "z docelowym MAC w treści ARP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5.11 - ip arp inspection validate {src-mac|dst-mac|ip}"
+  },
+  {
+    "question": "Który atak warstwy 2 spowoduje, że użytkownicy komunikują się z fałszywą bramą domyślną?",
+    "options": [
+      {
+        "label": "a",
+        "text": "fałszowanie ARP (ARP spoofing)",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "fałszowanie IP/MAC",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "zalewanie MAC",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "zagłodzenie DHCP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5 - ARP spoofing = atakujący podaje swój MAC jako bramę (MITM)"
+  },
+  {
+    "question": "Jakie są zalecane najlepsze praktyki przy korzystaniu z natywnej sieci VLAN?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Przypisz ją do nieużywanej sieci VLAN.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "port security",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "wyłącz DTP",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "ten sam numer co VLAN zarządzania",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5"
+  },
+  {
+    "question": "Która usługa jest domyślnie włączona na przełączniku i może ujawnić znaczące informacje o routerze?",
+    "options": [
+      {
+        "label": "a",
+        "text": "CDP",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "FTP",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "LLDP",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "HTTP",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "TFTP",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "NLDP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5/W11 - CDP domyślnie włączony, rekonesans"
+  },
+  {
+    "question": "Która usługa NIE jest domyślnie włączona na przełączniku i może ujawnić informacje o routerze?",
+    "options": [
+      {
+        "label": "a",
+        "text": "LLDP",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "FTP",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "HTTP",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "TFTP",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "CDP",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "NLDP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK - to wariant; LLDP domyślnie wyłączony, CDP włączony"
+  },
+  {
+    "question": "Która warstwa OSI jest uważana za najsłabsze ogniwo w systemie sieciowym?",
+    "options": [
+      {
+        "label": "a",
+        "text": "warstwa 2",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "1",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "4",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "5",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "6",
+        "correct": false
+      },
+      {
+        "label": "g",
+        "text": "7",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W5 - „warstwa 2 najsłabsze ogniwo, jej naruszenie wpływa na wyższe\""
+  },
+  {
+    "question": "Administrator musi zagwarantować, że lokalne komputery nie mogą komunikować się ze sobą za pomocą ping. Które ustawienia pomogą?",
+    "options": [
+      {
+        "label": "a",
+        "text": "ustawienia zapory",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "systemu plików",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "interfejsów",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "adresów MAC",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "AAA",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: pośrednio - zapora/ACL filtruje ICMP"
+  },
+  {
+    "question": "Technik użył ip access-group 101 in. W jakim celu?",
+    "options": [
+      {
+        "label": "a",
+        "text": "aby zastosować rozszerzoną ACL na interfejsie",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "wyświetlić ruch",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "dostęp administracyjny",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "ruch zarządzania",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7-W8"
+  },
+  {
+    "question": "Technik użył 40 deny host 192.168.23.8. W jakim celu?",
+    "options": [
+      {
+        "label": "a",
+        "text": "aby utworzyć wpis w numerowanej ACL",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "zastosować do wszystkich interfejsów",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "usunąć ACL",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "dostęp administracyjny",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "ruch zarządzania",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "wyświetlić ruch",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - numer 40 = standardowa ACL numerowana"
+  },
+  {
+    "question": "Które dwa słowa kluczowe zastępują maskę blankietową lub parę adres + maska blankietowa? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "host (= 0.0.0.0)",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "any (= 255.255.255.255)",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "most",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "some",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "gt",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "all",
+        "correct": false
+      },
+      {
+        "label": "g",
+        "text": "lt",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7"
+  },
+  {
+    "question": "Które dwie informacje są wymagane podczas tworzenia standardowej ACL? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "adres źródłowy i maska odwrotna",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "numer listy dostępu od 1 do 99",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "maska podsieci i odwrotna",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "adres docelowy i odwrotna",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "numer 100-199",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7"
+  },
+  {
+    "question": "Standardowa ACL ma zezwolić tylko urządzeniom z sieci podłączonej do R2 G0/0 na dostęp do sieci R1. Które polecenie?",
+    "options": [
+      {
+        "label": "a",
+        "text": "access-list 1 permit 192.168.10.96 0.0.0.31",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "... 192.168.10.0 0.0.0.255",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "... 192.168.10.128 0.0.0.63",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "... 192.168.10.0 0.0.0.63",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - dobór maski blankietowej do podsieci"
+  },
+  {
+    "question": "Administrator pisze standardową ACL odmawiającą ruchu z sieci 172.16.0.0/16, ale zezwalającą na resztę. Które dwa polecenia? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "access-list 95 deny 172.16.0.0 0.0.255.255",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "access-list 95 permit any",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "deny any",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "95 172.16.0.0 255.255.255.255",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "95 host 172.16.0.0",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - trzeba dodać permit, inaczej niejawne deny utnie wszystko"
+  },
+  {
+    "question": "Który wpis ACE odmawia ruchu IP z podsieci 172.23.16.0/20?",
+    "options": [
+      {
+        "label": "a",
+        "text": "5 deny 172.23.16.0 0.0.15.255",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "30 deny 172.23.16.0 0.0.15.255",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "15 deny ...",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "5 deny 172.23.16.0 0.0.255.255",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - /20 → maska blankietowa 0.0.15.255"
+  },
+  {
+    "question": "Która maska blankietowa pasuje do sieci od 172.16.0.0 do 172.19.0.0?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0.3.255.255",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "0.0.0.251",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "0.252.255.255",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "0.0.255.255",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "0.0.3.255",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - cztery sieci /16 (16,17,18,19) → 0.3.255.255"
+  },
+  {
+    "question": "ACL skonfigurowana na R1: odmowa ruchu z 172.16.4.0/24 do 172.16.3.0/24, reszta dozwolona. Ta standardowa ACL zastosowana wychodząco na Fa0/0. Jaki wniosek?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Cały ruch zostanie zablokowany, a nie tylko ruch z 172.16.4.0/24. (standardowa ACL filtruje po źródle, więc obetnie cały ruch wychodzący)",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "należy zastosować rozszerzoną",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "tylko .4.0 zablokowany",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "stosować na wyjściu wszystkich interfejsów",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "zastosować na wejściu Fa0/0",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - standardowa ACL = tylko źródło, umieszczać blisko celu"
+  },
+  {
+    "question": "Jaki efekt dałoby Router1(config-ext-nacl)# permit tcp 172.16.4.0 0.0.0.255 any eq www dla ruchu przychodzącego na f0/0?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Ruch z 172.16.4.0/24 jest dozwolony do wszystkich miejsc docelowych na porcie TCP 80.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "polecenie odrzucone",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "cały ruch z .4.0 dozwolony",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "cały TCP dozwolony",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W8 - rozszerzona ACL, www = port 80"
+  },
+  {
+    "question": "Administrator konfiguruje ACL. Które stwierdzenie opisuje wynik (exhibit z ruchem SSH/Telnet)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Połączenie SSH jest dozwolone ze stacji 192.168.25.18 do urządzenia 172.16.45.16.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "warianty Telnet / odwrotne kierunki",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W8"
+  },
+  {
+    "question": "Inter-VLAN: standardowa ACL ma zezwolić PC z VLAN10 na drukowanie na P1, a zablokować VLAN20. Na którym interfejsie i w którym kierunku? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "R1 Gi0/1.12",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "outbound",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "R1 S0/0/0",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "R2 Gi0/1.20",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "inbound",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "R2 S0/0/1",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W7 - standardowa ACL blisko celu (subinterfejs VLAN drukarki), wychodząco"
+  },
+  {
+    "question": "Przyjrzyj się ilustracji. Administrator (192.168.11.10) potrzebuje dostępu do zarządzania R1. Jaki najlepszy typ ACL i umieszczenie?",
+    "options": [
+      {
+        "label": "a",
+        "text": "standardowa ACL na wejściu linii vty R1",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "standardowa na WAN R2",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "na wyjściu R2 S0/0/0",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "rozszerzona na wejściu R2 S0/0/0",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W8 - dostęp administracyjny = access-class na vty"
+  },
+  {
+    "question": "Które dwa kroki zapewniają najszybszy sposób całkowitego usunięcia ACL z routera? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "Użyj no access-list, aby usunąć całą ACL.",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "Usuń odwołanie (in/out) do ACL z interfejsu.",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "jeden krok = usunięcie ACE",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "no + numer sekwencyjny każdego ACE",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "kopiuj do edytora i dodaj no",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "zmień numer ACL",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W8"
+  },
+  {
+    "question": "Co jest negocjowane podczas ustanawiania tunelu IPsec między dwoma hostami w fazie 1 IKE?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Polityka ISAKMP SA",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "zestawy transformacji",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "klucze RSA",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "grupy DH",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W11 - faza 1 IKE = bezpieczny kanał, polityka ISAKMP/IKE SA"
+  },
+  {
+    "question": "Jakie trzy protokoły muszą być dozwolone przez firmową zaporę, aby ustanowić site-to-site IPsec? (wybierz 3)",
+    "options": [
+      {
+        "label": "a",
+        "text": "ESP",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "AH",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "ISAKMP",
+        "correct": true
+      },
+      {
+        "label": "d",
+        "text": "HTTPS",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "PTP",
+        "correct": false
+      },
+      {
+        "label": "f",
+        "text": "NTP",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W11 - ESP (IP 50), AH (IP 51), ISAKMP/IKE (UDP 500)"
+  },
+  {
+    "question": "Które stwierdzenie opisuje funkcję VPN typu site-to-site?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Hosty wewnętrzne wysyłają normalne, nieenkapsulowane pakiety (szyfrowanie robią bramy VPN).",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "VPN niezdefiniowane statycznie",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "klient VPN na każdym hoście",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "hosty włączają/wyłączają VPN",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W11 - site-to-site szyfruje tylko między bramami, hosty nieświadome"
+  },
+  {
+    "question": "Administrator tworzy trzy strefy (A, B, C) w ASA. Ruch A→C jest odrzucany, ruch B→C jest odrzucany. Jaki możliwy scenariusz?",
+    "options": [
+      {
+        "label": "a",
+        "text": "A – DMZ, B – Na zewnątrz, C – Wewnątrz",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "A-DMZ, B-wewnątrz, C-na zewnątrz",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "A-na zewnątrz, B-wewnątrz, C-DMZ",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "A-wewnątrz, B-DMZ, C-na zewnątrz",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W12 - ruch z niższego poziomu do wyższego (inside=C) domyślnie blokowany"
+  },
+  {
+    "question": "Jaki typ szyfrowania jest stosowany do współdzielonych kluczy i haseł, gdy opcja głównego hasła jest włączona przez ASDM dla ASA?",
+    "options": [
+      {
+        "label": "a",
+        "text": "AES",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "3DES",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "klucz publiczny/prywatny",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "TKIP",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "128-bitowy RSA",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W12 - „password encryption aes\" dla głównego hasła ASA"
+  },
+  {
+    "question": "Dział IT zgłasza, że firmowy serwer WWW rejestruje nadzwyczaj wysoką liczbę zapytań z wielu różnych lokalizacji jednocześnie. Z jakim atakiem mamy do czynienia?",
+    "options": [
+      {
+        "label": "a",
+        "text": "DDoS",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "socjotechniczny",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "adware",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "phishing",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "spyware",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W2/W9 - rozproszony DoS z wielu źródeł"
+  },
+  {
+    "question": "Projektowanie ZPF: który krok obejmuje dyktowanie liczby urządzeń między strefami i urządzeń nadmiarowych (redundancja)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "zaprojektować infrastrukturę fizyczną",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "określić strefy",
+        "correct": false
+      },
+      {
+        "label": "c",
+        "text": "identyfikować podzbiory",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "ustalać zasady między strefami",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W10 - projektowanie fizycznej infrastruktury to krok trudny, po określeniu stref i polityk"
+  },
+  {
+    "question": "Które obszary bezpieczeństwa routera należy zachować, aby zabezpieczyć router brzegowy? (wybierz 2)",
+    "options": [
+      {
+        "label": "a",
+        "text": "bezpieczeństwo zdalnego dostępu",
+        "correct": true
+      },
+      {
+        "label": "b",
+        "text": "bezpieczeństwo fizyczne",
+        "correct": true
+      },
+      {
+        "label": "c",
+        "text": "zabezpieczanie programowe routera",
+        "correct": false
+      },
+      {
+        "label": "d",
+        "text": "izolacja strefy",
+        "correct": false
+      },
+      {
+        "label": "e",
+        "text": "zabezpieczenia flasha",
+        "correct": false
+      }
+    ],
+    "category": "Potwierdzone",
+    "details": "w wykładzie: TAK, W6 - kroki zabezpieczania routera (fizyczny dostęp, bezpieczny dostęp zdalny)"
   }
 ]

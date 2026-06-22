@@ -9,7 +9,7 @@ W tym pliku zebrano 269 pytań egzaminacyjnych CCNA Security v2.0 (z testów, z 
 ## Spis treści
 
 - [Wykład 1: Wstęp i współczesne zagrożenia bezpieczeństwa](#wykład-1-wstęp-i-współczesne-zagrożenia-bezpieczeństwa) — 18 pyt.
-- [Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA](#wykład-2-polityka-bezpieczeństwa-kontrola-dostępu-i-aaa) — 13 pyt.
+- [Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)](#wykład-2-polityka-bezpieczeństwa-kontrola-dostępu-i-aaa) — 13 pyt.
 - [Wykłady 3 i 6: Zabezpieczanie urządzeń sieciowych](#wykłady-3-i-6-zabezpieczanie-urządzeń-sieciowych) — 15 pyt.
 - [Wykłady 4–5: Bezpieczeństwo sieci LAN (warstwa 2)](#wykłady-45-bezpieczeństwo-sieci-lan-warstwa-2) — 47 pyt.
 - [Wykłady 7–10: Listy ACL i zapory sieciowe](#wykłady-710-listy-acl-i-zapory-sieciowe) — 49 pyt.
@@ -171,7 +171,7 @@ Odpowiada rozdziałowi 1 CCNA Security (zagrożenia, ataki, malware, podstawy be
 
 ---
 
-## Wykład 2: Polityka bezpieczeństwa, kontrola dostępu i AAA
+## Wykład 2: Polityka bezpieczeństwa i kontrola dostępu (AAA)
 
 Łączy rozdziały 3 (AAA, TACACS+/RADIUS, autoryzacja) i 11 (polityka bezpieczeństwa, zarządzanie, narzędzia testowe) CCNA — wykład 2 obejmował kontrolę dostępu (DAC/MAC/RBAC), autoryzację i politykę bezpieczeństwa.
 
